@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="MSA" rtl="true">
+
+    <item>
+      <file_video>ad_loyal_officer.flv</file_video>
+      <lang_en>الضابط مخلص</lang_en>
+      <lang_tl dir="rtl">The officer is loyal.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One who holds a commission in the armed forces.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[This is an example of a nominal sentence (no verb). الضابط means <b>the officer</b> and مخلص means <b>loyal.</b> Together they mean: <b>The officer is loyal.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_civil_engineer.flv</file_video>
+      <lang_en>مهندس مدنيّ
+</lang_en>
+      <lang_tl dir="rtl">A civil engineer</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One who is engaged in a branch of engineering.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word مُهندِس means <b>engineer</b> and the second مَدَنيّ <b>civil.</b> Note that the indefinite article <b>a</b> does not exist in Arabic.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_courageous_soldier.flv</file_video>
+      <lang_en>الجندي شجاع
+</lang_en>
+      <lang_tl dir="rtl">The soldier is courageous.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One who serves in an army.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word الجندي means <b>the soldier</b> and شجاع means <b>courageous.</b> This sentence does not include a verb.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_skillful_doctor.flv</file_video>
+      <lang_en>الطبيب ماهر
+</lang_en>
+      <lang_tl dir="rtl">The doctor is skillful. </lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A physician.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word الطبيب means <b>the doctor</b> and the second word ماهر means <b>skillful.</b> Notice the first word has the definite article ال but not the second.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_excellent_teacher.flv</file_video>
+      <lang_en>المدرس ممتاز
+</lang_en>
+      <lang_tl dir="rtl">The teacher is excellent.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A person whose occupation is teaching others.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[المدرس is <b>the teacher</b> and ممتاز means <b>excellent.</b> In this example, two nouns form a nominal sentence in which the first is the subject.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_diligent_student.flv</file_video>
+      <lang_en>الطالب مجتهد
+</lang_en>
+      <lang_tl dir="rtl">The student is diligent. </lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A person following a course of study.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word الطالب means <b>the student</b> and the second مجتهد is <b>diligent.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_famous_lawyer.flv</file_video>
+      <lang_en>محام مشهور</lang_en>
+      <lang_tl dir="rtl">A famous lawyer</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One whose profession is to give legal advice.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word محام means <b>a lawyer</b> and the second مشهور means <b>famous.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_responsible_manager.flv</file_video>
+      <lang_en>المدير المسؤول
+</lang_en>
+      <lang_tl dir="rtl">The responsible manager</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One who directs.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[This is not a nominal sentence. The first word is the subject and the second the adjective.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_fair_judge.flv</file_video>
+      <lang_en>قاض عادل
+</lang_en>
+      <lang_tl dir="rtl">A fair judge</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A public official who decides cases brought before a court of law.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word قاض means <b>a judge</b> and the second word عادل means<b> fair.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_professional_driver.flv</file_video>
+      <lang_en>السائق محترف
+</lang_en>
+      <lang_tl dir="rtl">The driver is professional.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One who operates a motor vehicle.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word السائق means <b>the driver</b> and the second محترف is <b>professional.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_uncle_grocer.flv</file_video>
+      <lang_en>عمّي بقال
+</lang_en>
+      <lang_tl dir="rtl">My uncle is a grocer.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[One that sells foodstuffs and various household supplies.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word عمّي means <b>my uncle</b> (father's side) and the second بقال means <b>a grocer.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_active_employee.flv</file_video>
+      <lang_en>الموظف نشيط
+</lang_en>
+      <lang_tl dir="rtl">The employee is active.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A person who works for another in return for financial compensation.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[This is a nominal sentence. The first word الموظف is defined with ال and the second is indefinite.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_beautiful_secretary.flv</file_video>
+      <lang_en>سكرتيرة جميلة
+</lang_en>
+      <lang_tl dir="rtl">A beautiful secretary</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A person who keeps records and takes minutes of meetings.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[Notice that both words agree in number and gender. جميلة <b>(beautiful)</b> is a singular feminine adjective.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_brother_policeman.flv</file_video>
+      <lang_en>أخي شرطي
+</lang_en>
+      <lang_tl dir="rtl">My brother is a policeman.</lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A man who is a member of a police force.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[A nominal sentence, the first word أخي means <b>my brother</b> (definite). The second word شرطي is indefinite.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_sister_nurse.flv</file_video>
+      <lang_en>أختي ممرضة
+</lang_en>
+      <lang_tl dir="rtl">My sister is a nurse. </lang_tl>
+      <lang_trans></lang_trans>
+      <hint_l1 dir="ltr"><![CDATA[A person who trained to care for the sick.]]></hint_l1>
+      <feedback_l1 dir="ltr"><![CDATA[The first word أختي means <b>my sister.</b>]]></feedback_l1>
+    </item>
+
+
+</content>

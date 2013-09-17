@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="German" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+	<set>		
+		<psg>
+			<note><![CDATA[cultural or linguistic note about the dialogue 1 extra long to show the ability of the content to resize itself accordingly.
+cultural or linguistic note about the dialogue 1 extra long to show the ability of the content to resize itself accordingly.
+cultural or linguistic note about the dialogue 1 extra long to show the ability of the content to resize itself accordingly.
+cultural or linguistic note about the dialogue 1 extra long to show the ability of the content to resize itself accordingly.
+cultural or linguistic note about the dialogue 1 extra long to show the ability of the content to resize itself accordingly.
+cultural or linguistic note about the dialogue 1 extra long to show the ability of the content to resize itself accordingly.]]></note>
+			<audio>main_passage_audio_1.mp3</audio>
+			<image>main_image.png</image>
+			<txt dir="rtl"><![CDATA[text for the main audio]]></txt>
+			<lang_dir>rtl</lang_dir>
+		</psg>
+		<phrase>
+			<audio>key_phrase_1.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 1 text, extra long to show the ability of the content to resize itself accordingly]]></txt>
+			<hint audio="audio_hint_1.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p1-1:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	<u>English translation of the audio segment and response</u>
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p1-1:wrong:An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+		<phrase>
+			<audio>key_phrase_2.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 2 text, extra long to show the ability of the content to resize itself accordingly]]></txt>
+			<hint audio="audio_hint_2.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p1_2:correct: TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	<u>English translation of the audio segment and response</u>
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p_2:wrogn: An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+		<phrase>
+			<audio>key_phrase_3.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 3 text, extra long to show the ability of the content to resize itself accordingly]]></txt>
+			<hint audio="audio_hint_3.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p1_3:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	<u>English translation of the audio segment and response</u>
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p1_3:wrong:An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+		<phrase>
+			<audio>key_phrase_4.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 4 text, extra long to show the ability of the content to resize itself accordingly]]></txt>
+			<hint audio="audio_hint_4.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p1_4:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	<u>English translation of the audio segment and response</u>
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p1_4:wrong: An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+	</set>
+	<set>
+		<psg>
+			<note><![CDATA[cultural or linguistic note about the dialogue 2]]></note>
+			<audio>main_passage_audio_2.mp3</audio>
+			<image>main_image2.png</image>
+			<txt dir="rtl"><![CDATA[text for the main audio2]]></txt>
+		</psg>
+		<phrase>
+			<audio>audio_hint_1.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 1 text ]]></txt>
+			<hint audio="audio_hint_1.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p2_1:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	English translation of the audio segment and response
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p2_1:wrong:An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+		<phrase>
+			<audio>audio_hint_2.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 2 text ]]></txt>
+			<hint audio="audio_hint_2.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p2_2:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	English translation of the audio segment and response
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p2_2:wrong:An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+		<phrase>
+			<audio>audio_hint_3.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 3 text ]]></txt>
+			<hint audio="audio_hint_3.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p2_3:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	English translation of the audio segment and response
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p2_3:wrong:An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+		<phrase>
+			<audio>audio_hint_4.mp3</audio>
+			<txt dir="rtl"><![CDATA[key phrase 4 text ]]></txt>
+			<hint audio="audio_hint_4.mp3" dir="ltr"><![CDATA[Direct student’s attention to relevant segment of the audio recording]]></hint>
+			<crrt_fdbk dir="rtl">
+				<![CDATA[p2_4:correct:TL response at the top of the feedback box with an audio button for replay of the audio segment
+	English synopsis of the audio segment
+	TL transcription of the audio segment  and response with key phrases underlined
+	English translation of the audio segment and response
+	Grammar notes (explanations)]]>
+			</crrt_fdbk>
+			<wrng_fdbk dir="ltr">
+				<![CDATA[p2_4:wrongt:An indication of which part of the entire dialog to listen to again
+	Advice to pay attention to specific key phrases, which are listed with their English translations]]>
+			</wrng_fdbk>
+		</phrase>
+	</set>
+</content>

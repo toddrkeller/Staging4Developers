@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="MSA" mode="EXAM" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart"  rtl="true">
+    <hs:item>
+      <hs:file_video>ad_t15_cap_01.flv</hs:file_video>
+      <hs:question dir="ltr">The patient feels a pain in the:</hs:question>
+      <hs:choice dir="ltr" crrt="">chest</hs:choice>
+      <hs:choice dir="ltr" crrt="">abdomen</hs:choice>
+      <hs:choice dir="ltr" crrt="true">arm</hs:choice>
+      <hs:choice dir="ltr" crrt="">back</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_02.flv</hs:file_video>
+      <hs:question dir="ltr">The doctor recommends:</hs:question>
+      <hs:choice dir="ltr" crrt="">an injection</hs:choice>
+      <hs:choice dir="ltr" crrt="true">surgery</hs:choice>
+      <hs:choice dir="ltr" crrt="">a splint</hs:choice>
+      <hs:choice dir="ltr" crrt="">oxygen supply</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_03.flv</hs:file_video>
+      <hs:question dir="ltr">The officer inquires about:</hs:question>
+      <hs:choice dir="ltr" crrt="">the infection</hs:choice>
+      <hs:choice dir="ltr" crrt="">the medics</hs:choice>
+      <hs:choice dir="ltr" crrt="">the bleeding</hs:choice>
+      <hs:choice dir="ltr" crrt="true">the casualty</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_04.flv</hs:file_video>
+      <hs:question dir="ltr">The doctor asks about the:</hs:question>
+      <hs:choice dir="ltr" crrt="true">breathing</hs:choice>
+      <hs:choice dir="ltr" crrt="">fracture</hs:choice>
+      <hs:choice dir="ltr" crrt="">burn</hs:choice>
+      <hs:choice dir="ltr" crrt="">fever</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_05.flv</hs:file_video>
+      <hs:question dir="ltr">The sergeant inquires about the: </hs:question>
+      <hs:choice dir="ltr" crrt="">hospital</hs:choice>
+      <hs:choice dir="ltr" crrt="">clinic</hs:choice>
+      <hs:choice dir="ltr" crrt="true">patient</hs:choice>
+      <hs:choice dir="ltr" crrt="">medics</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_06.flv</hs:file_video>
+      <hs:question dir="ltr">The patient will take medicine to treat:</hs:question>
+      <hs:choice dir="ltr" crrt="">a wound</hs:choice>
+      <hs:choice dir="ltr" crrt="">a burn</hs:choice>
+      <hs:choice dir="ltr" crrt="">pain</hs:choice>
+      <hs:choice dir="ltr" crrt="true">fever</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_07.flv</hs:file_video>
+      <hs:question dir="ltr">The patient needs:</hs:question>
+      <hs:choice dir="ltr" crrt="true">an injection</hs:choice>
+      <hs:choice dir="ltr" crrt="">a splint</hs:choice>
+      <hs:choice dir="ltr" crrt="">medicine</hs:choice>
+      <hs:choice dir="ltr" crrt="">surgery</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t15_cap_08.flv</hs:file_video>
+      <hs:question dir="ltr">The patient suffers from:</hs:question>
+      <hs:choice dir="ltr" crrt="">pain</hs:choice>
+      <hs:choice dir="ltr" crrt="true">bleeding</hs:choice>
+      <hs:choice dir="ltr" crrt="">fever</hs:choice>
+      <hs:choice dir="ltr" crrt="">burn</hs:choice>
+    </hs:item>
+
+</hs:content>

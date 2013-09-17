@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Dari" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <title>
+    <english>Departures</english>
+    <trans>پرواز ها</trans>
+  </title>
+  <set id="0" audio="pg_06_plane_kabul.mp3">
+    <english>Kabul</english>
+    <translation audio="qb_five.mp3"><![CDATA[ کابل ]]></translation>
+    <time_english>4:00 a.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ صبح ۴:٠٠ ]]></time_tl>
+    <q>What is the departure time of the plane to Kabul?</q>
+    <filler airline="Sky Shuttle" flight="1207" gate="D12"/>
+    <hint dir="ltr"><![CDATA[item0 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item0 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="1" audio="qb_five.mp3">
+    <english>Mazar-e Sharif</english>
+    <translation audio="qb_five.mp3"><![CDATA[ مزار شریف ]]></translation>
+    <time_english>2:30 p.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ شب ٢:٣٠ ]]></time_tl>
+    <q>What is the departure time of the plane to Mazar-e Sharif?</q>
+    <filler airline="Sky Shuttle" flight="409" gate="B11"/>
+    <hint dir="ltr"><![CDATA[item1 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item1 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="2" audio="qb_five.mp3">
+    <english>Tehran</english>
+    <translation audio="qb_five.mp3"><![CDATA[ تهران ]]></translation>
+    <time_english>3:45 a.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ صبح ٣:۴۵ ]]></time_tl>
+    <q>What is the departure time of the plane to Tehran?</q>
+    <filler airline="Sky Shuttle" flight="2210" gate="D10"/>
+    <hint dir="ltr"><![CDATA[item2 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item2 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="3" audio="qb_five.mp3">
+    <english>Islamabad</english>
+    <translation audio="qb_five.mp3"><![CDATA[ اسلام اباد ]]></translation>
+    <time_english>3:30 p.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ شب ٣:٣٠ ]]> </time_tl>
+    <q>What is the departure time of the plane to Islamabad?</q>
+    <filler airline="Sky Shuttle" flight="827" gate="A15"/>
+    <hint dir="ltr"><![CDATA[item3 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item3 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="4" audio="">
+    <english>Jalalabad</english>
+    <translation audio="qb_five.mp3"><![CDATA[ جلال آباد ]]></translation>
+    <time_english>11:15 a.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ صبح ١١:١۵ ]]></time_tl>
+    <q>What is the departure time of the plane to Jalalabad?</q>
+    <filler airline="Sky Shuttle" flight="103" gate="B1"/>
+    <hint dir="ltr"><![CDATA[item4 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item4 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="5" audio="">
+    <english>Kandahar</english>
+    <translation audio="qb_five.mp3"><![CDATA[ قندهار ]]></translation>
+    <time_english>10:30 a.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ صبح ١٠:٣٠ ]]></time_tl>
+    <q>What is the departure time of your momma?</q>
+    <filler airline="Sky Shuttle" flight="241" gate="C11"/>
+    <hint dir="ltr"><![CDATA[item5 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item5 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="6" audio="">
+    <english>Samangan</english>
+    <translation audio="qb_five.mp3"><![CDATA[ سمنگان ]]></translation>
+    <time_english>8:30 a.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ صبح ٨:٣٠ ]]></time_tl>
+    <q>What time does the plane to Oz take off?</q>
+    <filler airline="Sky Shuttle" flight="442" gate="A9"/>
+    <hint dir="ltr"><![CDATA[item6 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item6 feedback for the correct answer and final]]></feedback>
+  </set>
+  <set id="7" audio="">
+    <english>Kunduz</english>
+    <translation audio="qb_five.mp3"><![CDATA[ قندز ]]></translation>
+    <time_english>4:15 p.m.</time_english>
+    <time_tl audio="qb_five.mp3"><![CDATA[ شب ۴:١۵ ]]></time_tl>
+    <q>What is the departure time of Elvis?</q>
+    <filler airline="Sky Shuttle" flight="1122" gate="C2"/>
+    <hint dir="ltr"><![CDATA[item7 hint text for incorrect answer]]></hint>
+    <feedback dir="ltr"><![CDATA[item7 feedback for the correct answer and final]]></feedback>
+  </set>
+</content>

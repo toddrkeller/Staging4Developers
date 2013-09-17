@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task target_language="Japanese">
+  <lesson_objective></lesson_objective>
+  <grammarFile>ja_l33_01.mp4</grammarFile>
+  <cultureFile_en>ja_l33_01.mp4</cultureFile_en>
+  <cultureFile_tl>ja_l33_01.mp4</cultureFile_tl>  
+  <activities>
+    <activity template="VideoCaption.html" xml="ja_l33_01.xml" auto_complete="true">
+      <title>Video Caption Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="Enabling_09.html" xml="ja_l33_02.xml" auto_complete="true">
+      <title>Enabling_09 Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="Enabling_38.html" xml="ja_l33_03.xml">
+      <title>Enabling_38 Test</title>
+      <purpose>Activity Purpose:</purpose>
+      <inst_tl>AI in TL</inst_tl>
+      <inst_en>AI in EN</inst_en>
+    </activity>
+    <activity template="Enabling_02.html" xml="ja_l33_04.xml" retrain="true">
+      <title>Enabling_02 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language)3</inst_tl>
+      <inst_en>Activity Instruction (English) 3</inst_en>
+    </activity>
+    <activity template="Enabling_05.html" xml="ja_l33_05.html" retrain="true">
+      <title>Enabling_05 Test</title>
+      <purpose>this is the purpose of the gloss template test</purpose>
+      <inst_tl>tl instruction 4</inst_tl>
+      <inst_en>en instruction 4</inst_en>
+    </activity>
+    <activity template="Enabling_22.html" xml="ja_l33_06.xml">
+      <title>Enabling_22 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language): 5</inst_tl>
+      <inst_en>Activity Instruction (English): 5</inst_en>
+    </activity>
+    <activity template="rcmctrackable" xml="ja_l33_07.html" activity="self-assessment">
+      <title>RC Trackable Test</title>
+      <objective>Self Assessment Objective:</objective>
+      <inst_tl>TL Instruction</inst_tl>
+      <inst_en>EN instruction</inst_en>
+    </activity>
+  </activities>
+
+</task>

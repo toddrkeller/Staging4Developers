@@ -1,0 +1,437 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<!--
+<meta http-equiv="Cache-Control"     content="no-cache" />
+<meta http-equiv="Content-Language"  content="en" />
+-->
+<title>
+  LC_Multiple_Choice_Trackable
+</title>
+
+<link href="../../../../templates/common/css/bootstrap_todd.css" rel="stylesheet">
+<link href="../../../../templates//common/css/dlilearn_custom_todd.css" rel="stylesheet">
+<link href="../../../../templates/common/css/dlilearn_activities_todd.css" rel="stylesheet">
+<link type="text/css" href="../../../../templates/common/css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+
+<link type="text/css" href="../../../../templates/common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+<link rel="stylesheet" href="../../../../templates/common_gloss/css/activity_templates_todd.css" media="screen" />
+
+
+<style type="text/css">
+
+
+
+
+.question_content{
+	text-align: left;
+	margin-top:0px;
+	margin-left:0px;
+	height: 60px;
+	width:870px;
+	overflow:auto;
+}
+
+
+
+#id_itemBnk{
+	text-align: left;
+	margin-left:0px;
+	top: -95px;
+	height: 300px;
+	width:540px;
+	overflow:auto;
+
+}
+
+
+#id_checkBtn {
+        margin-top:20px;
+	position: relative;
+}
+
+
+
+#id_next_foot {
+	left: -3px;
+}
+
+.btn_bottom_right {
+    bottom: 10px;
+    position: absolute;
+    right: 15px;
+}
+
+.btn_bottom_right2 {
+        bottom:15px;
+        color:#444444;
+        letter-spacing:0;
+        border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+        background-color: #F5F5F5;
+        background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+        background-repeat: repeat-x;
+        border-radius: 4px 4px 4px 4px;
+        border-style: solid;
+        border-width: 1px;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 4px 12px;
+        text-align: center;
+        text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+        vertical-align: middle;
+}
+
+
+label:before {
+        background-image: url("../../../../templates/common/img/formelements.png");
+        content: "";
+        display: inline-block;
+        height: 40px;
+        left: -2px;
+        position: relative;
+        top: 0.25em;
+        width: 44px;
+        vertical-align:bottom;
+}
+
+
+
+/*  NEW CSS FROM TODD */
+
+#activity_wrapper {
+        height: 650px;
+        padding-right: 0;
+}
+
+.feedback {
+        top:-265px;
+        left:-15px;
+        font-size: 14px;
+        margin: 15px 0 0 30px;
+        height: 370px;
+        width: 317px;
+        color: #7D7C7C;
+        letter-spacing: 2px;
+        line-height: 1.75em;
+        text-shadow: 0 1px 0 #FFFFFF;
+        word-spacing: 0.25em;
+        overflow: auto;
+}
+
+.blank_100 {
+	min-width:100px;
+	width:140px;
+}
+
+#container_setDiv {
+	margin:28px 6px 0 0;
+	left:340px;
+	top:110px;
+}
+
+#id_next_foot {
+        left: -3px;
+}
+
+.mCSB_container {
+     overflow:visible;
+}
+
+#clickGuard {
+        height:100%;
+        left:0;
+        position: absolute;
+        top:0;
+        width:100%;
+        z-index:10;
+        opacity: .2;
+        background-color:#ffffff;
+
+}
+
+</style>
+
+<script src="../../../../templates/common/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="../../../../templates/common/js/firebug-lite-1_2.js"></script>
+<script src="../../../../templates/common/js/AC_OETags.js"></script>
+
+<script src="../../../../templates/common/js/xml2json.js"></script>
+<script src="../../../../templates/common/js/dli_activity.js"></script>
+
+
+<script type="text/javascript" src="../../../../templates/common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../../../../templates/common/js/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="../../../../templates/common/js/jquery.ui.touch-punch.js"></script>         
+
+
+
+<script src="../../../../templates/common/js/dli_util.js"></script>
+<script src="../../../../templates/common/js/dli_audio.js"></script>
+<script src="../../../../templates/common/js/dli_video.js"></script>
+
+
+<script type="text/JavaScript" src="../../../../templates/common_gloss/js/activity_common.js"></script>
+<script type="text/JavaScript" src="ja_l32_06.js"></script>
+<script type="text/JavaScript">
+    // ------------------------------------------------------------------------------
+    // These functions are needed for testing the activity outside Gateway framework
+    // ------------------------------------------------------------------------------
+function xid(a)
+  {
+  return window.document.getElementById(a)
+  }
+
+function globalize_id(the_id)
+  {
+  window[the_id] = xid(the_id)
+  }
+
+function spf(s, t) 
+  {
+   var n = 0
+   function F() 
+     {
+     return t[n++]
+     }
+   return s.replace(/~/g, F)
+  }
+
+</script>
+</head>
+<body onload='initializeActivity()'>
+
+
+
+
+
+
+
+<div id="activity_wrapper"><span class="activity_hd">Instructions &#124; </span><span class="activity_description">LC Multiple Choice Trackable instruction goes here.</span>
+
+  <div id='mainActivityContent' class="pull-left">
+  
+          <div id="htmlAudioPlayerDiv"></div>
+          <div id="flashAudioPlayerDiv"></div>
+          <div id="embeddedAudioPlayerDiv"></div>
+
+
+
+
+
+                         <div class=" convex" style="width:880px; height:110px;">
+                                        <div class="question_content">
+                                           <table id="id_Qa0" class="cls_Q" style="direction:ltr;width:100%;display:none;">
+    <tr>
+      <td id="question_top_lrg_2"><div style="padding:3px;text-align:left;">Who has the right to vote?</div>
+      </td>
+    </tr>
+  </table>
+  <table id="id_Qa1" class="cls_Q" style="direction:ltr;width:100%;display:none;">
+    <tr>
+      <td id="question_top_lrg_2"><div style="padding:3px;text-align:left;">Who met the boy?</div>
+      </td>
+    </tr>
+  </table>
+
+                                         </div>
+
+                                         <div;">
+                                              <img id="id_playBtn"  style="cursor:pointer;" src="../../../../templates/common/img/btn_play_audio_on.png" alt="Play Audio" onmouseover="this.src='../../../../templates/common/img/btn_play_audio_on.png'" onmouseout="this.src='../../../../templates/common/img/btn_play_audio_off.png'"/>&nbsp;&nbsp;<img id="id_hintBtn"  style="margin-top:-5px;cursor:pointer;" src="../../../../templates/common/img/btn_hint.png"  alt="Show Hint" onmouseover="this.src='../../../../templates/common/img/btn_hint.png'" onmouseout="this.src='../../../../templates/common/img/btn_hint.png'" class="btn btn_img"/>
+                                          </div>
+
+
+                         </div>
+
+                           <br />   <br  />
+                           
+                    <div  class="convex" style="height:370px; width:550px;top:120px;">
+
+                               <div id="id_itemBnk">
+                                    <table id="id_Q0" class="cls_Q" style="direction:ltr;width:100%;display:none;">
+    <tr>
+      <td>
+      <input type="radio" id="id_radio00" class="radio_items" name="radio_item0"/>
+      <label for="id_radio00">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 1 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="radio" id="id_radio02" class="radio_items" name="radio_item0"/>
+      <label for="id_radio02">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 11 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="radio" id="id_radio04" class="radio_items" name="radio_item0"/>
+      <label for="id_radio04">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 111 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="radio" id="id_radio06" class="radio_items" name="radio_item0"/>
+      <label for="id_radio06">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 1111 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+  </table>
+  <table id="id_Q1" class="cls_Q" style="direction:ltr;width:100%;display:none;">
+    <tr>
+      <td>
+      <input type="radio" id="id_radio10" class="radio_items" name="radio_item1"/>
+      <label for="id_radio10">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 2 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="radio" id="id_radio12" class="radio_items" name="radio_item1"/>
+      <label for="id_radio12">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 22 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="radio" id="id_radio14" class="radio_items" name="radio_item1"/>
+      <label for="id_radio14">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 222 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <input type="radio" id="id_radio16" class="radio_items" name="radio_item1"/>
+      <label for="id_radio16">
+<span style="text-align:left;" class= "activity_p_lrg_2" dir=""> choice 2222 </span>
+       </label>
+             <p class="activity_hline4"></p>
+      </td>
+    </tr>
+  </table>
+
+                               </div>
+
+
+
+
+
+
+
+
+                                   <div style="top:-110px;left:-15px;cursor:pointer;" align="right" >
+                                  <img id="id_checkBtn" src="../../../../templates/common/img/btn_check_answers.png"  alt="Check Answer(s)" onmouseover="this.src='../../../../templates/common/img/btn_check_answers.png'" onmouseout="this.src='../../../../templates/common/img/btn_check_answers.png'" class="btn btn_img"/>&nbsp;&nbsp;
+                                  </div>
+
+                     </div>
+
+
+
+                                  
+
+   <div class="feedback convex mCS-dark-thick pull-right">
+      <p id="id_feedback">
+          <div id="videoContainer"></div>
+          <button id="video_ok_btn" class="btn btn_bottom_right2 pull-right"  style="display:none;top:20px;" onclick="close_vid()" >OK</button>
+      </p>
+  </div>
+
+
+
+    <div id="container_setDiv" class="roundCorners pull-right"><!--Set:-->
+        <div class="btn-group pull-right">
+          <button class="btn btn_prev" id="id_prev_foot" title="prev" onclick="back()">Prev</button>
+          <button class="btn btn_next" id="id_next_foot" title="next" onclick="next()">Next</button>
+        </div>
+        <div class="margin_5 pull-right">&nbsp;</div>
+        <div class="btn-group pull-right off">
+          <button class="btn btn_set off" id="setDiv" title="SET">Page:</button>
+          <button class="btn btn_set_value off" id="setText" title="SET"><span id="id_stepNo">1/2</span></button>
+        </div>
+      </div>
+    </div>
+        
+
+
+   </div>   <!-- main activity -->
+
+  <div style="display:none;">
+    <table id="id_FB" class="cls_FB" style="display:none;">
+    <tr>
+      <td><div style="padding:3px;text-align:left;">correct answer feedback is here.</div></td>
+      <td><div style="padding:3px;text-align:left;">Wrong answer feedback here</div></td>
+    </tr>
+    <tr>
+      <td><div style="padding:3px;text-align:left;">correct answer feedback2 is here.</div></td>
+      <td><div style="padding:3px;text-align:left;">Wrong answer feedback2 is here</div></td>
+    </tr>
+  </table>
+
+  </div>
+
+  <div style="display:none;">
+    <table id="id_HINT" class="cls_HINT" style="display:none;">
+    <tr>
+      <td><div style="padding:3px;text-align:left;">Put some hints for the question.</div></td>
+    </tr>
+    <tr>
+      <td><div style="padding:3px;text-align:left;">Put some hints for the question2.</div></td>
+    </tr>
+  </table>
+
+  </div>
+
+  <div style="display:none;">
+   g_questCat[0] = Semantic
+ g_questCat[1] = Grammar
+
+  </div>
+
+  
+  
+  
+
+</div>   <!-- activity wrapper -->
+
+
+<div id="clickGuard" style="display:none"></div>
+
+
+
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.0.6/jquery.mousewheel.js"></script>
+	<script>$.event.special.mousewheel || document.write('<script src="../../../../templates/common/js/jquery.mousewheel.js"><\/script>')</script>
+        <script type="text/javascript" src="../../../../templates/common/js/jquery.mCustomScrollbar.js"></script>
+	<script>
+		(function($){
+			$(window).load(function(){
+				$(".feedback, .text_content, .question_content, #id_itemBnk").mCustomScrollbar({
+					advanced:{
+						updateOnContentResize:true     
+					}
+				});
+			});
+		})(jQuery);
+	</script>
+
+
+</body>
+</html>

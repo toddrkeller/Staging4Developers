@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task target_language="Japanese">
+  <lesson_objective></lesson_objective>
+  <grammarFile>ja_l34_01.mp4</grammarFile>
+  <cultureFile_en>ja_l34_01.mp4</cultureFile_en>
+  <cultureFile_tl>ja_l34_01.mp4</cultureFile_tl>  
+  <activities>
+    <activity template="DragDrop.html" xml="ja_l34_01.xml" auto_complete="true">
+      <title>Drag Drop Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="DiceGame.html" xml="ja_l34_02.xml" auto_complete="true">
+      <title>Dice Game Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="Enabling_01.html" xml="ja_l34_03.xml" retrain="true">
+      <title>Enabling_01 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language)3</inst_tl>
+      <inst_en>Activity Instruction (English) 3</inst_en>
+    </activity>
+    <activity template="Evaluation_02.html" xml="ja_l34_04.html" retrain="true">
+      <title>Evaluation_02 Test</title>
+      <purpose>this is the purpose of the gloss template test</purpose>
+      <inst_tl>tl instruction 4</inst_tl>
+      <inst_en>en instruction 4</inst_en>
+    </activity>
+    <activity template="Evaluation_03.html" xml="ja_l34_05.xml">
+      <title>Evaluation_03 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language): 5</inst_tl>
+      <inst_en>Activity Instruction (English): 5</inst_en>
+    </activity>
+    <activity template="Evaluation_07.html" xml="ja_l34_06.xml" activity="self-assessment">
+      <title>Assessment (Evaluation 7)</title>
+      <objective>Self Assessment Objective:</objective>
+      <inst_tl>TL Instruction</inst_tl>
+      <inst_en>EN instruction</inst_en>
+    </activity>
+  </activities>
+
+</task>

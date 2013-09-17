@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="German">
+
+    <item>
+      <file_video>gm_military_deployed.flv</file_video>
+      <lang_en>Bundeswehr</lang_en>
+      <lang_tl dir="ltr">Die Bundeswehr wird in vielen Ländern eingesetzt.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The German military is deployed in many countries.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_special_ops_deployed.flv</file_video>
+      <lang_en>Spezialeinheit</lang_en>
+      <lang_tl dir="ltr">Die Spezialeinheit ist in gegnerischem Gebiet eingesetzt.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The special operations unit is deployed in enemy territory.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_paratroopers_landing.flv</file_video>
+      <lang_en>Fallschirmjäger</lang_en>
+      <lang_tl dir="ltr">Die Fallschirmjäger landen im Krisengebiet.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The paratroopers are landing in the crisis area.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_aid_clothing.flv</file_video>
+      <lang_en>Hilfsorganisation</lang_en>
+      <lang_tl dir="ltr">Die Hilfsorganisation verteilt Bekleidung.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The humanitarian aid organization is distributing clothing.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_quick_hostages.flv</file_video>
+      <lang_en>schnelle Eingreiftruppe</lang_en>
+      <lang_tl dir="ltr">Die schnelle Eingreiftruppe befreit die Geiseln.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The quick reaction force is freeing the hostages.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_guerillas_police.flv</file_video>
+      <lang_en>Guerilla</lang_en>
+      <lang_tl dir="ltr">Die Guerillas verüben einen Anschlag auf die Polizei.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The guerillas are carrying out an attack on the police.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_sniper_pirates.flv</file_video>
+      <lang_en>Scharfschütze</lang_en>
+      <lang_tl dir="ltr">Ein Scharfschütze tötet die Piraten.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: A sniper kills the pirates.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_security_mayor.flv</file_video>
+      <lang_en>Sicherheitskräfte</lang_en>
+      <lang_tl dir="ltr">Die Sicherheitskräfte arbeiten mit dem Bürgermeister zusammen.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The security forces cooperate with the mayor.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_mps_convoy.flv</file_video>
+      <lang_en>Feldjäger</lang_en>
+      <lang_tl dir="ltr">Die Feldjäger begleiten den Konvoi.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The MPs (military police) accompany the convoy.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_medic_civilian.flv</file_video>
+      <lang_en>Sanitäter</lang_en>
+      <lang_tl dir="ltr">Die Sanitäter behandeln einen verwundeten Zivilisten.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The medics are treating a wounded civilian. ("Sanitäter" can be both singular and plural).</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_air_supports.flv</file_video>
+      <lang_en>Luftwaffe</lang_en>
+      <lang_tl dir="ltr">Die Luftwaffe unterstützt den Einsatz in fernen Ländern.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The Air Force supports missions in faraway countries.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_insurgents_firing.flv</file_video>
+      <lang_en>Aufständische</lang_en>
+      <lang_tl dir="ltr">Die Aufständischen beschießen den Konvoi.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The insurgents are firing on the convoy.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_civilians_injured.flv</file_video>
+      <lang_en>Zivilist</lang_en>
+      <lang_tl dir="ltr">Zwei Zivilisten sind verletzt.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: Two civilians are injured.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_peacekeeper_patrol.flv</file_video>
+      <lang_en>UN Friedenstruppen</lang_en>
+      <lang_tl dir="ltr">Die UN Friedenstruppen fahren auf Patrouille.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The UN peacekeepers are on patrol.</feedback_l1>
+    </item>
+    <item>
+      <file_video>gm_terrorists_attack.flv</file_video>
+      <lang_en>Terroristen</lang_en>
+      <lang_tl dir="ltr">Die Terroristen verüben einen Selbstmordanschlag auf eine Schule.</lang_tl>
+      <lang_trans></lang_trans>
+      <feedback_l1 dir="ltr">This means: The terrorists are carrying out a suicide attack on a school.</feedback_l1>
+    </item>
+
+
+</content>

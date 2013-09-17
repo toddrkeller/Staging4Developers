@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Hausa" hw="true" xmlns:hs="http://www.dliflc.edu/products/headstart">
+    <set>
+      <tl_main_audio name="hs_come_in_1_hour.mp3"/>
+      <answer_image name="hs_t08_come_one_hour_md.png"/>
+      <distractor name="hs_t08_minute_md.png"/>
+      <distractor name="hs_t08_quarter_md.png"/>
+      <distractor name="hs_t08_half_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_he_here_in_1_minute.mp3"/>
+      <answer_image name="hs_t08_here_one_minute_md.png"/>
+      <distractor name="hs_t08_here_noon_md.png"/>
+      <distractor name="hs_t08_hospital morning_md.png"/>
+      <distractor name="hs_t08_its_12_oclock_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_his_heart_stop_15_sec.mp3"/>
+      <answer_image name="hs_t08_heart_15_seconds_md.png"/>
+      <distractor name="hs_t08_fishermen_dawn_md.png"/>
+      <distractor name="hs_t08_attack_evening_md.png"/>
+      <distractor name="hs_t08_plane_quarter_one_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_frwrks_lasted_30_sec.mp3"/>
+      <answer_image name="hs_t08_fireworks_30_seconds_md.png"/>
+      <distractor name="hs_t08_meeting_120_md.png"/>
+      <distractor name="hs_t08_come_midnight_md.png"/>
+      <distractor name="hs_t08_give_medicine_12_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_will_st_wk_520pm.mp3"/>
+      <answer_image name="hs_t08_start_work_520_md.png"/>
+      <distractor name="hs_t08_training_25_days_md.png"/>
+      <distractor name="hs_t08_wedding_12_md.png"/>
+      <distractor name="hs_t08_what_time_is_it_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_tng_lasts_25_days.mp3"/>
+      <answer_image name="hs_t08_training_25_days_md.png"/>
+      <distractor name="hs_t08_shooting_30_seconds_md.png"/>
+      <distractor name="hs_t08_soccer_evening_md.png"/>
+      <distractor name="hs_t08_work_afternoon_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_they_came_midnight.mp3"/>
+      <answer_image name="hs_t08_came_midnight_md.png"/>
+      <distractor name="hs_t08_come_quarter_2_md.png"/>
+      <distractor name="hs_t08_meet_tuesday_11_md.png"/>
+      <distractor name="hs_t08_work_afternoon_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_im_free_after_11.mp3"/>
+      <answer_image name="hs_t08_free_after_11_md.png"/>
+      <distractor name="hs_t08_give_2_minutes_md.png"/>
+      <distractor name="hs_t08_game_night_md.png"/>
+      <distractor name="hs_t08_come_morning_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_give_him_med_at_12.mp3"/>
+      <answer_image name="hs_t08_give_medicine_12_md.png"/>
+      <distractor name="hs_t08_free_after_11_md.png"/>
+      <distractor name="hs_t08_finish_time_md.png"/>
+      <distractor name="hs_t08_fishermen_dawn_md.png"/>
+    </set>
+    <set>
+      <tl_main_audio name="hs_plane_arr_qt_after_1.mp3"/>
+      <answer_image name="hs_t08_plane_quarter_one_md.png"/>
+      <distractor name="hs_t08_class_starts_925_md.png"/>
+      <distractor name="hs_t08_come_half_hour_md.png"/>
+      <distractor name="hs_t08_hour_journey_md.png"/>
+    </set>
+
+</content>

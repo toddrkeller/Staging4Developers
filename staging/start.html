@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DLiLearn Japanese Basic Course Staging</title>
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/dlilearn-theme/jquery-ui-1.9.2.custom.min.css" />
+<link href="css/iLearn.css" rel="stylesheet" type="text/css" />
+
+<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+<link href="bootstrap/css/jquery.dropdown.css" rel="stylesheet">
+<link href="css/dlilearn_custom.css" rel="stylesheet">
+<!--<link href="js/jquery-dropdown/jquery.dropdown.css" rel="stylesheet">-->
+<link href="js/jquery-dropdown/jquery.dropdownCust.css" rel="stylesheet">
+
+<script src="js/dlilearn-jquery/jquery.js"></script> 
+<script src="js/dlilearn-jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<!--<script src="js/jwplayer/jwplayer.js" type="text/javascript"></script>-->
+<script type="text/javascript" src="js/jquery-dropdown/jquery.dropdown.js"></script>  <!-- must be below bootstrap to work -->
+
+<!-- Framework Scripts -->
+<script src="js/framework.js" type="text/javascript"></script>
+<script src="js/dialogs.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<!--<script src="js/data.js" type="text/javascript"></script>-->
+<script src="js/menu.js" type="text/javascript"></script>
+<script src="js/ui.js"  type="text/javascript"></script>
+<script src="js/unit.js" type="text/javascript"></script>
+<!--<script src="js/glossary.js" type="text/javascript"></script>--->
+<script src="js/lesson.js" type="text/javascript"></script>
+<script src="js/activity.js" type="text/javascript"></script>
+
+<!--<script src="js/progress.js" type="text/javascript"></script>-->
+
+<!--  /////// EMBEDED STYLE OVERIDE FOR MAIN ACTIVITY BUTTONS ////////// -->
+<style>
+.corner {
+	border-radius: 0;
+}
+.btn_lessons {
+	background-color: grey;
+	cursor: pointer;
+	max-width: 116px !important;
+	padding: 11px;
+	padding-right: 22px;
+	padding-left: 16px;
+	text-align: center;
+	line-height: 12px;
+	background-image: url(img/icon_arrowhead_2_off.png), url(img/bg_unit_nav.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left top;
+	letter-spacing: 1px;
+	border: none;
+	border-left: solid 1px #A1A1A1;
+	border-right: solid 1px #FFF;
+	height: 51px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.btn-group:last-child {
+	border-radius: 0 6px 6px 0;
+}
+.btn_lessons:hover {
+	background-image: url(img/icon_arrowhead_2_on.png), url(img/bg_unit_nav_on.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left top;
+}
+.round_top_right {
+	border-radius: 0 3px 0 0 !important;
+}
+.head {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.btn_lessons_description {
+	font-size: 12px;
+	letter-spacing: 2px;
+	left: -5px;
+}
+</style>
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="ico/favicon.ico">
+
+<script type="text/javascript">
+var theActivities = {};
+var gv_homework = false;
+var gv_quiz = false;
+	$(document).ready(function() {
+  	$("img.rollover").hover(
+  	function() { this.src = this.src.replace("_off", "_on");
+  	},
+  	function() { this.src = this.src.replace("_on", "_off");
+  	});
+
+    $("[rel=tooltip]").tooltip();
+    initialize_iLearn();  // defined in framework.js
+
+	});
+	function showLessonMenu(Uno, Lno){
+	//alert(Lno);
+	var Lessons = new Array();
+
+	var newLesson = new Lesson();
+	newLesson.LessonID = Lno;
+	newLesson.LessonIndex = Lno;
+	newLesson.UnitID = Uno;
+	newLesson.LessonType = 'cl';
+	newLesson.Initialize();
+	Lessons.push(newLesson);
+	var actBtnString = '';
+	setTimeout( callNewLesson, 1000 );
+	//var actBtnString = callNewLesson();
+	
+	$('#activityIFrame').attr("src", "content/activity_blank.html");
+//	newLesson.GetActivityListItems();
+	function callNewLesson(){
+		var actStr='';
+		actStr=newLesson.GetActivityListItems();
+	actBtnString = actStr;
+	if (actBtnString.length > 100){
+		$('#activity_buttons').html(actBtnString);
+		$('#breadcrumb_lesson').html('Lesson '+ Lno);
+		$('#activityTitle').html('Click one of the Activity buttons to see the activity.'); 
+		theActivities = newLesson.Activities;	
+		}
+	}
+	
+}
+function findTheActivity(Lno, Ano, xmlPth, xmlFN, TempFN){
+	var xml_path = xmlPth;
+	var media_path = xml_path.replace(/xml/, 'media');
+	var xml_fn = xmlFN;
+	var template_fn = TempFN;
+	var template_ending = template_fn.substr(template_fn.length-5)
+	var src_url = "";
+	if(template_ending == '.html'){
+		
+		var tempFolderName = template_fn.substr(0, template_fn.length-5)+ '_html'
+		
+		src_url = "templates/" + tempFolderName + "/" + template_fn + "?student=instructor@gmail.com&language=ja&lesson=" + Lno + "&activity=" + Ano + "&activityType=cl"
+		src_url += "&xmlPath=../../" + xml_path + "/&mediaPath=../../" + media_path +"/"
+	}
+	else{
+		var xmlPath2 = xml_path.split("/");	
+		Ano = Ano.toString();	
+		if (Ano.length < 2 ) {
+			var AnoStr =+ "0" + Ano;
+		}
+		
+		src_url = xml_path + "/" + xmlPath2[xmlPath2.length-1].toString() + "_" + AnoStr +  ".html" + "?student=instructor@gmail.com&language=ja&lesson=" + Lno + "&activity=" + AnoStr + "&activityType=cl"
+	//	alert(src_url);
+	}
+	$('#activityIFrame').attr("src", src_url);
+	$('#activityTitle').html(theActivities[Ano-1].Title);
+	$('#breadcrumb_activity').html('Activity ' + Ano);
+	$('#breadcrumb_activity').css('display', 'block');
+	var iFrameHeight = theActivities[Ano-1].activityHeight;
+	if (iFrameHeight != undefined){
+		alert("iFrame height has changed: " + iFrameHeight );
+		$('#activityIFrame').css("height", iFrameHeight);
+		}
+	else
+		$('#activityIFrame').css("height", "680px");
+	//alert(theActivities[Ano-1].activityHeight)
+	//alert('Lesson: ' + Lno + ' Activity No: ' +Ano + ' FileName: ' + xml_fn);
+}
+</script>
+
+</head>
+<body>
+
+<!-- ///// BEGIN MainBody  ///// -->
+<div id="MainBody">
+<!-- ///// BEGIN MainBody  ///// -->
+<div id="bodyContent">
+  <div class="navbar navbar-fixed-top"> <!-- ///// BEGIN NAVBAR-FIXED-TOP  ///// -->
+    <div class="navbar-inner"> <!-- ///// BEGIN NAVBAR-INNER ///// -->
+      <div class="container"> <!-- ///// BEGIN CONTAINER - REGISTER ///// -->
+        <div id='loggedInLabel' class='loggedInLabel'>&nbsp;</div>
+
+        <ul class="login pull-right">
+          <!-- Button to trigger modal -->
+          <li><a data-toggle="modal" href="#myModal">Login</a>&#160;<img src="img/icon_user_white.png" alt="Login"><span class="divider">&#160;&#183;&#160;</span></li>
+          <li><a data-toggle="modal" href="#myModal">Register</a>&#160;<img src="img/icon_register_white.png" alt="Register"></li>
+        </ul>
+        
+        <!-- /////////////////////////////////////////////// BEGIN BREADCRUMB ///////////////////////////////////////////////////// -->
+        <ul class="breadcrumb pull-left">
+          <li><a id='breadcrumb_home' href="javascript:framework.ui.ShowMainWindow('home')">Home</a> <span class="divider">&#183;</span></li>
+          <li><a id='breadcrumb_classroom' href="#">Classroom</a> <span class="divider">&#183;</span></li>
+          <li><a id='breadcrumb_lesson' href="#">Lesson 1</a> <span class="divider">&#183;</span></li>
+          <li><a style='display:none;float:left;' id='breadcrumb_activity' >Activity 3</a></li>
+        </ul>
+      </div>
+      <!-- ///// END NAV CONTAINER ///// --> 
+    </div>
+    <!-- ///// END NAVBAR-INNER ///// --> 
+  </div>
+  <!-- ///// END NAVBAR-FIXED-TOP ///// -->
+  
+  <div class="container"> <!-- /////// BEGIN CONTAINER ////// --> 
+    <!-- /////// BEGIN MAIN_NAV ////// -->
+    <nav class="main_nav"><a 
+        href="index.html" class="tooltip-test" title="DLiLearn Home"><img 
+        src="img/logo_dlilearn.png" alt="DLiLearn" width="224" height="43" class="responsive-image pull-left"></a>
+      <ul class="main_nav_right">
+        <li><a 
+        href="mailto:todd.keller2@dliflc.edu?subject=DLiLearn"><img 
+        src="img/nav_top_contact_off.png" alt="CONTACT" class="rollover"></a></li>
+        <li><a href="javascript:framework.ui.showFaq()"><img 
+        src="img/nav_top_help_off.png" alt="HELP" class="rollover"></a></li>
+        <li><a 
+        href="http://www.dliflc.edu/index.html"><img 
+        src="img/nav_top_dliflc_off.png" alt="DLIFLC" class="rollover"></a></li>
+        <li><a 
+        href="javascript:framework.ui.ShowMainWindow('home')"><img 
+        src="img/nav_top_home_off.png" alt="HOME" class="rollover"></a></li>
+      </ul>
+    </nav>
+    <!-- ///// END MAIN_NAV ///// --> 
+  </div>
+  <!-- ///// END CONTAINER ///// -->
+  
+  <div id="main"> <!-- ///// BEGIN MAIN FOR STICKY FOOTER ///// -->
+    <div class="container"> <!-- /////// BEGIN CONTAINER  ////// -->
+      <div class="drop-shadow lifted"> <!-- /////// BEGIN DROP-SHADOW LIFTED  - ACTIVITY FRAME  ////// -->
+        <div class="activity_frame lifted_a"> <!-- /////// BEGIN ACTIVITY_FRAME LIFTED_A  ////// -->
+          <nav class="activity_frame_hd"> <!-- /////// BEGIN ACTIVITY_FRAME_HD  ////// -->
+              <div id="unit_nav">
+                <div class="btn-group pull-right">
+                  <!--<button id="unit_button_1" class="btn_lessons corner" href="#" data-dropdown="#dropdown_unit_1">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">01 -- 10 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner" href="#" data-dropdown="#dropdown_unit_2">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">11 -- 20 &nbsp;&nbsp;</span> 
+                  </button>-->
+                  <button class="btn_lessons button corner" href="#" data-dropdown="#dropdown_unit_3">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">01 -- 10 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner" href="#" data-dropdown="#dropdown_unit_4">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">11 -- 20 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner round_top_right" href="#" data-dropdown="#dropdown_unit_5">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">21 -- 30 &nbsp;&nbsp;</span> 
+                  </button>
+              </div>
+          </div>
+
+            <!-- /////// CHANGE .dropdown-menu width and radius in bootstrap.css if a new version is downloaded /////// -->
+            
+            <!-- /////// END NAV_UNIT /////// -->
+            <header id="class_title">
+              <h2 class="lang_hd">Japanese Classroom</h2>
+            </header>
+          </nav>
+          <!-- /////// END ACTIVITY_FRAME_HD  ////// --> 
+          <!-- /////// BEGIN ACTIVITY BUTTON GROUP ROW  /////// -->
+
+          <div class="btn-group" id="activity_buttons"></div>
+<!-- 
+          <div class="btn-group">
+            <button class="btn" title="Activity Index">Lesson 1 Activities</button>
+            <button class="btn btn-warning" title="Vocabulary Review Activity">1</button>
+            <button class="btn btn-success" title="Transcription Activity">2</button>
+            <button class="btn" title="Treasure Hunt Activity">3</button>
+            <button class="btn" title="this is my tooltip">4</button>
+            <button class="btn" title="this is my tooltip">5</button>
+            <button class="btn" title="this is my tooltip">6</button>
+            <button class="btn" title="this is my tooltip">7</button>
+          </div> 
+-->
+
+          <!-- /////// END ACTIVITY BUTTON GROUP ROW  /////// --> 
+          <!-- /////// BEGIN HORIZONTAL BTN GROUP - CULTURE AND GRAMMAR /////// -->
+          <div class="btn-group hidden-phone">
+            <button class="btn" onClick="framework.showCultureNotes()" title="Culture Notes">Culture</button>
+            <button class="btn" title="Grammar">Grammar</button>
+          </div>
+          <!-- /////// END HORIZONTAL BTN-GROUP - CULTURE AND GRAMMAR /////// --> 
+          <!-- /////// BEGIN HORIZONTAL BTN-GROUP - GLASSARY AND PROGRESS /////// -->
+          <div class="btn-group pull-right right-btngroup-top-marg hidden-phone" >
+            <button class="btn" title="netProF" data-placement="bottom">netProF <img src="img/icon_speaker.png" alt="netProF" class="push+2px"></button>
+            <button class="btn" onClick="framework.ui.showGlossary();" title="Glossary" data-placement="bottom">Glossary <img src="img/icon_glossary.png" alt="Glossary"></button>
+            <button class="btn" onClick="framework.ui.showStudentProgress()" title="View your Course Progress" data-placement="bottom">Progress <img src="img/icon_progress.png" alt="Progress"></button>
+          </div>
+          <!-- /////// END HORIZONTAL BTN-GROUP - GLASSARY AND PROGRESS /////// --> 
+          
+          <!-- /////// BEGIN ACTIVITY_FRAME_INLAY /////// -->
+          <div class="activity_frame_inlay">
+            <h3 id="activityTitle" class="activity_hd">Click the lesson menu to start. <span class="activity_description"></span></h3>
+            <iframe id="activityIFrame" src="content/activity_blank.html" style="height: 680px;" class="activity_area"><p>Your browser does not support frames.</p></iframe>
+            <iframe id="notesIFrame" src="/content/activity_blank.html" class="notes_area"><p>Your browser does not support iframes.</p></iframe>
+          </div>
+          <!-- /////// END ACTIVITY_FRAME_INLAY /////// --> 
+          
+        </div>
+        <!-- /////// END ACTIVITY FRAME /////// --> 
+      </div>
+    </div>
+    <!-- /////// END CONTAINER /////// --> 
+    
+  </div>
+  <!-- /////// END CONTAINER /////// --> 
+
+  <div id="push"></div>
+
+
+<!-- /////// BEGIN UNIT DROPDOWN DATA /////// -->
+<div id="dropdown_unit_1" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a onclick="showLessonMenu(1, 1)">Lesson 01</a></li>
+    <li><a onclick="showLessonMenu(1, 2)">Lesson 02</a></li>
+    <li><a onclick="showLessonMenu(1, 3)">Lesson 03</a></li>
+    <li><a onclick="showLessonMenu(1, 4)">Lesson 04</a></li>
+    <li><a onclick="showLessonMenu(1, 5)">Lesson 05</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a onclick="showLessonMenu(1, 6)">Lesson 06</a></li>
+    <li><a onclick="showLessonMenu(1, 7)">Lesson 07</a></li>
+    <li><a onclick="showLessonMenu(1, 8)">Lesson 08</a></li>
+    <li><a onclick="showLessonMenu(1, 9)">Lesson 09</a></li>
+    <li><a onclick="showLessonMenu(1, 10)">Lesson 10</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_2" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a onclick="showLessonMenu(2, 11)">Lesson 11</a></li>
+    <li><a onclick="showLessonMenu(2, 12)">Lesson 12</a></li>
+    <li><a onclick="showLessonMenu(2, 13)">Lesson 13</a></li>
+    <li><a onclick="showLessonMenu(2, 14)">Lesson 14</a></li>
+    <li><a onclick="showLessonMenu(2, 15)">Lesson 15</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a onclick="showLessonMenu(2, 16)">Lesson 16</a></li>
+    <li><a onclick="showLessonMenu(2, 17)">Lesson 17</a></li>
+    <li><a onclick="showLessonMenu(2, 18)">Lesson 18</a></li>
+    <li><a onclick="showLessonMenu(2, 19)">Lesson 19</a></li>
+    <li><a onclick="showLessonMenu(2, 20)">Lesson 20</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_3" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a onclick="showLessonMenu(3, 21)">Lesson 21</a></li>
+    <li><a onclick="showLessonMenu(3, 22)">Lesson 22</a></li>
+    <li><a onclick="showLessonMenu(3, 23)">Lesson 23</a></li>
+    <li><a onclick="showLessonMenu(3, 24)">Lesson 24</a></li>
+    <li><a onclick="showLessonMenu(3, 25)">Lesson 25</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a onclick="showLessonMenu(3, 26)">Lesson 26</a></li>
+    <li><a onclick="showLessonMenu(3, 27)">Lesson 27</a></li>
+    <li><a onclick="showLessonMenu(3, 28)">Lesson 28</a></li>
+    <li><a onclick="showLessonMenu(3, 29)">Lesson 29</a></li>
+    <li><a onclick="showLessonMenu(3, 30)">Lesson 30</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_4" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a onclick="showLessonMenu(4, 31)">Lesson 31</a></li>
+    <li><a onclick="showLessonMenu(4, 32)">Lesson 32</a></li>
+    <li><a onclick="showLessonMenu(4, 33)">Lesson 33</a></li>
+    <li><a onclick="showLessonMenu(4, 34)">Lesson 34</a></li>
+    <li><a onclick="showLessonMenu(4, 35)">Lesson 35</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a onclick="showLessonMenu(4, 36)">Lesson 36</a></li>
+    <li><a onclick="showLessonMenu(4, 37)">Lesson 37</a></li>
+    <li><a onclick="showLessonMenu(4, 38)">Lesson 38</a></li>
+    <li><a onclick="showLessonMenu(4, 39)">Lesson 39</a></li>
+    <li><a onclick="showLessonMenu(4, 40)">Lesson 40</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_5" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a onclick="showLessonMenu(5, 41)">Lesson 41</a></li>
+    <li><a onclick="showLessonMenu(5, 42)">Lesson 42</a></li>
+    <li><a onclick="showLessonMenu(5, 43)">Lesson 43</a></li>
+    <li><a onclick="showLessonMenu(5, 44)">Lesson 44</a></li>
+    <li><a onclick="showLessonMenu(5, 45)">Lesson 45</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a onclick="showLessonMenu(5, 46)">Lesson 46</a></li>
+    <li><a onclick="showLessonMenu(5, 47)">Lesson 47</a></li>
+    <li><a onclick="showLessonMenu(5, 48)">Lesson 48</a></li>
+    <li><a onclick="showLessonMenu(5, 49)">Lesson 49</a></li>
+    <li><a onclick="showLessonMenu(5, 50)">Lesson 50</a></li>
+    <li class="divider"></li>
+    <li><a href="#">Quiz</a></li>
+  </ul>
+</div>
+<!-- /////// END UNIT DROPDOWN DATA /////// --> 
+
+</div> <!-- END bodyConent -->
+
+<!--  ///////  END MainBody  ///////  -->
+</div>
+<!--  ///////  END MainBody  ///////  --> 
+
+<!--  ///////  BEGIN FOOTER  ///////  -->
+<div id="footer">
+  <div class="container">
+    <!--  ///////  BEGIN FOOTER_CONTAINER  ///////  -->
+    <div class="pull-left"><a 
+    href="#"><img 
+    src="img/logo_dliflc.png" alt="DLIFLC" width="241" height="72" class="responsive-image pull-left push-13"></a> 
+      
+      <!--  ///////  BEGIN DLI_ADDRESS  ///////  -->
+      <div class="dli_address"> DLIFLC &middot; 1759 Lewis Rd. Bldg 614, Ste. 251<br />
+        Presidio of Monterey &middot; Monterey, CA 93944<br />
+        831.242.5119 (DSN-768) </div>
+      <!--  ///////  END DLI_ADDRESS  ///////  --> 
+    </div>
+    <!--  ///////  END FOOTER_CONTAINER  ///////  --> 
+    <!--  ///////  BEGIN CONTAINER  ///////  -->
+    <nav class="pull-right"> <!--  ///////  BEGIN NAV PULL-RIGHT  ///////  -->
+      <dl class="nav_bottom">
+        <dd><a href="#">Contact</a></dd>
+        <dd>&middot;</dd>
+        <dd><a href="#">Help</a></dd>
+        <dd>&middot;</dd>
+        <dd><a href="#">Home</a></dd>
+      </dl>
+      <dl class="nav_social">
+        <dd><img src="img/icon_facebook.png" alt="FACEBOOK" width="11" height="16"></dd>
+        <dd><img src="img/icon_forum.png" alt="Forum" width="21" height="18"></dd>
+        <dd><img src="img/icon_adobe_connect.png" alt="Adobe Connect" width="20" height="17"></dd>
+        <dd><img src="img/icon_skype.png" alt="Skype" width="17" height="17"></dd>
+      </dl>
+    </nav>
+    <!--  ///////  END NAV PULL-RIGHT  ///////  --> 
+  </div>
+  <!--  ///////  END CONTAINER  ///////  --> 
+</div>
+<!--  ///////  END FOOTER  ///////  --> 
+
+
+<!--Dialogs-->
+<div id="FrameworkStorage" style="display:none"></div>
+<div id="addClassDialog" class="popup"></div>
+<div id="adminDialog" class="popup"></div>
+<div id="siteMessage" class="popup"><!-- called from siteMessage() function --></div>
+<div id="simplePopup" class="popup"></div>
+<div id='debugDiv' style='display:none'>
+    <a href='javascript:debug()'>debug</a>
+    &nbsp;<span><a href='javascript:framework.ui.showLogMessagesDialog()'>messages</a></span>
+    &nbsp;<span id='debugInfo'></span>
+</div>
+<div id="errorDialog" style="display: table-cell;vertical-align: middle"><!--loaded from javascript before opening--></div>
+<div id="loginDialog" style="padding-top:10px; display:none;"><!--loaded from /content/login.html--></div>
+<div id="registerDialog"><!--loaded from /content/login.html--></div>
+<div id="contactDialog"><!--loaded from /content/contact.html--></div>
+<div id="cultureNotesDialog"><!--loaded from /content/notes.html--></div>
+<div id="grammarNotesDialog"><!-- loaded from /content/notes.html --></div>
+<div id="progressDialog"><!--loaded from /content/notes.html--></div>
+<div id="faqDialog"><!--loaded from /content/notes.html--></div>
+<div id="glossaryDialog"><!-- loaded from /content/glossary.html --></div>
+<div id="glossaryDialogDetail"><!-- loaded from /content/glossary.html --></div>
+
+<div id="confirmationDialog" style="height:200px;display:table-cell;vertical-align:middle; display:none;"></div>
+<div id="activityDialog" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true"><!-- this div is for testing at this time --></div>
+<div id="instructorsDialog" class="popup"><!-- --></div>
+<div id="adminViewDialog" style="background-color:#CCC"><!-- loaded from /content/admin_main.html --></div>
+<div id="studentActivityDialog" style="background-color:#CCC"><!-- loaded from /content/admin_main.html --></div>
+
+
+
+<!--  /////// javascript /////// --> 
+<!-- ///////  Placed at the end of the document so the pages load faster  /////// --> 
+<script src="bootstrap/js/bootstrap-transition.js"></script> 
+<script src="bootstrap/js/bootstrap-alert.js"></script> 
+<script src="bootstrap/js/bootstrap-modal.js"></script> 
+<script src="bootstrap/js/bootstrap-dropdown.js"></script> 
+<script src="bootstrap/js/bootstrap-scrollspy.js"></script> 
+<script src="bootstrap/js/bootstrap-tab.js"></script> 
+<script src="bootstrap/js/bootstrap-tooltip.js"></script> 
+<script src="bootstrap/js/bootstrap-popover.js"></script> 
+<script src="bootstrap/js/bootstrap-button.js"></script> 
+<script src="bootstrap/js/bootstrap-collapse.js"></script> 
+<script src="bootstrap/js/bootstrap-carousel.js"></script> 
+<script src="bootstrap/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

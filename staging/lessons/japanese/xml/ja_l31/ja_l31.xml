@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task target_language="Japanese">
+  <lesson_objective></lesson_objective>
+  <grammarFile>ja_01_01.mp4</grammarFile>
+  <cultureFile_en>ja_01_01.mp4</cultureFile_en>
+  <cultureFile_tl>ja_01_01.mp4</cultureFile_tl>  
+  <activities>
+    <activity template="Enabling_57.html" xml="ja_l31_01.xml" auto_complete="true">
+      <title>Enabling_57 Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="Enabling_11.html" xml="ja_l31_02.xml">
+      <title>Enabling_11 test</title>
+      <purpose>Activity 2 Purpose:</purpose>
+      <inst_tl>AI in TL</inst_tl>
+      <inst_en>AI in EN</inst_en>
+    </activity>
+    <activity template="Enabling_12.html" xml="ja_l31_03.xml" retrain="true">
+      <title>Enabling_12 Test</title>
+      <purpose>Activity 3 Purpose</purpose>
+      <inst_tl>Activity Instruction (Target Language)3</inst_tl>
+      <inst_en>Activity Instruction (English) 3</inst_en>
+    </activity>
+    <activity template="Enabling_68.html" xml="ja_l31_04.xml" retrain="true" activityHeight="900">
+      <title>Enabling_68 Test</title>
+      <purpose>this is the purpose of the gloss template test 4</purpose>
+      <inst_tl>tl instruction 4</inst_tl>
+      <inst_en>en instruction 4</inst_en>
+    </activity>
+    <activity template="Capstone_01.html" xml="ja_l31_05.html">
+      <title>Capstone_01 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language): 5</inst_tl>
+      <inst_en>Activity Instruction (English): 5</inst_en>
+    </activity>
+    <activity template="Capstone_03.html" xml="ja_l31_06.html" activity="self-assessment">
+      <title>Capstone_03 Test</title>
+      <objective>Self Assessment Objective:</objective>
+      <inst_tl>TL Instruction</inst_tl>
+      <inst_en>EN instruction</inst_en>
+    </activity>
+  </activities>
+
+</task>

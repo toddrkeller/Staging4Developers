@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content >
+	<item>
+		<file_video>cm0001_AMS.flv</file_video>
+		<lang_en>Hello. (general)</lang_en>
+		<lang_tl>你好！</lang_tl>
+		<lang_trans>Nǐ hǎo!</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0002_CMS.flv</file_video>
+		<lang_en>Hello. (formal)</lang_en>
+		<lang_tl>您好！</lang_tl>
+		<lang_trans>Nín Hǎo!</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0003_AMS.flv</file_video>
+		<lang_en>Good morning.</lang_en>
+		<lang_tl>您早！</lang_tl>
+		<lang_trans>Nín zǎo!</lang_trans>
+		<feedback>This expression is used in the morning.</feedback>
+	</item>
+	<item>
+		<file_video>cm0004_CMS.flv</file_video>
+		<lang_en>The weather is nice.</lang_en>
+		<lang_tl>今天天气很好。</lang_tl>
+		<lang_trans>Jīntiān tiānqì hěn hǎo.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0005_AMS.flv</file_video>
+		<lang_en>How are you?</lang_en>
+		<lang_tl>你好吗？</lang_tl>
+		<lang_trans>Nǐ hǎo ma?</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0006_CMS.flv</file_video>
+		<lang_en>I’m fine, thanks, and you?</lang_en>
+		<lang_tl>我很好，谢谢，你呢？</lang_tl>
+		<lang_trans>Wǒ hěn hǎo, xièxie, nǐ ne?</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0007_CMS.flv</file_video>
+		<lang_en>What’s your name?</lang_en>
+		<lang_tl>你叫什么名字？</lang_tl>
+		<lang_trans>Nǐ jiào shénme míngzi?</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0008_AMS.flv</file_video>
+		<lang_en>My name is John.</lang_en>
+		<lang_tl>我叫约翰。</lang_tl>
+		<lang_trans>Wǒ jiào Yuēhàn.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm000_CMS.flv9</file_video>
+		<lang_en>Nice to meet you.</lang_en>
+		<lang_tl>很高兴见到你。</lang_tl>
+		<lang_trans>Hěn gāoxìng jiàndào nǐ.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0010_AMS.flv</file_video>
+		<lang_en>Nice to meet you, too.</lang_en>
+		<lang_tl>我也很高兴见到你。</lang_tl>
+		<lang_trans>Wǒ yě hěn gāoxìng jiàndào nǐ.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0011_AMS.flv</file_video>
+		<lang_en>Welcome.</lang_en>
+		<lang_tl>欢迎。</lang_tl>
+		<lang_trans>Huānyíng.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0012_AMS.flv</file_video>
+		<lang_en>Good-bye.</lang_en>
+		<lang_tl>再见。</lang_tl>
+		<lang_trans>Zàijiàn.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0013_CMS.flv</file_video>
+		<lang_en>Mind your steps.</lang_en>
+		<lang_tl>慢走。</lang_tl>
+		<lang_trans>Mànzǒu.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0014_AMS.flv</file_video>
+		<lang_en>See you later.</lang_en>
+		<lang_tl>一会儿见。</lang_tl>
+		<lang_trans>Yī huìr jiàn.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+	<item>
+		<file_video>cm0015_CMS.flv</file_video>
+		<lang_en>See you tomorrow.</lang_en>
+		<lang_tl>明天见。</lang_tl>
+		<lang_trans>Míngtiān jiàn.</lang_trans>
+		<feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+	</item>
+</content>

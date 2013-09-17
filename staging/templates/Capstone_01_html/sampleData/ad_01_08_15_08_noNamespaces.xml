@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="MSA" mode="EXAM" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart"  rtl="true">
+    <item>
+      <file_video>ad_t15_cap_01.flv</file_video>
+      <question dir="ltr">The patient feels a pain in the:</question>
+      <choice dir="ltr" crrt="">chest</choice>
+      <choice dir="ltr" crrt="">abdomen</choice>
+      <choice dir="ltr" crrt="true">arm - t</choice>
+      <choice dir="ltr" crrt="">back</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_02.flv</file_video>
+      <question dir="ltr">The doctor recommends:</question>
+      <choice dir="ltr" crrt="">an injection</choice>
+      <choice dir="ltr" crrt="true">surgery - t</choice>
+      <choice dir="ltr" crrt="">a splint</choice>
+      <choice dir="ltr" crrt="">oxygen supply</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_03.flv</file_video>
+      <question dir="ltr">The officer inquires about:</question>
+      <choice dir="ltr" crrt="">the infection</choice>
+      <choice dir="ltr" crrt="">the medics</choice>
+      <choice dir="ltr" crrt="">the bleeding</choice>
+      <choice dir="ltr" crrt="true">the casualty - t</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_04.flv</file_video>
+      <question dir="ltr">The doctor asks about the:</question>
+      <choice dir="ltr" crrt="true">breathing - t</choice>
+      <choice dir="ltr" crrt="">fracture</choice>
+      <choice dir="ltr" crrt="">burn</choice>
+      <choice dir="ltr" crrt="">fever</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_05.flv</file_video>
+      <question dir="ltr">The sergeant inquires about the: </question>
+      <choice dir="ltr" crrt="">hospital</choice>
+      <choice dir="ltr" crrt="">clinic</choice>
+      <choice dir="ltr" crrt="true">patient - t</choice>
+      <choice dir="ltr" crrt="">medics</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_06.flv</file_video>
+      <question dir="ltr">The patient will take medicine to treat:</question>
+      <choice dir="ltr" crrt="">a wound</choice>
+      <choice dir="ltr" crrt="">a burn</choice>
+      <choice dir="ltr" crrt="">pain</choice>
+      <choice dir="ltr" crrt="true">fever - t</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_07.flv</file_video>
+      <question dir="ltr">The patient needs:</question>
+      <choice dir="ltr" crrt="true">an injection - t</choice>
+      <choice dir="ltr" crrt="">a splint</choice>
+      <choice dir="ltr" crrt="">medicine</choice>
+      <choice dir="ltr" crrt="">surgery</choice>
+    </item>
+    <item>
+      <file_video>ad_t15_cap_08.flv</file_video>
+      <question dir="ltr">The patient suffers from:</question>
+      <choice dir="ltr" crrt="">pain</choice>
+      <choice dir="ltr" crrt="true">bleeding - t</choice>
+      <choice dir="ltr" crrt="">fever</choice>
+      <choice dir="ltr" crrt="">burn</choice>
+    </item>
+
+</content>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="MSA" mode="EXAM" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart"  rtl="true">
+    <item>
+      <file_video>ad_t5_cap_01.flv</file_video>
+      <question dir="ltr">The man is inquiring about:</question>
+      <choice dir="ltr" crrt="true">the doctor. - c</choice>
+      <choice dir="ltr" crrt="">the secretary.</choice>
+      <choice dir="ltr" crrt="">the judge.</choice>
+      <choice dir="ltr" crrt="">the lawyer.</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_02.flv</file_video>
+      <question dir="ltr">The man is looking for:</question>
+      <choice dir="ltr" crrt="">the officer.</choice>
+      <choice dir="ltr" crrt="">the manager.</choice>
+      <choice dir="ltr" crrt="">the secretary.</choice>
+      <choice dir="ltr" crrt="true">the lawyer. - c</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_03.flv</file_video>
+      <question dir="ltr">The man would like to speak to:</question>
+      <choice dir="ltr" crrt="">the nurse.</choice>
+      <choice dir="ltr" crrt="">the driver.</choice>
+      <choice dir="ltr" crrt="true">the manager. - c</choice>
+      <choice dir="ltr" crrt="">the soldier.</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_04.flv</file_video>
+      <question dir="ltr">The man is looking for:</question>
+      <choice dir="ltr" crrt="">a fisherman.</choice>
+      <choice dir="ltr" crrt="true">a grocer. - c</choice>
+      <choice dir="ltr" crrt="">a farmer.</choice>
+      <choice dir="ltr" crrt="">a butcher.</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_05.flv</file_video>
+      <question dir="ltr">The man needs help from:</question>
+      <choice dir="ltr" crrt="">the manager.</choice>
+      <choice dir="ltr" crrt="true">the secretary. - c</choice>
+      <choice dir="ltr" crrt="">the employee.</choice>
+      <choice dir="ltr" crrt="">the doctor.</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_06.flv</file_video>
+      <question dir="ltr">The man needs:</question>
+      <choice dir="ltr" crrt="">a grocer.</choice>
+      <choice dir="ltr" crrt="">an engineer.</choice>
+      <choice dir="ltr" crrt="true">a policeman. - c</choice>
+      <choice dir="ltr" crrt="">a teacher.</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_07.flv</file_video>
+      <question dir="ltr">The man asks about:</question>
+      <choice dir="ltr" crrt="">the doctor.</choice>
+      <choice dir="ltr" crrt="">the teacher.</choice>
+      <choice dir="ltr" crrt="true">the nurse. - c</choice>
+      <choice dir="ltr" crrt="">the manager.</choice>
+    </item>
+    <item>
+      <file_video>ad_t5_cap_08.flv</file_video>
+      <question dir="ltr">The man is looking for:</question>
+      <choice dir="ltr" crrt="">a soldier.</choice>
+      <choice dir="ltr" crrt="true">a driver. - c</choice>
+      <choice dir="ltr" crrt="">an officer.</choice>
+      <choice dir="ltr" crrt="">an employee.</choice>
+    </item>
+
+</content>

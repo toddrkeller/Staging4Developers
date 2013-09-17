@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Russian" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    
+    <item>
+        <file_video>fr_colonel_market.flv</file_video>
+        <lang_en>en one</lang_en>
+        <lang_tl dir="ltr">one</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">1 a military rank just above colonel</hint_l1>
+        <feedback_l1 dir="ltr">1 Генерал السلام عليكمmeans general.</feedback_l1>
+    </item>
+    <item>
+        <file_video>fr_captain_market.flv</file_video>
+        <lang_en>en two captain</lang_en>
+        <lang_tl dir="ltr">two captain</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">2a military السلام عليكمrank just above captain</hint_l1>
+        <feedback_l1 dir="ltr">2Майор ليكم means major.</feedback_l1>
+    </item>
+    <item>
+        <file_video>fr_colonel_market.flv</file_video>
+        <lang_en>en three</lang_en>
+        <lang_tl dir="ltr">three</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">3a military ليكم rank just above lieutenant</hint_l1>
+        <feedback_l1 dir="ltr">3a military ليكم rank just above lieutenant</feedback_l1>
+    </item>
+    <item>
+        <file_video>fr_captain_market.flv</file_video>
+        <lang_en>en four</lang_en>
+        <lang_tl dir="ltr">four</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">4a marksman ليكم who shoots at people from a concealed place</hint_l1>
+        <feedback_l1 dir="ltr">4Снайпер means sniper.</feedback_l1>
+    </item>
+    <item>
+        <file_video>fr_colonel_market.flv</file_video>
+        <lang_en>en five</lang_en>
+        <lang_tl dir="ltr">five</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">5a marksman ليكم who shoots at people from a concealed place</hint_l1>
+        <feedback_l1 dir="ltr">5Снайпер means sniper.</feedback_l1>
+    </item>
+    <item>
+        <file_video>fr_captain_market.flv</file_video>
+        <lang_en>en six</lang_en>
+        <lang_tl dir="ltr">six</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">6a marksman ليكم who shoots at people from a concealed place</hint_l1>
+        <feedback_l1 dir="ltr">6Снайпер means sniper.</feedback_l1>
+    </item>
+    <item>
+        <file_video>fr_colonel_market.flv</file_video>
+        <lang_en>en seven</lang_en>
+        <lang_tl dir="ltr">seven</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">7the highest ليكم rank in the Navy</hint_l1>
+        <feedback_l1 dir="ltr">7Адмирал means admiral.</feedback_l1>
+    </item>
+
+    
+</content>

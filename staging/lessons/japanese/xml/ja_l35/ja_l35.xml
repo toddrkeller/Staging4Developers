@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task target_language="Japanese">
+  <lesson_objective></lesson_objective>
+  <grammarFile>ja_l35_01.mp4</grammarFile>
+  <cultureFile_en>ja_l35_01.mp4</cultureFile_en>
+  <cultureFile_tl>ja_l35_01.mp4</cultureFile_tl>  
+  <activities>
+    <activity template="Enabling_27.html" xml="ja_l35_01.xml" auto_complete="true">
+      <title>Enabling 27 Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="WarmUp_02.html" xml="ja_l35_02.xml" auto_complete="true">
+      <title>Warm Up 02 Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="Enabling_10.html" xml="ja_l35_03.xml" retrain="true">
+      <title>Enabling_10 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language)3</inst_tl>
+      <inst_en>Activity Instruction (English) 3</inst_en>
+    </activity>
+    <activity template="WarmUp_04.html" xml="ja_l35_04.html" retrain="true">
+      <title>Warm Up 4 test</title>
+      <purpose>this is the purpose of the gloss template test</purpose>
+      <inst_tl>tl instruction 4</inst_tl>
+      <inst_en>en instruction 4</inst_en>
+    </activity>
+    <activity template="Enabling_14.html" xml="ja_l35_05.xml">
+      <title>Enabling 14 test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language): 5</inst_tl>
+      <inst_en>Activity Instruction (English): 5</inst_en>
+    </activity>
+    <activity template="Enabling_04.html" xml="ja_l35_06.xml" activity="self-assessment">
+      <title>Enabling 4 test</title>
+      <objective>Self Assessment Objective:</objective>
+      <inst_tl>TL Instruction</inst_tl>
+      <inst_en>EN instruction</inst_en>
+    </activity>
+  </activities>
+
+</task>

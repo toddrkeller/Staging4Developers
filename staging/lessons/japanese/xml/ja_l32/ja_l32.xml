@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<task target_language="Japanese" activityType="hw">
+  <lesson_objective></lesson_objective>
+  <grammarFile>ja_l32_01.mp4</grammarFile>
+  <cultureFile_en>ja_l32_01.mp4</cultureFile_en>
+  <cultureFile_tl>ja_l32_01.mp4</cultureFile_tl>  
+  <activities>
+    <activity template="Enabling_13.html" xml="ja_l32_01.xml" auto_complete="true">
+      <title>Enabling_13 Test</title>
+      <purpose>This is the purpose of activity 1</purpose>
+      <inst_tl></inst_tl>
+      <inst_en></inst_en>
+    </activity>
+    <activity template="Mil_01.html" xml="ja_l32_02.xml">
+      <title>Mil 01 Test</title>
+      <purpose>Activity Purpose:</purpose>
+      <inst_tl>AI in TL</inst_tl>
+      <inst_en>AI in EN</inst_en>
+    </activity>
+    <activity template="WarmUp_01.html" xml="ja_l32_03.xml" retrain="true">
+      <title>warm up 1 Test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language)3</inst_tl>
+      <inst_en>Activity Instruction (English) 3</inst_en>
+    </activity>
+    <activity template="WarmUp_03.html" xml="ja_l32_04.xml" retrain="true">
+      <title>WarmUp_03 Test</title>
+      <purpose>this is the purpose of the gloss template test</purpose>
+      <inst_tl>tl instruction 4</inst_tl>
+      <inst_en>en instruction 4</inst_en>
+    </activity>
+    <activity template="Capstone_02.html" xml="ja_l32_05.xml">
+      <title>Capstone 2 test</title>
+      <purpose></purpose>
+      <inst_tl>Activity Instruction (Target Language): 5</inst_tl>
+      <inst_en>Activity Instruction (English): 5</inst_en>
+    </activity>
+    <activity template="lcmctrackable" xml="ja_l32_06.html" activity="self-assessment">
+      <title>LC Trackable Test</title>
+      <objective>Self Assessment Objective:</objective>
+      <inst_tl>TL Instruction</inst_tl>
+      <inst_en>EN instruction</inst_en>
+    </activity>
+  </activities>
+
+</task>

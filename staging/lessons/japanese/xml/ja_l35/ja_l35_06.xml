@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content target_language="Swahili" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <item>
+      <image>1.png</image>
+      <lang_tl_phrase_text dir="ltr">mwanamke</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>1.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>woman</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||w||a||n||a||m||k||e</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter is similar to English "m."This letter is similar to English "m."This letter is similar to English "m."This letter is similar to English "m."This letter is similar to English "m."This letter is similar to English "m."This letter is similar to English "m."This letter is similar to English "m."]]></global_hint>
+      <hint letter_order="6" missing_letter="m"><![CDATA[]]></hint>
+      <feedback><![CDATA[When "m" occurs before the consonant it is pronounced as a full syllable, but without inserting a vowel sound either before or after.]]></feedback>
+    </item>
+    <item>
+      <image>2.png</image>
+      <lang_tl_phrase_text dir="ltr">le||militaire</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>2.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>military</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||i||l||i||t||a||i||re</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>Men or women hired and trained to serve and protect their country.</global_hint>
+      <hint letter_order="6" missing_letter="a">This sound is composed of two vowels and is similar to "e" in the English word "best."</hint>
+      <hint letter_order="7" missing_letter="i">This sound is composed of two vowels and is similar to "e" in the English word "best."</hint>
+      <feedback>"Le militaire" means "military forces".</feedback>
+    </item>
+  <item>
+      <image>3.png</image>
+      <lang_tl_phrase_text dir="ltr">l’armée||de||terre</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>3.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>army</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">l||’||a||r||m||é||e</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint>The military land force of a nation.</global_hint>
+      <hint letter_order="6" missing_letter="é">This letter does not exist in English.</hint>
+      <hint letter_order="7" missing_letter="e">This letter is sometimes silent.</hint>
+      <feedback>"L’armée de terre" means "army."</feedback>
+    </item>
+  <item>
+      <image>4.png</image>
+      <lang_tl_phrase_text dir="ltr">familia</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>4.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>family</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">f||a||m||i||l||i||a</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint><![CDATA[This sound is the first letter of Swahili and English alphabets.]]></global_hint>
+      <hint letter_order="6" missing_letter="a"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili letter "a" is pronounced similar to English "ah."]]></feedback>
+    </item>
+  <item>
+      <image>5.png</image>
+      <lang_tl_phrase_text dir="ltr">mtoto</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>5.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>child</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||t||o||t||o</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter is pronounced similar to the English "t."]]></global_hint>
+      <hint letter_order="2" missing_letter="t"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili "t" is pronounced without the release of a burst of air, unlike in Engish.]]></feedback>
+  </item>
+  <item>
+      <image>6.png</image>
+      <lang_tl_phrase_text dir="ltr">mwanamume</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>6.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>man</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||w||a||n||a||m||u||m||e</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This Swahili letter is written as English letter "u."]]></global_hint>
+      <hint letter_order="7" missing_letter="u"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili letter "u" is pronounced similar to English "oo" in "too."]]></feedback>
+  </item>
+  <item>
+      <image>7.png</image>
+      <lang_tl_phrase_text dir="ltr">mizimu</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>7.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>spirits</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||i||z||i||m||u</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This sound is similar to English "m."]]></global_hint>
+      <hint letter_order="1" missing_letter="m"><![CDATA[]]></hint>
+      <feedback><![CDATA[As is the case with most of the Swahili consonants, "m" is pronounced similar to the English "m."]]></feedback>
+  </item>
+  <item>
+      <image>8.png</image>
+      <lang_tl_phrase_text dir="ltr">ngurumo</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>8.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>thunder</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">n||g||u||r||u||m||o</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This Swahili letter is written similar to English "g."]]></global_hint>
+      <hint letter_order="2" missing_letter="g"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili "g" is always hard, as in "got." It should never be pronounced like in "gin."]]></feedback>
+    </item>
+  <item>
+      <image>9.png</image>
+      <lang_tl_phrase_text dir="ltr">moshi</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>9.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>hailstorm</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||o||s||h||i</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This Swahili letter is written similar to English "i."]]></global_hint>
+      <hint letter_order="5" missing_letter="i"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili "i" is pronounced similar to English "ee" in "see."]]></feedback>
+    </item>
+  <item>
+      <image>10.png</image>
+      <lang_tl_phrase_text dir="ltr">ng’ombe</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>10.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>cattle</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">n||g||’||o||m||b||e</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This Swahili letter is written similar to English "g."]]></global_hint>
+      <hint letter_order="2" missing_letter="g"><![CDATA[]]></hint>
+      <feedback><![CDATA[Although "ng'" is similar in sound to the English "ng" in "sing," it usually occurs at the beginning of words and is somewhat  difficult to pronounced for non-Swahili speakers.  However, it is only rarely used in Swahili.]]></feedback>
+    </item>
+  <item>
+      <image>11.png</image>
+      <lang_tl_phrase_text dir="ltr">bia</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>11.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>beer</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">b||i||a</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This Swahili letter is written as English "i."]]></global_hint>
+      <hint letter_order="2" missing_letter="i"><![CDATA[]]></hint>
+      <feedback><![CDATA[Two written vowels that follow each other never merge together to form a single sound. Each keeps its own sound, "ee-ah" in this case.]]></feedback>
+    </item>
+  <item>
+      <image>12.png</image>
+      <lang_tl_phrase_text dir="ltr">chakula</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>12.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text></lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">ch||a||k||u||l||a</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter consists of two letters of Latin alphabet.]]></global_hint>
+      <hint letter_order="1" missing_letter="ch"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili "ch" is one letter with the sound similar to English "ch" in "chat."]]></feedback>
+    </item>
+  <item>
+      <image>13.png</image>
+      <lang_tl_phrase_text dir="ltr">mapango</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>13.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>caves</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||a||p||a||n||g||o</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This sound is the first letter of Swahili and English alphabets.]]></global_hint>
+      <hint letter_order="4" missing_letter="a"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili vowels are pronounced openly. Swahili "a" always sounds like English "ah."]]></feedback>
+    </item>
+  <item>
+      <image>14.png</image>
+      <lang_tl_phrase_text dir="ltr">ziwa</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>14.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>lake</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">z||i||w||a</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter is similar in writing to English "i".]]></global_hint>
+      <hint letter_order="2" missing_letter="i"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili "i" sounds similar to English "ee" in "bee."]]></feedback>
+    </item>
+  <item>
+      <image>15.png</image>
+      <lang_tl_phrase_text dir="ltr">watu</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>15.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>people</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">w||a||t||u</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter is similar in writing to English "u".]]></global_hint>
+      <hint letter_order="4" missing_letter="u"><![CDATA[]]></hint>
+      <feedback><![CDATA[The English equivalent of "u" would be "oo" in "too" or "o" in "to."]]></feedback>
+    </item>
+  <item>
+      <image>16.png</image>
+      <lang_tl_phrase_text dir="ltr">watoto</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>16.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>children</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">w||a||t||o||t||o</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter is similar in writing to English "a".]]></global_hint>
+      <hint letter_order="2" missing_letter="a"><![CDATA[]]></hint>
+      <feedback><![CDATA[The Swahili syllable is open, because it always ends on a vowel sound. "A" always sounds similar to English "ah."]]></feedback>
+    </item>
+  <item>
+      <image>17.png</image>
+      <lang_tl_phrase_text dir="ltr">mlima</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>17.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>mountain</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||l||i||m||a</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint><![CDATA[This letter is similar in writing to English "m".]]></global_hint>
+      <hint letter_order="1" missing_letter="m"><![CDATA[]]></hint>
+      <feedback><![CDATA[Swahili "m" doesn't merge with the following consonant and should be pronounced distinctly.]]></feedback>
+    </item>
+
+</content>
