@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="MSA" mode="EXAM" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart"  rtl="true">
+    <hs:item>
+      <hs:file_video>ad_t5_cap_01.flv</hs:file_video>
+      <hs:question dir="ltr">The man is inquiring about:</hs:question>
+      <hs:choice dir="ltr" crrt="true">the doctor.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the secretary.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the judge.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the lawyer.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_02.flv</hs:file_video>
+      <hs:question dir="ltr">The man is looking for:</hs:question>
+      <hs:choice dir="ltr" crrt="">the officer.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the manager.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the secretary.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">the lawyer.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_03.flv</hs:file_video>
+      <hs:question dir="ltr">The man would like to speak to:</hs:question>
+      <hs:choice dir="ltr" crrt="">the nurse.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the driver.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">the manager.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the soldier.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_04.flv</hs:file_video>
+      <hs:question dir="ltr">The man is looking for:</hs:question>
+      <hs:choice dir="ltr" crrt="">a fisherman.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">a grocer.</hs:choice>
+      <hs:choice dir="ltr" crrt="">a farmer.</hs:choice>
+      <hs:choice dir="ltr" crrt="">a butcher.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_05.flv</hs:file_video>
+      <hs:question dir="ltr">The man needs help from:</hs:question>
+      <hs:choice dir="ltr" crrt="">the manager.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">the secretary. </hs:choice>
+      <hs:choice dir="ltr" crrt="">the employee.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the doctor.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_06.flv</hs:file_video>
+      <hs:question dir="ltr">The man needs:</hs:question>
+      <hs:choice dir="ltr" crrt="">a grocer.</hs:choice>
+      <hs:choice dir="ltr" crrt="">an engineer.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">a policeman.</hs:choice>
+      <hs:choice dir="ltr" crrt="">a teacher.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_07.flv</hs:file_video>
+      <hs:question dir="ltr">The man asks about:</hs:question>
+      <hs:choice dir="ltr" crrt="">the doctor.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the teacher.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">the nurse.</hs:choice>
+      <hs:choice dir="ltr" crrt="">the manager.</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t5_cap_08.flv</hs:file_video>
+      <hs:question dir="ltr">The man is looking for:</hs:question>
+      <hs:choice dir="ltr" crrt="">a soldier.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">a driver.</hs:choice>
+      <hs:choice dir="ltr" crrt="">an officer.</hs:choice>
+      <hs:choice dir="ltr" crrt="">an employee.</hs:choice>
+    </hs:item>
+
+</hs:content>

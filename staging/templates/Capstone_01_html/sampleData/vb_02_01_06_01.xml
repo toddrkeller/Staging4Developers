@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Cebuano" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" >
+    <hs:item>
+      <hs:file_video>vb_02_01_capstone1.flv</hs:file_video>
+      <hs:question dir="ltr">What does the Cebuano speaker say when parting ways at the end of the conversation?</hs:question>
+      <hs:choice dir="ltr" crrt="">Good-bye.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">See you later.</hs:choice>
+      <hs:choice dir="ltr" crrt="">See you tomorrow.</hs:choice>
+      <hs:choice dir="ltr" crrt="">Good day.</hs:choice>
+      <hs:hint dir="ltr"><![CDATA[Listen again to the Cebuano speaker's last statement.]]></hs:hint>
+      <hs:feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker says, <b>Sige magkita ta taodtaod.</b> <i>(See you later.)</i>]]></hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>vb_02_01_capstone2.flv</hs:file_video>
+      <hs:question dir="ltr">What is the Cebuano speaker's first response to the soldier's request to enter?</hs:question>
+      <hs:choice dir="ltr" crrt="">Please come in.</hs:choice>
+      <hs:choice dir="ltr" crrt="">Welcome.</hs:choice>
+      <hs:choice dir="ltr" crrt="">No, you may not enter.</hs:choice>
+      <hs:choice dir="ltr" crrt="true">Please wait.</hs:choice>
+      <hs:hint dir="ltr"><![CDATA[Listen again to the Cebuano speaker's first response to the soldier's request. <b>Palihog </b>means<i> please.</i>]]></hs:hint>
+      <hs:feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker says, <b>Huwat palihog.</b> <i>(Please wait.)</i>]]></hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>vb_02_01_capstone3.flv</hs:file_video>
+      <hs:question dir="ltr">What is the soldier's first question for the Cebuano speaker?</hs:question>
+      <hs:choice dir="ltr" crrt="">Where is the interpreter?</hs:choice>
+      <hs:choice dir="ltr" crrt="">What's your name?</hs:choice>
+      <hs:choice dir="ltr" crrt="true">Who is this man?</hs:choice>
+      <hs:choice dir="ltr" crrt="">Who is this woman?</hs:choice>
+      <hs:hint dir="ltr"><![CDATA[Listen again to the soldier's first question.]]></hs:hint>
+      <hs:feedback dir="ltr"><![CDATA[Correct. The soldier asks, <b>Kinsa man ning lalakiha?</b> <i>(Who is this man?)</i>]]></hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>vb_02_01_capstone4.flv</hs:file_video>
+      <hs:question dir="ltr">What type of meat has the Cebuano speaker provided to the soldier?</hs:question>
+      <hs:choice dir="ltr" crrt="">Beef</hs:choice>
+      <hs:choice dir="ltr" crrt="">Pork</hs:choice>
+      <hs:choice dir="ltr" crrt="">Fish</hs:choice>
+      <hs:choice dir="ltr" crrt="true">Chicken</hs:choice>
+      <hs:hint dir="ltr"><![CDATA[Listen again to the Cebuano speaker's response to the question, <b>Manok ni o baboy?</b> <i>(Is this chicken or pork?)</i>]]></hs:hint>
+      <hs:feedback dir="ltr"><![CDATA[Correct. The meal consists of <b>manok</b> <i>(chicken).</i>]]></hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>vb_02_01_capstone5.flv</hs:file_video>
+      <hs:question dir="ltr">How does the Cebuano speaker respond to the question, "Where is the interpreter?"</hs:question>
+      <hs:choice dir="ltr" crrt="true">I don't know.</hs:choice>
+      <hs:choice dir="ltr" crrt="">I don't speak English.</hs:choice>
+      <hs:choice dir="ltr" crrt="">I don't understand.</hs:choice>
+      <hs:choice dir="ltr" crrt="">The interpreter is coming.</hs:choice>
+      <hs:hint dir="ltr"><![CDATA[Listen again to the Cebuano speaker's last statement.]]></hs:hint>
+      <hs:feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker says, <b>Ambot.</b> <i>(I don't know.)</i>]]></hs:feedback>
+    </hs:item>
+
+</hs:content>

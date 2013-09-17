@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Cebuano" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" >
+    <item>
+      <file_video>vb_02_01_capstone1.flv</file_video>
+      <question dir="ltr" answer="true">The Cebuano speaker asks the soldier his name. - True</question>
+      <hint dir="ltr"><![CDATA[The Cebuano term for <i>name</i> is <b>ngalan.</b>]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker asks, <b>Unsa'y imong ngalan?</b> <i>(What's your name?)</i>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone2.flv</file_video>
+      <question dir="ltr" answer="false">The soldier uses the greeting, "Good morning." - False</question>
+      <hint dir="ltr"><![CDATA[The soldier says, <b>Maayong hapon.</b>]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The soldier greets the Cebuano speaker with the customary afternoon greeting, <b>Maayong hapon.</b> <i>(Good afternoon.)</i>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone3.flv</file_video>
+      <question dir="ltr" answer="false">The Cebuano speaker identifies the man in the photograph. - False</question>
+      <hint dir="ltr"><![CDATA[When asked the identity of the man, the Cebuano speaker says, <b>Ambot.</b>]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker replies <b>Ambot</b> <i>(I don't know)</i> when asked, <b>Kinsa man ning lalakiha?</b> <i>(Who is this man?)</i>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone4.flv</file_video>
+      <question dir="ltr" answer="true">The soldier declines the Cebuano speaker's offer of more food. - True</question>
+      <hint dir="ltr"><![CDATA[Review the soldier's response to the Cebuano speaker's offer: <b>Salamat, dili na, busog na ko.</b>]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The soldier respectfully declines by saying, <b>Salamat, dili na, busog na ko.</b> <i>(No, thank you, I am full.)</i>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone5.flv</file_video>
+      <question dir="ltr" answer="false">The Cebuano speaker speaks both Cebuano and English. - False</question>
+      <hint dir="ltr"><![CDATA[When asked if he speaks English, the Cebuano speaker responds, <b>Dili ko kahibalo mag-iningles.</b>]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker says, <b>Dili ko kahibalo mag-iningles.</b> <i>(I don't speak English.)</i>]]></feedback>
+    </item>
+
+</content>

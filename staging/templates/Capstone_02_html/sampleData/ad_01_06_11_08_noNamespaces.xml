@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="MSA" mode="EXAM" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" random="false"  rtl="true">
+    <item>
+      <file_video>ad_t11_cap_01.flv</file_video>
+      <question dir="ltr">The conversation is about visiting the High Dam.</question>
+      <choice dir="ltr">True</choice>
+      <choice dir="ltr" crrt="true">False - c</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_02.flv</file_video>
+      <question dir="ltr">The second speaker indicates that the Qattara Depression is located in the Western Desert.</question>
+      <choice dir="ltr" crrt="true">True - c</choice>
+      <choice dir="ltr">False</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_03.flv</file_video>
+      <question dir="ltr">The first speaker inquires about the time the ship will cross the Suez Canal.</question>
+      <choice dir="ltr" crrt="true">True - c</choice>
+      <choice dir="ltr">False</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_04.flv</file_video>
+      <question dir="ltr">The conversation is about the length of the Straits of Tiran.</question>
+      <choice dir="ltr">True</choice>
+      <choice dir="ltr" crrt="true">False - c</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_05.flv</file_video>
+      <question dir="ltr">The conversation is about the border dispute between Egypt and Sudan.</question>
+      <choice dir="ltr">True</choice>
+      <choice dir="ltr" crrt="true">False - c</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_06.flv</file_video>
+      <question dir="ltr">The conversation is about the Nile Delta.</question>
+      <choice dir="ltr" crrt="true">True - c</choice>
+      <choice dir="ltr">False</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_07.flv</file_video>
+      <question dir="ltr">The conversation is about visiting the Plateau of Giza.</question>
+      <choice dir="ltr">True</choice>
+      <choice dir="ltr" crrt="true">False - c</choice>
+    </item>
+    <item>
+      <file_video>ad_t11_cap_08.flv</file_video>
+      <question dir="ltr">The conversation is about crossing the Libyan border.</question>
+      <choice dir="ltr" crrt="true">True - c</choice>
+      <choice dir="ltr">False</choice>
+    </item>
+
+</content>

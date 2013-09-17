@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="MSA" mode="EXAM" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" random="false"  rtl="true">
+    <hs:item>
+      <hs:file_video>ad_t11_cap_01.flv</hs:file_video>
+      <hs:question dir="ltr">The conversation is about visiting the High Dam.</hs:question>
+      <hs:choice dir="ltr">True</hs:choice>
+      <hs:choice dir="ltr" crrt="true">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_02.flv</hs:file_video>
+      <hs:question dir="ltr">The second speaker indicates that the Qattara Depression is located in the Western Desert.</hs:question>
+      <hs:choice dir="ltr" crrt="true">True</hs:choice>
+      <hs:choice dir="ltr">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_03.flv</hs:file_video>
+      <hs:question dir="ltr">The first speaker inquires about the time the ship will cross the Suez Canal.</hs:question>
+      <hs:choice dir="ltr" crrt="true">True</hs:choice>
+      <hs:choice dir="ltr">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_04.flv</hs:file_video>
+      <hs:question dir="ltr">The conversation is about the length of the Straits of Tiran.</hs:question>
+      <hs:choice dir="ltr">True</hs:choice>
+      <hs:choice dir="ltr" crrt="true">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_05.flv</hs:file_video>
+      <hs:question dir="ltr">The conversation is about the border dispute between Egypt and Sudan.</hs:question>
+      <hs:choice dir="ltr">True</hs:choice>
+      <hs:choice dir="ltr" crrt="true">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_06.flv</hs:file_video>
+      <hs:question dir="ltr">The conversation is about the Nile Delta.</hs:question>
+      <hs:choice dir="ltr" crrt="true">True</hs:choice>
+      <hs:choice dir="ltr">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_07.flv</hs:file_video>
+      <hs:question dir="ltr">The conversation is about visiting the Plateau of Giza.</hs:question>
+      <hs:choice dir="ltr">True</hs:choice>
+      <hs:choice dir="ltr" crrt="true">False</hs:choice>
+    </hs:item>
+    <hs:item>
+      <hs:file_video>ad_t11_cap_08.flv</hs:file_video>
+      <hs:question dir="ltr">The conversation is about crossing the Libyan border.</hs:question>
+      <hs:choice dir="ltr" crrt="true">True</hs:choice>
+      <hs:choice dir="ltr">False</hs:choice>
+    </hs:item>
+
+</hs:content>
