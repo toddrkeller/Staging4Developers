@@ -1,0 +1,101 @@
+/* --- Override a couple defaults --- */
+
+.dropdown-menu UL {
+	min-width: 1px;
+	text-align:right;
+}
+
+/* ////////////////////////////////////////////   FOR NAV_UNIT   /////////////////////////////////////////////////////// */
+
+		.nav_unit >ul > li :after {
+			font-family: Consolas, Courier New, Arial, sans-serif;
+			content: '↓';
+			margin-left: 6px;
+			color: #333;
+		}
+
+		
+		.nav_unit {
+		  background-image:url(../img/bg_unit_nav.png);
+		  background-repeat: repeat-x;
+		  height:50px;
+		  margin-top:0px;
+		  width:470px;
+		  width: auto;
+		  min-width:100px;/**/
+		  float:right;
+		  /*margin: auto;*/
+		  -webkit-border-radius: 0px 3px 0 0;
+		  -moz-border-radius: 0px 3px 0 0;
+		  border-radius: 0px 3px 0 0;
+		  border-top: solid thin #fff;
+		  border-top: solid thin #fff;			
+		}
+		
+		.nav_unit  > ul {
+			display:inline-block;
+			list-style-type: none;
+			height:53px;
+			margin: 0;	
+			padding: 0;
+		}
+		
+		.nav_unit  > ul > li {
+			float:right;
+		}
+		
+		.nav_unit  > ul > li > a:hover {
+			background-color:#CDCDCD;
+		}
+		
+		.nav_unit  >  ul a {
+			background-image: url(../img/nav_unit_divider.gif);
+			background-repeat: no-repeat;
+			background-position: left;
+			padding-right: 20px;
+			padding-left: 20px;
+			display: block;
+			line-height: 49px;
+			text-decoration: none;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 13px;
+			color: #333;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #C5C5C5;
+  background-image: none;
+  /*
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  */
+}
+
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #C5C5C5;
+  background-image: none;
+  /* 
+  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0077b3));
+  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+  background-repeat: repeat-x;
+  outline: 0;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+  */
+  
+}
