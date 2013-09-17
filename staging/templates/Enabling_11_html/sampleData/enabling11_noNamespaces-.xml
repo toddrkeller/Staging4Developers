@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="MSA" rtl="true">
+
+    <item>
+      <file_video>ad_eat_father.flv</file_video>
+      <lang_en><![CDATA[يأكل]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أبي يأكل بقلاوة]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My father is eating baklava.</b> بقلاوة is a layered pastry drenched with honey.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_polluted_water.flv</file_video>
+      <lang_en><![CDATA[ماء]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[الماء ملوث]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>The water is polluted.</b> Contaminated water is an ever-present and growing problem across Yemen.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_bake_bread_mom.flv</file_video>
+      <lang_en><![CDATA[خبز]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أمي تخبز الخبز في الصباح]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[The sentence says: <b>My mother bakes bread in the morning.</b> /Kadeer/ is a cornbread made of corn meal, garlic, onion, thyme and green pepper.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_prep_butter_sister.flv</file_video>
+      <lang_en><![CDATA[زبد]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أختي تصنع الزبد في الدار]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My sister makes butter at home.</b> Cheese, butter, and other dairy products are less common in the Yemeni diet.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_sell_meat_butcher.flv</file_video>
+      <lang_en><![CDATA[لحم]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[الجزار يبيع اللحم]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>The butcher sells meat.</b> You may find butchers selling meat in the streets, not in shops.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_prefer_potato.flv</file_video>
+      <lang_en><![CDATA[بطاطا]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أفضل البطاطا المقلية]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>I prefer fried potatoes.</b> Arabs use /baTaaTa/ بطاطا, and /baTaaTis/ بطاطس for <b>potatoes.</b>]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_fisherman.flv</file_video>
+      <lang_en><![CDATA[سمك]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أخي صياد سمك]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My brother is a fisherman.</b> In general, the fishing industry in Yemen consists largely of individual fishermen in small boats.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_drink_coffee_man.flv</file_video>
+      <lang_en><![CDATA[قهوة]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[عمي يحب أن يشرب القهوة بالهيل]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My uncle likes drinking coffee with cardamon.</b> Yemen was famous for its coffee, known as <b>mocha,</b> but few Yemenis now can afford it.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_sell_sugar_grocer.flv</file_video>
+      <lang_en><![CDATA[سكر]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[البقال يبيع السكر]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>The greengrocer sells sugar.</b> In Yemen, there are hundreds of thousands of corner stores that sell groceries and household items.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_drink_milk_girl.flv</file_video>
+      <lang_en><![CDATA[تشرب]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[ابنتي تشرب الحليب]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My daughter drinks the milk.</b> Yemen is also known as the land of milk and honey.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_sell_cheese_grocer.flv</file_video>
+      <lang_en><![CDATA[جبن]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[البقال يبيع الجبن]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>The grocer sells cheese.</b> In Yemen, small grocery stores pack a lot of items in a small space so they might have a lot more than you would imagine.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_carry_water_soldier.flv</file_video>
+      <lang_en><![CDATA[مياه]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[الجندي يحمل زجاجات المياه]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>The soldier carries water bottles.</b> In Yemen, water is increasingly scarce in rural regions where many populations have quadrupled since the 1980s.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_cut_salad.flv</file_video>
+      <lang_en><![CDATA[سلطة]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[الطباخ يقطع السلطة]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>The cook cuts the salad.</b> Salad is a characteristic Yemeni lunchtime meal.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_offer_fruit_mom.flv</file_video>
+      <lang_en><![CDATA[فاكهة]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أمي تقدم الفاكهة]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My mother offers the fruit.</b> It is a habit in Yemen to eat fruit after lunch.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_drink_juice_sis.flv</file_video>
+      <lang_en><![CDATA[عصير]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أختي تشرب عصير المانجو]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My sister is drinking mango juice.</b> Fresh mango and guava juices are popular beverages in Yemen, sold on the streets.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_cook_chicken_mom.flv</file_video>
+      <lang_en><![CDATA[دجاج]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أمي تطبخ الدجاج]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My mother cooks the chicken.</b> /Al-Mandi/ is a Yemeni dish that is made from chicken, rice and carrots.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_boil_egg_brother.flv</file_video>
+      <lang_en><![CDATA[بيض]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أخي يسلق البيض]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My brother boils the eggs.</b> Yemeni omelets and scrambled eggs are made of diced tomatoes, onion, coriander, boiled potatoes and Yemeni red chili paste.]]></feedback_l1>
+    </item>
+    <item>
+      <file_video>ad_add_salt_mom.flv</file_video>
+      <lang_en><![CDATA[ملح]]></lang_en>
+      <lang_tl dir="rtl"><![CDATA[أمي تضيف الملح إلى الطعام]]></lang_tl>
+      <lang_trans><![CDATA[]]></lang_trans>
+      <feedback_l1 dir="ltr"><![CDATA[This means: <b>My mother adds salt to the food.</b> Rock salt is one of Yemen's natural resources.]]></feedback_l1>
+    </item>
+
+
+</content>

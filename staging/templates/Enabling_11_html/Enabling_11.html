@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+				
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>Enabling 11 HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		<!--<link type="text/css" href="../common/css/bootstrap.css" rel="stylesheet" /> -->
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+        <link type="text/css" href="../common/css/bootstrap.css" rel="stylesheet" />
+        <link type="text/css" href="../common/css/dlilearn_activities.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+		<script src="../common/js/dli_video_new.js"></script>
+		
+		<script src="Enabling_11.js"></script>
+<style type="text/css">
+
+</style>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		
+		<h3 class="activity_hd">Enabling 11</h3>
+		<div class="activity_description">This exercise follows the basic rules of a tic-tac-toe game. Clicking the play button in any of the nine boxes activates a German video. Select the corresponding German phrase from the drop-down menu that will appear. If you are correct, an O will appear in the box, if not, an X will appear. Your goal is to beat the computer by creating a row of three O's in any direction (horizontally, vertically or diagonally).
+  		
+		</div>	
+		
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		
+		<div id="main">	
+			<div id="leftContainer">
+				<div id="firstRow">
+					<div class="panal" id="panal0">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>	
+					</div>
+					<div class="panal" id="panal1">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+					<div class="panal" id="panal2">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+				</div>
+				<div id="secondRow">
+					<div class="panal" id="panal3">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+					<div class="panal" id="panal4">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+					<div class="panal" id="panal5">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+				</div>
+				<div id="thirdRow">
+					<div class="panal" id="panal6">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+					<div class="panal" id="panal7">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+					<div class="panal" id="panal8">
+						<div class="playBtnDiv"></div>
+						<div class="showResult"></div>
+					</div>
+				</div>
+			</div>
+			<div id="rightContainer">
+				<div id="videoContainer0"class="roundCorners concave">
+					<div id="movieImg">  
+							  <img src="../common/Library/images/movie01.png" border="0">
+					</div>
+					
+				</div>
+			</div>
+			<div id="feedback" >
+				<h2 id="feedbackHeader">Set completed</h2>
+				<p id="feedbackText">Set completed text</p>
+				<button id="feedbackBtn" onclick="{closeFeedback();}">OK</button>
+			</div>
+			<div id="fb_background"></div>
+			<div id="container_setDiv" class="roundCorners btn-group noSelect">
+				<div id="setDiv" class="roundCorners">
+					<div id="setTitle" class="bootstrapLabel btn_set noSelect">SET</div>
+					<span id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</span>
+				</div> 
+			</div>
+		</div>
+		<div id="id_menu_box"></div>
+		<div id="id_main_menu_0" class="css_menu_def"></div>
+		<div id="id_main_menu_1" class="css_menu_def"></div>
+		<div id="id_main_menu_2" class="css_menu_def"></div>
+		<div id="id_main_menu_3" class="css_menu_def"></div>
+		<div id="id_main_menu_4" class="css_menu_def"></div>
+		<div id="id_main_menu_5" class="css_menu_def"></div>
+		<div id="id_main_menu_6" class="css_menu_def"></div>
+		<div id="id_main_menu_7" class="css_menu_def"></div>
+		<div id="id_main_menu_8" class="css_menu_def"></div>
+		
+		
+		<div id="clickGuard"></div>
+		
+		
+	</body>
+</html>

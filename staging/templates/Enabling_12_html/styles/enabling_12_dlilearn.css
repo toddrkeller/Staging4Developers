@@ -1,0 +1,446 @@
+@font-face {
+    font-family: 'FuturaMedium';
+    src:url('../../../css/futura-medium-webfont.eot');
+	src: url('../../../css/futura-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../css/futura-medium-webfont.woff') format('woff'),
+         url('../../../css/futura-medium-webfont.ttf') format('truetype'),
+         url('../../../css/futura-medium-webfont.svg#FuturaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('../../../css/futura_bold-webfont.eot');
+    src: url('../../../css/futura_bold-webfont.eot?#iefix') format('eot'),
+         url('../../../css/futura_bold-webfont.woff') format('woff'),
+         url('../../../css/futura_bold-webfont.ttf') format('truetype'),
+         url('../../../css/futura_bold-webfont.svg#webfontrIGithyc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html body {
+    background-color: #F5F5F5;
+	font-family: 'FuturaMedium';
+    color: #444444;
+    letter-spacing: 2px;
+    line-height: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+.activity_description {
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-top: -20px;
+	width: 890px;
+}
+.activity_hd {
+    color: grey;
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+
+#main{
+	position: relative;
+}
+#videoContainer1{
+    background-color: transparent;
+    height: 150px;
+    padding-left: 20px;
+    position: absolute;
+    width: 220px;
+	top: -5px;
+}
+#videoContainer2{
+    background-color: transparent;
+    height: 150px;
+    padding-left: 20px;
+	top: 157px;
+    position: absolute;
+    width: 220px;
+}
+#videoContainer3{
+    background-color: transparent;
+    height: 150px;
+    padding-left: 20px;
+	top: 320px;
+    position: absolute;
+    width: 220px;
+}
+.videoScreen{
+    width: 200px;
+    height:150px;
+    margin: 0px 0px 0px 0px;
+	
+	border: solid thin #b8b8b8;
+	border-radius: 3px;
+	-webkit-box-shadow:  0px 1px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow:  0px 1px 0px 0px rgba(255, 255, 255, 1), inset 0px 0px 11px 0px rgba(0, 0, 0, .4);
+	background: #e6e6e6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #fcfcfc 73%, #fcfcfc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(73%,#fcfcfc), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#fcfcfc',GradientType=0 );  IE6-9 */
+}
+
+.displayNone{
+	display: none;
+}
+
+
+#VideoCaption{
+	width: 200px;
+    height: 150px;
+}
+
+.itemCompleted{
+	border: 3px solid darkGrey;
+	background-color: darkGrey;
+}
+
+.itemNotCompleted{
+	border: 3px solid lightGrey;
+	background-color: lightGrey;
+}
+#videoTag {
+	width: 200px;
+    height: 150px;
+}
+
+.playBtn {
+    position: absolute;
+}
+
+#playBtnVid1, #playBtnVid2, #playBtnVid3{
+    top: 20px;	
+    position: absolute;
+    left: -2px;
+    cursor: pointer;
+}
+
+.dropTargetNo{
+	top: 95px; 
+	position: absolute;
+	left: -2px;
+	width: 55px;
+	height: 55px;
+	border:0px solid red;
+		
+}
+.droppedNo{
+	top: 97px;
+	position: absolute;
+	left:-2px;;
+}
+.droppedNoBtn{	
+}
+#dragChoiceText{
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F7F7F7;
+    border-color: -moz-use-text-color #BDBDBD #BDBDBD;
+    border-image: none;
+    border-radius: 0 0 3px 3px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    font-size: 18px;
+    height: 250px;
+    left: 220px;
+    margin-left: 10px;
+    position: absolute;
+    top: 24px;
+    width: 636px;
+}
+.dragContainer{
+	background-color: transparent;
+	height: 75px;
+	width: 620px;
+	margin-left: 8px;
+	border-bottom: solid #999999 1px;
+}
+#choice0{
+	margin-top: 9px;
+}
+#tab_container{
+	width: 635px;
+	border: 1px solid #BDBDBD;
+	margin-left: 230px;
+	height:22px;
+	background-color: #DDD;
+	box-shadow: 0 2px 4px #BDBDBD;
+}
+#tabTL{
+	border-left: 1px solid #BDBDBD;
+	border-right: 1px solid #BDBDBD;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 1px 0 0 #BDBDBD;
+    font-size: 11pt;
+    height: 20px;
+    left: 230px;
+    margin-top: 0px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+   
+	
+}
+
+.tabIn{
+	border-radius: 3px 3px 0px 0px;
+	border-top: 5px solid #F6A816;
+	border-left: 1px solid #BDBDBD;
+	border-right: 1px solid #BDBDBD;
+	background-color: #F5F5F5;
+	width:100px;
+	height:21px !important;
+	color: #333;
+	padding-top: 0px;
+	cursor: pointer;
+	margin-top: -5px !important;
+	z-index: 1 !important;
+	padding-top: 3px;
+}
+.tabOut{
+	border-radius: 0px 0px 0px 0px;
+	background-color: #DDD;
+	width:100px;
+	height:20px !important;
+	color: #666666;	
+	cursor: pointer;
+	padding-top: 3px;
+	border-bottom: 1px solid #BDBDBD !important;
+    border-radius: 0 0 0 0;
+    border-top: 1px solid #BDBDBD;
+	height: 19px !important;
+	margin-top: 0px;
+	z-index: 0 !important;
+}
+
+#tabEN{
+	left: 330px;
+	top: 0px;
+	position: absolute;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	margin-left: -1px;	
+}
+.draggableBtn{
+    position: absolute;
+}
+#dragBubble0, #dragBubble1, #dragBubble2{
+	padding-top: 10px;
+	margin-left: 0px;
+	position: relative;
+	float: left;
+}
+
+.textOn{
+	display: inline;
+	margin-left: 40px;
+	padding-top: 10px;
+	color: #666666;
+	
+}
+.textOff{
+	display: none;
+	margin-left: 40px;
+	padding-top: 10px;
+	color: #666666;
+}
+#TLtext0, #TLtext1, #TLtext2 {
+	font-size: 16px;
+	width: 570px;
+	position: relative;
+	float: left;
+	margin-top: 10px;
+}
+#ENtext0, #ENtext1, #ENtext2{
+	font-size: 13px;
+	width:570px;
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	margin-left: 45px;
+}
+
+#clickGuard{
+	height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: .65;
+    background-color: #f5f5f5;
+}
+
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F7F7F7;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 230px;
+    max-height: 135px;
+    min-height: 135px;
+    padding: 20px;
+    position: absolute;
+    top: 295px;
+    width: 596px;
+    z-index: 100;
+}
+#fb_background{
+ -	moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F7F7F7;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 230px;
+    max-height: 135px;
+    min-height: 135px;
+    padding: 20px;
+    position: absolute;
+    top: 295px;
+    width: 596px;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+#feedbackHeader {
+    cursor: default;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+#feedbackText {
+    cursor: default;
+    margin-top: -7px;
+}
+
+
+.noSelect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;          
+}
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    float: left;
+    font-size: 14px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-top: 7px;
+	color: #FFFFFF;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#setText {
+    border-radius: 0 4px 4px 0;
+    bottom: auto;
+    font-size: 14px;
+    height: 20px;
+    left: 0;
+    padding-right: 7px;
+    padding-top: 7px;
+    position: relative;
+    top: 0;
+    width: 29px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#container_setDiv {
+    background-color: transparent;
+    cursor: default;
+    height: 40px;
+    left: 15px;
+    margin: 10px;
+    top: 470px;
+    width: 898px;
+}
+#id_setDiv {
+    background-color: transparent;
+    cursor: default;
+    height: 30px;
+    left: 738px;
+    position: relative;
+    top: 5px;
+    width: 115px;
+    z-index: 0;
+}
+.roundCorners {
+	border-radius: 3px 3px 3px 3px;
+}
+.pull-right {
+	float: right;
+}
+
+#right_container {margin-top: 5px;
+}
+#left_container {margin-top: -10px;
+}

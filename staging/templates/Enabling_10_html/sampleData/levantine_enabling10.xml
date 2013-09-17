@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Russian" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    
+    <hs:item>
+        <hs:file_video>fr_colonel_market.flv</hs:file_video>
+        <hs:lang_en>генерал</hs:lang_en>
+        <hs:lang_tl dir="ltr">السلام عليكم генерал </hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">a military rank just above colonel</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr">Генерал السلام عليكمmeans general.</hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+        <hs:file_video>fr_captain_market.flv</hs:file_video>
+        <hs:lang_en>майор</hs:lang_en>
+        <hs:lang_tl dir="ltr">майор армии السلام عليكم</hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">a military السلام عليكمrank just above captain</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr">Майор ليكم means major.</hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+        <hs:file_video>fr_colonel_market.flv</hs:file_video>
+        <hs:lang_en>капитан капитан</hs:lang_en>
+        <hs:lang_tl dir="ltr">капитан السلام عليكمморской пехоты </hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">a military ليكم rank just above lieutenant</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr"></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+        <hs:file_video>fr_captain_market.flv</hs:file_video>
+        <hs:lang_en>العليكم</hs:lang_en>
+        <hs:lang_tl dir="ltr">меткий السلام عليكمснайпер </hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">a marksman ليكم who shoots at people from a concealed place</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr">Снайпер means sniper.</hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+        <hs:file_video>fr_colonel_market.flv</hs:file_video>
+        <hs:lang_en>العليssكم</hs:lang_en>
+        <hs:lang_tl dir="ltr">меткий السلام عليكمснайпер </hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">a marksman ليكم who shoots at people from a concealed place</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr">Снайпер means sniper.</hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+        <hs:file_video>fr_captain_market.flv</hs:file_video>
+        <hs:lang_en>العssليكم</hs:lang_en>
+        <hs:lang_tl dir="ltr">меткий السلام عليكمснайпер </hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">a marksman ليكم who shoots at people from a concealed place</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr">Снайпер means sniper.</hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+        <hs:file_video>fr_colonel_market.flv</hs:file_video>
+        <hs:lang_en>السلام عليكم</hs:lang_en>
+        <hs:lang_tl dir="ltr">адмирал флота </hs:lang_tl>
+        <hs:lang_trans></hs:lang_trans>
+        <hs:hint_l1 dir="ltr">the highest ليكم rank in the Navy</hs:hint_l1>
+        <hs:feedback_l1 dir="ltr">Адмирал means admiral.</hs:feedback_l1>
+    </hs:item>
+
+    
+</hs:content>

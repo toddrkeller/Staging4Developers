@@ -1,0 +1,323 @@
+.activity_description {
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-top: -20px;
+    width: 880px;
+}
+.activity_hd {
+    color: grey;
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+#main{
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+
+#videoContainer{
+    background-color: grey;
+    height: 240px;
+    width: 320px;
+	position: absolute;
+	left: 560px;
+	top: 20px;
+}
+
+#clickGuard {
+	display: none;
+	opacity: 0.3;
+	background-color: lightgray;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 5px;
+	top: 300px;
+    max-height: 120px;
+    min-height: 120px;
+    padding: 20px;
+    position: absolute;
+    width: 840px;
+	position: absolute;
+    z-index: 100;
+}
+#fb_background {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 5px;
+	top: 300px;
+    max-height: 120px;
+    min-height: 120px;
+    padding: 20px;
+    position: absolute;
+    width: 840px;
+	position: absolute;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+#feedbackHeader {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+
+
+.displayNone{
+	display: none;
+}
+
+
+#VideoCaption{
+	width: 320px;
+    height: 240px;
+}
+
+.itemCompleted{
+/*	border: 2px solid darkGrey;
+	background-color: darkGrey;*/
+}
+
+.itemNotCompleted{
+/*	border: 2px solid White;
+	background-color: white;*/
+}
+
+#videoTag {
+	width: 320px;
+    height: 240px;
+}
+
+.playBtn {
+    width: 44px;
+	height: 44px;
+	float: left;
+	margin-left:3px;
+}
+
+#playBtnVid{
+    top: 140px;	
+    position: absolute;
+    left: 8px;
+}
+select{
+	height: 38px;
+}
+.dropTargetText{
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+#dropTargets{
+	left: 0px;
+	width: 540px;
+	position: absolute;
+	padding: 5px;
+}
+
+.dropTarget{
+	margin: 3px;
+	padding: 2px;
+	height: 45px;
+}
+
+#dragBubbles{
+	left: 363px;
+	width: 160px;
+	position: absolute;
+	top: 191px;
+}
+
+.dragBubble{
+	margin-top: 2px;
+	border: 3px solid lightgrey;
+	background-color: lightgrey;
+	padding: 2px;
+	width: 229px;
+	font-size: 14px;
+}
+
+.roundCorners {
+	border-radius: 3px 3px 3px 3px;
+}
+.pull-right {
+	float: right;
+}
+.pull-left {
+	float: left;
+}
+
+.dropdown-menu {
+	background:#DDD;	
+	margin-top:2px;
+	padding:15px;
+	width:90%;
+	border-radius: 3px 3px 3px 3px !important;
+	font-size: 16px;
+	padding: 1px;
+	height: 40px;
+}
+
+option{
+	border-bottom:1px solid #999;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	margin:10px;
+	padding:10px;
+	font-size: 16px;
+}
+
+.dropdown-menu option {
+	border-bottom:1px solid #999;
+	margin-bottom:10px;
+	padding-bottom:10px;
+	margin:10px;
+	padding:10px;
+	font-size: 16px;
+}
+
+option:hover{
+	background-color: #CCC;
+}
+.dropdown-menu option:last-child {
+	border:none;
+	margin:10px;
+	padding:10px;
+}
+
+.dropdown-menu:before {
+  position: absolute;
+  top: -19px;
+  right: 14px;
+  display: inline-block;
+  border-right: 10px solid transparent;
+  border-bottom: 18px solid #ccc;
+  border-left: 10px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.dropdown-menu:after {
+  position: absolute;
+  top: -18px;
+  right: 15px;
+  display: inline-block;
+  border-right: 9px solid transparent;
+  border-bottom: 19px solid #DDD;
+  border-left: 9px solid transparent;
+  content: '';
+}
+
+.orange_border{
+	border: solid 2px #FFFFFF;
+	border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+	top: -2px;
+	left: -2px;
+}
+.orange_border:hover {
+	border: solid 2px #f6a816;
+	border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+	top: -2px;
+	left: -2px;
+}
+
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    float: left;
+    font-size: 14px;
+    padding: 7px 6px 3px 12px;
+}
+#setIndex {
+    bottom: auto;
+    font-size: 14px;
+    left: auto;
+    right: auto;
+    top: auto;
+    float: left;
+    padding-right: 11px;
+    padding-top: 7px;
+	 padding-left: 12px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#id_setDiv {
+    left: 780px;
+    top: 475px;
+    width: 120px;
+	position:absolute;
+}
+
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}

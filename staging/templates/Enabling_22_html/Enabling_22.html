@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>Enabling 22 HTML</title>
+
+<!--<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>-->
+
+<script src="../common/js/AC_OETags.js"></script>
+<script src="../common/js/xml2json.js"></script>
+<script src="../common/js/dli_activity.js"></script>
+<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+<script src="../common/js/dli_util.js"></script>
+<script src="../common/js/dli_audio.js"></script>
+<script src="../common/js/dli_video.js"></script>
+<script src="js/enabling_22.js"></script>
+
+<!-- CSS -->
+<link href="../common/css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+<link href="../common/css/bootstrap.css" rel="stylesheet">
+<link href="../common/css/css/dlilearn_custom.css" rel="stylesheet">
+<link href="../common/css/dlilearn_activities.css" rel="stylesheet">
+
+</head>
+<body>
+<div id="activity_wrapper">
+<span class="activity_hd">Instructions &#124; </span><span class="activity_description">Press the play button to listen to the audio, then drag the correct words in order, to the box on the right.</span><br/>
+  <br/>
+  <div id="main">
+    <noscript>
+    Activity cannot load. No Javascript support detected.
+    </noscript>
+    <div id="flashAudioPlayerDiv"></div>
+    <div id="htmlAudioPlayerDiv"></div>
+    <div id="embeddedAudioPlayerDiv"></div>
+    <div id="dragBubbleBG" class="roundCorners grip_pattern">
+      <div id="dragBubbleContainer"></div>
+    </div>
+    <div id="dropContainer" class="roundCorners convex">
+      <div id="dropText"></div>
+    </div>
+    <div id="imageContainer" class="roundCorners"></div>
+    <div id="playBtn" class="rollover"></div>
+    <div id="hintsArea" class="roundCorners convex">
+      <div id="hintsAreaText"></div>
+    </div>
+  </div>
+  <div id="feedback" class="feedback_left gradientBG">
+    <h2 id="feedbackHeader">Directions</h2>
+    <p id="feedbackText">This is what you need to do.... yadda, yadda, yadda... etc etc.</p>
+    <button id="feedbackBtn" class="btn pull-right" onclick="{closeFeedback();}">Ok</button>
+  </div>
+  <!--<div id="container_setDiv" class="roundCorners pull-right">Set:
+    <div id="setDiv" class="roundCorners pull-right"><span id="setText">1/2</span></div>
+  </div>-->
+  
+  
+ <div id="container_setDiv" class="roundCorners pull-right"><!--Set:-->
+        <div class="btn-group pull-right">
+          <button class="btn btn_prev" id="prev" title="prev"><b>&#60;</b> Prev</button>
+          <button class="btn btn_next" id="next" title="next">Next <b>&#62;</b></button>
+        </div>
+        <div class="margin_5 pull-right">&nbsp;</div>
+        <div class="btn-group pull-right off">
+          <button class="btn btn_set off" id="setDiv" title="SET">SET:</button>
+          <button class="btn btn_set_value off" id="setText" title="SET">1/3</button>
+        </div>
+      </div>
+</div>
+</body>
+</html>

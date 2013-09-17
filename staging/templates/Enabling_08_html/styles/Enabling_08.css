@@ -1,0 +1,324 @@
+#main{
+	
+}
+
+#feedback{
+	z-index: 2000;
+}
+
+#videoContainer{
+	
+}
+
+#VideoCaption{
+	padding-left: 145px;
+	padding-top: 140px;
+}
+
+.hidden{
+	display: none;
+}
+
+#captionBubbles_container {
+    height: 157px;
+    position: absolute;
+    width: 580px;
+}
+
+.captionBubble {
+	border: 1px solid #000000;
+    background-color: white;
+    float: left;
+    height: 135px;
+    margin: 12px;
+    width: 264px;
+}
+
+#setDiv_container {
+    background-color: red;
+    left: 20px;
+    position: absolute;
+    top: 350px;
+}
+
+#playBtnVideo{
+    left: 150px;
+    position: absolute;
+    top: 240px;
+    z-index: 9000;
+}
+
+#videoTag{
+	bottom: 15%;
+    left: 25%;
+    position: absolute;
+}
+
+#setDiv{
+	left: 0px;
+}
+
+#videoStage {
+    background-color: lightgray;
+    display: block;
+    height: 335px;
+    position: absolute;
+    width: 580px;
+	z-index: 1000;
+}
+
+#playBtnAudio{
+	float: left;
+}
+
+#playBtn_container {
+    display: inline-block;
+    position: relative;
+    width: 130px;
+}
+
+#statusBar{
+    background-color: grey;
+    position: absolute;
+    text-align: center;
+    top: 350px;
+    width: 580px;
+    height: 45px;
+}
+
+.playBtn {
+	margin-top: 2px;
+	padding-right: 3px;
+	padding-left: 1px;
+	width: 20px;
+	float: left;
+}
+
+.fixForIENonscense{
+    left:0px;
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    filter: alpha(opacity=20);
+}
+
+.dropPlayBtn0{
+    left: 92px;
+    top: -285px;
+}
+
+.dropPlayBtn1{
+    left: 52px;
+    top: -285px;
+}
+
+.dropPlayBtn2{
+    left: 11px;
+    top: -285px;
+}
+
+#drop {
+    height: 50px;
+    left: 10px;
+    position: relative;
+    top: 40px;
+    width: 50px;
+}
+
+div, span{
+	cursor:default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+
+#stageClickGuard {
+	background-color: grey;
+	opacity: .2;
+	height: 336px;
+	left: 10px;
+	position: absolute;
+	top: 8px;
+	width: 577px;
+}
+
+#answerDiv{
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+#clickGuard {
+    background-color: lightgrey;
+    opacity: .2;
+    height: 400px;
+    position: absolute;
+    width: 580px;
+    z-index: 80;
+}
+
+#conversationTally_container {
+    background-color: #575757;
+    border: 1px solid #000000;
+    height: 40px;
+    left: 10px;
+    position: absolute;
+    top: 2px;
+}
+
+
+#conversationTitle {
+	color: white;
+    border-bottom: 1px solid #000000;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+.linkSpan{
+	float: left;	
+}
+
+.linkClass{
+	float: left;
+}
+
+.linkClassHighlighted{
+	float: left;
+	color: white;
+}
+
+#conversationLinks {
+	float: left;	
+    padding-left: 5px;
+	padding-right: 5px;
+}
+
+#conversationArrow{
+	float: left;	
+    padding-left: 5px;
+}
+
+#exchangeArrow{
+	float: left;
+    padding-left: 5px;
+}
+
+#exchangeTally_container {
+    background-color: #575757;
+    border: 1px solid #000000;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 2px;
+}
+
+
+#exchangeTitle {
+	color: white;
+    border-bottom: 1px solid #000000;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+#exchangeLinks{
+	float:left;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#caption_1_text {
+	margin: 10px;
+	top: 20px;
+}
+
+#drop_container{
+}
+
+.invisible{
+	opacity: 0;
+}
+
+.dropTarget{
+	cursor:default;
+	text-align: center;
+	float: left;
+	margin: 1px;
+	background-color: lightgray;
+	width: 20px;
+	height: 19px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	border: 1px black solid;
+}
+
+
+.startButton {
+	float: left;
+	background-color: lightGrey;
+	border: 1px black solid;
+}
+
+.captionText{
+	float: left;
+}
+
+.captionSpan{
+	float: left;	
+}
+
+#startButton{
+	margin-left: 2px;
+	float: left;
+	margin-right: 2px;
+}
+
+.roundCornersLetter{
+	border-radius: 3px 3px 3px 3px;
+}
+
+.dropLetterNotPlaced{
+	
+}
+
+.letter {
+	cursor:default;
+	float: left;
+	margin: 1px;
+	background-color: lightgray;
+	width: 20px;
+	height: 19px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	border: 1px black solid;
+}
+
+#letter_container {
+	height: 45px;
+	left: 200px;
+	right: 185px;
+	position: absolute;
+}
+
+#caption_2_text {
+    margin: 10px;
+    top: 20px;
+}
+
+#drop_img{
+    height: 100%;
+    width: 100%;	
+}
+
+#stage {
+    background-color: lightgrey;
+    height: 335px;
+    position: absolute;
+    text-align: center;
+    width: 580px;
+}
+
+#stageImg {
+    background-color: green;
+    top: 160px;
+    position: relative;
+}

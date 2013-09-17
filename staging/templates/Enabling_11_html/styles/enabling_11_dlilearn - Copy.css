@@ -1,0 +1,299 @@
+#leftContainer{
+	left:8px;
+	top:80px;
+	width:395px;
+	height:360px;
+	position: absolute;
+}
+#firstRow, #secondRow, #thirdRow{
+	width: 510px;
+	height: 130px;
+	border: 0px solid #ccc; 
+}
+.panal{
+	width: 145px;
+	height: 110px;
+	position:relative;
+	margin-right: 10px;
+	float: left;
+	background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+    border: thin solid #B8B8B8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+    padding: 5px;;
+	
+}
+.playBtnImg{
+	 background-color: transparent;
+
+}
+.showResult{
+	width: 135px;
+	height: 110px;
+	position: relative;
+	margin: 5px;
+	color: #eee;
+	font-size: 85px;
+	text-align: center;
+	font-weight: bold;	
+	display: none;
+	border-radius: 5px 5px 5px 5px;
+}
+.showResult img{
+	padding: 0px 0px 0px 5px;
+}
+.showResult div{
+	padding: 40px 0px 0px 5px;
+}
+#rightContainer{
+	left:510px;
+	position: absolute;
+}
+#videoContainer0{
+    background-color: #999;
+    height: 180px;
+    left: 4px;
+	top: 10px;
+	text-align: center;
+    position: relative;
+    width: 240px;
+}
+#movieImg{
+	padding-top:25px;
+}
+.displayNone{
+	display: none;
+}
+#VideoCaption{
+	width: 243px;
+    height: 182px;
+}
+.css_menu{
+	cursor           : pointer;
+	background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+	font-weight      : bold;
+}
+
+.css_menu_def{
+	display          : none;
+}
+
+.css_menu_table{
+	border-collapse  : collapse;
+	border-bottom: 1px solid #999;
+}
+.menuTD{
+	border-bottom: 1px solid #999;
+	width			 : 200px;
+}
+.menuChoice{
+	width: 100%;
+	text-align: center;
+}
+#id_menu_box{
+	border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+	top              : -100px;
+	left             : 0px;
+	position         : absolute;
+	margin           : 0px;
+	padding          : 0px;
+	visibility       : hidden;
+	z-index          :102;
+}
+
+
+.activity_description {
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-top: -20px;
+}
+.activity_hd {
+    color: grey;
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.itemCompleted {
+    background-color: darkGrey;
+    border: 3px solid darkGrey;
+}
+.itemNotCompleted {
+    border: 1px solid #E3E3E3;
+}
+#videoTag {
+    height: 242px;
+}
+#videoTag0 {
+    width: 240px;
+    height:180px;
+    margin: 1px 0px ;
+}
+#container_setDiv {
+    background-color: transparent;
+}
+
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 510px;
+    max-height: 200px;
+    min-height: 156px;
+    padding: 20px;
+    position: absolute;
+    top: 270px;
+    width: 326px;
+	position: absolute;
+    z-index: 100;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+#feedbackHeader {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+
+#clickGuard {
+	display: none;
+	opacity: 0.3;
+	background-color: lightgray;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 910px;
+	height: 610px;
+}
+
+
+#setLabel {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+}
+#setText {
+    bottom: auto;
+    font-size: 14px;
+    left: auto;
+    right: auto;
+    top: auto;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+#container_setDiv {
+    top: 540px;
+}
+#setDiv {
+    left: 723px;
+}
+
+
+.btn {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #A2A2A2;
+	border-image: none;
+<!--	border-radius: 4px 4px 4px 4px; -->
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+	background-color: #FFFFFF;
+	background-image: url("../img/bg_btn.png"); /* ---- point to the root folder/img/ ----- */
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	color: #444444;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 0;
+	padding: 4px 12px;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+}
+
+#container_setDiv {
+	clear: both;
+	float: right;
+	font-size: 18px;
+	font-weight: bold;
+	height: 40px;
+	letter-spacing: 2px; 
+	margin-top: -70px;
+	padding: 8px 5px 5px !important;
+	right: -20px;
+}
+.btn-group > .btn:first-child {
+	border-bottom-left-radius: 4px;
+	border-top-left-radius: 4px;
+	margin-left: 0;
+}
+.btn-group > .btn:last-child, .btn-group > .dropdown-toggle {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+.btn-group > .btn + .btn {
+	margin-left: -1px;
+}
+#setDiv, #setDiv:hover {
+	background-color: #FFFFFF;
+	background-image: url("../../common/Library/images/bg_dropbubble_50.png");
+	background-repeat: repeat-x;
+	border: thin solid #BDBDBD;
+	color: #FFFFFF;
+	height: auto !important;
+	text-align: left;
+	text-shadow: none;
+	width: 120px;
+}
+#setText {
+	bottom: 0 !important;
+	left: -3px !important;
+	right: 0 !important;
+	top: 0 !important;
+}
+.roundCorners {
+	border-radius: 3px 3px 3px 3px;
+}
+.pull-right {
+	float: right;
+}
+

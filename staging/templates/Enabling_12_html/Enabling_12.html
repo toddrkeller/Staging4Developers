@@ -1,0 +1,111 @@
+<html>
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>Enabling 12 HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<!--
+        <link type="text/css" href="../common/css/bootstrap.css" rel="stylesheet" />
+		<link type="text/css" href="../common/css/dlilearn_activities_todd.css" rel="stylesheet" />
+        -->
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+		<script src="../common/js/dli_video_new.js"></script>
+		
+		<script src="Enabling_12.js"></script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		
+
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		
+		<h3 class="activity_hd">Enabling 12</h3>
+		<div class="activity_description">Click the play button inside each of the three video frames to hear the Egyptian phrases. Match the corresponding text from below by dragging the number next to the text to the dotted circle inside the video box. You can switch back and forth between Hint and Egyptian text by selecting the corresponding tabs.</div>
+		
+		<div id="main">	
+			<div id="left_container">	
+				<div id="videoContainer1"  class="roundCorners">
+					<div id="playBtnVid1"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/img/btn_circ_play.png',1)" 
+							onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1);playVideo(1);"
+							onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" 
+							onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" > 
+							  <img  class="playBtn" src="../common/img/btn_circ_play.png" border="0">
+							</a> 
+					</div>
+				</div>
+				<div id="videoContainer2"  class="roundCorners">
+					<div id="playBtnVid2"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/img/btn_circ_play.png',1)" 
+							onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1);playVideo(1);"
+							onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" 
+							onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" > 
+							  <img  class="playBtn" src="../common/img/btn_circ_play.png" border="0">
+							</a> 
+					</div>
+				</div>
+				<div id="videoContainer3"  class="roundCorners">
+					<div id="playBtnVid3"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/img/btn_circ_play.png',1)" 
+							onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1);playVideo(1);"
+							onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" 
+							onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" > 
+							  <img  class="playBtn" src="../common/img/btn_circ_play.png" border="0">
+							</a> 
+					</div>
+				</div>
+			</div>
+			<div id="right_container">
+				<div id="tab_container">
+					<div id="tabTL" class="tabIn" onclick="selectText('TL')"></div>
+					<div id="tabEN" class="tabOut" onclick="selectText()">Hint</div>
+				</div>
+				<div id="dragChoiceText" class="roundCorners">
+					<div id="choice0" class="dragContainer">
+						<div id="dragBubble0"><span id="dragBtn0"><img  class="draggableBtn" src="../common/img/btn_drag_01.png" border="0"><input type="hidden" id="hiddenText0" value="" /></span></div>
+						<div id="TLtext0" class="textOn"></div>
+						<div id="ENtext0" class="textOff"></div>
+					</div>
+					<div id="choice1" class="dragContainer">
+						<div id="dragBubble1"><span id="dragBtn1"><img  class="draggableBtn" src="../common/img/btn_drag_02.png" border="0"><input type="hidden" id="hiddenText1" value="" /></span></div>
+						<div id="TLtext1" class="textOn"></div>
+						<div id="ENtext1" class="textOff"></div>
+					</div>
+					<div id="choice2" class="dragContainer">
+						<div id="dragBubble2"><span id="dragBtn2"><img  class="draggableBtn" src="../common/img/btn_drag_03.png" border="0"><input type="hidden" id="hiddenText2" value="" /></span></div>
+						<div id="TLtext2" class="textOn"></div>
+						<div id="ENtext2" class="textOff"></div>
+					</div>
+				</div>
+			</div>
+			<div id="feedback" class="convex">
+				<h2 id="feedbackHeader">Set completed</h2>
+				<p id="feedbackText">Set completed text</p>
+				<button id="feedbackBtn" onclick="{closeFeedback();}" >OK</button>
+			</div>
+			<div id="fb_background" class="convex"></div>
+			<div id="container_setDiv" class="roundCorners btn-group noSelect">
+				<div id="id_setDiv" class="roundCorners">
+					<div id="setTitle" class="bootstrapLabel btn_set noSelect">SET</div>
+					<span id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</span>
+				</div> 
+			</div>	
+		</div>
+			
+		<div id="clickGuard"></div>
+		
+	</body>
+</html>

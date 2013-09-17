@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:hs="http://fieldsupport.lingnet.org/products/headstart"
+	tl_textfield_width="280px">
+	<digit english="0" audio="0.mp3">٠</digit>
+	<digit english="1" audio="1.mp3">١</digit>
+	<digit english="2" audio="2.mp3">٢</digit>
+	<digit english="3" audio="3.mp3">٣</digit>
+	<digit english="4" audio="4.mp3">٤</digit>
+	<digit english="5" audio="5.mp3">٥</digit>
+	<digit english="6" audio="6.mp3">٥</digit>
+	<digit english="7" audio="7.mp3">٧</digit>
+	<digit english="8" audio="8.mp3">٨</digit>
+	<digit english="9" audio="9.mp3">٩</digit>
+
+	<item english="11111111" audio="1.mp3" />
+	<item english="22222222" audio="2.mp3"/>
+	<item english="33333333" audio="3.mp3"/>
+	<item english="44444444" audio="4.mp3"/>
+	<item english="55555555" audio="5.mp3"/>
+	<item english="66666666" audio="6.mp3"/>
+	<item english="77777777" audio="7.mp3"/>
+	<item english="88888888" audio="8.mp3"/>
+	<item english="99999999" audio="9.mp3"/>
+	<item english="10101010" audio="10.mp3" />
+<!--	<item english="11111111" audio="11.mp3"/>
+	<item english="12121212" audio="12.mp3"/>
+	<item english="13131313" audio="13.mp3"/>
+	<item english="14141414" audio="14.mp3"/>
+	<item english="15151515" audio="15.mp3"/>
+	<item english="16161616" audio="16.mp3"/>
+	<item english="17171717" audio="17.mp3"/>
+	<item english="18181818" audio="18.mp3"/>-->
+</content>

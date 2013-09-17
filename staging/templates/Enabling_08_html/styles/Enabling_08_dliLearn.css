@@ -1,0 +1,556 @@
+
+.noSelect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;          
+}
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    float: left;
+    font-size: 14px;
+    height: 19px;
+    margin-left: 0;
+    margin-top: 1px;
+    padding-left: 8px;
+    padding-top: 5px;
+}
+#setText {
+    border-radius: 0 4px 4px 0;
+    bottom: auto;
+    font-size: 14px;
+    height: 19px;
+    left: 0;
+    padding-right: 8px;
+    padding-top: 5px;
+    position: relative;
+    top: 1px;
+    width: 29px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#container_setDiv {
+    background-color: transparent;
+    cursor: default;
+    height: 70px;
+    left: 0;
+    margin: 10px;
+    position: relative;
+    top: 440px;
+    width: 964px;
+}
+#setDiv {
+	display: none;
+    background-color: transparent;
+    cursor: default;
+    height: 30px;
+    left: 795px;
+    position: absolute;
+    top: 5px;
+    width: 114px;
+    z-index: 0;
+}
+#id_prev_next_div {
+    left: 765px;
+    position: relative;
+    top: 6px;
+}
+* {
+    -moz-box-sizing: inherit;
+	-webkit-box-sizing: initial;
+	box-sizing: content-box;
+}
+#clickGuard {
+    background-color: grey;
+    display: none;
+    height: 467px;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 960px;
+    z-index: 99;
+}
+.activity_description {
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    margin-top: -19px;
+    max-width: 910px;
+}
+.activity_hd {
+    color: grey;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: -2px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    position: absolute;
+}
+.roundCorners {
+    border-radius: 3px;
+}
+.divBtn {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border: thin solid #BDBDBD;
+    box-shadow: 1px 1px 4px #BDBDBD;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    margin: 13px 2px 2px 19px;
+    width: 180px;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 0px;
+    margin-left: 0px;
+    max-height: 217px;
+    min-height: 217px;
+    padding: 20px;
+    position: absolute;
+    width: 192px;
+    z-index: 1000;
+    top: 190px;
+}
+#feedbackHeader {
+    margin-top: 0px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#feedbackText {
+    width: 205px;
+    min-height: 134px;
+    max-height: 134px;
+    overflow: auto;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 26px;
+}
+
+#main{
+	
+}
+
+#feedback{
+	z-index: 2000;
+}
+
+#videoContainer{
+	
+}
+
+#VideoCaption{
+	padding-left: 145px;
+	padding-top: 140px;
+}
+
+.hidden{
+	display: none;
+}
+
+#captionBubbles_container {
+    height: 157px;
+    position: relative;
+    width: 580px;
+}
+
+.captionBubble {
+	border: 1px solid #000000;
+    background-color: white;
+    
+	position: relative;
+    height: 135px;
+    margin: 12px;
+    
+	width: 571px;
+}
+
+#setDiv_container {
+    background-color: red;
+    left: 20px;
+    position: absolute;
+    top: 350px;
+}
+
+#playBtnVideo{
+    left: 49px;
+    position: absolute;
+    top: 350px;
+    z-index: 9000;
+}
+
+#videoTag{
+	height: 392px;
+	margin: 30px 0px 0px 34px;
+	width: 523px;
+    
+    
+}
+
+#setDiv{
+	left: 0px;
+}
+
+#videoStage {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    border: 1px solid #BDBDBD;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    top: 0px;
+    left: 115px;
+    display: block;
+    height: 450px;
+    position: absolute;
+    width: 586px;
+	z-index: 1000;
+}
+
+#playBtnAudio{
+	display: inline-block;
+}
+
+#playBtn_container {
+    display: inline-block;
+    position: relative;
+    width: 130px;
+}
+
+#statusBar{
+    z-index: auto;
+    left: 710px;
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    width: 232px;
+    height: 450px;
+}
+
+.playBtn {
+	padding-right: 3px;
+	padding-left: 1px;
+	width: 48px;
+	float: left;
+}
+
+.fixForIENonscense{
+    left:0px;
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    filter: alpha(opacity=20);
+}
+
+.dropPlayBtn0{
+    left: 92px;
+    top: -285px;
+}
+
+.dropPlayBtn1{
+    left: 52px;
+    top: -285px;
+}
+
+.dropPlayBtn2{
+    left: 11px;
+    top: -285px;
+}
+
+#drop {
+    height: 50px;
+    left: 10px;
+    position: relative;
+    top: 40px;
+    width: 50px;
+}
+
+div, span{
+	cursor:default;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+
+#stageClickGuard {
+	background-color: grey;
+	opacity: .2;
+	height: 457px;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 707px;
+}
+
+#answerDiv{
+	text-align: center;
+}
+
+#conversationTally_container {
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    box-shadow: 1px 1px 2px #BDBDBD;
+    margin-bottom: 13px;
+    border: 1px solid lightgray;
+    height: 80px;
+    position: relative;
+}
+
+
+#conversationTitle {
+    margin-bottom: 5px;
+    margin-top: 14px;
+    text-align: left;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+.linkSpan{
+	display: none;
+	float: left;	
+}
+
+.linkClass{
+	border: 1px solid lightgray;
+	background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+	padding-top: 5px;
+	width: 30px;
+	height: 26px;
+	box-shadow: 1px 1px 1px #BDBDBD;
+	float: left;
+}
+
+.linkClassHighlighted{
+	padding-top: 5px;
+	box-shadow: 1px 1px 1px #BDBDBD;
+	background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+	border: 1px solid lightgray;
+	height: 26px;
+	width: 30px;
+	float: left;
+	color: red;
+}
+
+#conversationLinks {
+	float: left;	
+    padding-left: 5px;
+	padding-right: 5px;
+}
+
+#conversationArrow{
+	float: left;	
+	width: 30px;
+	margin-left: 8px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#exchangeArrow{
+	float: left;	
+	width: 30px;
+	margin-left: 8px;
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+#exchangeTally_container {
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    box-shadow: 1px 1px 2px #BDBDBD;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    height: 80px;
+    position: relative;
+}
+
+
+#exchangeTitle {
+    margin-bottom: 5px;
+    margin-top: 14px;
+    text-align: left;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+#exchangeLinks{
+	float: left;	
+    padding-left: 5px;
+	padding-right: 5px;
+}
+
+#caption_1_text {
+	margin: 10px;
+	top: 20px;
+}
+
+#drop_container{
+}
+
+.invisible{
+	opacity: 0;
+}
+
+.dropTarget{
+	box-shadow: inset -1px -1px 1px #BDBDBD;
+	background-color: lightgray;
+	cursor:default;
+	text-align: center;
+	float: left;
+	margin: 3px 4px 3px 3px;
+	width: 20px;
+	height: 19px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	border: 1px solid lightgray;
+}
+
+
+.startButton {
+}
+
+.captionText{
+	float: left;
+}
+
+.captionSpan{
+	display: inline-block;	
+}
+
+#startButton{
+	padding: 7px;
+	border: 1px solid lightgray;
+	box-shadow: 1px 1px 2px #BDBDBD;
+	background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+	display: inline-block;
+	margin-right: 2px;
+}
+
+.roundCornersLetter{
+	padding-top: 9px;
+	width: 33px;
+	border-radius: 3px 3px 3px 3px;
+	height: 30px;
+}
+
+.dropLetterNotPlaced{
+	
+}
+
+.letter {
+	box-shadow: 1px 1px 2px #BDBDBD;
+	background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+	padding-top: 9px;
+	text-align: center;
+	cursor:default;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	width: 41px;
+	height: 29px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	border: 1px lightgray solid;
+}
+
+#letter_container {
+	padding-left: 10px;
+	width: 95px;
+	height: 450px;
+	position: absolute;
+}
+
+#caption_2_text {
+    margin: 10px;
+    top: 20px;
+}
+
+#drop_img{
+    height: 100%;
+    width: 100%;	
+}
+
+#stage {
+    height: 450px;
+    position: absolute;
+    text-align: center;
+    width: 580px;
+}
+
+#stageImg {
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: relative;
+}
+
+#stage_container{
+    left: 115px;
+    position: absolute;
+	
+}
+
+#captionBubble0{
+}
+#main_container{
+	position:relative;
+}
+#captionBubble1{
+    width: 400px;
+    height: 72px;
+    left: 115px;
+    top: 200px;
+}

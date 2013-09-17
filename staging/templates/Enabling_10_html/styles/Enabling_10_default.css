@@ -1,0 +1,90 @@
+#videoContainer{
+    background-color: grey;
+    height: 180px;
+    left: 360px;
+    position: absolute;
+    width: 240px;
+}
+
+#feedback {
+    top: 190px;
+}
+
+.displayNone{
+	display: none;
+}
+
+
+#VideoCaption{
+	width: 243px;
+    height: 182px;
+}
+
+.itemCompleted{
+	border: 3px solid darkGrey;
+	background-color: darkGrey;
+}
+
+.itemNotCompleted{
+	border: 3px solid lightGrey;
+	background-color: lightGrey;
+}
+
+#videoTag {
+	width: 243px;
+    height: 182px;
+}
+
+.playBtn {
+    width: 30px;
+    position: absolute;
+}
+
+#playBtnVid{
+    top: 140px;
+	
+    position: absolute;
+    left: 8px;
+}
+
+.dropTargetText{
+	font-size: 18px;
+	margin-left: 40px;
+}
+
+select{
+	left: 50px;
+    position: absolute;
+    width: 260px;
+    height: 25px;
+    margin-top: 3px;
+}
+
+#dropTargets{
+	left: 25px;
+	width: 330px;
+	position: absolute;
+}
+
+.dropTarget{
+	margin: 5px;
+	padding: 5px;
+	min-height: 30px;
+}
+
+#dragBubbles{
+	left: 363px;
+	width: 160px;
+	position: absolute;
+	top: 191px;
+}
+
+.dragBubble{
+	margin-top: 2px;
+	border: 3px solid lightgrey;
+	background-color: lightgrey;
+	padding: 2px;
+	width: 229px;
+	font-size: 14px;
+}
+

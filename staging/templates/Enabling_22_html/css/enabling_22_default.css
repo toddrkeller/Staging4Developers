@@ -1,0 +1,290 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+#activity_wrapper {
+	width:910px; 
+	height:530px;
+	top:0px;
+	margin-right: -12px;
+	/*border: solid thin red;*/
+	
+}
+#main{
+	margin-top:-15px;
+	position:relative;
+}
+
+.displayNone {
+	display: none;
+}
+
+.concave{
+	padding: 0px; !important
+}
+
+.activity_hd {
+	margin-bottom:-5px; !important
+}
+
+.activity_description {
+	margin-bottom:25px; !important
+}
+
+.itemCompleted {
+	border: 1px solid #CCC;
+	background-color: darkGrey;
+}
+.itemNotCompleted {
+	border: 1px solid #CCC;
+	background-color: lightGrey;
+}
+
+#feedback {
+    max-height: 150px;
+    min-height: 150px;
+    padding: 15px;
+    position: absolute;
+    top: 100px;
+	left:60px;
+    width: 320px;
+	height:80px;
+    z-index: 100;
+	margin:0;
+	background-color:#F7F7F7;
+}
+
+#feedbackHeader {
+	margin-top: -10px;
+	font-size:20px;
+	letter-spacing: 2px;
+	font-variant:small-caps;
+}
+
+#feedbackText {
+	top: -5px;
+}
+
+#feedbackBtn {
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	width:40px;
+	height:30px;
+}
+
+#dropContainer{
+	position: absolute;
+	top: 10px;
+	left: 410px;
+	width: 480px;
+	height: 260px;
+	background-color:666;
+}
+
+#dropText{
+	padding:15px;
+	text-align:justify;
+}
+
+#dragBubbleBG{
+	position: absolute;
+	top: 10px;
+	/*left: 10px;*/
+	width: 390px;
+	height: 260px;
+	/*-webkit-box-shadow: inset 0px 2px 2px 1px;*/
+	/*box-shadow: inset 0px 2px 2px 1px;*/
+/*	background-image:url(../library/images/pattern_sm2.jpg);
+	background-repeat:repeat;*/
+}
+
+#dragBubbleContainer{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 370px;
+	height: 250px;
+	z-index:1;
+	padding:0px;
+	background-color:333;
+}
+
+.matchText{
+	font-size:18px;
+}
+
+.textMatched{
+	background-color: #E5F4F9;
+    border: 1px solid #99BCCA;
+    border-radius: 6px 6px 6px 6px;
+    color: #000000;
+    font-size: 14px;
+    padding: 1px 4px;
+}
+
+.dragBubble{
+	float:left;
+	margin-top: 12px;
+	margin-left: 12px;
+	padding: 6px;
+	width:170px;
+	height:35px;
+	/*font-size: 16px;*/
+	/*font-weight:bold;*/
+	text-align:center;
+	/*-webkit-box-shadow: 0px 1px 2px 0px ;*/
+	/*box-shadow: 0px 1px 2px 0px ; */
+	cursor:pointer;
+	z-index:10;
+}
+
+.gradientBG{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e6e6e6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e6e6e6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#e6e6e6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e6e6e6 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-9 */
+	
+}
+#imageContainer{
+	position: absolute;
+    border: thin solid #B8B8B8;
+    /*left: 10px;*/
+	top: 285px;
+    width: 160px;
+    height: 120px;
+	box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+}
+
+#playBtn {
+	position: absolute;
+	top:363px;
+	left: 0px;
+    width: 44px;
+	height: 44px;
+	background-image:url(../../common/img/btn_play_sm_off.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	z-index:1;
+	
+}
+#playBtn:hover {
+    background-image:url(../../common/img/btn_play_sm_on.png);
+}
+
+#container_setDiv{
+    height: 40px;
+    position: relative;
+    top: 430px;
+    width: 100%;
+	text-align:right;
+	margin-left: 40px;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:2px;
+	padding-right:25px;
+}
+
+#hintsArea {
+	position: absolute;
+    text-align: left;
+    width: 708px;
+	height: 122px;
+    left: 180px;
+	top: 285px;
+    margin: 0;
+	padding: 10px 15px;
+}
+#hintsAreaText{
+	font-size:14px;
+	/*font-weight:bold;*/
+}
+
+
+/*  ----SET-SET-STEP DIV---- */
+#container_setDiv{
+	clear: both;
+    height: 40px;
+    position: relative;
+    top: 395px;
+	right: -15px;
+	text-align:right;
+	/*margin-left: 10px;!important;
+	margin-right: -13px !important;*/
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:2px;
+	padding: 8px 5px 5px 5px !important;
+	
+	/*border: solid 1px #969696;*/
+	/*background-image: url(../../../img/bg_activity_frame.png);*/
+	/*background-repeat:repeat;*/
+	/*box-shadow: 0 2px 2px #CDCDCD, 0 2px 0 #FFFFFF inset;*/
+	
+	/*-moz-box-shadow: 0px 1px 0px #FFFFFF, inset 0px 3px 2px #CDCDCD;*/
+	/*-webkit-box-shadow:  0px 1px 0px #FFFFFF,  inset 0px 3px 2px #CDCDCD;*/
+    /*box-shadow:  0px 1px 0px #FFFFFF, inset 0px 3px 2px #CDCDCD;*/
+}
+#setDiv, #setDiv:hover {
+	height: auto !important;
+	text-align:left;
+	/*margin-top: -4px;*/ /* AAA TEMP */
+	background-color: #FFF;
+	background-image: url("../../common/Library/images/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #A2A2A2;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    /*box-shadow: 0 1px 2px #BDBDBD, inset 0 1px 0px #FFFFFF;*/  /* AAA TEMP */
+	width: auto !important; /* AAA TEMP */
+	color: #fff;
+	text-shadow: none;
+}
+
+
+#setText {
+	bottom: 0 !important;
+	left: 1px !important;
+	right: 0 !important;
+	top: 0 !important;
+}
+
+
+.btn_set {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #999;
+	*background-color: #999;
+	background-image:url(../../common/img/bg_btn_set.png) !important;
+	background-repeat:repeat-x !important;
+	background-position:bottom !important;
+ 
+	left: 3px;
+    letter-spacing: 2px;
+}
+
+.btn_set:hover {
+	background-color: #999;
+	*background-color: #999;
+	background-image:url(../../common/img/bg_btn_set.png) !important;
+	background-repeat:repeat-x !important;
+	background-position:bottom !important;
+}
+
+.btn_set_value {
+	left: -10px !important;
+}
+
+.btn_prev {
+	
+}
+
+.btn_prev {
+	right: -3px !important;
+}
+

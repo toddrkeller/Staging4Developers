@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content target_language="Swahili" xmlns:hs="http://fieldsupport.lingnet.org/products/headstart">
+  <session>
+    <video>rain.flv</video>
+    <item>
+      <image>1.png</image>
+      <lang_tl_a_phrase_text dir="ltr">One||badala||yake?</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>1.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>Should I walk instead?</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">O||n||e</lang_tl_a_word_text>
+      <lang_tl_a_word_audio>1</lang_tl_a_word_audio>
+      <lang_tl_a_word_order>1</lang_tl_a_word_order>
+      <lang_tl_a_characters>N||o||n||e||m||b||e||e||k||i||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">La,||ni||mbali||sana.||Chukua||teksi.</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>2.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>No, it's too far, you should take a taxi.</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[Should I walk instead? … No, it's too far, you should take a taxi.]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    <item>
+      <image>2.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Habari||za||asubuhi!||Nitakuwa.||two||wako||wa||ziara.</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>3.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>Good morning, I will be your tour guide.</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">t||w||o</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>5</lang_tl_a_word_order>
+      <lang_tl_a_characters>k||t||w||o||g||o||z||i||u||o||p||k||l||a||w</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Habari||za||asubuhi!||Tutaona||nini||leo?</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>4.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>Good morning! What will we see today?</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[Good morning, I will be your tour guide. … Good morning! What will we see today?]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    <item>
+      <image>3.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Kwanza||tutatembea||kwenda||kaburi||la||three||.</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>5.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>We will first walk to the Heroes' Corner.</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">t||h||r||e||e</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>6</lang_tl_a_word_order>
+      <lang_tl_a_characters>m||t||s||h||r||e||e||a||k||i||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Je,||hiyo||iko||karibu||na||bunge?</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>6.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>Is that next to parliament?</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[We will first walk to the Heroes' Corner. … Is that next to parliament?]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    <item>
+      <image>4.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Ndiyo,||iko||tu||nje||ya||four||.</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>7.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>Yes, it is just outside parliament.</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">f||o||u||r</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>6</lang_tl_a_word_order>
+      <lang_tl_a_characters>b||u||f||o||u||r||a||a||k||i||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Ni vizuri, nimesikia mengi kulihusu.</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>8.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>Great, I have heard a lot about it.</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[Yes, it is just outside parliament. … Great, I have heard a lot about it.]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+  </session>
+  <session>
+    <video>red.flv</video>
+    <item>
+      <image>5.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Ningependa||kuona||five||la||wakulima||leo.</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>9.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>I would like to see the farmer's market today.</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">f||i||v||e</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>3</lang_tl_a_word_order>
+      <lang_tl_a_characters>s||f||i||v||e||j||a||a||k||i||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Ninapendekeza||utembelee||Gikomba.</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>10.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>I recommend you visit Gikomba.</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[I would like to see the farmer's market today. … I recommend you visit Gikomba.]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    <item>
+      <image>6.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Nichukue||six||kwenda||huko?</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>11.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>Should I take a matatu to get there?</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">s||i||x</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>2</lang_tl_a_word_order>
+      <lang_tl_a_characters>s||i||x||a||t||u||a||a||k||i||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">La.||Ni||hatari||sana!</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>12.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>No. They are too dangerous!</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[Should I take a matatu to get there? … No. They are too dangerous!]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    
+  </session>
+  <session>
+    <video>rice.flv</video>
+    <item>
+      <image>7.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Seven||ni||jengo||gani?</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>13.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>What is that (over there) building?</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">S||e||v||e||n</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>1</lang_tl_a_word_order>
+      <lang_tl_a_characters>s||e||v||e||n||b||e||e||k||i||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Ile||ni||makumbusho.</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>14.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>That (over there) is a museum.</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[What is that (over there) building? … That (over there) is a museum.]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    <item>
+      <image>8.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Je,||ina||vitu||vingi||vya||eight||? </lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>15.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>Does it contain many historic artifacts?</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">e||i||g||h||t</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>6</lang_tl_a_word_order>
+      <lang_tl_a_characters>e||i||g||h||t||t||o||r||i||a||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Ndiyo!||Ina||pia||mafuvu||ya||vichwa||yaliyokusanywa||na||Louis||Leakey!</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>16.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>Yes! It even contains Louis Leakey's collection of skulls!</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[Does it contain many historic artifacts? … Yes! It even contains Louis Leakey's collection of skulls!]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+    <item>
+      <image>9.png</image>
+      <lang_tl_a_phrase_text dir="ltr">Yavutia||kweli!||Je,||kuna||nine||zenye||viongozi?</lang_tl_a_phrase_text>
+      <lang_tl_a_phrase_audio>17.mp3</lang_tl_a_phrase_audio>
+      <lang_en_a_phrase_text>Yes English language tours begin every half hour.</lang_en_a_phrase_text>
+      <lang_tl_a_word_text dir="ltr">n||i||n||e</lang_tl_a_word_text>
+      <lang_tl_a_word_audio/>
+      <lang_tl_a_word_order>5</lang_tl_a_word_order>
+      <lang_tl_a_characters>n||i||n||e||a||t||o||r||i||a||o||n||g||o||z</lang_tl_a_characters>
+      <lang_tl_b_phrase_text dir="ltr">Ndiyo,||ziara||kwa||Kiingereza||huanza||kila||nusu||saa.</lang_tl_b_phrase_text>
+      <lang_tl_b_phrase_audio>18.mp3</lang_tl_b_phrase_audio>
+      <lang_en_b_phrase_text>How interesting! Are guided tours available?</lang_en_b_phrase_text>
+      <lang_tl_b_word_text dir="ltr"/>
+      <lang_tl_b_word_audio/>
+      <lang_tl_b_word_order/>
+      <lang_tl_b_characters/>
+      <feedback1><![CDATA[How interesting! Are guided tours available? … Yes English language tours begin every half hour]]></feedback1>
+      <feedback2><![CDATA[]]></feedback2>
+    </item>
+  </session>
+</content>

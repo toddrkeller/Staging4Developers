@@ -1,0 +1,153 @@
+#main{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#videoContainer1{
+    background-color: grey;
+    height: 240px;
+    left: 35px;
+    position: absolute;
+    width: 320px;
+}
+#videoContainer2{
+    background-color: grey;
+    height: 240px;
+    left: 360px;
+    position: absolute;
+    width: 320px;
+}
+
+.videoScreen{
+    width: 320px;
+    height:240px;
+    margin: 0px 0px 0px 0px;
+}
+
+#feedback {
+    top: 190px;
+}
+
+.displayNone{
+	display: none;
+}
+
+
+#VideoCaption{
+	width: 320px;
+    height: 240px;
+}
+
+.itemCompleted{
+	border: 3px solid darkGrey;
+	background-color: darkGrey;
+}
+
+.itemNotCompleted{
+	border: 3px solid lightGrey;
+	background-color: lightGrey;
+}
+#videoTag {
+	width: 360px;
+    height: 240px;
+}
+
+.playBtn {
+    width: 30px;
+    position: absolute;
+}
+
+#playBtnVid1, #playBtnVid2{
+    top: 200px;	
+    position: absolute;
+    left: 8px;
+    cursor: pointer;
+}
+#playBtn0, #playBtn1, #playBtn2{
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+#choiceText{
+	background-color: #fbfbf9;
+	position: absolute;
+	font-size: 18px;
+	margin-left: 20px;
+	width:660px;
+	height:200px;
+	top: 250px;
+}
+.vidPlayBtnDiv {
+	position: relative;
+	float: left;
+}
+.dragContainer{
+	background-color: #fffffe;
+	height: 60px;
+	width: 650px;
+	margin-left: 5px;
+	border-bottom: solid #999999 1px;
+}
+#choice0{
+	margin-top: 9px;
+}
+
+.textOn{
+	display: inline;
+	margin-left: 10px;
+	width: 510px;
+	color: #666666;
+	position: relative;
+	float: left;
+	
+}
+
+#id_text0, #id_text1, #id_text2 {
+	font-size: 12pt;
+	padding-top: 15px;
+}
+.css_submitbtn {
+	position: relative;
+	float: left;
+	padding-top: 15px;
+	margin-left: 10px;
+	width:70px;
+
+}
+#submitBtn0, #submitBtn1, #submitBtn2 {
+    display: none;
+}
+
+#clickGuard{
+	height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: .2;
+    background-color: #ffffff;
+}
+.roundCorners{
+	border-radius: 3px 3px 3px 3px;
+}
+
+#container_setDiv{
+	position:absolute;
+	left: 18px;
+	top: 443px;
+    width: 660px;
+    height: 40px;
+    margin: 10px;
+    background-color: #f6f6f6;
+}
+#setDiv {
+	left: 610px;
+	z-index:5;
+	height: 30px;
+	background-color: white;
+	width: 40px;
+	position: relative;
+	top: 5px;
+	color:#080808;
+}
+

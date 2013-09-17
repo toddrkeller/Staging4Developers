@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Russian" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    
+    <item>
+        <file_video>rain.flv</file_video>
+        <lang_en>bar</lang_en>
+        <lang_tl dir="ltr">бар</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A place where alcoholic drinks are served.</hint_l1>
+        <feedback_l1 dir="ltr">صباح الخير means bar.</feedback_l1>
+    </item>
+    <item>
+        <file_video>red.flv</file_video>
+        <lang_en>cafe</lang_en>
+        <lang_tl dir="ltr">кафе</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A small place where coffee and snacks are served.</hint_l1>
+        <feedback_l1 dir="ltr">صباح الخير means cafe.</feedback_l1>
+    </item>
+    <item>
+        <file_video>rice.flv</file_video>
+        <lang_en>casino</lang_en>
+        <lang_tl dir="ltr">казино</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A place where people gamble.</hint_l1>
+        <feedback_l1 dir="ltr">صباح الخير means casino.</feedback_l1>
+    </item>
+    <item>
+        <file_video>river.flv</file_video>
+        <lang_en>taxi</lang_en>
+        <lang_tl dir="ltr">такси</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A car that takes passengers where they need to go.</hint_l1>
+        <feedback_l1 dir="ltr">Такси means taxi.</feedback_l1>
+    </item>
+    <item>
+        <file_video>road.flv</file_video>
+        <lang_en>McDonald's</lang_en>
+        <lang_tl dir="ltr">Макдоналдс</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">fast-food restaurant chain throughout the world</hint_l1>
+        <feedback_l1 dir="ltr">Макдоналдс means McDonald's.</feedback_l1>
+    </item>
+    <item>
+        <file_video>rain.flv</file_video>
+        <lang_en>restaurant</lang_en>
+        <lang_tl dir="ltr">ресторан</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A place where meals are served to patrons.</hint_l1>
+        <feedback_l1 dir="ltr">Ресторан means restaurant.</feedback_l1>
+    </item>
+    <item>
+        <file_video>red.flv</file_video>
+        <lang_en>Coca-Cola</lang_en>
+        <lang_tl dir="ltr">Кока-Кола</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A carbonated soft drink flavoured with coca leaves.</hint_l1>
+        <feedback_l1 dir="ltr">Кока-Кола means Coca-Cola.</feedback_l1>
+    </item>
+    <item>
+        <file_video>rice.flv</file_video>
+        <lang_en>buffet</lang_en>
+        <lang_tl dir="ltr">буфет</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">a restaurant with a counter where refreshments are served
+            
+        </hint_l1>
+        <feedback_l1 dir="ltr">Буфет means buffet. It is a small cafe at a bus or railway station.</feedback_l1>
+    </item>
+    <item>
+        <file_video>river.flv</file_video>
+        <lang_en>supermarket</lang_en>
+        <lang_tl dir="ltr">cупермаркет</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A large place where one can buy food and household goods.</hint_l1>
+        <feedback_l1 dir="ltr">Супермаркет means supermarket.</feedback_l1>
+    </item>
+    <item>
+        <file_video>road.flv</file_video>
+        <lang_en>Baskin-Robbins</lang_en>
+        <lang_tl dir="ltr">Баскин Роббинс</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">а US based chain of ice cream parlors</hint_l1>
+        <feedback_l1 dir="ltr">Баскин Роббинс means Baskin-Robbins.</feedback_l1>
+    </item>
+    <item>
+        <file_video>rain.flv</file_video>
+        <lang_en>souvenir</lang_en>
+        <lang_tl dir="ltr">сувенир </lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">An object kept to remind one of something.
+        </hint_l1>
+        <feedback_l1 dir="ltr">Сувенир means souvenir.</feedback_l1>
+    </item>
+    <item>
+        <file_video>red.flv</file_video>
+        <lang_en>McChicken</lang_en>
+        <lang_tl dir="ltr">Макчикен</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">a chicken sandwich sold by McDonald's</hint_l1>
+        <feedback_l1 dir="ltr">Макчикен means McChicken.</feedback_l1>
+    </item>
+    <item>
+        <file_video>rice.flv</file_video>
+        <lang_en>Pepsi</lang_en>
+        <lang_tl dir="ltr">Пепси</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">Carbonated drink flavored with extract from kola nuts. </hint_l1>
+        <feedback_l1 dir="ltr">Пепси means Pepsi.</feedback_l1>
+    </item>
+    <item>
+        <file_video>river.flv</file_video>
+        <lang_en>toilet</lang_en>
+        <lang_tl dir="ltr">туалет</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">a room or building equipped with one or more toilets 
+        </hint_l1>
+        <feedback_l1 dir="ltr">туалет means toilet. </feedback_l1>
+    </item>
+    <item>
+        <file_video>road.flv</file_video>
+        <lang_en>telephone</lang_en>
+        <lang_tl dir="ltr">телефон</lang_tl>
+        <lang_trans></lang_trans>
+        <hint_l1 dir="ltr">A mobile or landline communication device.</hint_l1>
+        <feedback_l1 dir="ltr">Телефон means telephone.</feedback_l1>
+    </item>
+    
+    
+</content>

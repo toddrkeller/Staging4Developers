@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Cebuano" xmlns:hs="http://www.dliflc.edu/products/headstart">
+    <hs:set>
+      <hs:stml_media>vb_t12_s4_dia1_a.flv</hs:stml_media>
+      <hs:stml_en>Where does your mother work?</hs:stml_en>
+      <hs:correct_response_media>vb_t12_s4_dia1_b.flv</hs:correct_response_media>
+      <hs:correct_response_en>My mother works at the municipal hall of Liloy.</hs:correct_response_en>
+      <hs:d_1_media>vb_t12_s4_dia1_d1.flv</hs:d_1_media>
+      <hs:d_1_en>My aunt works at the municipal hall of Liloy.</hs:d_1_en>
+      <hs:d_2_media>vb_t12_s4_dia1_d2.flv</hs:d_2_media>
+      <hs:d_2_en>My uncle works at the municipal hall of Pagadian.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>vb_t12_s4_dia2_a.flv</hs:stml_media>
+      <hs:stml_en>Where does your brother live?</hs:stml_en>
+      <hs:correct_response_media>vb_t12_s4_dia2_b.flv</hs:correct_response_media>
+      <hs:correct_response_en>My brother lives in Ozamiz.</hs:correct_response_en>
+      <hs:d_1_media>vb_t12_s4_dia2_d1.flv</hs:d_1_media>
+      <hs:d_1_en>My sister lives in Davao.</hs:d_1_en>
+      <hs:d_2_media>vb_t12_s4_dia2_d2.flv</hs:d_2_media>
+      <hs:d_2_en>My nephew lives in Cagayan.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>vb_t12_s4_dia3_a.flv</hs:stml_media>
+      <hs:stml_en>Where is your uncle from?</hs:stml_en>
+      <hs:correct_response_media>vb_t12_s4_dia3_b.flv</hs:correct_response_media>
+      <hs:correct_response_en>My uncle is from Bohol.</hs:correct_response_en>
+      <hs:d_1_media>vb_t12_s4_dia3_d1.flv</hs:d_1_media>
+      <hs:d_1_en>My grandfather is from Leyte.</hs:d_1_en>
+      <hs:d_2_media>vb_t12_s4_dia3_d2.flv</hs:d_2_media>
+      <hs:d_2_en>My husband is from Negros.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>vb_t12_s4_dia5_a.flv</hs:stml_media>
+      <hs:stml_en>How is your family?</hs:stml_en>
+      <hs:correct_response_media>vb_t12_s4_dia5_b.flv</hs:correct_response_media>
+      <hs:correct_response_en>My family is just fine.</hs:correct_response_en>
+      <hs:d_1_media>vb_t12_s4_dia5_d1.flv</hs:d_1_media>
+      <hs:d_1_en>My wife is just okay.</hs:d_1_en>
+      <hs:d_2_media>vb_t12_s4_dia5_d2.flv</hs:d_2_media>
+      <hs:d_2_en>My grandmother is just fine.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>vb_t12_s4_dia6_a.flv</hs:stml_media>
+      <hs:stml_en>Where does your son study?</hs:stml_en>
+      <hs:correct_response_media>vb_t12_s4_dia6_b.flv</hs:correct_response_media>
+      <hs:correct_response_en>My son studies in a Catholic school.</hs:correct_response_en>
+      <hs:d_1_media>vb_t12_s4_dia6_d1.flv</hs:d_1_media>
+      <hs:d_1_en>My nephew studies in an international school.</hs:d_1_en>
+      <hs:d_2_media>vb_t12_s4_dia6_d2.flv</hs:d_2_media>
+      <hs:d_2_en>My daughter studies in a public school.</hs:d_2_en>
+    </hs:set>
+
+</hs:content>
