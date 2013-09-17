@@ -1,0 +1,187 @@
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    float: left;
+    font-size: 14px;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+#setIndex {
+    bottom: auto;
+    font-size: 14px;
+    left: auto;
+    right: auto;
+    top: auto;
+    float: right;
+    padding-right: 7px;
+    padding-top: 7px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.roundCorners {
+    border-radius: 0 0 0 0;
+}
+#clickGuard {
+    background-color: lightgray;
+    display: none;
+    height: 526px;
+    left: 0;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 1000px;
+}
+.activity_description {
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    margin-top: -19px;
+}
+.activity_hd {
+    color: grey;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: -2px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.dropTarget {
+	border-radius: 4px 4px 4px 4px;
+    float: left;
+    height: 149px;
+    margin: 2px 6px -4px 19px;
+    width: 152px;
+}
+.hidden {
+    display: none;
+}
+#setDiv {
+    left: 787px;
+    top: 369px;
+    width: 107px;
+}
+.disabledImage {
+    display: none;
+}
+.dropTargetText {
+    background-color: #CECECE;
+    border: thin solid #939393;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #FFFFFF, 0 3px 3px 0 rgba(147, 147, 147, 0.6) inset;
+    font-size: 14px;
+    height: 27px;
+    letter-spacing: 2px;
+    margin: 114px 0 0 12px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    width: 125px;
+}
+.hoveredOver {
+    box-shadow: 0 0 3px 3px yellow;
+}
+
+.notHoveredOver {
+    box-shadow: -1px 2px 5px 2px darkgray inset;
+}
+
+.clickImage {
+    height: 100px;
+    width: 119px;
+}
+.dropTargetImg {
+    height: 110px;
+    margin: 0 0 0 2px;
+    position: absolute;
+    width: 143px;
+}
+.dragBubbleText {
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+.dragBubble {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border: thin solid #BDBDBD;
+    box-shadow: 0 2px 2px #BDBDBD;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    margin: 2px 2px 2px 5px;
+    width: 150px;
+}
+#dropTargets {
+    left: 25px;
+    position: absolute;
+    width: 577px;
+}
+#dragBubbles {
+    background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+    border: thin solid #B8B8B8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+    height: 275px;
+    left: 572px;
+    padding: 5px;
+    position: absolute;
+    top: 74px;
+    width: 327px;
+}
+#imageContainer {
+    height: 350px;
+    left: 185px;
+    position: absolute;
+    top: 15px;
+    width: 250px;
+}
+.imageOverlay {
+    position: absolute;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 42px;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 20px;
+    position: absolute;
+    top: 370px;
+    width: 521px;
+    z-index: 100;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+#feedbackHeader {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -21px;
+}
+#feedbackText {
+	margin-top:-13px;
+}

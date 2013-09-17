@@ -1,0 +1,478 @@
+
+.noSelect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;          
+}
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    float: left;
+    font-size: 14px;
+    margin-left: 0;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+#setText {
+    border-radius: 0 4px 4px 0;
+    bottom: auto;
+    font-size: 14px;
+    height: 20px;
+    left: 0;
+    padding-right: 7px;
+    padding-top: 7px;
+    position: relative;
+    top: 0;
+    width: 29px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#container_setDiv {
+    background-color: transparent;
+    cursor: default;
+    height: 40px;
+    left: 0;
+    margin: 10px;
+    position: relative;
+    top: 0;
+    width: 880px;
+}
+#setDiv {
+    background-color: #F5F5F5;
+    cursor: default;
+    height: 30px;
+    left: 590px;
+    position: relative;
+    top: 5px;
+    width: 115px;
+    z-index: 0;
+}
+#clickGuard {
+    background-color: grey;
+    display: none;
+    height: 426px;
+    left: 246px;
+    opacity: 0.1;
+    position: absolute;
+    top: -11px;
+    width: 655px;
+    z-index: 166;
+}
+.activity_description {
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    margin-top: -19px;
+}
+.activity_hd {
+    color: grey;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: -2px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    position: absolute;
+}
+.roundCorners {
+    border-radius: 0 0 0 0;
+}
+.divBtn {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border: thin solid #BDBDBD;
+    box-shadow: 0 2px 2px #BDBDBD;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    margin: 13px 2px 2px 0px;
+    width: 180px;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    float: left;
+    left: 0px;
+    margin: 0 0 0 7px;
+    max-height: 261px;
+    min-height: 261px;
+    padding: 20px;
+    position: absolute;
+    top: 101px;
+    width: 185px;
+    z-index: 1000;
+}
+#feedbackHeader {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -13px;
+}
+#feedbackText {
+    margin-top: -13px;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 26px;
+}
+#container_1 {
+    background-color: #F5F5F5;
+    height: 211px;
+    margin: 10px;
+    position: relative;
+    width: 577px;
+}
+#img_1 {
+    background-color: gray;
+    height: 150px;
+    left: 22px;
+    margin-left: 8px;
+    margin-top: 5px;
+    position: absolute;
+    width: 180px;
+}
+#img_2 {
+    background-color: gray;
+    height: 150px;
+    left: 212px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    width: 180px;
+}
+#img_3 {
+    background-color: gray;
+    height: 150px;
+    left: 400px;
+    margin-left: 5px;
+    margin-top: 5px;
+    position: absolute;
+    width: 180px;
+}
+.dropTarget {
+    background-color: lightgrey;
+    border: 3px solid lightgrey;
+}
+.dropTargetHover {
+    background-color: grey;
+    border: 3px solid #FCEEA1;
+}
+* {
+    -moz-box-sizing: inherit;
+	-webkit-box-sizing: initial;
+	box-sizing: content-box;
+}
+#container_container {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-origin: padding-box;
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    background-size: auto auto;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    height: 401px;
+    left: 260px;
+    position: relative;
+    width: 623px;
+}
+#dropTarget_1 {
+    box-shadow: -1px 1px 6px grey inset;
+    height: 35px;
+    left: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    position: absolute;
+    top: 170px;
+    width: 165px;
+}
+#dropTarget_2 {
+    box-shadow: -1px 1px 6px grey inset;
+    height: 35px;
+    left: 197px;
+    margin-left: 25px;
+    margin-top: 5px;
+    position: absolute;
+    top: 170px;
+    width: 165px;
+}
+#dropTarget_3 {
+    box-shadow: -1px 1px 6px grey inset;
+    height: 35px;
+    left: 385px;
+    margin-left: 25px;
+    margin-top: 5px;
+    position: absolute;
+    top: 170px;
+    width: 165px;
+}
+#container_2 {
+    background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+    border: thin solid #B8B8B8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+    height: 121px;
+    left: 12px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+    width: 577px;
+}
+#container_2_layer_1 {
+    position: absolute;
+    width: 577px;
+}
+#container_2_layer_2 {
+    position: absolute;
+    width: 577px;
+}
+#dragTarget_1 {
+    background-color: darkGray;
+    border: 3px solid darkGray;
+    float: left;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 165px;
+}
+#dragTarget_2 {
+    background-color: darkGray;
+    border: 3px solid darkGray;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 15px;
+    width: 165px;
+}
+#dragTarget_3 {
+    background-color: darkGray;
+    border: 3px solid darkGray;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 15px;
+    width: 165px;
+}
+#dragTarget_4 {
+    background-color: darkGray;
+    border: 3px solid darkGray;
+    float: left;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 165px;
+}
+#dragTarget_5 {
+    background-color: darkGray;
+    border: 3px solid darkGray;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 8px;
+    width: 165px;
+}
+#dragTarget_6 {
+    background-color: darkGray;
+    border: 3px solid darkGray;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 8px;
+    width: 165px;
+}
+#dragBubble_1 {
+    background-color: darkkhaki;
+    border: 3px solid darkkhaki;
+    float: left;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 165px;
+}
+#dragBubble_2 {
+    background-color: darkkhaki;
+    border: 3px solid darkkhaki;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 15px;
+    width: 165px;
+}
+#dragBubble_3 {
+    background-color: darkkhaki;
+    border: 3px solid darkkhaki;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 15px;
+    width: 165px;
+}
+#dragBubble_4 {
+    background-color: darkkhaki;
+    border: 3px solid darkkhaki;
+    float: left;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 8px;
+    width: 165px;
+}
+#dragBubble_5 {
+    background-color: darkkhaki;
+    border: 3px solid darkkhaki;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 8px;
+    width: 165px;
+}
+#dragBubble_6 {
+    background-color: darkkhaki;
+    border: 3px solid darkkhaki;
+    float: left;
+    height: 35px;
+    margin-left: 19px;
+    margin-top: 8px;
+    width: 165px;
+}
+#container_3 {
+    background-color: #8D8D8D;
+    height: 56px;
+    margin: 10px;
+    width: 577px;
+}
+.dragBubbleText {
+    bottom: 0;
+    cursor: default;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 6px;
+}
+#nextDiv {
+    height: 27px;
+    left: 844px;
+    position: absolute;
+    top: 7px;
+    width: 27px;
+    z-index: 11;
+}
+#prevDiv {
+    height: 27px;
+    left: 806px;
+    position: absolute;
+    top: 8px;
+    width: 27px;
+    z-index: 11;
+}
+#playBtn1 {
+    height: 42px;
+    margin: 14px 10px 10px 20px;
+    position: relative;
+    width: 42px;
+    z-index: 7;
+}
+#playBtn2 {
+    height: 42px;
+    left: 72px;
+    margin: 14px 10px 10px;
+    position: relative;
+    top: -57px;
+    width: 42px;
+    z-index: 7;
+}
+#playBtn3 {
+    height: 42px;
+    left: 136px;
+    margin: 14px 10px 10px;
+    position: relative;
+    top: -113px;
+    width: 42px;
+    z-index: 7;
+}
+#id_prev_next_div {
+    left: 664px;
+    position: relative;
+    top: -23px;
+}
+#btn_container {
+    background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+    border: thin solid #B8B8B8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+    height: 80px;
+    left: 8px;
+    position: absolute;
+    width: 222px;
+}
+#main {
+    position: relative;
+    top: -9px;
+}
+#buttonGuard {
+    height: 80px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}

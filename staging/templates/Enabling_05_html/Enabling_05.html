@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+		<title>Enabling 5 HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+		
+		<script src="Enabling_05.js"></script>
+	</head>
+	<body class="noSelect">
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		
+		<h3 class="activity_hd" class="noSelect">Enabling 05 | Translation Match (Puzzle)</h3>
+		<div class="activity_description" class="noSelect">To activate the audio, click on a 
+				Target Language in the left column. Listen to the phrase. 
+				Drag the English word from</div>
+		
+		<div id="main" class="noSelect">
+			<div id="dropTargets">
+				<div id="dropTarget_1" class="dropTarget roundCorners" >
+					<span id="dropTargetText_1" class="dropTargetText noSelect">One</span>
+				</div>
+				
+				<div id="dropTarget_2" class="dropTarget roundCorners" >
+					<span id="dropTargetText_2" class="dropTargetText noSelect">Two</span>
+				</div>
+				
+				<div id="dropTarget_3" class="dropTarget roundCorners" >
+					<span id="dropTargetText_3" class="dropTargetText noSelect">Three</span>
+				</div>
+				<div id="dropTarget_4" class="dropTarget roundCorners" >
+					<span id="dropTargetText_4" class="dropTargetText noSelect">Four</span>
+				</div>
+				
+				<div id="dropTarget_5" class="dropTarget roundCorners" >
+					<span id="dropTargetText_5" class="dropTargetText noSelect">Five</span>
+				</div>
+			</div>
+			
+			<div id="imageContainer">
+			</div>
+			
+			<div id="dragBubbles">
+				<div id="dragBubble_1" class="dragBubble roundCorners" >
+					<div class="playBtn" class="hidden" > 
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtnImg_1','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtnImg_1','','../common/Library/images/playBtn_s3.png',1);playAudio(1);"
+							onMouseUp="MM_swapImage('playBtnImg_1','','../common/Library/images/playBtn_s2.png',1)" 
+					        onMouseOver="MM_swapImage('playBtnImg_1','','../common/Library/images/playBtn_s2.png',1)" > 
+				          		<img id='playBtnImg_1'  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				    </div>
+					<span id="dragBubbleText_1" class="dragBubbleText noSelect">One</span>
+				</div>
+				
+				<div id="dragBubble_2" class="dragBubble roundCorners" >
+					<div class="playBtn" class="hidden" > 
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtnImg_2','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtnImg_2','','../common/Library/images/playBtn_s3.png',1);playAudio(2);"
+							onMouseUp="MM_swapImage('playBtnImg_2','','../common/Library/images/playBtn_s2.png',1)" 
+					        onMouseOver="MM_swapImage('playBtnImg_2','','../common/Library/images/playBtn_s2.png',1)" > 
+				          		<img id='playBtnImg_2'  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				    </div>
+					<span id="dragBubbleText_2" class="dragBubbleText noSelect">Two</span>
+				</div>
+				
+				<div id="dragBubble_3" class="dragBubble roundCorners" >
+					<div class="playBtn" class="hidden" > 
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtnImg_3','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtnImg_3','','../common/Library/images/playBtn_s3.png',1);playAudio(3);"
+							onMouseUp="MM_swapImage('playBtnImg_3','','../common/Library/images/playBtn_s2.png',1)" 
+					        onMouseOver="MM_swapImage('playBtnImg_3','','../common/Library/images/playBtn_s2.png',1)" > 
+				          		<img id='playBtnImg_3'  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				    </div>
+					<span id="dragBubbleText_3" class="dragBubbleText noSelect">Three</span>
+				</div>
+				<div id="dragBubble_4" class="dragBubble roundCorners" >
+					<div class="playBtn" class="hidden" > 
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtnImg_4','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtnImg_4','','../common/Library/images/playBtn_s3.png',1);playAudio(th4is);"
+							onMouseUp="MM_swapImage('playBtnImg_4','','../common/Library/images/playBtn_s2.png',1)" 
+					        onMouseOver="MM_swapImage('playBtnImg_4','','../common/Library/images/playBtn_s2.png',1)" > 
+				          		<img id='playBtnImg_4'  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				    </div>
+					<span id="dragBubbleText_4" class="dragBubbleText noSelect">Four</span>
+				</div>
+				
+				<div id="dragBubble_5" class="dragBubble roundCorners" >
+					<div class="playBtn" class="hidden" > 
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtnImg_5','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtnImg_5','','../common/Library/images/playBtn_s3.png',1);playAudio(5);"
+							onMouseUp="MM_swapImage('playBtnImg_5','','../common/Library/images/playBtn_s2.png',1)" 
+					        onMouseOver="MM_swapImage('playBtnImg_5','','../common/Library/images/playBtn_s2.png',1)" > 
+				          		<img id='playBtnImg_5'  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				    </div>
+					<span id="dragBubbleText_5" class="dragBubbleText noSelect">Five</span>
+				</div>	
+				
+				<div id="dragBubble_6" class="dragBubble roundCorners" >
+					<div class="playBtn" class="hidden" > 
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtnImg_6','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtnImg_6','','../common/Library/images/playBtn_s3.png',1);playAudio(6);"
+							onMouseUp="MM_swapImage('playBtnImg_6','','../common/Library/images/playBtn_s2.png',1)" 
+					        onMouseOver="MM_swapImage('playBtnImg_6','','../common/Library/images/playBtn_s2.png',1)" > 
+				          		<img id='playBtnImg_6'  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				    </div>
+					<span id="dragBubbleText_6" class="dragBubbleText noSelect">Six</span>
+				</div>				
+			</div>
+			<div id="feedback" >
+				<h2 id="feedbackHeader" class="noSelect">Set completed</h2>
+				<p id="feedbackText" class="noSelect">Set completed text</p>
+				<button id="feedbackBtn" class="noSelect" onclick="{closeFeedback();}">Ok</button>
+			</div>
+			<div id="container_setDiv" class="btn-group noSelect">
+				<div id="setTitle" class="bootstrapLabel btn_set noSelect">SET:</div>
+				<div id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</div>
+			</div>
+			<div id="clickGuard" ></div>
+		</div>
+			
+			
+		
+		
+		
+	</body>
+</html>

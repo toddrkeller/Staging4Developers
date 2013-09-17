@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hs:content
+	xmlns:hs="http://fieldsupport.lingnet.org/products/headstart"
+	xmlns="http://fieldsupport.lingnet.org/products/headstart">
+	<hs:section>
+		<hs:pronoun>I (1)</hs:pronoun>
+		<hs:pronoun>you (2)</hs:pronoun>
+		<hs:pronoun>he (3)</hs:pronoun>
+		<hs:pronoun>we (4)</hs:pronoun>
+		<hs:pronoun>you (pl) (5)</hs:pronoun>
+		<hs:pronoun>they (6)</hs:pronoun>
+		
+		<hs:verb>
+			<hs:infinitive>Привет (1)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>theyПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (2)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>theyПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (3)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>theyПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (4)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>theyПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (5)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>theyПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (6)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>theyПривет</hs:conjugation>
+		</hs:verb>
+	</hs:section>
+	<hs:section>
+			<hs:pronoun>I (1)</hs:pronoun>
+			<hs:pronoun>you (2)</hs:pronoun>
+			<hs:pronoun>he (3)</hs:pronoun>
+			<hs:pronoun>she (4)</hs:pronoun>
+			<hs:pronoun>it (5)</hs:pronoun>
+			<hs:pronoun>we (6)</hs:pronoun>
+		<hs:verb>
+			<hs:infinitive>Привет (7)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>sheПривет</hs:conjugation>
+			<hs:conjugation>itПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (8)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>sheПривет</hs:conjugation>
+			<hs:conjugation>itПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (9)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>sheПривет</hs:conjugation>
+			<hs:conjugation>itПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (10)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>sheПривет</hs:conjugation>
+			<hs:conjugation>itПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (11)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>sheПривет</hs:conjugation>
+			<hs:conjugation>itПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>Привет (12)</hs:infinitive>
+			<hs:conjugation>IПривет</hs:conjugation>
+			<hs:conjugation>youПривет</hs:conjugation>
+			<hs:conjugation>heПривет</hs:conjugation>
+			<hs:conjugation>sheПривет</hs:conjugation>
+			<hs:conjugation>itПривет</hs:conjugation>
+			<hs:conjugation>weПривет</hs:conjugation>
+		</hs:verb>
+	</hs:section>
+</hs:content>

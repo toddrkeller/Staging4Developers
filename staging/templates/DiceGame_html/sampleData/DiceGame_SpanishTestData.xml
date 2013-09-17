@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hs:content
+	xmlns:hs="http://fieldsupport.lingnet.org/products/headstart"
+	xmlns="http://fieldsupport.lingnet.org/products/headstart">
+	<hs:section>
+		<hs:pronoun>I (1)</hs:pronoun>
+		<hs:pronoun>you (2)</hs:pronoun>
+		<hs:pronoun>he (3)</hs:pronoun>
+		<hs:pronoun>we (4)</hs:pronoun>
+		<hs:pronoun>you (pl) (5)</hs:pronoun>
+		<hs:pronoun>they (6)</hs:pronoun>
+		
+		<hs:verb>
+			<hs:infinitive>está (1)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>theyestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (2)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>theyestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (3)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>theyestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (4)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>theyestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (5)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>theyestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (6)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>theyestá</hs:conjugation>
+		</hs:verb>
+	</hs:section>
+	<hs:section>
+			<hs:pronoun>I (1)</hs:pronoun>
+			<hs:pronoun>you (2)</hs:pronoun>
+			<hs:pronoun>he (3)</hs:pronoun>
+			<hs:pronoun>she (4)</hs:pronoun>
+			<hs:pronoun>it (5)</hs:pronoun>
+			<hs:pronoun>we (6)</hs:pronoun>
+		<hs:verb>
+			<hs:infinitive>está (7)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>sheestá</hs:conjugation>
+			<hs:conjugation>itestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (8)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>sheestá</hs:conjugation>
+			<hs:conjugation>itestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (9)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>sheestá</hs:conjugation>
+			<hs:conjugation>itestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (10)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>sheestá</hs:conjugation>
+			<hs:conjugation>itestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (11)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>sheestá</hs:conjugation>
+			<hs:conjugation>itestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+		</hs:verb>
+		<hs:verb>
+			<hs:infinitive>está (12)</hs:infinitive>
+			<hs:conjugation>Iestá</hs:conjugation>
+			<hs:conjugation>youestá</hs:conjugation>
+			<hs:conjugation>heestá</hs:conjugation>
+			<hs:conjugation>sheestá</hs:conjugation>
+			<hs:conjugation>itestá</hs:conjugation>
+			<hs:conjugation>weestá</hs:conjugation>
+		</hs:verb>
+	</hs:section>
+</hs:content>

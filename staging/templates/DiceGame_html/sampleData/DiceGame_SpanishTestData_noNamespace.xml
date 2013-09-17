@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<section>
+		<pronoun>I (1)</pronoun>
+		<pronoun>you (2)</pronoun>
+		<pronoun>he (3)</pronoun>
+		<pronoun>we (4)</pronoun>
+		<pronoun>you (pl) (5)</pronoun>
+		<pronoun>they (6)</pronoun>
+		
+		<verb>
+			<infinitive>esta (1)</infinitive>
+			<conjugation>Iesta1</conjugation>
+			<conjugation>youesta1</conjugation>
+			<conjugation>heesta1</conjugation>
+			<conjugation>weesta1</conjugation>
+			<conjugation>youesta1</conjugation>
+			<conjugation>theyesta1</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (2)</infinitive>
+			<conjugation>Iesta2</conjugation>
+			<conjugation>youesta2</conjugation>
+			<conjugation>heesta2</conjugation>
+			<conjugation>weesta2</conjugation>
+			<conjugation>youesta2</conjugation>
+			<conjugation>theyesta2</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (3)</infinitive>
+			<conjugation>Iesta3</conjugation>
+			<conjugation>youesta3</conjugation>
+			<conjugation>heesta3</conjugation>
+			<conjugation>weesta3</conjugation>
+			<conjugation>youesta3</conjugation>
+			<conjugation>theyesta3</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (4)</infinitive>
+			<conjugation>Iesta4</conjugation>
+			<conjugation>youesta4</conjugation>
+			<conjugation>heesta4</conjugation>
+			<conjugation>weesta4</conjugation>
+			<conjugation>youesta4</conjugation>
+			<conjugation>theyesta4</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (5)</infinitive>
+			<conjugation>Iesta5</conjugation>
+			<conjugation>youesta5</conjugation>
+			<conjugation>heesta5</conjugation>
+			<conjugation>weesta5</conjugation>
+			<conjugation>youesta5</conjugation>
+			<conjugation>theyesta5</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (6)</infinitive>
+			<conjugation>Iesta6</conjugation>
+			<conjugation>youesta6</conjugation>
+			<conjugation>heesta6</conjugation>
+			<conjugation>weesta6</conjugation>
+			<conjugation>youesta6</conjugation>
+			<conjugation>theyesta6</conjugation>
+		</verb>
+	</section>
+	<section>
+			<pronoun>I (1)</pronoun>
+			<pronoun>you (2)</pronoun>
+			<pronoun>he (3)</pronoun>
+			<pronoun>she (4)</pronoun>
+			<pronoun>it (5)</pronoun>
+			<pronoun>we (6)</pronoun>
+		<verb>
+			<infinitive>esta (7)</infinitive>
+			<conjugation>Iesta7</conjugation>
+			<conjugation>youesta7</conjugation>
+			<conjugation>heesta7</conjugation>
+			<conjugation>sheesta7</conjugation>
+			<conjugation>itesta7</conjugation>
+			<conjugation>weesta7</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (8)</infinitive>
+			<conjugation>Iesta8</conjugation>
+			<conjugation>youesta8</conjugation>
+			<conjugation>heesta8</conjugation>
+			<conjugation>sheesta8</conjugation>
+			<conjugation>itesta8</conjugation>
+			<conjugation>weesta8</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (9)</infinitive>
+			<conjugation>Iesta9</conjugation>
+			<conjugation>youesta9</conjugation>
+			<conjugation>heesta9</conjugation>
+			<conjugation>sheesta9</conjugation>
+			<conjugation>itesta9</conjugation>
+			<conjugation>weesta9</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (10)</infinitive>
+			<conjugation>Iesta10</conjugation>
+			<conjugation>youesta10</conjugation>
+			<conjugation>heesta10</conjugation>
+			<conjugation>sheesta10</conjugation>
+			<conjugation>itesta10</conjugation>
+			<conjugation>weesta10</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (11)</infinitive>
+			<conjugation>Iesta11</conjugation>
+			<conjugation>youesta11</conjugation>
+			<conjugation>heesta11</conjugation>
+			<conjugation>sheesta11</conjugation>
+			<conjugation>itesta11</conjugation>
+			<conjugation>weesta11</conjugation>
+		</verb>
+		<verb>
+			<infinitive>esta (12)</infinitive>
+			<conjugation>Iesta12</conjugation>
+			<conjugation>youesta12</conjugation>
+			<conjugation>heesta12</conjugation>
+			<conjugation>sheesta12</conjugation>
+			<conjugation>itesta12</conjugation>
+			<conjugation>weesta12</conjugation>
+		</verb>
+	</section>
+</content>

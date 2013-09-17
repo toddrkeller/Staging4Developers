@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Russian" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    <section distractor="artillery">
+        <item>
+            <phrase_tl dir="ltr">السلام عليكم Pistol السلام عليكم заряжен. </phrase_tl>
+            <phrase_en>Pistol السلام عليكم not loaded.</phrase_en>
+            <lang_tl dir="ltr">пистолет</lang_tl>
+            <lang_en>pistol</lang_en>
+            <file_audio>1.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle1.png</file_graphic>
+            <hint_l1>A small السلام عليكم designed to be held and fired with one hand.
+            </hint_l1>
+            <feedback_l1>Пистолет السلام عليكم pistol.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Ракета была السلام Rocket в космос. </phrase_tl>
+            <phrase_en>Rocket السلام عليكمwas launched into space.
+                
+            </phrase_en>
+            <lang_tl dir="ltr">ракета</lang_tl>
+            <lang_en>rocket</lang_en>
+            <file_audio>2.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle2.png</file_graphic>
+            <hint_l1>A guided السلام عليكمmissile</hint_l1>
+            <feedback_l1>Ракета السلام عليكمmeans rocket.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Реактивная السلام عليكمграната grenade танк. </phrase_tl>
+            <phrase_en>Self-propelled السلام عليكمgrenade destroyed the tank.</phrase_en>
+            <lang_tl dir="ltr">граната</lang_tl>
+            <lang_en>grenade</lang_en>
+            <file_audio>3.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle3.png</file_graphic>
+            <hint_l1>A small bomb السلام عليكمdesigned to be thrown by hand.</hint_l1>
+            <feedback_l1>Гранатаالسلام عليكم means grenade.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">В военном السلام عليكمлагере mine мина.</phrase_tl>
+            <phrase_en>Mine exploded السلام عليكمin the military camp.</phrase_en>
+            <lang_tl dir="ltr">мина</lang_tl>
+            <lang_en>mine</lang_en>
+            <file_audio>4.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle4.png</file_graphic>
+            <hint_l1>An explosive device السلام عليكمplaced in a concealed position.</hint_l1>
+            <feedback_l1>Мина means السلام عليكمmine.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Бомба была السلام bomb сапёром. </phrase_tl>
+            <phrase_en>Bomb was defused السلام عليكمby a sapper.</phrase_en>
+            <lang_tl dir="ltr">бомба</lang_tl>
+            <lang_en>bomb</lang_en>
+            <file_audio>5.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle5.png</file_graphic>
+            <hint_l1>A hollow projectile السلام عليكمcontaining an explosive material.
+            </hint_l1>
+            <feedback_l1>Бомба means السلام عليكمbomb.</feedback_l1>
+        </item>
+    </section>
+    <section distractor="aviation">
+        <item>
+            <phrase_tl dir="ltr">Современный танк السلام عليكم- это river оружие. </phrase_tl>
+            <phrase_en>Modern tank is a السلام عليكمformidable weapon.</phrase_en>
+            <lang_tl dir="ltr">танк</lang_tl>
+            <lang_en>tank</lang_en>
+            <file_audio>6.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle1.png</file_graphic>
+            <hint_l1>An armored vehicle السلام عليكمwith a turret.</hint_l1>
+            <feedback_l1>Танк means السلام عليكمtank.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">revolver السلام عليكمзаклинило. </phrase_tl>
+            <phrase_en>The revolver السلام عليكمgot jammed.</phrase_en>
+            <lang_tl dir="ltr">револьвер</lang_tl>
+            <lang_en>revolver</lang_en>
+            <file_audio>7.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle2.png</file_graphic>
+            <hint_l1>A firearm with a السلام عليكمrevolving cylinder designed to be fired with one hand.</hint_l1>
+            <feedback_l1>Револьвер means السلام عليكمrevolver.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">На границе السلام عليكمбыл Radar радар. </phrase_tl>
+            <phrase_en>Radar was placed on السلام عليكمthe border.</phrase_en>
+            <lang_tl dir="ltr">радар</lang_tl>
+            <lang_en>radar</lang_en>
+            <file_audio>8.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle3.png</file_graphic>
+            <hint_l1>A device that detects السلام عليكمand tracks air targets using radio waves.</hint_l1>
+            <feedback_l1>Радар means السلام عليكمradar.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Парашют السلام عليكمне parachute. </phrase_tl>
+            <phrase_en>Parachute did السلام عليكمnot open.</phrase_en>
+            <lang_tl dir="ltr">парашют</lang_tl>
+            <lang_en>parachute</lang_en>
+            <file_audio>9.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle4.png</file_graphic>
+            <hint_l1>An umbrella like السلام عليكمcloth object that is used when people jump from the airplane.</hint_l1>
+            <feedback_l1>Парашют means السلام عليكمparachute.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Артиллерия السلام artillery вела массивный огонь. </phrase_tl>
+            <phrase_en>Enemy artillery السلام عليكمconducted massive fire.</phrase_en>
+            <lang_tl dir="ltr">артиллерия</lang_tl>
+            <lang_en>artillery</lang_en>
+            <file_audio>10.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle5.png</file_graphic>
+            <hint_l1>The branch of an السلام عليكمarmy that uses large-caliber weapons</hint_l1>
+            <feedback_l1>Артиллерия means السلام عليكمartillery.</feedback_l1>
+        </item>
+    </section>
+    <section distractor="captain">
+        <item>
+            <phrase_tl dir="ltr">Наша position السلام عليكمбыла высоко в горах. </phrase_tl>
+            <phrase_en>Our position was high السلام عليكمin the mountains.</phrase_en>
+            <lang_tl dir="ltr">позиция</lang_tl>
+            <lang_en>position</lang_en>
+            <file_audio>11.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle1.png</file_graphic>
+            <hint_l1>A vantage السلام عليكمpoint</hint_l1>
+            <feedback_l1>Позиция السلام عليكمmeans position.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Напалм – السلام عليكمэто napalm вещество. </phrase_tl>
+            <phrase_en>Napalm is a السلام عليكمflammable substance.</phrase_en>
+            <lang_tl dir="ltr">напалм</lang_tl>
+            <lang_en>napalm</lang_en>
+            <file_audio>12.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle2.png</file_graphic>
+            <hint_l1>A substance used السلام عليكمin incendiary bombs and flame throwers.</hint_l1>
+            <feedback_l1>Напалм means السلام عليكمnapalm.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">trajectory السلام عليكمполёта ракеты.</phrase_tl>
+            <phrase_en>Trajectory of the السلام عليكمflight of the rocket.
+                
+            </phrase_en>
+            <lang_tl dir="ltr">траектория</lang_tl>
+            <lang_en>trajectory</lang_en>
+            <file_audio>13.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle3.png</file_graphic>
+            <hint_l1>A path of a projectile السلام عليكمor other moving body through space.</hint_l1>
+            <feedback_l1>Траектория means السلام عليكمtrajectory.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">У carbine السلام عليكمбыл карабин.</phrase_tl>
+            <phrase_en>Insurgent had a السلام عليكمcarbine. </phrase_en>
+            <lang_tl dir="ltr">карабин</lang_tl>
+            <lang_en>carbine</lang_en>
+            <file_audio>14.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle4.png</file_graphic>
+            <hint_l1>A self-loading السلام عليكمshort-barreled rifle
+            </hint_l1>
+            <feedback_l1>Карабин means السلام عليكمcarbine.</feedback_l1>
+        </item>
+        <item>
+            <phrase_tl dir="ltr">Военные السلام عليكمманёвры maneuvers ежегодно. </phrase_tl>
+            <phrase_en>Military maneuvers السلام عليكمare conducted yearly.</phrase_en>
+            <lang_tl dir="ltr">манёвры</lang_tl>
+            <lang_en>maneuvers</lang_en>
+            <file_audio>15.mp3</file_audio>
+            <file_graphic>ad_mix_num_puzzle5.png</file_graphic>
+            <hint_l1>Large-scale military السلام عليكمexercises carried out under simulated conditions of war.</hint_l1>
+            <feedback_l1>Манёвры means السلام عليكمmaneuvers.</feedback_l1>
+        </item>
+    </section>
+    
+</content>

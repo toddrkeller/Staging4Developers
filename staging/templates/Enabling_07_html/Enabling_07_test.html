@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		
+		<title>Enabling 7 HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+		<script src="../common/js/dli_video.js"></script>
+		
+		<script src="Enabling_07.js"></script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		
+		<div id="main" class="roundCorners">
+			<div id="stage" class="roundCorners">
+				<img id="stageImg" class="roundCorners" src=""></img>
+			</div>
+			
+			
+			<div id="captionBubbles_container" class="roundCorners">
+				<div id="captionBubble0" class="roundCorners captionBubble">
+					<div id="caption_1_text"></div>
+				</div>
+				<div id="captionBubble1" class="roundCorners captionBubble">
+					<div id="drop" >
+						<img id="drop_img" src="../common/Library/images/drop_target.png">
+					</div>
+					
+					<div id="caption_2_text"></div>
+				</div>
+			</div>
+
+				
+			<div id="statusBar"  class="roundCorners">
+				<div id="playBtn_container">
+					<div id="playBtn0" class="playBtn"> 
+						<img id="playBtn_s1"   src="../common/Library/images/playBtn_s1.png" border="0">
+					    	
+			    		<div class="fixForIENonscense" 
+			    			onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1)"
+							onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1);playBtnUp(0);" 
+					        onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" >
+			    		</div>
+				    </div>
+		
+					<div id="playBtn1" class="playBtn"> 
+						<img id="playBtn_s2"  src="../common/Library/images/playBtn_s1.png" border="0">
+					    	
+						<div class="fixForIENonscense" 
+							onMouseOut="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s3.png',1)"
+							onMouseUp="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s2.png',1);playBtnUp(1);" 
+					        onMouseOver="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s2.png',1)" > 
+					    </div> 
+					</div>
+					 
+					<div id="playBtn2" class="playBtn"> 
+						<img id="playBtn_s3"  src="../common/Library/images/playBtn_s1.png" border="0">
+					    	
+						<div class="fixForIENonscense" 
+							onMouseOut="MM_swapImage('playBtn_s3','','../common/Library/images/playBtn_s1.png',1)" 
+							onMouseDown="MM_swapImage('playBtn_s3','','../common/Library/images/playBtn_s3.png',1)"
+							onMouseUp="MM_swapImage('playBtn_s3','','../common/Library/images/playBtn_s2.png',1);playBtnUp(2);" 
+					        onMouseOver="MM_swapImage('playBtn_s3','','../common/Library/images/playBtn_s2.png',1)" > 
+					       </div> 
+					</div>
+				</div>
+				
+				<div id="conversationTally_container" class="roundCorners">
+					<div id="conversationTitle">Conversations</div>
+					<div id="conversationArrow" class="hidden"><a href="javascript:;" 
+						onmousedown="conversationArrowPressed()">></a></div>
+					<div id="conversationLinks"></div>
+				</div>
+				
+				<div id="exchangeTally_container" class="roundCorners">
+					<div id="exchangeTitle">Exchange</div>
+					<div id="exchangeArrow" class="hidden"><a href="javascript:;" 
+						onmousedown="exchangeArrowPressed()">></a></div>
+					<div id="exchangeLinks"></div>
+				</div>
+			</div>
+	
+
+			<div id="stageClickGuard"></div>
+			
+			<div id="videoStage" class="roundCorners">
+				<div id="videoContainer"  class="roundCorners"></div>
+				<div id="playBtnVideo" class="playBtn"> <a href="javascript:;" 
+						onMouseOut="MM_swapImage('playBtn_video','','../common/Library/images/playBtn_s1.png',1)" 
+						onMouseDown="MM_swapImage('playBtn_video','','../common/Library/images/playBtn_s3.png',1);activityVideoPlay()"
+						onMouseUp="MM_swapImage('playBtn_video','','../common/Library/images/playBtn_s2.png',1);" 
+				        onMouseOver="MM_swapImage('playBtn_video','','../common/Library/images/playBtn_s2.png',1)" > 
+				          <img id="playBtn_video"  src="../common/Library/images/playBtn_s1.png" border="0">
+				    	</a> 
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="clickGuard"></div>
+		
+		<div id="feedback" >
+			<h2 id="feedbackHeader">Set completed</h2>
+			<p id="feedbackText">Set completed text</p>
+			<button id="feedbackBtn" onclick="{closeFeedback();}">Ok</button>
+		</div>
+		
+	</body>
+</html>

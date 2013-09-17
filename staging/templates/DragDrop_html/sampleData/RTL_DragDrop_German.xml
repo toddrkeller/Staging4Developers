@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="French" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <hs:section>
+	<hs:graphic>europe.jpg</hs:graphic>
+    <hs:item>
+      <hs:feedback>1 Die Gaense means geese.</hs:feedback>
+      <hs:file_audio>qb_one.mp3</hs:file_audio>
+      <hs:hint>1 They look like large ducks.</hs:hint>      
+      <hs:lang_en>one</hs:lang_en>
+      <hs:lang_tl>1 Die Gaense</hs:lang_tl>
+      <hs:left>0</hs:left>
+      <hs:top>0</hs:top>
+      <hs:width>250</hs:width>
+    </hs:item>
+    <!--<hs:item>
+      <hs:feedback>Die Welt means the world.</hs:feedback>
+      <hs:file_audio>fr_guava_front_store.mp3</hs:file_audio>
+      <hs:hint>It's Global.</hs:hint>      
+      <hs:lang_en>world</hs:lang_en>
+      <hs:lang_tl>Die Welt</hs:lang_tl>
+      <hs:left>40</hs:left>
+      <hs:top>60</hs:top>
+      <hs:width>210</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Die Guitarre means the guitar.</hs:feedback>
+      <hs:file_audio>fr_plantain_season.mp3</hs:file_audio>
+      <hs:hint>Jimmy Page of Led Zeppelin plays this instrument.</hs:hint>      
+      <hs:lang_en>guitar</hs:lang_en>
+      <hs:lang_tl>Die Guitarre</hs:lang_tl>
+      <hs:left>0</hs:left>
+      <hs:top>120</hs:top>
+      <hs:width>290</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Der Himmel mean "the sky."</hs:feedback>
+      <hs:file_audio>fr_vegetables_produce.mp3</hs:file_audio>
+      <hs:hint>Look up, it's blue.</hs:hint>      
+      <hs:lang_en>sky</hs:lang_en>
+      <hs:lang_tl>Der Himmel</hs:lang_tl>
+      <hs:left>40</hs:left>
+      <hs:top>180</hs:top>
+      <hs:width>260</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Der Baum means tree (singular).</hs:feedback>
+      <hs:file_audio>fr_magoes_tropical.mp3</hs:file_audio>
+      <hs:hint>They grow in a forest.</hs:hint>      
+      <hs:lang_en>tree</hs:lang_en>
+      <hs:lang_tl>Der Baum</hs:lang_tl>
+      <hs:left>0</hs:left>
+      <hs:top>240</hs:top>
+      <hs:width>210</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Die Sonne means "the sun."</hs:feedback>
+      <hs:file_audio>fr_yam_local_cuisine.mp3</hs:file_audio>
+      <hs:hint>This shines on the earth.</hs:hint>      
+      <hs:lang_en>sun</hs:lang_en>
+      <hs:lang_tl>Die Sonne</hs:lang_tl>
+      <hs:left>250</hs:left>
+      <hs:top>0</hs:top>
+      <hs:width>240</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Das Meer means "the ocean."</hs:feedback>
+      <hs:file_audio>fr_cassava_consumed.mp3</hs:file_audio>
+      <hs:hint>Fish swim in this.</hs:hint>      
+      <hs:lang_en>ocean</hs:lang_en>
+      <hs:lang_tl>Das Meer</hs:lang_tl>
+      <hs:left>260</hs:left>
+      <hs:top>60</hs:top>
+      <hs:width>210</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Der Felsen means "the rock."</hs:feedback>
+      <hs:file_audio>fr_papaya_originated.mp3</hs:file_audio>
+      <hs:hint>Kid . . .</hs:hint>      
+      <hs:lang_en>rock</hs:lang_en>
+      <hs:lang_tl>Der Felsen</hs:lang_tl>
+      <hs:left>250</hs:left>
+      <hs:top>120</hs:top>
+      <hs:width>250</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Die Blumen means "the flower."</hs:feedback>
+      <hs:file_audio>fr_chicken_poultry.mp3</hs:file_audio>
+      <hs:hint>They grow in the garden.</hs:hint>      
+      <hs:lang_en>flower</hs:lang_en>
+      <hs:lang_tl>Die Blumen</hs:lang_tl>
+      <hs:left>260</hs:left>
+      <hs:top>180</hs:top>
+      <hs:width>250</hs:width>
+    </hs:item>-->
+  </hs:section>
+  <hs:section>
+	<hs:graphic>iraq.jpg</hs:graphic>
+    <hs:item>
+      <hs:feedback>1 Das Haus mean "the house."</hs:feedback>
+      <hs:file_audio>qb_one.mp3</hs:file_audio>
+      <hs:hint>1 A place to live.</hs:hint>      
+      <hs:lang_en>1house</hs:lang_en>
+      <hs:lang_tl>1Das Haus</hs:lang_tl>
+      <hs:left>220</hs:left>
+      <hs:top>60</hs:top>
+      <hs:width>220</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>2Das Essen means "the food."</hs:feedback>
+      <hs:file_audio>qb_two.mp3</hs:file_audio>
+      <hs:hint>2Eat this at dinner time.</hs:hint>      
+      <hs:lang_en>2food</hs:lang_en>
+      <hs:lang_tl>2Das Essen</hs:lang_tl>
+      <hs:left>280</hs:left>
+      <hs:top>120</hs:top>
+      <hs:width>230</hs:width>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>3Der Urlaub means "the vacation."</hs:feedback>
+      <hs:file_audio>qb_three.mp3</hs:file_audio>
+      <hs:hint>3A journey for pleasure & relaxation.</hs:hint>      
+      <hs:lang_en>3vacation</hs:lang_en>
+      <hs:lang_tl>3Der Urlaub</hs:lang_tl>
+      <hs:left>240</hs:left>
+      <hs:top>180</hs:top>
+      <hs:width>250</hs:width>
+    </hs:item>
+  </hs:section>
+</hs:content>

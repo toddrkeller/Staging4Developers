@@ -1,0 +1,121 @@
+.dropTarget{
+	background-color: lightgrey;
+    border: 3px solid lightgrey;
+    float: left;
+    height: 132px;
+    margin: 5px;
+    width: 152px;
+}
+
+.hidden{
+	display: none;
+}
+
+#setDiv{
+	width: 45px;
+	border: 3px solid lightgrey;
+	left: 517px;
+    top: 254px;
+}
+
+#setIndex{
+	float: right;
+    padding-top: 7px;
+	padding-right: 7px;
+}
+
+#setTitle{
+	font-size: 10px;
+	float: left;
+	padding-left: 6px;
+    padding-top: 7px;
+}
+
+.disabledImage{
+	display: none;
+}
+
+.dropTargetText {
+    background-color: white;
+    font-size: 14px;
+    height: 27px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 94px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    width: 125px;
+}
+
+#playBtnText {
+    left: 63px;
+    position: absolute;
+    top: 350px;
+}
+
+#playBtn {
+    left: 13px;
+    position: absolute;
+    top: 339px;
+}
+
+.clickImage{
+    height: 128px;
+    padding-left: 2px;
+    padding-top: 2px;
+    position: absolute;
+    width: 149px;
+}
+   
+.dropTargetImg {
+    height: 90px;
+    padding-left: 2px;
+    padding-top: 2px;
+    position: absolute;
+    width: 149px;
+}
+
+.dragBubbleText{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.dragBubble{
+    background-color: white;
+    float: left;
+    height: 36px;
+    margin: 2px;
+    width: 134px;
+}
+
+#dropTargets{
+	left: 25px;
+    position: absolute;
+    width: 577px;
+}
+
+#dragBubbles{
+	left: 0;
+	background-color:lightgray;
+    position: absolute;
+    top: 300px;
+    padding-left: 10px;
+    width: 565px;
+    height: 120px;
+}
+
+#imageContainer{
+    height: 350px;
+    left: 185px;
+    position: absolute;
+    top: 15px;
+    width: 250px;
+}
+
+.imageOverlay{
+	position: absolute;
+}

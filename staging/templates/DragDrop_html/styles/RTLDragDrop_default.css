@@ -1,0 +1,72 @@
+.dropTarget{
+	height: 20px;
+	width: 140px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	position: absolute;
+}
+
+#answeredDiv{
+	background-color: white;
+    position: absolute;
+    width: 140px;
+    left: 10px;
+    top: 5px;
+    padding: 5px;
+}
+
+#main{
+    left: 40px;
+    position: absolute;
+}
+
+.dragBubbleText{
+	margin: 6px;
+	font-size: 14px;
+}
+
+.playBtn{
+	float: left;
+	width: 20px;
+}
+
+.disabledImage{
+	display: none;
+}
+
+.dropTargetText{
+	font-size: 16px;
+	margin: 6px;
+}
+
+.dragBubble{
+	margin-top: 7px;
+	height: 20px;
+	width:140px;
+	position: absolute;
+	border: 3px solid green;
+	background-color: lightgrey;
+}
+
+#dropTargets{
+	width: 170px;
+	position: absolute;
+}
+
+#dragBubbles{
+	left: 400px;
+	width: 160px;
+	position: absolute;
+}
+
+#imageContainer{
+    height: 350px;
+    left: 185px;
+    position: absolute;
+    top: 15px;
+    width: 250px;
+}
+
+.imageOverlay{
+	position: absolute;
+}

@@ -1,0 +1,227 @@
+.noSelect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;          
+}
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    float: left;
+    font-size: 14px;
+    margin-left: 0;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+#setText {
+    border-radius: 0 4px 4px 0;
+    bottom: auto;
+    font-size: 14px;
+    height: 20px;
+    left: 0;
+    padding-right: 7px;
+    padding-top: 7px;
+    position: relative;
+    top: 0;
+    width: 29px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.roundCorners {
+    border-radius: 0 0 0 0;
+}
+#clickGuard {
+    background-color: #ffffff;
+    display: none;
+    height: 600px;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    width: 890px;
+	z-index: 10;
+}
+.activity_description {
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 8px;
+    margin-top: -20px;
+}
+.activity_hd {
+    color: grey;
+    cursor: default;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+#main{
+	position: relative;
+}
+.dropTarget {
+    background-color: #E9E9E9;
+    border: 1px solid lightgrey;
+    border-radius: 3px 3px 3px 3px;
+    height: 61px;
+    margin: 8px;
+}
+.disabledImage {
+    display: none;
+}
+.dropTargetText {
+    cursor: default;
+    font-size: 14px;
+    left: 5px;
+    position: relative;
+    top: 10px;
+}
+.dragBubble {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-size: 100% 100%;
+    border: 1px solid lightgrey;
+    border-radius: 0 0 0 0;
+    box-shadow: 1px 1px 2px 0 #BDBDBD;
+    cursor: pointer;
+    height: 50px;
+    margin-top: 7px;
+}
+#dropTargets {
+    left: 0px;
+    position: absolute;
+    top: 10px;
+    width: 253px;
+}
+.playBtn img {
+    box-shadow: 0 0 4px 0 lightgray;
+    left: 10px;
+    position: relative;
+    top: 10px;
+    width: 34px;
+}
+.playBtn {
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    display: none;
+    float: left;
+    width: 49px;
+}
+#dragBubbles {
+    left: 265px;
+    position: absolute;
+    top: 10px;
+    width: 257px;
+}
+#imageContainer {
+    background-image: url("../sampleData/png/background.png");
+    height: 478px;
+    left: 535px;
+    position: absolute;
+    top: 20px;
+    width: 358px;
+}
+.imageOverlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+#container_setDiv {
+    background-color: white;
+    cursor: default;
+    height: 30px;
+    left: 779px;
+    position: relative;
+    top: 510px;
+    width: 113px;
+    z-index: 5;
+}
+.dragBubbleText {
+    cursor: pointer;
+    float: left;
+    left: 11px;
+    position: relative;
+    top: 15px;
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 5px;
+    max-height: 79px;
+    min-height: 79px;
+    padding: 20px;
+    position: absolute;
+    top: 380px;
+    width: 480px;
+    z-index: 100;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 10px;
+}
+#feedbackHeader {
+    cursor: default;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -10px;
+}
+#feedbackText {
+    cursor: default;
+    margin-top: -13px;
+}

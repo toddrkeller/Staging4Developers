@@ -1,0 +1,84 @@
+<div id="keyboard">
+	<div class="letter">あ</div>
+	<div class="letter">い</div>
+	<div class="letter">う</div>
+	<div class="letter">え</div>
+	<div class="letter">お</div>
+	<div class="letter">か</div>
+	<div class="letter">き</div>
+	<div class="letter">く</div>
+	<div class="letter">け</div>
+	<div class="letter">こ</div>
+	
+	<div class="letter">さ</div>
+	<div class="letter">し</div>
+	<div class="letter">す</div>
+	<div class="letter">せ</div>
+	<div class="letter">そ</div>
+	<div class="letter">た</div>
+	<div class="letter">ち</div>
+	<div class="letter">つ</div>
+	<div class="letter">て</div>
+	<div class="letter">と</div>
+	
+	<div class="letter">な</div>
+	<div class="letter">に</div>
+	<div class="letter">ぬ</div>
+	<div class="letter">ね</div>
+	<div class="letter">の</div>
+	<div class="letter">は</div>
+	<div class="letter">ひ</div>
+	<div class="letter">ふ</div>
+	<div class="letter">へ</div>
+	<div class="letter">ほ</div>
+	
+	<div class="letter">ま</div>
+	<div class="letter">み</div>
+	<div class="letter">む</div>
+	<div class="letter">め</div>
+	<div class="letter">も</div>
+	<div class="letter">ら</div>
+	<div class="letter">り</div>
+	<div class="letter">る</div>
+	<div class="letter">れ</div>
+	<div class="letter">ろ</div>
+	
+	<div class="letter">が</div>
+	<div class="letter">ぎ</div>
+	<div class="letter">ぐ</div>
+	<div class="letter">げ</div>
+	<div class="letter">ご</div>
+	<div class="letter">ざ</div>
+	<div class="letter">じ</div>
+	<div class="letter">ず</div>
+	<div class="letter">ぜ</div>
+	<div class="letter">ぞ</div>
+	
+	<div class="letter">だ</div>
+	<div class="letter">ぢ</div>
+	<div class="letter">づ</div>
+	<div class="letter">で</div>
+	<div class="letter">ど</div>
+	
+	<div class="letter">ば</div>
+	<div class="letter">び</div>
+	<div class="letter">ぶ</div>
+	<div class="letter">べ</div>
+	<div class="letter">ぼ</div>
+	<div class="letter">ぱ</div>
+	<div class="letter">ぴ</div>
+	<div class="letter">ぷ</div>
+	<div class="letter">ぺ</div>
+	<div class="letter">ぽ</div>
+	
+	<div class="letter">や</div>
+	<div class="letter">ゆ</div>
+	<div class="letter">よ</div>
+	<div class="letter">わ</div>
+	<div class="letter">を</div>
+	<div class="letter">ん</div>    
+	<div class="letter">々</div>
+	
+	<div class="div_submit">Submit</div>
+	<div class="div_del">Del</div>
+</div>

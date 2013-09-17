@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Levantine" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" rtl="true">
+  <hs:section distractor="stand">
+    <hs:item>
+      <hs:phrase_tl dir="rtl">اعود عالكرسي، بدي إسألك كم سؤال۔</hs:phrase_tl>
+      <hs:phrase_en>Sit on the chair, I need to ask you some questions.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">اعود</hs:lang_tl>
+      <hs:lang_en>sit</hs:lang_en>
+      <hs:file_audio>nl_sit_on_chair_ask.mp3</hs:file_audio>
+      <hs:file_graphic>nl_aleppo_citadell_a.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The MSA equivalent of this keyword is /ijilis/.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Sit on the chair, I need to ask you some questions.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">لا تدخل، استَنى عند الباب۔</hs:phrase_tl>
+      <hs:phrase_en>Do not enter, wait at the door.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">استنى</hs:lang_tl>
+      <hs:lang_en>wait</hs:lang_en>
+      <hs:file_audio>nl_wait_at_door_no_enter.mp3</hs:file_audio>
+      <hs:file_graphic>nl_aleppo_citadell_e.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The root of this keyword is /estannan/.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Do not enter, wait at the door.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">تَعا لهون، لازم تكون بالصف۔</hs:phrase_tl>
+      <hs:phrase_en>Come here, you should be in line.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">تعا</hs:lang_tl>
+      <hs:lang_en>come</hs:lang_en>
+      <hs:file_audio>nl_come_here_line.mp3</hs:file_audio>
+      <hs:file_graphic>nl_aleppo_citadell_b.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[This verb usually accompanies the word /lahon/, meaning <b>here.</b>]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Come here, you should be in line.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">مو كتير أمان هون، روح عالسيارة۔</hs:phrase_tl>
+      <hs:phrase_en>It is not safe here, go to the car.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">روح</hs:lang_tl>
+      <hs:lang_en>go</hs:lang_en>
+      <hs:file_audio>nl_go_to_car_no_safe.mp3</hs:file_audio>
+      <hs:file_graphic>nl_aleppo_citadell_d.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Listen carefully to the fifth word in this sentence.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>It is not safe here, go to the car.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">وئّف عند البوابة، راح يجوا ياخدوك من هنيك۔</hs:phrase_tl>
+      <hs:phrase_en>Stop by the gate, they will escort you from there.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">وئّف </hs:lang_tl>
+      <hs:lang_en>stop</hs:lang_en>
+      <hs:file_audio>nl_stop_by_gate_escort.mp3</hs:file_audio>
+      <hs:file_graphic>nl_aleppo_citadell_c.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Pay attention to the first word of the sentence.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Stop by the gate, they will escort you from there.</b>]]></hs:feedback_l1>
+    </hs:item>
+  </hs:section>
+  <hs:section distractor="take">
+    <hs:item>
+      <hs:phrase_tl dir="rtl">حط الشنتاية عالأرض، لازم نفتشها۔</hs:phrase_tl>
+      <hs:phrase_en>Put down the backpack here, we need to inspect it. </hs:phrase_en>
+      <hs:lang_tl dir="rtl">حط  </hs:lang_tl>
+      <hs:lang_en>put down</hs:lang_en>
+      <hs:file_audio>nl_put_down_bag_inspect.mp3</hs:file_audio>
+      <hs:file_graphic>nl_maaloula_e.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The first letter on this keyword (hard H), has no English counterpart.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Put down the backpack here, we need to inspect it.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">شيل الشنتاية وروح للشباك التاني۔</hs:phrase_tl>
+      <hs:phrase_en>Pick up the backpack and move to the next window.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">شيل</hs:lang_tl>
+      <hs:lang_en>pick up</hs:lang_en>
+      <hs:file_audio>nl_pick_up_bag_move_2.mp3</hs:file_audio>
+      <hs:file_graphic>nl_maaloula_d.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[This is the action of lifting something, usually with the hands.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Pick up the backpack and move to the next stand.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">ما عم بفهم، احكي شوي شوي۔</hs:phrase_tl>
+      <hs:phrase_en>I don't understand, speak more slowly.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">احكي</hs:lang_tl>
+      <hs:lang_en>speak</hs:lang_en>
+      <hs:file_audio>nl_speak_slowly_understand.mp3</hs:file_audio>
+      <hs:file_graphic>nl_maaloula_c.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The keyword command is right before /shwai shwai/<b>(slowly).</b>]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>I don't understand, speak more slowly.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">هاد كتير مهم، اسماع مني۔</hs:phrase_tl>
+      <hs:phrase_en>It is very important, listen to me.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">اسماع</hs:lang_tl>
+      <hs:lang_en>listen</hs:lang_en>
+      <hs:file_audio>nl_listen_to_me_important.mp3</hs:file_audio>
+      <hs:file_graphic>nl_maaloula_b.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[This keyword is the forth word in the sentence.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>It is very important, listen to me.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">كتير شوب هون، افتاح الشّباك۔</hs:phrase_tl>
+      <hs:phrase_en>It's too hot in here, open the window.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">افتاح</hs:lang_tl>
+      <hs:lang_en>open</hs:lang_en>
+      <hs:file_audio>nl_open_window_hot.mp3</hs:file_audio>
+      <hs:file_graphic>nl_maaloula_a.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The keyword command sounds like /eftaH/.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>It's too hot in here, open the window.</b>]]></hs:feedback_l1>
+    </hs:item>
+  </hs:section>
+  <hs:section distractor="show">
+    <hs:item>
+      <hs:phrase_tl dir="rtl">كتير برد هون، سكّر الشّباك۔</hs:phrase_tl>
+      <hs:phrase_en>It's too cold in here, close the window.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">سكّر </hs:lang_tl>
+      <hs:lang_en>close</hs:lang_en>
+      <hs:file_audio>nl_close_window_cold.mp3</hs:file_audio>
+      <hs:file_graphic>nl_syria_a.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[This keyword is the forth word in the sentence and starts with the letter /saad/.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>It's too cold in here, close the window.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">عتمة كتير، شعّل الضو۔</hs:phrase_tl>
+      <hs:phrase_en>It's too dark, turn on the lights.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">شعّل</hs:lang_tl>
+      <hs:lang_en>turn on</hs:lang_en>
+      <hs:file_audio>nl_turn_on_light_dark.mp3</hs:file_audio>
+      <hs:file_graphic>nl_syria_c.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Pay attention to the first word of the sentence.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>It's too dark, turn on the lights.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">طفّي الراديو۔</hs:phrase_tl>
+      <hs:phrase_en>Turn off the radio.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">طفّي</hs:lang_tl>
+      <hs:lang_en>turn off</hs:lang_en>
+      <hs:file_audio>nl_turn_off_radio.mp3</hs:file_audio>
+      <hs:file_graphic>nl_syria_e.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[This command starts with the letter /Tah/ that has no English equivalent.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Turn off the radio.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">حمِّل الصناديء، لازم نسلم هدول۔</hs:phrase_tl>
+      <hs:phrase_en>Load the boxes, we need to deliver these.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">حمِّل</hs:lang_tl>
+      <hs:lang_en>load</hs:lang_en>
+      <hs:file_audio>nl_load_boxes_deliver.mp3</hs:file_audio>
+      <hs:file_graphic>nl_syria_d.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The first letter on this keyword (hard H), has no English counterpart.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Load the boxes, we need to deliver these.</b>]]></hs:feedback_l1>
+    </hs:item>
+    <hs:item>
+      <hs:phrase_tl dir="rtl">نزِّل الحمولة وانئول هدول عالمكتب۔</hs:phrase_tl>
+      <hs:phrase_en>Unload the cargo and move these to the office.</hs:phrase_en>
+      <hs:lang_tl dir="rtl">نزِّل</hs:lang_tl>
+      <hs:lang_en>unload</hs:lang_en>
+      <hs:file_audio>nl_unload_truck_move_2.mp3</hs:file_audio>
+      <hs:file_graphic>nl_syria_b.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[This command starts with the letter /noon/.]]></hs:hint_l1>
+      <hs:feedback_l1><![CDATA[This means: <b>Unload the cargo and move these to the office.</b>]]></hs:feedback_l1>
+    </hs:item>
+  </hs:section>
+
+</hs:content>

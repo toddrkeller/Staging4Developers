@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="French" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <section>
+	<graphic>europe.jpg</graphic>
+    <item>
+      <feedback>1 Die Gaense means geese.</feedback>
+      <file_audio>1.mp3</file_audio>
+      <hint>1 They look like large ducks.</hint>      
+      <lang_en>one</lang_en>
+      <lang_tl>1 Die Gaense</lang_tl>
+      <left>180</left>
+      <top>170</top>
+      <width>150</width>
+    </item>
+    <item>
+      <feedback>2Die Welt means the world.</feedback>
+      <file_audio>2.mp3</file_audio>
+      <hint>2It's Global.</hint>      
+      <lang_en>2world</lang_en>
+      <lang_tl>2Die Welt</lang_tl>
+      <left>40</left>
+      <top>60</top>
+      <width>100</width>
+    </item>
+  </section>
+  <section>
+	<graphic>iraq.jpg</graphic>
+    <item>
+      <feedback>1 Das Haus mean "the house."</feedback>
+      <file_audio>1.mp3</file_audio>
+      <hint>1 A place to live.</hint>      
+      <lang_en>1house</lang_en>
+      <lang_tl>1Das Haus</lang_tl>
+      <left>220</left>
+      <top>60</top>
+      <width>220</width>
+    </item>
+    <item>
+      <feedback>2Das Essen means "the food."</feedback>
+      <file_audio>2.mp3</file_audio>
+      <hint>2Eat this at dinner time.</hint>      
+      <lang_en>2food</lang_en>
+      <lang_tl>2Das Essen</lang_tl>
+      <left>280</left>
+      <top>120</top>
+      <width>230</width>
+    </item>
+    <item>
+      <feedback>3Der Urlaub means "the vacation."</feedback>
+      <file_audio>3.mp3</file_audio>
+      <hint>3A journey for pleasure relaxation.</hint>      
+      <lang_en>3vacation</lang_en>
+      <lang_tl>3Der Urlaub</lang_tl>
+      <left>240</left>
+      <top>180</top>
+      <width>250</width>
+    </item>
+  </section>
+  <section>
+	<graphic>iraq.jpg</graphic>    
+	<item>
+      <feedback>1 Die Gaense means geese.</feedback>
+      <file_audio>1.mp3</file_audio>
+      <hint>1 They look like large ducks.</hint>      
+      <lang_en>one</lang_en>
+      <lang_tl>1 Die Gaense</lang_tl>
+      <left>180</left>
+      <top>170</top>
+      <width>150</width>
+    </item>
+    <item>
+      <feedback>2Die Welt means the world.</feedback>
+      <file_audio>2.mp3</file_audio>
+      <hint>2It's Global.</hint>      
+      <lang_en>2world</lang_en>
+      <lang_tl>2Die Welt</lang_tl>
+      <left>40</left>
+      <top>60</top>
+      <width>100</width>
+    </item>
+    <item>
+      <feedback>3Die Guitarre means the guitar.</feedback>
+      <file_audio>3.mp3</file_audio>
+      <hint>3Jimmy Page of Led Zeppelin plays this instrument.</hint>      
+      <lang_en>3guitar</lang_en>
+      <lang_tl>3Die Guitarre</lang_tl>
+      <left>0</left>
+      <top>120</top>
+      <width>290</width>
+    </item>
+    <item>
+      <feedback>4Der Himmel mean "the sky."</feedback>
+      <file_audio>4.mp3</file_audio>
+      <hint>4Look up, it's blue.</hint>      
+      <lang_en>4sky</lang_en>
+      <lang_tl>4Der Himmel</lang_tl>
+      <left>40</left>
+      <top>180</top>
+      <width>260</width>
+    </item>
+    <item>
+      <feedback>5Der Baum means tree (singular).</feedback>
+      <file_audio>5.mp3</file_audio>
+      <hint>5They grow in a forest.</hint>      
+      <lang_en>5tree</lang_en>
+      <lang_tl>5Der Baum</lang_tl>
+      <left>0</left>
+      <top>240</top>
+      <width>210</width>
+    </item>
+    <item>
+      <feedback>6Die Sonne means "the sun."</feedback>
+      <file_audio>6.mp3</file_audio>
+      <hint>6This shines on the earth.</hint>      
+      <lang_en>6sun</lang_en>
+      <lang_tl>6Die Sonne</lang_tl>
+      <left>250</left>
+      <top>0</top>
+      <width>240</width>
+    </item>
+    <item>
+      <feedback>7Das Meer means "the ocean."</feedback>
+      <file_audio>7.mp3</file_audio>
+      <hint>7Fish swim in this.</hint>      
+      <lang_en>7ocean</lang_en>
+      <lang_tl>7Das Meer</lang_tl>
+      <left>260</left>
+      <top>60</top>
+      <width>210</width>
+    </item>
+   </section>
+
+</content>

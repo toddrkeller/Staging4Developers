@@ -1,0 +1,117 @@
+<content target_language="Swahili" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    <set media="image" state="play1">
+        <item>
+            <lang_en>one</lang_en>
+            <lang_tl dir="ltr">tl one</lang_tl>
+            <file_img_video>1.png</file_img_video>
+            <file_audio>1.mp3</file_audio>
+            <hint><![CDATA[one hint - The correct answer is a phrase and pertains to a fixed measurement. ]]></hint>
+            <feedback><![CDATA[one feedback أبي في مدينة بركاء<b>Kiwango cha kubadilishana</b> means <i>exchange rate</i>]]></feedback>
+        </item>
+        <item>
+            <lang_en>two</lang_en>
+            <lang_tl dir="ltr">tl two</lang_tl>
+            <file_img_video>2.png</file_img_video>
+            <file_audio>2.mp3</file_audio>
+            <hint><![CDATA[two hint The correct answer pertains to American currency.]]></hint>
+            <feedback><![CDATA[two feedback أبي في مدينة بركاءfour <b>Dola ya Kimarekani</b> means <i>US dollar</i>. Often, people in Kenya just say <b>dola</b> without laboring to include <b>ya Kimarekani</b>.]]></feedback>
+        </item>
+        <item>
+            <lang_en>three</lang_en>
+            <lang_tl dir="ltr">three</lang_tl>
+            <file_img_video>3.png</file_img_video>
+            <file_audio>3.mp3</file_audio>
+            <hint><![CDATA[three hint The correct answer begins with a vowel.]]></hint>
+            <feedback><![CDATA[three feedback أبي في مدينة بركاء<b>Ada</b> means<i> fee</i>. This word is often mistaken for <i>fine</i> which is indicated by the word <b>faini</b>.]]></feedback>
+        </item>
+        <item role="distractor">
+            <lang_en>dist one</lang_en>
+            <lang_tl dir="ltr">dist tl one </lang_tl>
+        </item>
+        <item role="distractor">
+            <lang_en>dist two</lang_en>
+            <lang_tl dir="ltr">dist tl two </lang_tl>
+        </item>
+        <item role="distractor">
+            <lang_en>dist three</lang_en>
+            <lang_tl dir="ltr">dist tl three</lang_tl>
+        </item>
+    </set>
+    <set media="image">
+        <item>
+            <lang_en>four</lang_en>
+            <lang_tl dir="ltr">tl four</lang_tl>
+            <file_img_video>4.png</file_img_video>
+            <file_audio>4.mp3</file_audio>
+            <hint><![CDATA[four hint The correct answer begins with an ‘a’.]]></hint>
+            <feedback><![CDATA[four feedback <b>Asilimia</b> means <i>percent(age)</i>. It is derived from two words <b>asili, </b><i>origin</i> and <b>mia, </b><i>a hundred</i>.]]></feedback>
+        </item>
+        <item>
+            <lang_en>five</lang_en>
+            <lang_tl dir="ltr">five </lang_tl>
+            <file_img_video>5.png</file_img_video>
+            <file_audio>5.mp3</file_audio>
+            <hint><![CDATA[five hint The correct answer  has several types, like dollars and shillings. ]]></hint>
+            <feedback><![CDATA[five feedback <b>Pesa</b> means <i>money</i>.]]></feedback>
+        </item>
+        <item>
+            <lang_en>six</lang_en>
+            <lang_tl dir="ltr">six </lang_tl>
+            <file_img_video>6.png</file_img_video>
+            <file_audio>6.mp3</file_audio>
+            <hint><![CDATA[six hint The correct answer is similar to the English ‘note’. ]]></hint>
+            <feedback><![CDATA[six feedback <b>Noti</b> means <i>note</i> or <i>bill</i>.]]></feedback>
+        </item>
+        <item role="distractor">
+            <lang_en>dist four</lang_en>
+            <lang_tl dir="ltr">tl dist four </lang_tl>
+        </item>
+        <item role="distractor">
+            <lang_en>dist five</lang_en>
+            <lang_tl dir="ltr">tl dist five</lang_tl>
+        </item>
+        <item role="distractor">
+            <lang_en>dist six</lang_en>
+            <lang_tl dir="ltr">tl dist six</lang_tl>
+        </item>
+    </set>
+    <set media="image">
+        <item>
+            <lang_en>seven</lang_en>
+            <lang_tl dir="ltr">seven</lang_tl>
+            <file_img_video>7.png</file_img_video>
+            <file_audio>7.mp3</file_audio>
+            <hint><![CDATA[seven hint The correct answer has the word <i>hundred</i>.]]></hint>
+            <feedback><![CDATA[seven feedback <b>Mia moja</b> means <i>one hundred</i>.]]></feedback>
+        </item>
+        <item>
+            <lang_en>eight</lang_en>
+            <lang_tl dir="ltr">eight</lang_tl>
+            <file_img_video>8.png</file_img_video>
+            <file_audio>8.mp3</file_audio>
+            <hint><![CDATA[eight hint The correct answer has the word <i>sixty</i>.]]></hint>
+            <feedback><![CDATA[eight feedback Most numbers must agree with the nouns they modify, except for borrowed words like <b>shilingi</b>, <i>shilling</i> where there is no agreement between the number and the noun.]]></feedback>
+        </item>
+        <item>
+            <lang_en>nine</lang_en>
+            <lang_tl dir="ltr">nine</lang_tl>
+            <file_img_video>9.png</file_img_video>
+            <file_audio>9.mp3</file_audio>
+            <hint><![CDATA[nine hint The correct answer has the word <i>two</i>.]]></hint>
+            <feedback><![CDATA[nine feedback One Kenya shilling is the equivalent of ten Tanzania shillings.]]></feedback>
+        </item>
+        <item role="distractor">
+            <lang_en>dist seven</lang_en>
+            <lang_tl dir="ltr">tl dist seven</lang_tl>
+        </item>
+        <item role="distractor">
+            <lang_en>dist eight</lang_en>
+            <lang_tl dir="ltr">tl dist eight</lang_tl>
+        </item>
+        <item role="distractor">
+            <lang_en>dist nine</lang_en>
+            <lang_tl dir="ltr">tl dist nine</lang_tl>
+        </item>
+    </set>
+
+</content>

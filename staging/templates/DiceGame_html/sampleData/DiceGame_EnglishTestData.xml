@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content
+	xmlns:hs="http://fieldsupport.lingnet.org/products/headstart"
+	xmlns="http://fieldsupport.lingnet.org/products/headstart">
+	<section>
+		<pronoun>I (1)</pronoun>
+		<pronoun>you (2)</pronoun>
+		<pronoun>he (3)</pronoun>
+		<pronoun>we (4)</pronoun>
+		<pronoun>you (pl) (5)</pronoun>
+		<pronoun>they (6)</pronoun>
+		
+		<verb>
+			<infinitive>verb (1)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>weverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>theyverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (2)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>weverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>theyverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (3)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>weverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>theyverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (4)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>weverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>theyverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (5)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>weverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>theyverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (6)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>weverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>theyverb</conjugation>
+		</verb>
+	</section>
+	<!--<section>
+			<pronoun>I (1)</pronoun>
+			<pronoun>you (2)</pronoun>
+			<pronoun>he (3)</pronoun>
+			<pronoun>she (4)</pronoun>
+			<pronoun>it (5)</pronoun>
+			<pronoun>we (6)</pronoun>
+		<verb>
+			<infinitive>verb (7)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>sheverb</conjugation>
+			<conjugation>itverb</conjugation>
+			<conjugation>weverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (8)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>sheverb</conjugation>
+			<conjugation>itverb</conjugation>
+			<conjugation>weverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (9)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>sheverb</conjugation>
+			<conjugation>itverb</conjugation>
+			<conjugation>weverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (10)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>sheverb</conjugation>
+			<conjugation>itverb</conjugation>
+			<conjugation>weverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (11)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>sheverb</conjugation>
+			<conjugation>itverb</conjugation>
+			<conjugation>weverb</conjugation>
+		</verb>
+		<verb>
+			<infinitive>verb (12)</infinitive>
+			<conjugation>Iverb</conjugation>
+			<conjugation>youverb</conjugation>
+			<conjugation>heverb</conjugation>
+			<conjugation>sheverb</conjugation>
+			<conjugation>itverb</conjugation>
+			<conjugation>weverb</conjugation>
+		</verb>
+</section>-->
+</content>

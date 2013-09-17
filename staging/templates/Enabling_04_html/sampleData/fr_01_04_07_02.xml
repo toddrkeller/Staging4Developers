@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content target_language="" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart"
+           >
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">le||militaire</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_military.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>military</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||i||l||i||t||a||i||re</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>Men or women hired and trained to serve and protect their country.</global_hint>
+      <hint letter_order="6" missing_letter="a">This sound is composed of two vowels and is similar to "e" in the English word "best."</hint>
+      <hint letter_order="7" missing_letter="i">This sound is composed of two vowels and is similar to "e" in the English word "best."</hint>
+      <feedback>"Le militaire" means "military forces".</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">l’armée||de||terre</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_army.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>army</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">l||’||a||r||m||é||e</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint>The military land force of a nation.</global_hint>
+      <hint letter_order="6" missing_letter="é">This letter does not exist in English.</hint>
+      <hint letter_order="7" missing_letter="e">This letter is sometimes silent.</hint>
+      <feedback>"L’armée de terre" means "army."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">la||marine</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_navy.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>navy</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||a||r||i||n||e</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>A nation's armed services including ships and fleets.</global_hint>
+      <hint letter_order="3" missing_letter="r">This unfamiliar sound can be pronounced by rolling it in the back of the throat.</hint>
+      <feedback>"La marine" means "navy."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">les||forces||spéciales</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_sp_forces.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>special forces</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">s||p||é||c||i||a||l||e||s</lang_tl_word_text>
+      <lang_tl_word_order>3</lang_tl_word_order>
+      <global_hint>A group of soldiers specially trained to fight guerrillas.</global_hint>
+      <hint letter_order="3" missing_letter="é">This letter does not exist in English.</hint>
+      <feedback>"Les forces spéciales" means "special forces."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">les||paramilitaires</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_paramil.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>paramilitary</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">p||a||r||a||m||i||l||i||t||a||i||r||e||s</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>A group of civilians organized like a military unit.</global_hint>
+      <hint letter_order="6" missing_letter="i">This familiar sound is similar to "ee" as in "beef."</hint>
+      <feedback>"Les paramilitaires" means "paramilitary."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">des||milices||tribales</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_tr_forces.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>tribal forces </lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">m||i||l||i||c||e||s</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>Paramilitary organization composed of elements from ethinc groups.</global_hint>
+      <hint letter_order="1" missing_letter="m">Same as in English</hint>
+      <feedback>"Des milices tribales" means "tribal forces."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">le||terroriste</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_terrorist.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>terrorist</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">t||e||r||r||o||r||i||s||t||e</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>One who engages in acts of violence to frightened people.</global_hint>
+      <hint letter_order="5" missing_letter="o">This is an unfamiliar sound composed of a single vowel.</hint>
+      <feedback>"Le terroriste" means "terrorist."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">l’insurgé</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_insurgent.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>insurgent</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">l||’||i||n||s||u||r||g||é</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint>Person participating in an armed rebellion against a government or civil authority.</global_hint>
+      <hint letter_order="3" missing_letter="i">This nasal sound is composed of a vowel and a consonant.</hint>
+      <hint letter_order="4" missing_letter="n">This nasal sound is composed of a vowel and a consonant.</hint>
+      <feedback>"L’insurgé" means "insurgent."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">la||gendarmerie </lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_gendarmerie.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>gendarmerie or police</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">g||e||n||d||a||r||m||e||r||i||e</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>A military body charged with police duties. (In French speaking countries this is also the term for the regular police force).</global_hint>
+      <hint letter_order="2" missing_letter="e">This nasal sound is composed of a vowel and a consonant.</hint>
+      <hint letter_order="3" missing_letter="n">This nasal sound is composed of a vowel and a consonant.</hint>
+      <feedback>"La gendarmerie" means "gendarmerie" or (in French-speaking countries) "police".</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">l’organisation||de||maintien||de||la||paix</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_peace_org.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>peacekeeping organization</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">l||’||o||r||g||a||n||i||s||a||t||i||o||n</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint>Group of international forces seeking to cease hostilities between countries.</global_hint>
+      <hint letter_order="12" missing_letter="i">This nasal sound is composed of two vowels and a consonant.</hint>
+      <hint letter_order="13" missing_letter="o">This nasal sound is composed of two vowels and a consonant.</hint>
+      <hint letter_order="14" missing_letter="n">This nasal sound is composed of two vowels and a consonant.</hint>
+      <feedback>It means: Peacekeeping organization. "Maintenir" means "to maintain." "Paisible," an adjective sharing the same root as "paix" (peace), means "peaceful."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">les||Nations||Unies</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_un.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>United Nations</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">U||n||i||e||s</lang_tl_word_text>
+      <lang_tl_word_order>3</lang_tl_word_order>
+      <global_hint>An organization formed to promote international peace and security.</global_hint>
+      <hint letter_order="1" missing_letter="u">This unfamiliar sound is composed of a single vowel.</hint>
+      <feedback>This means: The United Nations. It is also referred to as "l’ONU."</feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">l’organisation||humanitaire</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_humanitarian.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>humanitarian aid organization</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">l||’||o||r||g||a||n||i||s||a||t||i||o||n</lang_tl_word_text>
+      <lang_tl_word_order>1</lang_tl_word_order>
+      <global_hint>A group that provides support to regions affected by war or crisis.</global_hint>
+      <hint letter_order="3" missing_letter="o">This unfamiliar sound is composed of a vowel and a consonant.</hint>
+      <hint letter_order="4" missing_letter="r">This unfamiliar sound is composed of a vowel and a consonant.</hint>
+      <feedback>"L’organisation humanitaire" means humanitarian aid organization. </feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">la||Croix||Rouge</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_red_cross.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>Red Cross</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">C||r||o||i||x</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>International organization that cares for the sick or wounded or homeless during wartime.</global_hint>
+      <hint letter_order="3" missing_letter="o">This sound composed of two vowels is similar to the English "wa".</hint>
+      <hint letter_order="4" missing_letter="i">This sound composed of two vowels is similar to the English "wa".</hint>
+      <feedback>"La Croix Rouge" means The Red Cross. </feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">la||guérilla</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_guerrilla.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>guerrilla</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">g||u||é||r||i||l||l||a</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>Member of a small irregular military force usually fighting a larger army.</global_hint>
+      <hint letter_order="6" missing_letter="l">This unfamiliar sound is composed of two identical consonants.</hint>
+      <hint letter_order="7" missing_letter="l">This unfamiliar sound is composed of two identical consonants.</hint>
+      <feedback>"La guérilla" means guerrilla. </feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">le||tireur||embusqué</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_sniper.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>sniper</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">t||i||r||e||u||r</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>A marksman who shoots from a concealed place.</global_hint>
+      <hint letter_order="4" missing_letter="e">This unfamiliar sound composed of two vowels.</hint>
+      <hint letter_order="5" missing_letter="u">This unfamiliar sound composed of two vowels.</hint>
+      <feedback>"Le tireur embusqué" means sniper. </feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">le||génie||militaire</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_engineer_corps.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>engineer corps</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">g||é||n||i||e </lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>Group responsible for construction and services required to reduce risk from disasters and strengthen national security.</global_hint>
+      <hint letter_order="4" missing_letter="i">This sound is composed of two vowels of which one is silent.</hint>
+      <hint letter_order="5" missing_letter="e">This sound is composed of two vowels of which one is silent.</hint>
+      <feedback>"Le génie militaire" means engineer corps. </feedback>
+    </item>
+  <item>
+      <image>sw_woman.png</image>
+      <lang_tl_phrase_text dir="ltr">les||gardes-côtes</lang_tl_phrase_text>
+      <lang_tl_phrase_audio>fr_coast_guard.mp3</lang_tl_phrase_audio>
+      <lang_en_phrase_text>coast guard</lang_en_phrase_text>
+      <lang_tl_word_text dir="ltr">g||a||r||d||e||s||-||c||ô||t||e||s</lang_tl_word_text>
+      <lang_tl_word_order>2</lang_tl_word_order>
+      <global_hint>National organization responsible for various services at sea.</global_hint>
+      <hint letter_order="9" missing_letter="ô">This unfamiliar sound is composed of a vowel with a graphic accent.</hint>
+      <feedback>"Les gardes-côtes" means coast guard. </feedback>
+    </item>
+
+</content>

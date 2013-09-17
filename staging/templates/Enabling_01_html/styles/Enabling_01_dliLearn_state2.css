@@ -1,0 +1,103 @@
+
+#container_playBtn {
+    left: 40px;
+    position: absolute;
+    top: 10px;
+    width: 200px;
+}
+.dropTarget {
+    background-color: #DCDCDC;
+    float: left;
+    height: 179px;
+    margin: 11px;
+    padding: 17px;
+    width: 204px;
+}
+#playBtnText {
+    border-radius: 0 4px 4px 0;
+    height: 33px;
+    left: 53px;
+    position: relative;
+    top: -33px;
+    width: 110px;
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#setDiv {
+
+	left: 787px;
+    top: 420px;
+    width: 107px;
+}
+#playBtn {
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    margin-left: 0;
+    position: relative;
+    top: 0;
+    width: 49px;
+}
+#dropTargets {
+    left: 240px;
+    position: absolute;
+    top: 10px;
+    width: 704px;
+}
+#dragBubbles {
+    background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+    border: thin solid #B8B8B8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+    display: none;
+    height: 275px;
+    left: 572px;
+    padding: 5px;
+    position: absolute;
+    top: 74px;
+    width: 325px;
+}
+.clickImage{
+	width:100%;
+	height:100%;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    left: 5px;
+    min-height: 341px;
+    padding: 20px;
+    position: absolute;
+    top: 58px;
+    width: 235px;
+    z-index: 100;
+}

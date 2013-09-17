@@ -1,0 +1,130 @@
+.infinitive{
+	height: 20px;
+	width: 110px;
+	border: 1px solid black;
+	background-color: lightgrey;
+	position: absolute;
+}
+
+
+#keyboardContainer {
+    background-color: lightgray;
+    height: 160px;
+    left: 130px;
+    padding-top: 10px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    vertical-align: middle;
+    width: 255px;
+}
+
+#clickToRoll{
+    left: 265px;
+    position: absolute;
+    top: 180px;
+}
+
+#canvas {
+	display:none;
+	left: 30px;
+	position: absolute;
+	width: 565px;
+	height: 360px;
+}
+
+#answeredDiv {
+    background-color: white;
+    font-size: 14px;
+    left: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 6px;
+    width: 190px;
+}
+
+
+#scoreText {
+    float: right;
+    padding-right: 10px;
+}
+
+#scoreDiv {
+    background-color: white;
+    font-size: 14px;
+    left: 440px;
+    padding: 5px;
+    position: absolute;
+    top: 6px;
+    width: 120px;
+}
+
+
+#main{
+    left: 40px;
+    position: absolute;
+}
+
+.pronounText{
+	margin: 6px;
+	font-size: 14px;
+}
+
+
+.infinitiveText{
+	font-size: 14px;
+	margin: 6px;
+}
+
+#submitBtn{
+	position: absolute;
+    right: 10px;	
+    top: 8px;
+}
+
+#inputText {
+    background-color: white;
+    padding: 2px;
+    position: absolute;
+    top: 8px;
+    width: 150px;
+    height: 20px;
+}
+
+#setDiv{
+	display: none;
+}
+
+#input{
+    height: 20px;
+    background-color: grey;
+    left: 130px;
+    padding: 10px;
+    position: absolute;
+    top: 105px;
+    width: 235px;
+}
+
+.pronoun{
+	left: 0;
+    top: 210px;
+    z-index: 100;
+	height: 20px;
+	width:110px;
+	position: absolute;
+	border: 1px solid black;
+	background-color: lightgrey;
+}
+
+#infinitives{
+	left: 400px;
+	width: 170px;
+	position: absolute;
+}
+
+#pronouns{
+	left: 0px;
+	width: 160px;
+	position: absolute;
+}
+

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Russian" xmlns:hs="http://fieldsupport.lingnet.org/products/headstart">
+    <!-- currentExchangeIndex="3" numberOfExchangesSolved="2" -->
+    <section >
+        <main>
+            <video>rain.flv</video>
+        </main>
+        <item>
+            <image>1.png</image>
+            <tl_prompt_text dir="ltr">1one Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">one Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>1.mp3</tl_response_audio>
+            <en_response_text>one My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">one 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>11.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">one 2Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>12.mp3</distractor2_audio>
+            <hint>one Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>one It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>2.png</image>
+            <tl_prompt_text dir="ltr">1two А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">two Номер выхода 129. </tl_response_text>
+            <tl_response_audio>2.mp3</tl_response_audio>
+            <en_response_text>two Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">two 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>13.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">two 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>14.mp3</distractor2_audio>
+            <hint>two Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>two It means: Gate number 129.</feedback>
+        </item>
+        <item>
+            <image>3.png</image>
+            <tl_prompt_text dir="ltr">1three Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">three Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>3.mp3</tl_response_audio>
+            <en_response_text>three My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">three 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>15.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">three 2 Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>16.mp3</distractor2_audio>
+            <hint>three Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>three It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>4.png</image>
+            <tl_prompt_text dir="ltr">1four А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">four Номер выхода 129. </tl_response_text>
+            <tl_response_audio>4.mp3</tl_response_audio>
+            <en_response_text>four Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">four 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>17.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">four 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>18.mp3</distractor2_audio>
+            <hint>four Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>four It means: Gate number 129.</feedback>
+        </item>
+    </section>
+    <section >
+        <main>
+            <video>red.flv</video>
+        </main>
+        <item>
+            <image>1.png</image>
+            <tl_prompt_text dir="ltr">2one Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">one Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>1.mp3</tl_response_audio>
+            <en_response_text>one My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">one 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>11.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">one 2Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>12.mp3</distractor2_audio>
+            <hint>one Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>one It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>2.png</image>
+            <tl_prompt_text dir="ltr">2two А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">two Номер выхода 129. </tl_response_text>
+            <tl_response_audio>2.mp3</tl_response_audio>
+            <en_response_text>two Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">two 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>13.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">two 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>14.mp3</distractor2_audio>
+            <hint>two Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>two It means: Gate number 129.</feedback>
+        </item>
+        <item>
+            <image>3.png</image>
+            <tl_prompt_text dir="ltr">2three Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">three Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>3.mp3</tl_response_audio>
+            <en_response_text>three My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">three 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>15.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">three 2 Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>16.mp3</distractor2_audio>
+            <hint>three Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>three It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>4.png</image>
+            <tl_prompt_text dir="ltr">2four А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">four Номер выхода 129. </tl_response_text>
+            <tl_response_audio>4.mp3</tl_response_audio>
+            <en_response_text>four Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">four 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>17.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">four 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>18.mp3</distractor2_audio>
+            <hint>four Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>four It means: Gate number 129.</feedback>
+        </item>
+    </section>
+     <!--   <section >
+        <main>
+            <video>rice.flv</video>
+        </main>
+        <item>
+            <image>1.png</image>
+            <tl_prompt_text dir="ltr">3one Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">one Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>1.mp3</tl_response_audio>
+            <en_response_text>one My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">one 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>11.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">one 2Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>12.mp3</distractor2_audio>
+            <hint>one Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>one It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>2.png</image>
+            <tl_prompt_text dir="ltr">3two А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">two Номер выхода 129. </tl_response_text>
+            <tl_response_audio>2.mp3</tl_response_audio>
+            <en_response_text>two Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">two 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>13.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">two 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>14.mp3</distractor2_audio>
+            <hint>two Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>two It means: Gate number 129.</feedback>
+        </item>
+        <item>
+            <image>3.png</image>
+            <tl_prompt_text dir="ltr">3three Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">three Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>3.mp3</tl_response_audio>
+            <en_response_text>three My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">three 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>15.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">three 2 Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>16.mp3</distractor2_audio>
+            <hint>three Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>three It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>4.png</image>
+            <tl_prompt_text dir="ltr">3four А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">four Номер выхода 129. </tl_response_text>
+            <tl_response_audio>4.mp3</tl_response_audio>
+            <en_response_text>four Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">four 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>17.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">four 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>18.mp3</distractor2_audio>
+            <hint>four Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>four It means: Gate number 129.</feedback>
+        </item>
+    </section>
+        <section >
+        <main>
+            <video>river.flv</video>
+        </main>
+        <item>
+            <image>1.png</image>
+            <tl_prompt_text dir="ltr">4one Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">one Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>1.mp3</tl_response_audio>
+            <en_response_text>one My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">one 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>11.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">one 2Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>12.mp3</distractor2_audio>
+            <hint>one Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>one It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>2.png</image>
+            <tl_prompt_text dir="ltr">4two А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">two Номер выхода 129. </tl_response_text>
+            <tl_response_audio>2.mp3</tl_response_audio>
+            <en_response_text>two Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">two 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>13.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">two 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>14.mp3</distractor2_audio>
+            <hint>two Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>two It means: Gate number 129.</feedback>
+        </item>
+        <item>
+            <image>3.png</image>
+            <tl_prompt_text dir="ltr">4three Вы السلام عليكم номер вашего рейса?</tl_prompt_text>
+            <tl_response_text dir="ltr">three Номер السلام عليكم рейса 6875.</tl_response_text>
+            <tl_response_audio>3.mp3</tl_response_audio>
+            <en_response_text>three My flight number is 6875.</en_response_text>
+            <distractor1_text dir="ltr">three 1 Номер السلام عليكم рейса 6976.</distractor1_text>
+            <distractor1_audio>15.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">three 2 Номер السلام عليكم рейса 6872.</distractor2_text>
+            <distractor2_audio>16.mp3</distractor2_audio>
+            <hint>three Listen carefully to the 2nd and 4th digits of the number.</hint>
+            <feedback>three It means: My flight number is 6875.</feedback>
+        </item>
+        <item>
+            <image>4.png</image>
+            <tl_prompt_text dir="ltr">4four А какой номер выхода на посадку?</tl_prompt_text>
+            <tl_response_text dir="ltr">four Номер выхода 129. </tl_response_text>
+            <tl_response_audio>4.mp3</tl_response_audio>
+            <en_response_text>four Gate number 129.</en_response_text>
+            <distractor1_text dir="ltr">four 1 Номер выхода 199.</distractor1_text>
+            <distractor1_audio>17.mp3</distractor1_audio>
+            <distractor2_text dir="ltr">four 2 Номер выхода 192.</distractor2_text>
+            <distractor2_audio>18.mp3</distractor2_audio>
+            <hint>four Listen carefully to the 2nd and 3rd digits of the number.</hint>
+            <feedback>four It means: Gate number 129.</feedback>
+        </item>
+    </section>-->
+</content>

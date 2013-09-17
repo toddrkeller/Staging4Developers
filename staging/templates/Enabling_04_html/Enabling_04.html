@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		
+		<title>Enabling 4 HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link href="../common/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/cloud-carousel.1.0.5.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+		
+		<script src="../common/js/jquery.mCustomScrollbar.js"></script>
+		
+		<script src="Enabling_04.js"></script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		
+		<h3 class="activity_hd">Enabling 4</h3>
+		<div class="activity_description">
+			Click on an image to select it. Click the play button to the 
+			phrase. Text will appear and will be missing one or more letter(s).
+			Click on an image to select it. Click the play button to the 
+			phrase. Text will appear and will be missing one or more letter(s).
+			Click on an image to select it. Click the play button to the 
+			phrase. Text will appear and will be missing one or more letter(s).
+			Click on an image to select it. Click the play button to the 
+			phrase. Text will appear and will be missing one or more letter(s).
+		</div>
+		
+		<div id="main">
+	        <div id = "carousel1" >            
+	        </div>
+	        
+		    <div id="nextBtnDiv"> 
+				<a id="nextBtnLink" href="javascript:;" onMouseOut="MM_swapImage('nextBtn_s1','','../common/Library/images/btn_arrow_caro_right.png',1)" 
+					onMouseDown="MM_swapImage('nextBtn_s1','','../common/Library/images/btn_arrow_caro_right_on.png',1);nextClick();"
+					onMouseUp="MM_swapImage('nextBtn_s1','','../common/Library/images/btn_arrow_caro_right_on.png',1)" 
+			        onMouseOver="MM_swapImage('nextBtn_s1','','../common/Library/images/btn_arrow_caro_right_on.png',1)" > 
+		        	  	<img  id="nextBtn_s1" src="../common/Library/images/btn_arrow_caro_right.png" border="0">
+		    	</a>
+		    
+		        <img id="nextBtnClickGuard"  style="position:absolute;top:0;left:0;display:none;" src="../common/Library/images/nextBtn_s3.png" border="0"> 
+		    </div>
+		    
+		    <div id="prevBtnDiv"> 
+		    	<a  id="prevBtnLink"  href="javascript:;" onMouseOut="MM_swapImage('prevBtn_s1','','../common/Library/images/btn_arrow_caro_left.png',1)" 
+					onMouseDown="MM_swapImage('prevBtn_s1','','../common/Library/images/btn_arrow_caro_left_on.png',1);prevClick();"
+					onMouseUp="MM_swapImage('prevBtn_s1','','../common/Library/images/btn_arrow_caro_left_on.png',1)" 
+			        onMouseOver="MM_swapImage('prevBtn_s1','','../common/Library/images/btn_arrow_caro_left_on.png',1)" > 
+		          		<img  id="prevBtn_s1" src="../common/Library/images/btn_arrow_caro_left.png" border="0">
+		    	</a>
+		    	
+		    	<img id="prevBtnClickGuard"  style="position:absolute;top:0;left:0;display:none;" src="../common/Library/images/prevBtn_s3.png" border="0"> 
+		    </div>
+			
+			<div id="selectedImageDiv" class="unselected">
+				<img id="selectedImage"  src="sampleData/png/grayOut.png"/>
+				
+				<div id="playBtnDiv"> 
+					<a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)" 
+						onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1);playAudio();"
+						onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" 
+				        onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" > 
+	          		
+	          			<img  id="playBtn_s1" src="../common/Library/images/playBtn_s1.png" border="0">
+	    			</a> 
+	    		</div>
+			</div>
+			
+			<div id="keyboardContainer" class="roundCorners unselected"></div>
+			
+			
+			<div id="wordContainer" class="unselected">
+				<div id="word" class="roundCorners"></div>
+			</div>
+			
+			<div id="clickGuard"></div>
+			
+			<div id="feedback" >
+				<h2 id="feedbackHeader">Set completed</h2>
+				<p id="feedbackText">Set completed text</p>
+				<button id="feedbackBtn" onclick="{closeFeedback();}">Ok</button>
+			</div>
+		</div>
+	</body>
+</html>

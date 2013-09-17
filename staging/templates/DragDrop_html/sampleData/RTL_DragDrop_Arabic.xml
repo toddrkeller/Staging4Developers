@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="French" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <hs:section>
+	<hs:graphic>europe.jpg</hs:graphic>
+    <hs:item>
+      <hs:feedback>Le fruit <font size="16" face="arial"><b> لام عليكم </b></font> means fruit. L’arbre fruitier means fruit tree.</hs:feedback>
+      <hs:file_audio>fr_fruit_produce_section.mp3</hs:file_audio>
+      <hs:hint>Sweet, edible <font size="16" face="arial"><b> لام عليكم </b></font>part of a plant, usually sold next to vegetables.</hs:hint>
+      <hs:lang_en>Bristol</hs:lang_en>
+      <hs:lang_tl>لام عليكم</hs:lang_tl>
+      <hs:phrase_en>The fruit <font size="16" face="arial"><b> لام عليكم </b></font>is in the produce section.</hs:phrase_en>
+      <hs:phrase_tl>Le fruit <font size="16" face="arial"><b> لام عليكم </b></font>est dans le rayon des fruits et légumes.</hs:phrase_tl>
+      <hs:left>0</hs:left>
+      <hs:top>0</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Le goyave means <font size="16" face="arial"><b> الثامنة </b></font>guava. Le goyavier means guava tree.</hs:feedback>
+      <hs:file_audio>fr_guava_front_store.mp3</hs:file_audio>
+      <hs:hint>This fruit has sweet <font size="16" face="arial"><b> الثامنة </b></font>reddish or pinkish flesh.</hs:hint>
+      <hs:lang_en>London</hs:lang_en>
+      <hs:lang_tl>الثامنة</hs:lang_tl>
+      <hs:phrase_en>We have guava at <font size="16" face="arial"><b> الثامنة </b></font>the front of the store.</hs:phrase_en>
+      <hs:phrase_tl>Nous avons des <font size="16" face="arial"><b> الثامنة </b></font>goyaves devant le magasin.</hs:phrase_tl>
+      <hs:left>40</hs:left>
+      <hs:top>60</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>La banana plantain <font size="16" face="arial"><b> اليوم </b></font>means plantain. Le bananier means banana tree.</hs:feedback>
+      <hs:file_audio>fr_plantain_season.mp3</hs:file_audio>
+      <hs:hint>This fruit is cooked <font size="16" face="arial"><b> اليوم </b></font>and served as a vegetable.</hs:hint>
+      <hs:lang_en>Paris</hs:lang_en>
+      <hs:lang_tl>اليوم</hs:lang_tl>
+      <hs:phrase_en>This is plantain <font size="16" face="arial"><b> اليوم </b></font>season.</hs:phrase_en>
+      <hs:phrase_tl>C’est la saison <font size="16" face="arial"><b> اليوم </b></font>des bananes plantains.</hs:phrase_tl>
+      <hs:left>0</hs:left>
+      <hs:top>120</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Les légumes means <font size="16" face="arial"><b> لصباح </b></font>vegetables. Les légumes verts means green vegetables.</hs:feedback>
+      <hs:file_audio>fr_vegetables_produce.mp3</hs:file_audio>
+      <hs:hint>Edible plants, usually <font size="16" face="arial"><b> صباح </b></font>sold next to fruit.</hs:hint>
+      <hs:lang_en>Locamo</hs:lang_en>
+      <hs:lang_tl>صباح</hs:lang_tl>
+      <hs:phrase_en>The vegetables are <font size="16" face="arial"><b> لصباح </b></font>in the produce section.</hs:phrase_en>
+      <hs:phrase_tl>Les légumes sont <font size="16" face="arial"><b> لصباح </b></font>dans le rayon des fruits et des légumes.</hs:phrase_tl>
+      <hs:left>40</hs:left>
+      <hs:top>180</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>La mangue means <font size="16" face="arial"><b> الثامنة </b></font>mango. Le manguier means mango tree.</hs:feedback>
+      <hs:file_audio>fr_magoes_tropical.mp3</hs:file_audio>
+      <hs:hint>Exotic fruit with <font size="16" face="arial"><b> الثامنة </b></font>yellow flesh</hs:hint>
+      <hs:lang_en>Milan</hs:lang_en>
+      <hs:lang_tl>الثامنة</hs:lang_tl>
+      <hs:phrase_en>Mangoes are a <font size="16" face="arial"><b> الثامنة </b></font>tropical fruit. </hs:phrase_en>
+      <hs:phrase_tl>Les mangues sont <font size="16" face="arial"><b> الثامنة </b></font>des fruits tropicaux.</hs:phrase_tl>
+      <hs:left>0</hs:left>
+      <hs:top>240</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>La patate douce <font size="16" face="arial"><b> الحربية </b></font>means yam or sweet potato. La pomme de terre is the regular potato.</hs:feedback>
+      <hs:file_audio>fr_yam_local_cuisine.mp3</hs:file_audio>
+      <hs:hint>A type of sweet <font size="16" face="arial"><b> الحربية </b></font>potato</hs:hint>
+      <hs:lang_en>Naples</hs:lang_en>
+      <hs:lang_tl>الحربية</hs:lang_tl>
+      <hs:phrase_en>Yams are <font size="16" face="arial"><b> الحربية </b></font>commonly used in local cuisine.</hs:phrase_en>
+      <hs:phrase_tl>Les patates <font size="16" face="arial"><b> الحربية </b></font>douces sont habituellement utilisées dans la cuisine locale. </hs:phrase_tl>
+      <hs:left>200</hs:left>
+      <hs:top>0</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Le tubercule <font size="16" face="arial"><b> وقف إطلاق </b></font>de manioc means cassava.</hs:feedback>
+      <hs:file_audio>fr_cassava_consumed.mp3</hs:file_audio>
+      <hs:hint>This tropical <font size="16" face="arial"><b> وقف إطلاق </b></font>plant is the source of tapioca.</hs:hint>
+      <hs:lang_en>Madrid</hs:lang_en>
+      <hs:lang_tl>وقف إطلاق</hs:lang_tl>
+      <hs:phrase_en>Cassava leaves <font size="16" face="arial"><b> وقف إطلاق </b></font>cannot be consumed raw.</hs:phrase_en>
+      <hs:phrase_tl>Les feuilles de <font size="16" face="arial"><b> وقف إطلاق </b></font>tubercule de manioc ne peuvent pas être mangées crues.</hs:phrase_tl>
+      <hs:left>240</hs:left>
+      <hs:top>60</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>La papaye means <font size="16" face="arial"><b> لام عليكم </b></font>papaya. Le papayer means papaya tree.</hs:feedback>
+      <hs:file_audio>fr_papaya_originated.mp3</hs:file_audio>
+      <hs:hint>Melon shaped fruit <font size="16" face="arial"><b> لام عليكم </b></font>with orange flesh and large black seeds.</hs:hint>
+      <hs:lang_en>Munich</hs:lang_en>
+      <hs:lang_tl>لام عليكم</hs:lang_tl>
+      <hs:phrase_en>Papaya originated <font size="16" face="arial"><b> لام عليكم </b></font>in Central America.</hs:phrase_en>
+      <hs:phrase_tl>La papaye est <font size="16" face="arial"><b> لام عليكم </b></font>originaire d’Amérique Centrale.</hs:phrase_tl>
+      <hs:left>280</hs:left>
+      <hs:top>120</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Le poulet means <font size="16" face="arial"><b> الغارات </b></font>chicken. Le poulailler, which shares the same root means henhouse.</hs:feedback>
+      <hs:file_audio>fr_chicken_poultry.mp3</hs:file_audio>
+      <hs:hint>One of the most <font size="16" face="arial"><b> الغارات </b></font>common types of poultry, also used for eggs</hs:hint>
+      <hs:lang_en>Vienna</hs:lang_en>
+      <hs:lang_tl>الغارات</hs:lang_tl>
+      <hs:phrase_en>Chicken is a <font size="16" face="arial"><b> الغارات </b></font>type of poultry.</hs:phrase_en>
+      <hs:phrase_tl>Le poulet est <font size="16" face="arial"><b> الغارات </b></font>un type de volaille.</hs:phrase_tl>
+      <hs:left>240</hs:left>
+      <hs:top>180</hs:top>
+    </hs:item>
+  </hs:section>
+  <hs:section>
+	<hs:graphic>iraq.jpg</hs:graphic>
+    <hs:item>
+      <hs:feedback>Le tubercule <font size="16" face="arial"><b> لام عليكم </b></font>de manioc means cassava.</hs:feedback>
+      <hs:file_audio>fr_cassava_consumed.mp3</hs:file_audio>
+      <hs:hint>This tropical plant <font size="16" face="arial"><b> لام عليكم </b></font>is the source of tapioca.</hs:hint>
+      <hs:lang_en>Bristol</hs:lang_en>
+      <hs:lang_tl>لام عليكم</hs:lang_tl>
+      <hs:phrase_en>Cassava leaves <font size="16" face="arial"><b> لام عليكم </b></font>cannot be consumed raw.</hs:phrase_en>
+      <hs:phrase_tl>Les feuilles de <font size="16" face="arial"><b> لام عليكم </b></font>tubercule de manioc ne peuvent pas être mangées crues.</hs:phrase_tl>
+      <hs:left>0</hs:left>
+      <hs:top>0</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>La papaye means <font size="16" face="arial"><b> عشرات </b></font>papaya. Le papayer means papaya tree.</hs:feedback>
+      <hs:file_audio>fr_papaya_originated.mp3</hs:file_audio>
+      <hs:hint>Melon shaped fruit <font size="16" face="arial"><b> عشرات </b></font>with orange flesh and large black seeds.</hs:hint>
+      <hs:lang_en>London</hs:lang_en>
+      <hs:lang_tl>عشرات</hs:lang_tl>
+      <hs:phrase_en>Papaya originated <font size="16" face="arial"><b> عشرات </b></font>in Central America.</hs:phrase_en>
+      <hs:phrase_tl>La papaye est <font size="16" face="arial"><b> عشرات </b></font>originaire d’Amérique Centrale.</hs:phrase_tl>
+      <hs:left>40</hs:left>
+      <hs:top>60</hs:top>
+    </hs:item>
+    <hs:item>
+      <hs:feedback>Le poulet means <font size="16" face="arial"><b> لهجوما </b></font>chicken. Le poulailler, which shares the same root means henhouse.</hs:feedback>
+      <hs:file_audio>fr_chicken_poultry.mp3</hs:file_audio>
+      <hs:hint>One of the most common <font size="16" face="arial"><b> لهجوما </b></font>types of poultry, also used for eggs</hs:hint>
+      <hs:lang_en>Salzburg</hs:lang_en>
+      <hs:lang_tl>لهجوما</hs:lang_tl>
+      <hs:phrase_en>Chicken is a type <font size="16" face="arial"><b> لهجوما </b></font>of poultry.</hs:phrase_en>
+      <hs:phrase_tl>Le poulet est un <font size="16" face="arial"><b> لهجوما </b></font>type de volaille.</hs:phrase_tl>
+      <hs:left>80</hs:left>
+      <hs:top>120</hs:top>
+    </hs:item>
+  </hs:section>
+</hs:content>

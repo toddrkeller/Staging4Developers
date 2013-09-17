@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<!--<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>-->
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+		<title>Dice Game HTML</title>
+		
+		<script src="CubicVR.min.js" type="text/javascript"></script>
+      	<script src="ammo.js" type="text/javascript"></script>
+      	<script src="diceCode.js" type="text/javascript"></script>
+      
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<link href="../common/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		<script src="../common/js/jquery.mCustomScrollbar.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		
+		<script src="DiceGame.js"></script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		
+		<h3 class="activity_hd">Dice Game | Conjugation of present tense verbs</h3>
+		<div class="activity_description">
+			Click "Click to roll" to roll the dice. The dice will
+			randomly determine which pronoun and verb combination
+			should be conjugated on the pop-up.Click "Click to roll" to roll the dice. The dice will
+			randomly determine which pronoun and verb combination.
+			
+		</div>
+		
+		<div id="main">
+			<div id="pronouns">
+				<div id="pronoun_1" class="pronoun roundCorners divBtn" >
+					<span id="pronounText_1" class="pronounText">One</span>
+				</div>
+				
+				<div id="pronoun_2" class="pronoun roundCorners divBtn" >
+					<span id="pronounText_2" class="pronounText">Two</span>
+				</div>
+				
+				<div id="pronoun_3" class="pronoun roundCorners divBtn" >
+					<span id="pronounText_3" class="pronounText">Three</span>
+				</div>
+				<div id="pronoun_4" class="pronoun roundCorners divBtn" >
+					<span id="pronounText_4" class="pronounText">Four</span>
+				</div>
+				
+				<div id="pronoun_5" class="pronoun roundCorners divBtn" >
+					<span id="pronounText_5" class="pronounText">Five</span>
+				</div>
+
+				<div id="pronoun_6" class="pronoun roundCorners divBtn" >
+					<span id="pronounText_6" class="pronounText">Six</span>
+				</div>
+			</div>
+			
+			<div id="canvas_container">
+				<div id="input" class="roundCorners">
+					<div id="inputText"></div>
+					<button onclick="submitClicked()" id="submitBtn">Submit</button>
+				</div>
+				
+				<canvas id="canvas" width="600" height="500"></canvas>
+
+				<div id="keyboardContainer" class="roundCorners">
+				</div>
+
+				<div id="feedback" >
+					<h2 id="feedbackHeader">Set completed</h2>
+					<p id="feedbackText">Set completed text</p>
+					<button id="feedbackBtn" onclick="{closeFeedback();}">OK</button>
+				</div>
+				
+				<div id="scoreDiv" class="roundCorners">
+					<span id="scoreTitle">Score:</span>
+					<span id="scoreText">0/0</span>
+				</div>
+			</div>
+			
+			<div id="infinitives">
+				<div id="infinitive_1" class="infinitive roundCorners divBtn" >
+					<div id="infinitiveTextContainer_1" class="infinitiveTextContainer" >
+						<span id="infinitiveText_1" class="infinitiveText">One</span>
+					</div>
+				</div>
+				
+				<div id="infinitive_2" class="infinitive roundCorners divBtn" >
+					<div id="infinitiveTextContainer_2" class="infinitiveTextContainer" >
+						<span id="infinitiveText_2" class="infinitiveText">Two</span>
+					</div>
+				</div>
+				
+				<div id="infinitive_3" class="infinitive roundCorners divBtn" >
+					<div id="infinitiveTextContainer_3" class="infinitiveTextContainer" >
+						<span id="infinitiveText_3" class="infinitiveText">Three</span>
+					</div>
+				</div>
+				<div id="infinitive_4" class="infinitive roundCorners divBtn" >
+					<div id="infinitiveTextContainer_4" class="infinitiveTextContainer" >
+						<span id="infinitiveText_4" class="infinitiveText">Four</span>
+					</div>
+				</div>
+				
+				<div id="infinitive_5" class="infinitive roundCorners divBtn" >
+					<div id="infinitiveTextContainer_5" class="infinitiveTextContainer" >
+						<span id="infinitiveText_5" class="infinitiveText">Five</span>
+					</div>
+				</div>	
+				
+				<div id="infinitive_6" class="infinitive roundCorners divBtn" >
+					<div id="infinitiveTextContainer_6" class="infinitiveTextContainer">
+						<span id="infinitiveText_6" class="infinitiveText">Six</span>
+					</div>
+				</div>				
+			</div>
+
+			<div id="container_setDiv" class="roundCorners">
+				<div id="answeredDiv" class="roundCorners">
+					<span id="answeredTitle">Question:</span>
+					<span id="answeredText">x out of y</span>
+				</div>
+				<div id="setDiv" class="roundCorners">
+					<div id="setTitle" class="bootstrapLabel btn_set noSelect">
+						SET:
+					</div>
+					<span id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</span>
+				</div>
+			</div>
+		</div>
+		
+		<div onclick="clickToRoll()" id="clickToRoll">
+			Click to roll
+		</div>
+			
+		<div id="clickGuard"></div>
+	</body>
+</html>
