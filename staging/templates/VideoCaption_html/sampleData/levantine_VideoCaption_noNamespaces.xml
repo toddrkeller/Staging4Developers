@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Swahili" xmlns:hs="http://fieldsupport.dliflc.edu/products/gateway2"
+	    disableCaption="false" disableTitleBar="false">
+	<!--<video_file>YouTube_-_'The_God_Particle'__The_Higgs_Boson.flv</video_file>-->
+	<video_file>video</video_file>
+	<title dir="ltr"><![CDATA[<b>Presentation</b> Title]]></title>
+	<segments>		
+		<segment>
+			<time_pointer>0</time_pointer>
+			<tl_script dir="ltr">Translation 0. </tl_script>
+			<en_script><![CDATA[<b>Sample</b> 0 <i>text</i> is <u>showing</u>.]]></en_script>
+		</segment>
+		<segment>
+			<time_pointer>2.75</time_pointer>
+			<tl_script dir="ltr">TL_script 2.75</tl_script>
+			<en_script><![CDATA[<b>EN_script 2.75</b> <i>text</i> is <u>showing</u>.]]></en_script>
+		</segment>
+		<segment>
+			<time_pointer>6.57</time_pointer>
+			<tl_script dir="ltr">TL_script 6.57</tl_script>
+			<en_script>EN_script 6.57</en_script>
+		</segment>
+		<segment>
+			<time_pointer>9.25</time_pointer>
+			<tl_script dir="ltr">TL_script 9.25</tl_script>
+			<en_script>EN_script 9.25</en_script>
+		</segment>
+		<segment>
+			<time_pointer>12</time_pointer>
+			<tl_script dir="ltr">TL_script 12</tl_script>
+			<en_script>EN_script 12</en_script>
+		</segment>
+		<segment>
+			<time_pointer>15</time_pointer>
+			<tl_script dir="ltr">TL_script 15</tl_script>
+			<en_script>EN_script 15</en_script>
+		</segment>
+		<segment>
+			<time_pointer>18</time_pointer>
+			<tl_script dir="ltr">TL_script 18</tl_script>
+			<en_script>EN_script 18</en_script>
+		</segment>
+		<segment>
+			<time_pointer>21</time_pointer>
+			<tl_script dir="ltr">TL_script 21</tl_script>
+			<en_script>EN_script 21</en_script>
+		</segment>
+		<segment>
+			<time_pointer>24</time_pointer>
+			<tl_script dir="ltr">TL_script 24</tl_script>
+			<en_script>EN_script 24</en_script>
+		</segment>
+		<segment>
+			<time_pointer>29</time_pointer>
+			<tl_script dir="ltr">TL_script 29</tl_script>
+			<en_script>EN_script 29</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>40</time_pointer>
+			<tl_script dir="ltr">TL_script 40</tl_script>
+			<en_script>EN_script 40</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>51</time_pointer>
+			<tl_script dir="ltr">TL_script 51</tl_script>
+			<en_script>EN_script 51</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>60</time_pointer>
+			<tl_script dir="ltr">TL_script 60</tl_script>
+			<en_script>EN_script 60</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>65</time_pointer>
+			<tl_script dir="ltr">TL_script 65</tl_script>
+			<en_script>EN_script 65</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>72</time_pointer>
+			<tl_script dir="ltr">TL_script 72</tl_script>
+			<en_script>EN_script 72</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>80</time_pointer>
+			<tl_script dir="ltr">TL_script 80</tl_script>
+			<en_script>EN_script 80</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>90</time_pointer>
+			<tl_script dir="ltr">TL_script 90</tl_script>
+			<en_script>EN_script 90</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>105</time_pointer>
+			<tl_script dir="ltr">TL_script 105</tl_script>
+			<en_script>EN_script 105</en_script>
+		</segment>	
+		<segment>
+			<time_pointer>240</time_pointer>
+			<tl_script dir="ltr">TL_script 240</tl_script>
+			<en_script>EN_script 240</en_script>
+		</segment>		
+	</segments>
+</content>

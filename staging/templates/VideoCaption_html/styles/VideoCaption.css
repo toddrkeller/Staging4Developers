@@ -1,0 +1,138 @@
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    position: absolute;
+}
+
+.activity_description {
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    margin-top: -19px;
+    max-width: 910px;
+}
+
+.activity_hd {
+    color: grey;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: -2px;
+}
+
+.roundCorners {
+	border-radius: 3px;
+}
+
+.invisible{
+	opacity: 0;
+}
+
+.visible{
+	opacity: .7;
+}
+
+#main {
+	position: relative;
+	height: 400px;
+	width: 720px;
+	left: 100px;
+}
+
+#selectable .ui-selecting {
+	background: #FECA40;
+}
+#selectable .ui-selected {
+	background: lightgray;
+}
+#selectable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#selectable li {
+	cursor: pointer;
+	border: 0px;
+	margin: 0px;
+	padding: 1em;
+	font-size: 1em;
+	height: 18px;
+}
+
+#langSelectToggle_container {
+	height: 52px;
+    left: 660px;
+    position: absolute;
+    top: 0;
+    width: 61px;
+}
+
+#langSelect_container {
+	background-color: black;
+	color: white;
+	height: 400px;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	width: 580px;
+}
+
+#langSelect {
+	background-color: #F7F7F7s;
+    font-size: 14px;
+    left: 600px;
+    padding: 4px;
+    position: absolute;
+    top: 47px;
+}
+
+.hidden {
+	display: none;
+}
+
+#closeCaptionImg {
+	/*padding: 2px*/
+}
+
+#caption_language {
+	float: right;
+	padding: 7px;
+	text-align: center;
+	width: 150px;
+}
+
+#caption_container {
+	background-color: black;
+	color: white;
+	height: 65px;
+	opacity: 0.7;
+	position: absolute;
+	top: 362px;
+	width: 100%;
+}
+
+body {
+	margin: 0px;
+}
+
+#videoContainer {
+    width: 720px;
+
+}
+
+#videoTag {
+    height: 480px;
+    width: 720px;
+}
+
+#caption {
+	margin: 20px;
+}

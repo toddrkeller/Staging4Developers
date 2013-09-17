@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		
+		<title>Video Caption HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_video.js"></script>
+		
+		<script src="VideoCaption.js"></script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+				<h3 class="activity_hd">Video Caption</h3>
+		<div class="activity_description">
+			To select closed-caption click on the button on the top right.
+			To select closed-caption click on the button on the top right.
+			To select closed-caption click on the button on the top right.
+			To select closed-caption click on the button on the top right.
+			To select closed-caption click on the button on the top right.
+			To select closed-caption click on the button on the top right.
+		</div>
+		
+		<div id="main">
+			<div id="videoContainer"  class="roundCorners"></div>
+		
+			<div id="title_container" class="hidden" >
+				<div id="title">Title</div>
+			</div>
+		
+			<div id="langSelectToggle_container" class="roundCorners btn visible"
+				onmousedown="langSelectTogglePressed()"
+				onmousemove="mouseMove()"
+				onmouseout="mouseOut()">
+				<img id="closeCaptionImg"src="../common/Library/images/closeCaption.png" />
+			</div>
+				
+			<div id="langSelect_guard" class="roundCorners hidden">
+			</div>
+			
+			<div id="langSelect" class="roundCorners hidden">
+				<ol id="selectable">
+					<li class="ui-widget-content ui-selected" onmousedown="langPress('none')">None</li>
+					<li class="ui-widget-content" id="enLang" onmousedown="langPress('en')">English</li>
+					<li class="ui-widget-content" id="tlLang" onmousedown="langPress('tl')">TL</li>
+				</ol>
+			</div>
+			
+			 <div id="caption_container" class="hidden">
+				<div id="caption">Caption</div>
+			</div>
+		</div>
+	</body>
+</html>

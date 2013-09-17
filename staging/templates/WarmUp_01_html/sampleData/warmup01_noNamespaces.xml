@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="MSA" rtl="true">
+  <section>
+    <item>
+      <feedback_l1><![CDATA[ماء means <b>water.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_water.mp3</file_audio>
+      <file_graphic>ad_water_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are م ا ء]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Water</lang_en>
+      <lang_tl dir="rtl">ماء</lang_tl>
+      <phrase_en>Water</phrase_en>
+      <phrase_tl dir="rtl">ماء</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[خبز means <b>bread.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_bread.mp3</file_audio>
+      <file_graphic>ad_bread_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are خ ب ز]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Bread</lang_en>
+      <lang_tl dir="rtl">خبز</lang_tl>
+      <phrase_en>Bread</phrase_en>
+      <phrase_tl dir="rtl">خبز</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[زبدة means <b>butter.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_butter.mp3</file_audio>
+      <file_graphic>ad_butter_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ز ب د ة ]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Butter</lang_en>
+      <lang_tl dir="rtl">زبدة</lang_tl>
+      <phrase_en>Butter</phrase_en>
+      <phrase_tl dir="rtl">زبدة</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[جبن means <b>cheese.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_cheese.mp3</file_audio>
+      <file_graphic>ad_cheese_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ج ب ن]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Cheese</lang_en>
+      <lang_tl dir="rtl">جبن</lang_tl>
+      <phrase_en>Cheese</phrase_en>
+      <phrase_tl dir="rtl">جبن</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[لحم means <b>meat.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_meat.mp3</file_audio>
+      <file_graphic>ad_meat_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ل ح م]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Meat</lang_en>
+      <lang_tl dir="rtl">لحم</lang_tl>
+      <phrase_en>Meat</phrase_en>
+      <phrase_tl dir="rtl">لحم</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[سلطة means <b>salad.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_salad.mp3</file_audio>
+      <file_graphic>ad_salad_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are س ل ط ة]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Salad</lang_en>
+      <lang_tl dir="rtl">سلطة</lang_tl>
+      <phrase_en>Salad</phrase_en>
+      <phrase_tl dir="rtl">سلطة</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[فاكهة means <b>fruit.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_fruit.mp3</file_audio>
+      <file_graphic>ad_fruit_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ف ا ك ه ة]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Fruit</lang_en>
+      <lang_tl dir="rtl">فاكهة</lang_tl>
+      <phrase_en>Fruit</phrase_en>
+      <phrase_tl dir="rtl">فاكهة</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[بطاطا means <b>potatoes.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_potato.mp3</file_audio>
+      <file_graphic>ad_potato_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are  ب ط ا ط ا ]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Potatoes</lang_en>
+      <lang_tl dir="rtl">بطاطا</lang_tl>
+      <phrase_en>Potatoes</phrase_en>
+      <phrase_tl dir="rtl">بطاطا</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[عصير means <b>juice.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_juice.mp3</file_audio>
+      <file_graphic>ad_juice_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ع ص ي ر]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Juice</lang_en>
+      <lang_tl dir="rtl">عصير</lang_tl>
+      <phrase_en>Juice</phrase_en>
+      <phrase_tl dir="rtl">عصير</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[دجاج means <b>chicken.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_chicken.mp3</file_audio>
+      <file_graphic>ad_chicken_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are د ج ا ج]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Chicken</lang_en>
+      <lang_tl dir="rtl">دجاج</lang_tl>
+      <phrase_en>Chicken</phrase_en>
+      <phrase_tl dir="rtl">دجاج</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[بيض means <b>eggs.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_eggs.mp3</file_audio>
+      <file_graphic>ad_eggs_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ب ي ض]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Eggs</lang_en>
+      <lang_tl dir="rtl">بيض</lang_tl>
+      <phrase_en>Eggs</phrase_en>
+      <phrase_tl dir="rtl">بيض</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[سمك means <b>fish.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_fish.mp3</file_audio>
+      <file_graphic>ad_fish_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are س م ك ]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Fish</lang_en>
+      <lang_tl dir="rtl">سمك</lang_tl>
+      <phrase_en>Fish</phrase_en>
+      <phrase_tl dir="rtl">سمك</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[سكر means <b>sugar.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_sugar.mp3</file_audio>
+      <file_graphic>ad_sugar_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are س ك ر]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Sugar</lang_en>
+      <lang_tl dir="rtl">سكر</lang_tl>
+      <phrase_en>Sugar</phrase_en>
+      <phrase_tl dir="rtl">سكر</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[ملح means <b>salt.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_salt.mp3</file_audio>
+      <file_graphic>ad_salt_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are م ل ح]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Salt</lang_en>
+      <lang_tl dir="rtl">ملح</lang_tl>
+      <phrase_en>Salt</phrase_en>
+      <phrase_tl dir="rtl">ملح</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[قهوة means <b>coffee.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_coffee.mp3</file_audio>
+      <file_graphic>ad_coffee_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ق ه و ة]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Coffee</lang_en>
+      <lang_tl dir="rtl">قهوة</lang_tl>
+      <phrase_en>Coffee</phrase_en>
+      <phrase_tl dir="rtl">قهوة</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[شاي means <b>tea.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_tea.mp3</file_audio>
+      <file_graphic>ad_tea_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ش ا ي]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>Tea</lang_en>
+      <lang_tl dir="rtl">شاي</lang_tl>
+      <phrase_en>Tea</phrase_en>
+      <phrase_tl dir="rtl">شاي</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[شرب means <b>to drink</b> or <b>he drank.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_to_drink.mp3</file_audio>
+      <file_graphic>ad_to_drink_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are ش ر ب]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>To drink</lang_en>
+      <lang_tl dir="rtl">شرب</lang_tl>
+      <phrase_en>To drink</phrase_en>
+      <phrase_tl dir="rtl">شرب</phrase_tl>
+    </item>
+    <item>
+      <feedback_l1><![CDATA[أكل means to <b>eat</b> or <b>he ate.</b>]]></feedback_l1>
+      <feedback_l2><![CDATA[]]></feedback_l2>
+      <file_audio>ad_to_eat.mp3</file_audio>
+      <file_graphic>ad_to_eat_md.png</file_graphic>
+      <hint_l1><![CDATA[Letters are أ ك ل]]></hint_l1>
+      <hint_l2><![CDATA[]]></hint_l2>
+      <lang_en>To eat</lang_en>
+      <lang_tl dir="rtl">أكل</lang_tl>
+      <phrase_en>To eat</phrase_en>
+      <phrase_tl dir="rtl">أكل</phrase_tl>
+    </item>
+  </section>
+</content>

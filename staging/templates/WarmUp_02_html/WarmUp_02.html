@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+		<title>WarmUp 02 HTML</title>
+		<script src="../common/js/AC_OETags.js"></script>
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+		<script src="WarmUp_02.js"></script>
+
+		<!-- CSS -->
+		<link href="../common/css/bootstrap.css" rel="stylesheet">
+		<link href="../common/css/dlilearn_custom.css" rel="stylesheet">
+		<link href="../common/css/dlilearn_activities.css" rel="stylesheet">
+	</head>
+	<body>
+
+	<div id="activity_wrapper">
+		<h3 class="activity_hd">Warm-up 02 | Introduction to Keywords</h3> 
+		<div class="activity_description">Click the play button next to the image to listen to the keyword. Drag the missing letter(s) from the on-screen... </div>		
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+		<div id="mainWarmup02">
+			<div id="tileArea"></div>
+			<div id="tileArea2">
+				<div id="wordGraphicAudioMissing" class="boxBG">
+					<div id="graphicContainer" class="">
+						<img id="setImg" class="" src=""></img>
+					</div>
+					<div id="playBtn" class="playBtnDivStyle">
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)" 
+						onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1);playAudio();" 
+						onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)"
+						onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)">
+							<img id="playBtn_s1" class="playBtn" src="../common/Library/images/playBtn_s1.png" border="0">
+						</a>
+					</div>
+				</div>				
+				<div id="wordContainer" class="roundCorners boxBG">
+						<div id="word" class="roundCorners">id: word</div>
+				</div>					
+				<div id="keyboardContainer" class="roundCorners"></div>
+			</div>
+			<div id="popUpPanel" class="boxBG">
+				<img id="popUpPanelImageId" class="popUpPanelImage" src=""></img>
+				<p id="popUpPanelText"></p>
+				<div id="playBtn2" class="playBtnDivStyle2">
+					<a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s1.png',1)" 
+					onMouseDown="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s3.png',1);playAudioInPopUpPanel();" 
+					onMouseUp="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s2.png',1)"
+					onMouseOver="MM_swapImage('playBtn_s2','','../common/Library/images/playBtn_s2.png',1)">
+						<img id="playBtn_s2" class="playBtn2" src="../common/Library/images/playBtn_s1.png" border="0">
+					</a>
+				</div>
+			</div>
+			<div id="closeBtn" class="closeBtnStyle">X</div>
+			<div id="feedback">
+				<h2 id="feedbackHeader">Set completed</h2>
+				<p id="feedbackText">Set completed text</p>
+				<button id="feedbackBtn" class="btn pull-right" onclick="{closeFeedback();}">OK</button>
+				<div id="feedbackArrow"><img id="feedbackArrowImg" class="" src=""></div>
+			</div>
+			<div id="clickGuard"></div>
+		</div>
+	</div>
+	</body>
+</html>

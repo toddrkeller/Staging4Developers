@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="MSA" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" rtl="true">
+  <hs:section>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[ماء means <b>water.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_water.mp3</hs:file_audio>
+      <hs:file_graphic>ad_water_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are م ا ء]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Water</hs:lang_en>
+      <hs:lang_tl dir="rtl">ماء</hs:lang_tl>
+      <hs:phrase_en>Water</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">ماء</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[خبز means <b>bread.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_bread.mp3</hs:file_audio>
+      <hs:file_graphic>ad_bread_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are خ ب ز]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Bread</hs:lang_en>
+      <hs:lang_tl dir="rtl">خبز</hs:lang_tl>
+      <hs:phrase_en>Bread</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">خبز</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[زبدة means <b>butter.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_butter.mp3</hs:file_audio>
+      <hs:file_graphic>ad_butter_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ز ب د ة ]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Butter</hs:lang_en>
+      <hs:lang_tl dir="rtl">زبدة</hs:lang_tl>
+      <hs:phrase_en>Butter</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">زبدة</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[جبن means <b>cheese.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_cheese.mp3</hs:file_audio>
+      <hs:file_graphic>ad_cheese_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ج ب ن]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Cheese</hs:lang_en>
+      <hs:lang_tl dir="rtl">جبن</hs:lang_tl>
+      <hs:phrase_en>Cheese</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">جبن</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[لحم means <b>meat.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_meat.mp3</hs:file_audio>
+      <hs:file_graphic>ad_meat_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ل ح م]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Meat</hs:lang_en>
+      <hs:lang_tl dir="rtl">لحم</hs:lang_tl>
+      <hs:phrase_en>Meat</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">لحم</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[سلطة means <b>salad.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_salad.mp3</hs:file_audio>
+      <hs:file_graphic>ad_salad_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are س ل ط ة]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Salad</hs:lang_en>
+      <hs:lang_tl dir="rtl">سلطة</hs:lang_tl>
+      <hs:phrase_en>Salad</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">سلطة</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[فاكهة means <b>fruit.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_fruit.mp3</hs:file_audio>
+      <hs:file_graphic>ad_fruit_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ف ا ك ه ة]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Fruit</hs:lang_en>
+      <hs:lang_tl dir="rtl">فاكهة</hs:lang_tl>
+      <hs:phrase_en>Fruit</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">فاكهة</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[بطاطا means <b>potatoes.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_potato.mp3</hs:file_audio>
+      <hs:file_graphic>ad_potato_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are  ب ط ا ط ا ]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Potatoes</hs:lang_en>
+      <hs:lang_tl dir="rtl">بطاطا</hs:lang_tl>
+      <hs:phrase_en>Potatoes</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">بطاطا</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[عصير means <b>juice.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_juice.mp3</hs:file_audio>
+      <hs:file_graphic>ad_juice_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ع ص ي ر]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Juice</hs:lang_en>
+      <hs:lang_tl dir="rtl">عصير</hs:lang_tl>
+      <hs:phrase_en>Juice</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">عصير</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[دجاج means <b>chicken.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_chicken.mp3</hs:file_audio>
+      <hs:file_graphic>ad_chicken_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are د ج ا ج]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Chicken</hs:lang_en>
+      <hs:lang_tl dir="rtl">دجاج</hs:lang_tl>
+      <hs:phrase_en>Chicken</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">دجاج</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[بيض means <b>eggs.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_eggs.mp3</hs:file_audio>
+      <hs:file_graphic>ad_eggs_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ب ي ض]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Eggs</hs:lang_en>
+      <hs:lang_tl dir="rtl">بيض</hs:lang_tl>
+      <hs:phrase_en>Eggs</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">بيض</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[سمك means <b>fish.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_fish.mp3</hs:file_audio>
+      <hs:file_graphic>ad_fish_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are س م ك ]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Fish</hs:lang_en>
+      <hs:lang_tl dir="rtl">سمك</hs:lang_tl>
+      <hs:phrase_en>Fish</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">سمك</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[سكر means <b>sugar.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_sugar.mp3</hs:file_audio>
+      <hs:file_graphic>ad_sugar_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are س ك ر]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Sugar</hs:lang_en>
+      <hs:lang_tl dir="rtl">سكر</hs:lang_tl>
+      <hs:phrase_en>Sugar</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">سكر</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[ملح means <b>salt.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_salt.mp3</hs:file_audio>
+      <hs:file_graphic>ad_salt_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are م ل ح]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Salt</hs:lang_en>
+      <hs:lang_tl dir="rtl">ملح</hs:lang_tl>
+      <hs:phrase_en>Salt</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">ملح</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[قهوة means <b>coffee.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_coffee.mp3</hs:file_audio>
+      <hs:file_graphic>ad_coffee_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ق ه و ة]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Coffee</hs:lang_en>
+      <hs:lang_tl dir="rtl">قهوة</hs:lang_tl>
+      <hs:phrase_en>Coffee</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">قهوة</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[شاي means <b>tea.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_tea.mp3</hs:file_audio>
+      <hs:file_graphic>ad_tea_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ش ا ي]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Tea</hs:lang_en>
+      <hs:lang_tl dir="rtl">شاي</hs:lang_tl>
+      <hs:phrase_en>Tea</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">شاي</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[شرب means <b>to drink</b> or <b>he drank.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_to_drink.mp3</hs:file_audio>
+      <hs:file_graphic>ad_to_drink_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are ش ر ب]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>To drink</hs:lang_en>
+      <hs:lang_tl dir="rtl">شرب</hs:lang_tl>
+      <hs:phrase_en>To drink</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">شرب</hs:phrase_tl>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[أكل means to <b>eat</b> or <b>he ate.</b>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>ad_to_eat.mp3</hs:file_audio>
+      <hs:file_graphic>ad_to_eat_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[Letters are أ ك ل]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>To eat</hs:lang_en>
+      <hs:lang_tl dir="rtl">أكل</hs:lang_tl>
+      <hs:phrase_en>To eat</hs:phrase_en>
+      <hs:phrase_tl dir="rtl">أكل</hs:phrase_tl>
+    </hs:item>
+
+  </hs:section>
+</hs:content>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Swahili" xmlns:hs="http://fieldsupport.dliflc.edu/products/gateway2"
+	    disableCaption="false" disableTitleBar="false">
+	<!--<hs:video_file>YouTube_-_'The_God_Particle'__The_Higgs_Boson.flv</hs:video_file>-->
+	<hs:video_file>_testVideo1.flv</hs:video_file>
+	<hs:title dir="ltr"><![CDATA[<b>Presentation</b> Title]]></hs:title>
+	<hs:segments>		
+		<hs:segment>
+			<hs:time_pointer>.2</hs:time_pointer>
+			<hs:tl_script dir="ltr">Translation Text 1. </hs:tl_script>
+			<hs:en_script><![CDATA[<b>Sample</b> <i>text</i> is <u>showing</u>.]]></hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>2.75</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 2</hs:tl_script>
+			<hs:en_script><![CDATA[<b>EN_script 2 3.75</b> <i>text</i> is <u>showing</u>.]]></hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>6.57</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 3</hs:tl_script>
+			<hs:en_script>EN_script 3 6.57</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>9.25</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 4</hs:tl_script>
+			<hs:en_script>EN_script 4 9.25</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>12</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 5</hs:tl_script>
+			<hs:en_script>EN_script 5</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>15</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 6</hs:tl_script>
+			<hs:en_script>EN_script 6</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>18</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 7</hs:tl_script>
+			<hs:en_script>EN_script 7</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>21</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 8</hs:tl_script>
+			<hs:en_script>EN_script 8</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>24</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 9</hs:tl_script>
+			<hs:en_script>EN_script 9</hs:en_script>
+		</hs:segment>
+		<hs:segment>
+			<hs:time_pointer>27</hs:time_pointer>
+			<hs:tl_script dir="ltr">TL_script 10</hs:tl_script>
+			<hs:en_script>EN_script 10</hs:en_script>
+		</hs:segment>		
+	</hs:segments>
+</hs:content>

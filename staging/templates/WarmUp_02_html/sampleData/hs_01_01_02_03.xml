@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Hausa" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <hs:section>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[In Hausa the vowels are always pronounced the same way. <b>Mauritaniya</b> is pronounced /ma-oo-ree-taa-nee-yaa/.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_mauritania.mp3</hs:file_audio>
+      <hs:file_graphic>hs_mauritania_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Mauritaniya.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Mauritania</hs:lang_en>
+      <hs:lang_tl dir="ltr">Mauritaniya</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>10</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[The Nigerian government supports Rwanda through the Nigerian Technical Aid Cooperation Agreement. ]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_rwanda.mp3</hs:file_audio>
+      <hs:file_graphic>hs_rwanda_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Ruwanda.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Rwanda</hs:lang_en>
+      <hs:lang_tl dir="ltr">Ruwanda</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>3</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[Over half of the population of Niger is Hausa.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_niger.mp3</hs:file_audio>
+      <hs:file_graphic>hs_niger_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Nijar.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Niger</hs:lang_en>
+      <hs:lang_tl dir="ltr">Nijar</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>3</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[<b>Amurka</b> in Hausa is used to express <i>United States,</i> as well as the name of the continent.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_america.mp3</hs:file_audio>
+      <hs:file_graphic>hs_america_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Amurka.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>America</hs:lang_en>
+      <hs:lang_tl dir="ltr">Amurka</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>3</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[The letter <b>j</b> in Hausa is pronounced the same way as in English.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_djibouti.mp3</hs:file_audio>
+      <hs:file_graphic>hs_djibouti_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Jibuti.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Djibouti</hs:lang_en>
+      <hs:lang_tl dir="ltr">Jibuti</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>6</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[Nigeria, like Somalia, has had major problems with maritime piracy in recent years.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_somalia.mp3</hs:file_audio>
+      <hs:file_graphic>hs_somalia_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Samaliya.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Somalia</hs:lang_en>
+      <hs:lang_tl dir="ltr">Samaliya</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>2</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[In 2009, the Technical and Manpower Assistance Agreement was signed between Nigeria and Liberia to help Liberia's socio-economic development.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_liberia.mp3</hs:file_audio>
+      <hs:file_graphic>hs_liberia_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Libiriya.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Liberia</hs:lang_en>
+      <hs:lang_tl dir="ltr">Libiriya</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>4</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[The three largest and most influential ethnic groups in Nigeria are the Hausa, Igbo, and Yoruba.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_nigeria.mp3</hs:file_audio>
+      <hs:file_graphic>hs_nigeria_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Najeriya.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Nigeria</hs:lang_en>
+      <hs:lang_tl dir="ltr">Najeriya</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>3</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[People in northern Cameroon speak Hausa.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_cameroon.mp3</hs:file_audio>
+      <hs:file_graphic>hs_cameroon_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Kamaru.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Cameroon</hs:lang_en>
+      <hs:lang_tl dir="ltr">Kamaru</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>1</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[Due to trade relations with Niger, some people in northern Chad speak Hausa, though they tend to speak with French accents.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_chad.mp3</hs:file_audio>
+      <hs:file_graphic>hs_chad_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Chadi.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Chad</hs:lang_en>
+      <hs:lang_tl dir="ltr">Chadi</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>5</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[English nouns ending in <i>-ia</i> are written <b>-iya </b>in Hausa.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_algeria.mp3</hs:file_audio>
+      <hs:file_graphic>hs_algeria_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Aljeriya.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Algeria</hs:lang_en>
+      <hs:lang_tl dir="ltr">Aljeriya</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>3</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[In Hausa the letter <b>k</b> is pronounced like in English. The letter <b>c</b> is always pronounced as /ch/ in <i>chicken.</i>]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_morocco.mp3</hs:file_audio>
+      <hs:file_graphic>hs_morocco_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Moroko.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Morocco</hs:lang_en>
+      <hs:lang_tl dir="ltr">Moroko</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>5</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[Nigerian troops were part of the United Nation's mission in the Congo during its civil war from 1998-2003.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_congo.mp3</hs:file_audio>
+      <hs:file_graphic>hs_congo_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Kwango.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Congo</hs:lang_en>
+      <hs:lang_tl dir="ltr">Kwango</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>2</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[As of 2012, Africa remained the world's poorest and most underdeveloped continent.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_africa.mp3</hs:file_audio>
+      <hs:file_graphic>hs_africa_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Afrika.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Africa</hs:lang_en>
+      <hs:lang_tl dir="ltr">Afrika</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>5</hs:missing_letter_ids>
+    </hs:item>
+    <hs:item>
+      <hs:feedback_l1><![CDATA[Nigeria exports oil to Asian countries such as India and China.]]></hs:feedback_l1>
+      <hs:feedback_l2><![CDATA[]]></hs:feedback_l2>
+      <hs:file_audio>hs_asia.mp3</hs:file_audio>
+      <hs:file_graphic>hs_asia_sm.png</hs:file_graphic>
+      <hs:hint_l1><![CDATA[The correct answer is <b>Asiya.</b>]]></hs:hint_l1>
+      <hs:hint_l2><![CDATA[]]></hs:hint_l2>
+      <hs:lang_en>Asia</hs:lang_en>
+      <hs:lang_tl dir="ltr">Asiya</hs:lang_tl>
+      <hs:phrase_en></hs:phrase_en>
+      <hs:phrase_tl dir="ltr"></hs:phrase_tl>
+      <hs:missing_letter_ids>4</hs:missing_letter_ids>
+    </hs:item>
+
+  </hs:section>
+</hs:content>

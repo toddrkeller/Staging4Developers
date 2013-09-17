@@ -1,0 +1,92 @@
+#videoStage{
+    background-color: grey;
+    height: 180px;
+    left: 360px;
+    position: absolute;
+    width: 240px;
+    top: 8px;
+}
+
+#playBtnVideo {
+    left: 6px;
+    position: absolute;
+    top: 131px;
+}
+
+#engSelectable .ui-selecting { background: #FECA40; }
+#engSelectable .ui-selected { background: #F39814; color: white; }
+#engSelectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#engSelectable li { margin: 3px; padding: 0.4em; font-size: 12px; height: 18px; }
+
+#transliSelectable .ui-selecting { background: #FECA40; }
+#transliSelectable .ui-selected { background: #F39814; color: white; }
+#transliSelectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#transliSelectable li { margin: 3px; padding: 0.4em; font-size: 12px; height: 18px; }
+
+#transSelectable .ui-selecting { background: #FECA40; }
+#transSelectable .ui-selected { background: #F39814; color: white; }
+#transSelectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#transSelectable li { margin: 3px; padding: 0.4em; font-size: 12px; height: 18px; }
+
+.ui-tabs-panel{
+	overflow: auto;
+	height: 334px;
+}
+
+#tabs ul {
+    font-size: 12px;
+}
+
+#tabs{
+    height: 400px;
+    width: 340px;
+}
+
+
+#engPhraseSelectable .ui-selecting { background: #FECA40; }
+#engPhraseSelectable .ui-selected { background: #F39814; color: white; }
+#engPhraseSelectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#engPhraseSelectable li { margin: 3px; padding: 0.4em; font-size: 12px; height: 18px; }
+
+#transliPhraseSelectable .ui-selecting { background: #FECA40; }
+#transliPhraseSelectable .ui-selected { background: #F39814; color: white; }
+#transliPhraseSelectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#transliPhraseSelectable li { margin: 3px; padding: 0.4em; font-size: 12px; height: 18px; }
+
+#transPhraseSelectable .ui-selecting { background: #FECA40; }
+#transPhraseSelectable .ui-selected { background: #F39814; color: white; }
+#transPhraseSelectable { list-style-type: none; margin: 0; padding: 0; width: 100%; }
+#transPhraseSelectable li { margin: 3px; padding: 0.4em; font-size: 12px; height: 18px; }
+
+
+#videoTag {
+    height: 179px;
+    width: 240px;
+}
+
+#engTab{
+	padding: 0px;
+	height: 364px;
+}
+
+#transliTab{
+	padding: 0px;
+	height: 364px;
+}
+
+#transTab{
+	padding: 0px;
+	height: 364px;
+}
+
+#phrase_tabs ul {
+    font-size: 9px;
+}
+
+#phrase_tabs {
+    height: 216px;
+    left: 361px;
+    position: absolute;
+    top: 192px;
+    width: 233px;
+}

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Levantine" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+
+    <item>
+      <file_video>rain.flv</file_video>
+      <lang_en>Hello.</lang_en>
+      <lang_tl dir="rtl"> رحبا۔</lang_tl>
+      <feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>Peace upon you.</lang_en>
+      <lang_tl dir="rtl">السلام عليكم۔</lang_tl>
+      <feedback>This expression is mostly used by Muslims.</feedback>
+    </item>
+    <item>
+      <file_video>rice.flv</file_video>
+      <lang_en>Good morning.</lang_en>
+      <lang_tl dir="rtl">صباح الخير۔</lang_tl>
+      <feedback>/SabaaH in-noor/ <b>(lighted morning)</b> is used to  respond to /SabaaH il-Kheyr/.</feedback>
+    </item>
+    <item>
+      <file_video>river.flv</file_video>
+      <lang_en>How is your health?</lang_en>
+      <lang_tl dir="rtl">كيف الصحة؟</lang_tl>
+      <feedback>/SaHa/ means <b>health </b>in general. /SaHtak/ is more specific, meaning <b>your health.</b></feedback>
+    </item>
+    <item>
+      <file_video>road.flv</file_video>
+      <lang_en>Good evening.</lang_en>
+      <lang_tl dir="rtl">مسا الخير۔</lang_tl>
+      <feedback>/masaa in-noor/ <b>(lighted evening)</b> is the typical response to /masaa il-Kheyr/.</feedback>
+    </item>
+    <item>
+      <file_video>rain.flv</file_video>
+      <lang_en>How are you?</lang_en>
+      <lang_tl dir="rtl">كيفَك؟</lang_tl>
+      <feedback>/keefak/ is used when speaking to a single person. For a group of people use /keefkon/.</feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>I'm fine, thanks, and you?</lang_en>
+      <lang_tl dir="rtl">الحمد الله منيح، كيفَك انتِ؟</lang_tl>
+      <feedback>/keefak intey/ is used only when asking a man how he is. /keefek intee/ is used when addressing a woman. </feedback>
+    </item>
+    <item>
+      <file_video>rice.flv</file_video>
+      <lang_en>Fine, thank God.</lang_en>
+      <lang_tl dir="rtl">نشكر الله، بخير۔</lang_tl>
+      <feedback>/nushkor/ means <b>we thank.</b> But this phrase is an exception to the rule and can be used to say <b>I thank </b>when only one person is speaking.</feedback>
+    </item>
+    <item>
+      <file_video>river.flv</file_video>
+      <lang_en>What's your name?</lang_en>
+      <lang_tl dir="rtl">شو اسمك؟</lang_tl>
+      <feedback>/ismak/ means <b>your name</b> and is used when addressing a man; /ismek/ is used when addressing a woman.</feedback>
+    </item>
+    <item>
+      <file_video>road.flv</file_video>
+      <lang_en>My name is John.</lang_en>
+      <lang_tl dir="rtl">أنا اسمي جان۔</lang_tl>
+      <feedback>/ismee/ <b>(my name)</b> is used by both genders.</feedback>
+    </item>
+    <item>
+      <file_video>rain.flv</file_video>
+      <lang_en>Nice to meet you.</lang_en>
+      <lang_tl dir="rtl">تشرّفنا۔</lang_tl>
+      <feedback>/HaSalee ish-sharaf/ can also be used instead of /tshar-rafna/. </feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>Welcome.</lang_en>
+      <lang_tl dir="rtl">أهلا وسهلا فيك۔</lang_tl>
+      <feedback>/feek/ <b>(to you)</b> is used when addressing a man. /feekee/ is used for a woman and /feekon/ for a group.</feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>Good-bye.</lang_en>
+      <lang_tl dir="rtl">خاطرك۔</lang_tl>
+      <feedback>This expression can be used at any time but at night you can also say /tiSbaH 'alaa Kheyr/.</feedback>
+    </item>
+    <item>
+      <file_video>rice.flv</file_video>
+      <lang_en>See you later.</lang_en>
+      <lang_tl dir="rtl">بشوفك بعدين۔</lang_tl>
+      <feedback>/bshoofak/ <b>(see you)</b> is used when talking to a man. Say /bshoofek/ for a woman, and /bshoofkon/ when addressing a group.</feedback>
+    </item>
+    <item>
+      <file_video>river.flv</file_video>
+      <lang_en>See you tomorrow.</lang_en>
+      <lang_tl dir="rtl">بشوفك بُكرا۔</lang_tl>
+      <feedback>When addressing a woman say /bshoofek/; use /bshoofkon/ for a group. /bshoofak/ <b>(see you)</b> is used when addressing a man.</feedback>
+    </item>
+<item>
+      <file_video>road.flv</file_video>
+      <lang_en>Hello.</lang_en>
+      <lang_tl dir="rtl">مرحبا۔</lang_tl>
+      <feedback>This expression is used in the morning as well as in the afternoon.</feedback>
+    </item>
+    <item>
+      <file_video>rain.flv</file_video>
+      <lang_en>Peace upon you.</lang_en>
+      <lang_tl dir="rtl">السلام عليكم۔</lang_tl>
+      <feedback>This expression is mostly used by Muslims.</feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>Good morning.</lang_en>
+      <lang_tl dir="rtl">صباح الخير۔</lang_tl>
+      <feedback>/SabaaH in-noor/ <b>(lighted morning)</b> is used to  respond to /SabaaH il-Kheyr/.</feedback>
+    </item>
+    <item>
+      <file_video>rice.flv</file_video>
+      <lang_en>How is your health?</lang_en>
+      <lang_tl dir="rtl">كيف الصحة؟</lang_tl>
+      <feedback>/SaHa/ means <b>health </b>in general. /SaHtak/ is more specific, meaning <b>your health.</b></feedback>
+    </item>
+    <item>
+      <file_video>river.flv</file_video>
+      <lang_en>Good evening.</lang_en>
+      <lang_tl dir="rtl">مسا الخير۔</lang_tl>
+      <feedback>/masaa in-noor/ <b>(lighted evening)</b> is the typical response to /masaa il-Kheyr/.</feedback>
+    </item>
+    <item>
+      <file_video>road.flv</file_video>
+      <lang_en>How are you?</lang_en>
+      <lang_tl dir="rtl">كيفَك؟</lang_tl>
+      <feedback>/keefak/ is used when speaking to a single person. For a group of people use /keefkon/.</feedback>
+    </item>
+    <item>
+      <file_video>rain.flv</file_video>
+      <lang_en>I'm fine, thanks, and you?</lang_en>
+      <lang_tl dir="rtl">الحمد الله منيح، كيفَك انتِ؟</lang_tl>
+      <feedback>/keefak intey/ is used only when asking a man how he is. /keefek intee/ is used when addressing a woman. </feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>Fine, thank God.</lang_en>
+      <lang_tl dir="rtl">نشكر الله، بخير۔</lang_tl>
+      <feedback>/nushkor/ means <b>we thank.</b> But this phrase is an exception to the rule and can be used to say <b>I thank </b>when only one person is speaking.</feedback>
+    </item>
+    <item>
+      <file_video>rice.flv</file_video>
+      <lang_en>What's your name?</lang_en>
+      <lang_tl dir="rtl">شو اسمك؟</lang_tl>
+      <feedback>/ismak/ means <b>your name</b> and is used when addressing a man; /ismek/ is used when addressing a woman.</feedback>
+    </item>
+    <item>
+      <file_video>river.flv</file_video>
+      <lang_en>My name is John.</lang_en>
+      <lang_tl dir="rtl">أنا اسمي جان۔</lang_tl>
+      <feedback>/ismee/ <b>(my name)</b> is used by both genders.</feedback>
+    </item>
+    <item>
+      <file_video>road.flv</file_video>
+      <lang_en>Nice to meet you.</lang_en>
+      <lang_tl dir="rtl">تشرّفنا۔</lang_tl>
+      <feedback>/HaSalee ish-sharaf/ can also be used instead of /tshar-rafna/. </feedback>
+    </item>
+    <item>
+      <file_video>rain.flv</file_video>
+      <lang_en>Welcome.</lang_en>
+      <lang_tl dir="rtl">أهلا وسهلا فيك۔</lang_tl>
+      <feedback>/feek/ <b>(to you)</b> is used when addressing a man. /feekee/ is used for a woman and /feekon/ for a group.</feedback>
+    </item>
+    <item>
+      <file_video>red.flv</file_video>
+      <lang_en>Good-bye.</lang_en>
+      <lang_tl dir="rtl">خاطرك۔</lang_tl>
+      <feedback>This expression can be used at any time but at night you can also say /tiSbaH 'alaa Kheyr/.</feedback>
+    </item>
+    <item>
+      <file_video>rice.flv</file_video>
+      <lang_en>See you later.</lang_en>
+      <lang_tl dir="rtl">بشوفك بعدين۔</lang_tl>
+      <feedback>/bshoofak/ <b>(see you)</b> is used when talking to a man. Say /bshoofek/ for a woman, and /bshoofkon/ when addressing a group.</feedback>
+    </item>
+    <item>
+      <file_video>river.flv</file_video>
+      <lang_en>See you tomorrow.</lang_en>
+      <lang_tl dir="rtl">بشوفك بُكرا۔</lang_tl>
+      <feedback>When addressing a woman say /bshoofek/; use /bshoofkon/ for a group. /bshoofak/ <b>(see you)</b> is used when addressing a man.</feedback>
+    </item>
+
+</content>
