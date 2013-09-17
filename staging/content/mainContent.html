@@ -1,0 +1,108 @@
+<!-- ---------------------------------------------------------------------------------
+Purpose:	Various 'displays' are defined in <div>'s defined in this file
+			All dynamic content generated for these divs are programmed in the
+			appropriate .js file 
+----------------------------------------------------------------------------------  -->
+
+<div id='MainBodyHeader'>
+    <p id="UserInfo" class="text-info hide">
+        --user info--</p>
+
+    <div class="loggedOut" style="float: left">
+        <a href="#loginDialog" role="button" class="btn" data-toggle="modal">Login</a></div>
+
+    <div class="loggedIn" style="float: left">
+        <a href="javascript:framework.Logout()" role="button" class="btn">Logout</a></div>
+
+    <div class="loggedOut" style="float: left">
+        <a href="#registerDialog" role="button" class="btn" data-toggle="modal">Register</a></div>
+
+    <div style="clear: both">
+    </div>
+
+    <ul id="MainMenu">
+    </ul>
+</div>
+
+<div id='MainBodyTop'>
+    This is the Top
+</div>
+
+<div id='MainBodyMiddle' style="text=align: center">
+    <iframe id="activityIFrame" style="border: none; width: 650px; height: 430px; display: none">
+    </iframe>
+    <iframe id="notesIFrame" style="margin-top:-34px; background-color: black; border: none; width: 800px; height: 520px; display: none">
+    </iframe>
+</div>
+
+<div id='MainBodyBottom'>
+    This is the Bottom
+</div>
+
+<div id='MainBodyFooter'>
+    This is the footer
+</div>
+
+<div id='ProgressBody'>
+    <h4>Classroom Progress</h4>
+    <div id="progressAccordion_cl"></div>
+    <h4>Homework Progress</h4>
+    <div id="progressAccordion_hw"></div>
+
+</div>
+
+
+
+<div id="hard-coded-accordion">
+        <h3>Unit 1</h3>
+
+        <div>
+            <ul id="progressContent0">
+                <li style="text-align: left">Lesson 1 (0%)</li>
+                <li style="text-align: left">Lesson 2 (0%)</li>
+                <li style="text-align: left">Lesson 3 (100%)</li>
+                <li style="text-align: left">Lesson 4 (100%)</li>
+                <li style="text-align: left">Lesson 5 (100%)</li>
+                <li style="text-align: left">Lesson 6 (100%)</li>
+                <li style="text-align: left">Lesson 7 (100%)</li>
+                <li style="text-align: left">Lesson 8 (100%)</li>
+                <li style="text-align: left">Lesson 9 (100%)</li>
+                <li style="text-align: left">Lesson 10 (100%)</li>
+            </ul>
+        </div>
+
+        <h3>Unit 2</h3>
+
+        <div>
+            <ul id="progressContent1">
+            </ul>
+        </div>
+
+        <h3>Unit 3</h3>
+
+        <div>
+            <ul id="progressContent2">
+                <li style="text-align: left">Lesson 1 (0%)</li>
+            </ul>
+        </div>
+
+        <h3>Unit 4</h3>
+
+        <div>
+            <ul id="progressContent3">
+                <li style="text-align: left">Lesson 1 (0%)</li>
+                <li style="text-align: left">Lesson 2 (0%)</li>
+            </ul>
+        </div>
+
+        <h3>Unit 5</h3>
+
+        <div>
+            <ul id="progressContent4">
+                <li style="text-align: left">Lesson 1 (0%)</li>
+                <li style="text-align: left">Lesson 2 (0%)</li>
+                <li style="text-align: left">Lesson 3 (100%)</li>
+                <li style="text-align: left">Lesson 4 (100%)</li>
+            </ul>
+        </div>
+</div>

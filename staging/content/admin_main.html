@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<div id="admin_main">
+  <div style="width:900px">
+    <div style="float:left"><!-- classes --><h3>Classes</h3>
+    </div>
+    <div style="float:right;">
+      <button type="button" class="btn" href="#" onclick="javascript:framework.Register('Register Instructor')" data-loading-text="Loading...">Register Instructor</button>
+      <button type="button" class="btn" href="#" onclick="javascript:framework.ui.showAddClass()" data-loading-text="Loading...">Add Class</button>
+    </div>
+    <div style="clear:both"></div>
+  </div>
+  <!--class="borderedTable adminTables"-->
+  <table style="overflow:auto" id="AdminClassesTable" class="table table-striped" width="800" cellspacing="0" cellpadding="0">
+    <tr class='tableTitle'>
+      <th width="300">Class Title</th>
+      <th width="300">Description</th>
+      <th width="150">Instructors</th>
+      <th width="150"></th>
+    </tr>
+  </table>
+
+  <!-- instructors -->
+  <h3>Instructors</h3>
+  <table style="overflow:auto" id="adminInstructorTable"  class="table table-striped" width="800" cellspacing="0" cellpadding="0">
+    <tr>
+      <th width="300">Name</th>
+      <th width="300">Email (login)</th>
+      <th width="150">Password</th>
+      <th width="150">&nbsp;</th>
+    </tr>
+  </table>
+</div>
+
+
+<div id='studentActivity'>
+  <div style="width:900px">
+    <div id="activityTypeRow">
+      <div class='studentActivityTitle' style='float:left'>Activity Type</div>
+      <div class="btn-group" style='margin-top: 15px;' data-toggle="buttons-radio">
+        <button onClick='framework.ui.loadStudentActivity("hw")' type="button" class="btn btn-info">Homework</button>
+        <button onClick='framework.ui.loadStudentActivity("cl")' type="button" class="btn btn-info">Classroom</button>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div style='display:none' id='unitLessonSelection'>
+      <div style='padding-top: 14px; float:left'>
+      <select id='unitDropdown' onChange='framework.ui.updateLessonDropdown()' style='width: 150px;'>
+        <option selected value="--">Select Unit</option>
+        <option value="0">Unit 1</option>
+        <option value="1">Unit 2</option>
+        <option value="2">Unit 3</option>
+        <option value="3">Unit 4</option>
+        <option value="4">Unit 5</option>
+      </select>
+      </div>
+      <div style='padding-top: 14px; float:left'>
+        <select onChange='framework.ui.updateActivityDropdown()' id='lessonDropdown' style='margin-left: 9px;width: 175px;'>
+          <option selected value="--">-------</option>
+        </select>
+      </div>
+      <div style='padding-top: 14px; float:left'>
+        <select onChange='framework.ui.showQuestionActivityDetails()' id='activityDropdown' style='margin-left: 9px;width: 500px;'>
+          <option selected value="--">-------</option>
+        </select>
+      </div>
+      <div style="clear:both"></div>
+    </div>
+    <div id="activityContentRow" style='display:none'>
+      <div id="questions_accordion">
+        <h3>Q1: </h3>
+        <div>
+          <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+        </div>
+        <h3>Q2: </h3>
+        <div>
+          <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+        </div>
+        <h3>Q3: </h3>
+        <div>
+          <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>Q4: </h3>
+        <div>
+          <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="selectedActivityType" style='display:none'></div>
+  <div id="classID" style='display:none'></div>
+
+</div>
+
+
+<div id="instructor_main">
+        <div id="InstructorClassesDiv" style="width:100%">
+        </div>
+</div>
+
+<div id="addClass">
+    <div style="display:none" id="classID"></div>
+    <div id="dialogDiv" class="bodyTextNoPadding" style="width: 500; padding-top: 15px">
+
+    <input id="className" name="className" type="text" class="addClassFormItem input-block-level" placeholder="Class Name" value="">
+    <input id="ClassTitle" name="ClassTitle" type="text" class="addClassFormItem input-block-level" placeholder="Class Title" value="">
+    <input id="ClassDescription" name="ClassDescription" type="text" class="addClassFormItem input-block-level" placeholder="Class Description" value="">
+
+    <p class="text-error hide message" id="addClassErrorLabel"></p>
+    </div>
+</div>
+
+<div id="selectInstructorsDiv">
+    <div class="demo">
+    <span id="selectedClassID" style="display:none"></span>
+    <span id="select-result" style="display:none"></span>
+    <p id="feedback">
+    <span>Please select the instructors for this class.  Hold the ctrl key to select more than one instructor.</span>
+    </p>
+
+    <ol id="selectableInstructors">
+    </ol>
+
+    </div>
+</div>
+
+
+</body>
+</html>

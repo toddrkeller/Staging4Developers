@@ -1,0 +1,223 @@
+
+<div id="bodyContent">  
+  <div class="navbar navbar-fixed-top"> <!-- ///// BEGIN NAVBAR-FIXED-TOP  ///// -->
+    <div class="navbar-inner"> <!-- ///// BEGIN NAVBAR-INNER ///// -->
+      <div class="container"> <!-- ///// BEGIN CONTAINER - REGISTER ///// -->
+        <div id='loggedInLabel' class='loggedInLabel'>&nbsp;</div>
+
+        <ul class="login pull-right">
+          <!-- Button to trigger modal -->
+          <li><a data-toggle="modal" href="#myModal">Login</a>&#160;<img src="img/icon_user_white.png" alt="Login"><span class="divider">&#160;&#183;&#160;</span></li>
+          <li><a data-toggle="modal" href="#myModal">Register</a>&#160;<img src="img/icon_register_white.png" alt="Register"></li>
+        </ul>
+        
+        <!-- /////////////////////////////////////////////// BEGIN BREADCRUMB ///////////////////////////////////////////////////// -->
+        <ul class="breadcrumb pull-left">
+          <li><a id='breadcrumb_home' href="javascript:framework.ui.ShowMainWindow('home')">Home</a> <span class="divider">&#183;</span></li>
+          <li><a id='breadcrumb_classroom' href="#">Classroom</a> <span class="divider">&#183;</span></li>
+          <li><a id='breadcrumb_lesson' href="#">Lesson 1</a> <span class="divider">&#183;</span></li>
+          <li style='display:none' id='breadcrumb_activity' class="active">Activity 3</li>
+        </ul>
+      </div>
+      <!-- ///// END NAV CONTAINER ///// --> 
+    </div>
+    <!-- ///// END NAVBAR-INNER ///// --> 
+  </div>
+  <!-- ///// END NAVBAR-FIXED-TOP ///// -->
+  
+  <div class="container"> <!-- /////// BEGIN CONTAINER ////// --> 
+    <!-- /////// BEGIN MAIN_NAV ////// -->
+    <nav class="main_nav"><a 
+        href="index.html" class="tooltip-test" title="DLiLearn Home"><img 
+        src="img/logo_dlilearn.png" alt="DLiLearn" width="224" height="43" class="responsive-image pull-left"></a>
+      <ul class="main_nav_right">
+        <li><a 
+        href="mailto:todd.keller2@dliflc.edu?subject=DLiLearn"><img 
+        src="img/nav_top_contact_off.png" alt="CONTACT" class="rollover"></a></li>
+        <li><a href="javascript:framework.ui.showFaq()"><img 
+        src="img/nav_top_help_off.png" alt="HELP" class="rollover"></a></li>
+        <li><a 
+        href="http://www.dliflc.edu/index.html"><img 
+        src="img/nav_top_dliflc_off.png" alt="DLIFLC" class="rollover"></a></li>
+        <li><a 
+        href="javascript:framework.ui.ShowMainWindow('home')"><img 
+        src="img/nav_top_home_off.png" alt="HOME" class="rollover"></a></li>
+      </ul>
+    </nav>
+    <!-- ///// END MAIN_NAV ///// --> 
+  </div>
+  <!-- ///// END CONTAINER ///// -->
+  
+  <div id="main"> <!-- ///// BEGIN MAIN FOR STICKY FOOTER ///// -->
+    <div class="container"> <!-- /////// BEGIN CONTAINER  ////// -->
+      <div class="drop-shadow lifted"> <!-- /////// BEGIN DROP-SHADOW LIFTED  - ACTIVITY FRAME  ////// -->
+        <div class="activity_frame lifted_a"> <!-- /////// BEGIN ACTIVITY_FRAME LIFTED_A  ////// -->
+          <nav class="activity_frame_hd"> <!-- /////// BEGIN ACTIVITY_FRAME_HD  ////// -->
+              <div id="unit_nav">
+                <div class="btn-group pull-right">
+                  <button id="unit_button_1" class="btn_lessons corner" href="#">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">01 -- 10 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner" href="#" data-dropdown="#dropdown_unit_2">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">10 -- 20 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner" href="#" data-dropdown="#dropdown_unit_3">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">20 -- 30 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner" href="#" data-dropdown="#dropdown_unit_4">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">30 -- 40 &nbsp;&nbsp;</span> 
+                  </button>
+                  <button class="btn_lessons button corner round_top_right" href="#" data-dropdown="#dropdown_unit_5">
+                    <p class="head">LESSONS &nbsp;&nbsp;</p>
+                    <span class="act_btn_description">40 -- 50 &nbsp;&nbsp;</span> 
+                  </button>
+              </div>
+          </div>
+
+            <!-- /////// CHANGE .dropdown-menu width and radius in bootstrap.css if a new version is downloaded /////// --> 
+            
+            <!-- /////// END NAV_UNIT /////// -->
+            <header id="class_title">
+              <h2 class="lang_hd">Japanese Classroom</h2>
+            </header>
+          </nav>
+          <!-- /////// END ACTIVITY_FRAME_HD  ////// --> 
+          <!-- /////// BEGIN ACTIVITY BUTTON GROUP ROW  /////// -->
+
+          <div class="btn-group" id="activity_buttons"></div>
+<!-- 
+          <div class="btn-group">
+            <button class="btn" title="Activity Index">Lesson 1 Activities</button>
+            <button class="btn btn-warning" title="Vocabulary Review Activity">1</button>
+            <button class="btn btn-success" title="Transcription Activity">2</button>
+            <button class="btn" title="Treasure Hunt Activity">3</button>
+            <button class="btn" title="this is my tooltip">4</button>
+            <button class="btn" title="this is my tooltip">5</button>
+            <button class="btn" title="this is my tooltip">6</button>
+            <button class="btn" title="this is my tooltip">7</button>
+          </div> 
+-->
+
+          <!-- /////// END ACTIVITY BUTTON GROUP ROW  /////// --> 
+          <!-- /////// BEGIN HORIZONTAL BTN GROUP - CULTURE AND GRAMMAR /////// -->
+          <div class="btn-group hidden-phone">
+            <button class="btn" onClick="framework.showCultureNotes()" title="Culture Notes">Culture</button>
+            <button class="btn" title="grammar">Grammar</button>
+          </div>
+          <!-- /////// END HORIZONTAL BTN-GROUP - CULTURE AND GRAMMAR /////// --> 
+          <!-- /////// BEGIN HORIZONTAL BTN-GROUP - GLASSARY AND PROGRESS /////// -->
+          <div class="btn-group pull-right right-btngroup-top-marg hidden-phone" >
+            <button class="btn" title="netProF" data-placement="bottom">netProF <img src="img/icon_speaker.png" alt="netProF" class="push+2px"></button>
+            <button class="btn" onClick="framework.ui.showGlossary();" title="Glossary" data-placement="bottom">Glossary <img src="img/icon_glossary.png" alt="Glossary"></button>
+            <button class="btn" onClick="framework.ui.showStudentProgress()" title="View your Course Progress" data-placement="bottom">Progress <img src="img/icon_progress.png" alt="Progress"></button>
+          </div>
+          <!-- /////// END HORIZONTAL BTN-GROUP - GLASSARY AND PROGRESS /////// --> 
+          
+          <!-- /////// BEGIN ACTIVITY_FRAME_INLAY /////// -->
+          <div class="activity_frame_inlay">
+            <h3 id="activityTitle" class="activity_hd">Activity Title: <span class="activity_description">Activity description lorem ipsum...</span></h3>
+            <iframe id="activityIFrame" src="/content/activity_blank.html" class="activity_area"><p>Your browser does not support frames.</p></iframe>
+            <iframe id="notesIFrame" src="/content/activity_blank.html" class="notes_area"><p>Your browser does not support iframes.</p></iframe>
+          </div>
+          <!-- /////// END ACTIVITY_FRAME_INLAY /////// --> 
+          
+        </div>
+        <!-- /////// END ACTIVITY FRAME /////// --> 
+      </div>
+    </div>
+    <!-- /////// END CONTAINER /////// --> 
+    
+  </div>
+  <!-- /////// END CONTAINER /////// --> 
+  <br />
+  <br />
+  <div id="push"></div>
+
+
+<!-- /////// BEGIN UNIT DROPDOWN DATA /////// -->
+<div id="dropdown_unit_1" class="dropdown-menu anchor-right">
+
+</div>
+<div id="dropdown_unit_2" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a href="#1">Lesson 01</a></li>
+    <li><a href="#2">Lesson 02</a></li>
+    <li><a href="#3">Lesson 03</a></li>
+    <li><a href="#3">Lesson 04</a></li>
+    <li><a href="#3">Lesson 05</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Lesson 06</a></li>
+    <li><a href="#3">Lesson 07</a></li>
+    <li><a href="#4">Lesson 08</a></li>
+    <li><a href="#5">Lesson 09</a></li>
+    <li><a href="#5">Lesson 10</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_3" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a href="#1">Lesson 01</a></li>
+    <li><a href="#2">Lesson 02</a></li>
+    <li><a href="#3">Lesson 03</a></li>
+    <li><a href="#3">Lesson 04</a></li>
+    <li><a href="#3">Lesson 05</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Lesson 06</a></li>
+    <li><a href="#3">Lesson 07</a></li>
+    <li><a href="#4">Lesson 08</a></li>
+    <li><a href="#5">Lesson 09</a></li>
+    <li><a href="#5">Lesson 10</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_4" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a href="#1">Activity 01</a></li>
+    <li><a href="#2">Activity 02</a></li>
+    <li><a href="#3">Activity 03</a></li>
+    <li><a href="#3">Activity 04</a></li>
+    <li><a href="#3">Activity 05</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Activity 06</a></li>
+    <li><a href="#3">Activity 07</a></li>
+    <li><a href="#4">Activity 08</a></li>
+    <li><a href="#5">Activity 09</a></li>
+    <li><a href="#5">Activity 10</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+  </ul>
+</div>
+<div id="dropdown_unit_5" class="dropdown-menu anchor-right">
+  <ul class="dropdown_chooseunit">
+    <li><a href="#1">Activity 01</a></li>
+    <li><a href="#2">Activity 02</a></li>
+    <li><a href="#3">Activity 03</a></li>
+    <li><a href="#3">Activity 04</a></li>
+    <li><a href="#3">Activity 05</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Activity 06</a></li>
+    <li><a href="#3">Activity 07</a></li>
+    <li><a href="#4">Activity 08</a></li>
+    <li><a href="#5">Activity 09</a></li>
+    <li><a href="#5">Activity 10</a></li>
+    <li class="divider"></li>
+    <li><a href="#3">Quiz</a></li>
+  </ul>
+</div>
+<!-- /////// END UNIT DROPDOWN DATA /////// --> 
+
+</div> <!-- END bodyConent -->

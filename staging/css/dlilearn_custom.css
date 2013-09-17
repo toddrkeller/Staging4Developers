@@ -1,0 +1,1590 @@
+
+/* --- FUTURA --- */
+/*------------------------------------*/
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src:url('futura-medium-webfont.eot');
+	src: url('futura-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('futura-medium-webfont.woff') format('woff'),
+         url('futura-medium-webfont.ttf') format('truetype'),
+         url('futura-medium-webfont.svg#FuturaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('futura_bold-webfont.eot');
+    src: url('futura_bold-webfont.eot?#iefix') format('eot'),
+         url('futura_bold-webfont.woff') format('woff'),
+         url('futura_bold-webfont.ttf') format('truetype'),
+         url('futura_bold-webfont.svg#webfontrIGithyc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @import url("../font/fonts.css"); */
+
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+	  
+html, body {
+	color:#444444;
+	text-shadow: 1px 1px 1px #fff;
+	font-family:FuturaMedium;
+	/*text-shadow: 2px 2px 2px #aaa;*/
+	/*padding-top: 60px;*/
+	background: url(../img/bg_diag_grey_lines_lo.png) left top repeat-x, url(../img/bg_warm_grey_lines_lo.png) bottom left repeat;
+	background-repeat: repeat-x, repeat;
+	height: 100%;
+	width: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+	margin:0;
+	padding:0;
+}
+
+/* Wrapper for page content to push down footer */
+* {
+	margin: 0; padding:0; position: relative;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -138px;
+}
+
+#MainBody {
+	min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -138px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+  height: 108px;
+}
+
+#footer {
+	background-image:url(../img/bg_footer.png);
+	background-repeat: repeat;
+	border-top: solid thin #E6E6E6;
+	-moz-box-shadow: 0px -3px 7px #777;
+	-webkit-box-shadow: 0px -3px 7px #777;
+	box-shadow: 0px -3px 7px #777;
+	margin-top:30px;
+	width: 100%;
+}
+
+.slider.drop-shadow {margin-bottom:40px;}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+#main {
+	position: relative;
+}
+
+/* Images, Icons,  */
+.responsive-image { max-width:100%; height:auto; width: auto; }
+.row.hd_icon  { max-width:100%; height:auto; } 
+.row.hd_icon_txt { max-width:100%; height:auto; } 
+.color_brass { color:#cda873; }
+.inner_text_shadow { text-shadow: 1px 1px 2px rgba(50, 255, 255, 1), -1px 0px 1px rgba(0, 0, 0, 1); }
+.text_hl { text-shadow: 1px 1px white; }
+.text_ds { text-shadow: 1px 1px 2px rgba(0, 0, 0, .5); }
+.white { color:#FFF; }
+
+.carousel-caption {
+	letter-spacing: 1px;
+	word-spacing: 3px;
+	
+}
+
+.left {
+	text-align:left;
+}
+
+a, a:hover, a:active, a:visited {
+	color:#000;
+}
+a:hover, a:active, a:visited {
+	text-decoration:underline;
+}
+
+a:visited {
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:FuturaMedium;
+	color:#666;
+}
+
+/* Button Tweaks
+      -------------------------------------------------- */
+.btn { 
+	color:#444444; 
+	background-image:url(../img/bg_btn.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color: #ffffff;
+	text-shadow: 1px 1px 1px #fff;
+}
+.btn:hover { 
+	color:#222222;
+	background-image:url(../img/bg_btn_over.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color: #e0e0e0;
+	text-shadow: 1px 1px 1px #fff;
+	
+}
+
+.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger, .btn-inverse {
+	color:#FFF;
+	letter-spacing:1px;
+}
+
+
+/* ------------------------------------------- */
+
+.page-header {
+	border:none;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+}
+
+.push-13 {
+	margin-top:13px;
+}
+
+.push+2px }
+	margin-top: -2px;
+}
+
+.logo_dlilearn {
+	margin-top: 16px;
+	margin-left: -20px;
+	margin-bottom: 30px;
+}
+
+.hd_icon_txt {
+	margin: 20px 0;
+	display:inline-block;
+}
+
+.dli_address {
+	font-size:12px;
+	letter-spacing:1px;
+	line-height:17px;
+	padding: 32px 20px 10px 253px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+.dli_address a, .dli_address a:hover, .dli_address a:active, .dli_address a:visited  {
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	text-decoration:underline;
+}
+
+
+/* ----------------------------------------------------------- */
+
+#class_title {	
+	display: inline-block;	
+	padding :0 10px 0 12px;
+	width:auto;
+}
+.lang_hd {
+	color:#444444;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:26px;
+	font-family: 'FuturaMedium';
+	letter-spacing: 2px;
+	line-height: 10px;
+	padding: 0px 10px 0 0px;
+	font-weight:normal;
+}
+.activity_hd {
+	font-family: 'FuturaMedium';
+	font-size:22px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 0px #fff;
+	margin: 0;
+	padding-left: 12px;
+}
+.activity_description {
+	font-size:16px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 0px #fff;
+}
+.bold{
+	font-size: 18px;
+	color: #252525;
+	font-weight:bold;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #fff;
+}
+.down_15 {
+	padding: 15px 0 15px 0;
+}
+/* --------------------------- pin for tooltip shifting in btngroup ---------------------------------- */
+.pin {
+	border: 1px solid grey;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	height: 90px;
+	width: 90px;
+	position: relative;
+	overflow: hidden;
+}
+.tooltip-inner {
+	text-shadow: 0 1px 0px #000;
+}
+.container[role="main"] {
+	padding-bottom: 120px;
+}
+.tooltip {
+	font-size:12px;
+	letter-spacing: 2px;
+}
+
+/* ------------------------------------- MODAL STYLES ---------------------------------- */
+
+.modal-header {
+border-bottom:1px solid #AAA;
+color:#888;	
+padding:15px 15px 10px;
+text-shadow:1px 1px 0 rgba(255,255,255,0.35);
+-moz-box-shadow:0 1px 0 rgba(255,255,255,0.35);
+-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.35);
+box-shadow:0 1px 1px rgba(255,255,255,0.35);
+}
+
+.modal-header h3 {
+font-size:50px;	
+font-weight:bold;
+line-height:normal;
+text-shadow:1px 1px 0 rgba(255,255,255,0.5);
+}
+
+.modal-header h3 span {
+color:#999;
+display:block;
+font-size:18px;
+line-height:18px;
+margin:2px 0 0;
+}
+
+.modal-header p {font:14px/22px FuturaMedium;}
+
+.modal-header .close {
+font-size:30px;
+margin-top:-5px;
+z-index: 200;
+}
+
+.modal-body {padding:0 15px;}
+
+.modal form {
+font-family: FuturaMedium;
+line-height:normal;
+margin:0;
+}
+
+.modal .span6 { padding:20px 0 20px 20px;}
+
+.modal .first { }
+
+.modal .last {
+border-left:1px solid #AAA;
+margin-left:0;
+padding-left:35px;
+-moz-box-shadow:1px 0 1px rgba(255,255,255,0.35) inset;
+-webkit-box-shadow:1px 0 1px rgba(255,255,255,0.35) inset;
+box-shadow:1px 0 1px rgba(255,255,255,0.35) inset;
+}
+
+.modal h4 {
+color:#888;
+font-size:20px;
+font-weight:bold;
+letter-spacing:1px;
+margin:0 0 20px;
+}
+
+.modal .form-horizontal .control-label {	
+padding:0;
+text-align:left;
+}
+
+.modal .form-horizontal .controls { margin-left:0;}
+
+.modal .form-horizontal .control-group {margin-bottom:10px;}
+
+.modal .btn i {
+line-height:normal;
+padding-left:5px;
+}
+
+.modal input {
+border:1px solid #BBB;
+-moz-box-shadow:0px 1px 3px rgba(0,0,0,0.25) inset, 1px 1px 1px rgba(255,255,255,0.35);
+-webkit-box-shadow:0px 1px 3px rgba(0,0,0,0.25) inset, 1px 1px 1px rgba(255,255,255,0.35);
+box-shadow:0px 1px 3px rgba(0,0,0,0.25) inset, 1px 1px 1px rgba(255,255,255,0.35);
+}
+
+.modal .btn {
+color:#AAA;
+border:1px solid #AAA;
+font:14px 'FuturaMedium';
+margin-top:10px;
+text-transform:uppercase;
+-moz-box-shadow: 1px 1px 0 rgba(255,255,255,0.35);
+-webkit-box-shadow: 1px 1px 0 rgba(255,255,255,0.35);
+box-shadow: 1px 1px 0 rgba(255,255,255,0.35);
+}
+
+.modal .btn:hover { color:#666;}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------- ACTIVIY_AREA --- IFRAME ---------------------------------- */
+.activity_area {
+	border:none;
+	width:910px;
+	/*height:415px;*/
+	height: 645px; /* --------------------------- HEIGHT SHOULD BE VARIABLE PER ACTIVITY ------------------------------- */
+	overflow:hidden;
+	margin-left: -6px;
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+.navbar {
+	height: 37px;
+	position: absolute;
+	top:0;
+	margin:0;
+	width: 100%;
+}
+
+.navbar, .navbar-inner, .navbar-fixed-top  {
+	background-image:url(../img/bg_top_navbar.png);
+	background-repeat: repeat-x;
+	max-height: 37px;
+	min-height: 37px;
+	margin:0;
+	padding:0;
+	border:none;
+	width: 100%;
+}
+
+.navbar, .navbar-inner, .navbar-fixed-top  {
+filter: none; /* -----  OVERRIDES bootstrap.css SO THE BGIMAGE SHOWS UP IN IE --------- */
+-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .brand, .navbar .breadcrumb > li > a, .navbar .breadcrumb > li, .navbar .login > li > a, .navbar .breadcrumb .divider, .navbar .login .divider {
+	color: #ffffff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	text-transform:uppercase;
+	letter-spacing:2px;
+	letter-spacing : 1px\9; /* IE8 and below */  
+	text-decoration:none;
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+ul.login {
+	background-image:url(../img/bg_top_navbar_breadcrumb.png);
+	font-family: 'FuturaMedium';
+	list-style:none;
+	background-repeat: repeat-x;
+	padding:0 0 0 0;
+	margin-bottom:0;
+	height: 36px;
+	padding:8px 10px 0 10px;
+	width:auto;
+	border-left: #CCC groove 2px;
+	border-right: #CCC groove 2px;
+	display: inline-block;
+	white-space:nowrap;
+}
+ul.login > li {
+	display: inline-block;
+}
+.navbar .breadcrumb > li > a:hover, .navbar .login > li > a:hover, .navbar .login > li > a:hover {
+	text-decoration: underline;/*float: right;*/
+}
+.navbar .breadcrumb > li > .active {
+	color:#333;
+}
+ul.choose_lang {
+	background-image:url(../img/bg_top_navbar_breadcrumb.png);
+	background-repeat: repeat-x;
+	font-family: 'FuturaMedium';
+	text-transform:uppercase;
+	letter-spacing:1px;
+	border-radius:0;
+	padding:0 0 0 0;
+	margin-bottom:0;
+	height: 36px;
+	padding:8px 10px 0 10px;
+	border-left: groove 2px #CCC;
+	border-right: groove 2px #CCC;
+	/*width:162px;		 WIDTH NEEDS TO BE A VARIABLE */
+}
+ul.choose_lang > li > a {
+	letter-spacing:2px;
+	letter-spacing : 1px\9; /* IE8 and below */  
+	white-space:nowrap;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+/* ----------------------------- RESOURCE STYLES ------------------------------ */
+
+.resources {
+	font-family:FuturaMedium;
+	color:#919191;
+	padding:15px 0 15px 5px;
+	text-shadow: 1px 1px 1px #FFF;
+	width:100%;
+	
+}
+
+.resources a {color:#919191;}
+
+.resources .content {
+	max-height:325px;
+	overflow-y:auto;
+}
+
+.resources .sidebar .content-item {
+	margin-bottom:15px;
+	width:100%;
+}
+
+.resources .sidebar .content-item a.btn, .resources .sidebar .content-item a.accordion-toggle {
+background:url(../img/bg_activity_hd.png) repeat-x 0 -7px;
+background: #dfdeda;
+background: -moz-linear-gradient(top, #dfdeda 0%, #dfdeda 50%, #d1d0cc 51%, #e8e7e3 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdeda), color-stop(50%,#dfdeda), color-stop(51%,#d1d0cc), color-stop(100%,#e8e7e3));
+background: -webkit-linear-gradient(top, #dfdeda 0%,#dfdeda 50%,#d1d0cc 51%,#e8e7e3 100%);
+background: -o-linear-gradient(top, #dfdeda 0%,#dfdeda 50%,#d1d0cc 51%,#e8e7e3 100%);
+background: -ms-linear-gradient(top, #dfdeda 0%,#dfdeda 50%,#d1d0cc 51%,#e8e7e3 100%);
+background: linear-gradient(to bottom, #dfdeda 0%,#dfdeda 50%,#d1d0cc 51%,#e8e7e3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdeda', endColorstr='#e8e7e3',GradientType=0 );
+border:1px solid #BBB;
+font-size:16px;
+padding:8px;
+text-align:left;
+text-transform:uppercase;
+width:100%;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+border-radius:4px;	
+}
+
+/* --- RESOURCE ACCORDION --- */
+
+#content-links.accordion {border:none;}
+
+#content-links .content-item { margin:0;}
+
+#content-links .accordion-heading, #content-links .accordion-inner { border:none;}
+
+#content-links .accordion-heading { z-index:99;}
+
+#content-links .collapse {	
+margin-top: -3px;
+z-index: 100;
+}
+
+#content-links .accordion-inner {
+-moz-border-radius:0 0 4px 4px;
+-webkit-border-radius:0 0 4px 4px;
+border-radius:0 0 4px 4px;	
+}
+
+.resources .sidebar .content-item a.btn span, .resources .sidebar .content-item a.accordion-toggle i {
+float:right;
+padding:3px 5px 0 0;
+}
+
+.resources .nav-list {
+border:1px solid #BBB;
+width:214px;
+padding:0;
+-moz-border-radius:0 0 4px 4px;
+-webkit-border-radius:0 0 4px 4px;
+border-radius:0 0 4px 4px;	
+}
+
+.resources .nav-list ul {
+margin:0;
+padding:0;
+}
+
+.resources .nav-list li {
+line-height: 0;
+}
+
+.resources .nav-list a {
+border-bottom:1px solid #919191;
+color:#919191;
+display: block;
+font-size:14px;
+letter-spacing: 1px;
+line-height: normal;
+padding:8px;
+text-shadow: 1px 1px 1px #FFF;
+width:100%;
+}
+
+.resources .accordion .nav-list a i {
+  font-size: 12px;
+  padding-left: 40%;
+
+}
+
+.resources .nav-list li:last-child a {
+border-bottom:none;
+margin:0;
+}
+
+.resources .nav-list a:hover {
+background:none;
+color:#444;
+text-shadow: 1px 1px 1px #FFF;
+}
+
+.resources .accordion {	
+border:1px solid #AAA;
+border-bottom:none;
+}
+
+.resources .accordion .accordion-group {
+border:none;
+margin:0;
+padding:0;
+}
+
+.resources .accordion .span4 { }
+
+.resources .accordion .span8 {border-left:1px solid #AAA;}
+
+.resources .accordion a:hover {
+color:#444;
+text-shadow: 1px 1px 1px #FFF;
+text-decoration:none;
+}
+
+.resources .accordion a i {
+font-size:12px;
+padding-left:5px;
+}
+
+.resources .accordion p {font-size:14px;}
+
+.resources .accordion-heading {
+background:#ddded9;
+border-bottom:1px solid #AAA;	
+letter-spacing:1px;
+}
+
+.resources .homework.accordion-heading {
+background:#f1f1f1;
+border:none;
+padding:0;	
+}
+
+.resources .homework.accordion-heading .row-fluid {
+border-bottom:1px solid #AAA;
+}
+
+
+.resources .accordion-heading .toggle-btn, .resources .accordion-heading .lesson-info, .resources .accordion-heading .homework, .resources .accordion-inner div {
+margin:0;
+}
+
+.resources .accordion-heading a.accordion-toggle {
+font-size:14.5px;
+letter-spacing:1px;
+padding:0.7em 13px;
+text-transform:uppercase;
+}
+
+.resources .accordion-heading .toggle-btn a {
+padding:16px 13px 4px;
+text-transform:uppercase;
+}
+
+.resources .accordion-heading .homework a {padding:0.5em 13px 0.2em;}	
+
+.resources .accordion-heading .lesson-info p {
+line-height:normal;
+margin:0;
+padding:0.6em 13px;
+}
+
+.resources .accordion-inner {
+background:#f9f9f9;
+padding:0;
+width:100%;
+}
+
+.resources .accordion-inner .data {width:68%;}
+
+.resources .accordion-inner p {
+font-size:12.5px;
+border-bottom:1px solid #AAA;
+letter-spacing:0;
+margin:0;
+padding:0.6em 10px;
+}
+
+/*.resources .accordion-inner p:last-child {border:none;}*/
+
+.resources .accordion-inner p:nth-child(even) { background:#f1f1f1;}
+
+/* ----------------------------- FAQ LIST ------------------------------ */
+
+.faq-header {
+	margin:10px 0;
+	padding:10px 20px;
+	
+}
+
+.faq {
+	max-height:525px;
+	overflow-y: visible;
+	overflow-x: visible;
+	padding:0 20px;
+}
+
+.faq i {margin-left: 5px;}
+
+/* --------- FAQ NAV LIST --------- */
+
+.faq .nav-list {margin-top:15px;}
+
+.faq .nav-list .nav-header {
+	color:#333;
+	font-size:15px;
+	margin-bottom:15px;
+	padding:0;
+	text-transform:none;
+}
+
+.faq .nav-list ul {
+	margin:0;
+	padding:0;
+}
+
+.faq .nav-list li {
+	line-height: 0;
+}
+
+.faq .nav-list a {
+	border-bottom:1px solid #919191;
+	color:#919191;
+	display: block;
+	font-size:14px;
+	letter-spacing: 1px;
+	line-height: normal;
+	padding:6px 8px;
+	text-shadow: 1px 1px 1px #FFF;
+	width:100%;
+}
+
+.faq .nav-list li:last-child a {
+	border-bottom:none;
+	margin-bottom:0;
+}
+
+.faq .nav-list a:hover {
+	background:none;
+	color:#444;
+	text-shadow: 1px 1px 1px #FFF;
+}
+
+.faq .nav-list li.active a {
+	background:#999;
+	background: rgba(0,0,0,0.15);
+	color:white;
+	text-shadow: 1px 1px 2px #222;
+}
+
+/* --------- FAQ CONTENT --------- */
+
+.faq-accordion .accordion {
+	margin-bottom: 0;
+}
+
+.faq-accordion h3 { margin-top: 0;}
+
+.faq-accordion h3 a {
+	color:#666;
+	margin-top: 0;
+}
+
+.faq-accordion h3 a:hover {color:#666;}
+
+.faq-accordion a:hover {
+	color:#777;
+	text-decoration: none;
+}
+
+.faq-accordion .accordion-inner {padding:0 0 0 30px;}
+
+.faq-accordion .accordion-inner p {
+	color: #555;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: none;
+}
+
+a.anchor {
+	background: #BBB;	
+	color: white;
+	font: 11px Verdana, Tahoma, sans-serif;
+	margin: 5px 0;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #666;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px rgba(0,0,0,0.25) inset, 1px 1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: 1px 1px 1px rgba(0,0,0,0.25) inset, 1px 1px 0 rgba(255,255,255,0.5);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.25) inset, 1px 1px 0 rgba(255,255,255,0.5);
+}
+
+a.anchor:hover {
+	color: #777;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #EEE;	
+}
+
+/* -------------------------------------------------------------------- BREADCRUMB ------------------------------ */
+ul.breadcrumb {
+	background-image:url(../img/bg_top_navbar_breadcrumb.png);
+	background-repeat: repeat-x;
+	border-radius:0;
+	padding:0 0 0 0;
+	margin-bottom:0;
+	font-family: 'FuturaMedium';
+	height: 36px;
+	padding:8px 10px 0 10px;
+	border-left: groove 2px #CCC;
+	border-right: groove 2px #CCC;
+	width: auto;		/* WIDTH NEEDS TO BE A VARIABLE */
+	white-space:nowrap;
+}
+ul.breadcrumb > li > a {
+	color: #fff;
+	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'FuturaMedium';
+}
+.main_nav {
+	padding:0px;
+	margin: 60px 0 50px 0;
+	padding-right:0;
+}
+
+ul.main_nav_right {
+	margin: -20px 0 50px 0;
+}
+
+/* --------------- CHROME HACK --------------------- */
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+    ul.main_nav_right { margin: -88px 0 50px 0; } 
+}
+
+
+.main_nav_right, .main_nav_right > li {
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	font-weight: 300;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+	padding-left: 24px;
+	padding-right:0;
+	margin-right: 0px;
+	margin-top:0px;
+	display: inline-block;
+	float:right;
+	white-space:nowrap;
+}
+ul.main_nav_right {
+	margin: 21px 0 15px;
+}
+.main_nav h1 {
+	font-size: 60px;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin-bottom: 0;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+
+
+/*  --------------------------  BEGIN CSS SHADOW FOR HERO UNIT ---------------------------  */
+.hero-shadow {
+	margin-top:0;
+	margin-bottom:5px;
+}
+
+.drop-shadow {
+	position:relative;
+	padding: 0px;			
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #eeeeee;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	/*-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+	z-index:0;
+}
+.drop-shadow_inlay {
+	position:relative;
+	padding: 10px;			/*  --------------------------  CHANGE VALUE LATER!!! ---------------------------  */
+	margin-bottom: 30px;
+	min-height: 250px;
+	font-size: 18px;
+	line-height: 30px;
+	color: inherit;
+	background-color: #FFF;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	/*-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+	z-index:10;
+	
+}
+.drop-shadow:before, .drop-shadow:after {
+	content:"";
+	position:absolute;
+	z-index:-1;
+}
+
+.activity_frame {
+	position:relative;
+	background-color:#e5e5e5;
+	background-image:url(../img/bg_activity_frame.png);
+	background-repeat: repeat;
+	padding: 10px;			/*  --------------------------  CHANGE VALUE LATER!!! ---------------------------  */
+	margin-top: 52px;
+	/*margin-bottom: 30px;*/
+	font-size: 18px;
+	font-weight: 200;
+	/*line-height: 30px;*/
+	color: inherit;
+	background-color: #eeeeee;
+	height: auto;
+	min-height: 576px;
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-moz-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+}
+
+.activity_frame_hd {
+	background-image:url(../img/bg_activity_hd.png);
+	background-repeat: repeat-x;
+	max-height: 52px;
+	min-height: 52px;
+	margin:0;
+	margin-bottom:10px;
+	margin-top:-62px;
+	margin-left:-10px;
+	margin-right:-10px;
+	/*padding-left: 10px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border:none;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+}
+
+.activity_frame:before, .activity_frame:after {
+	content:"";
+	position:absolute;
+	z-index:-1;
+}
+
+.activity_frame_inlay {
+	background-color:#f5f5f5;
+	height: auto;
+	/*min-height: 470px;*/
+	min-height: 530px;
+	height:730px; /* ----------------------------------------------------------NEEDS TO CHANGE TO FIT CURRENT ACTIVITY ----------------------------- */
+	margin:14px 0 9px 0;
+	/*padding-left: 10px;*/
+	padding-top: 3px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	border: solid thin #ccc;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow: 0px 2px 2px #cdcdcd, inset 0px 2px 0px #ffffff;
+	-webkit-box-shadow: 0px 2px 2px #cdcdcd, inset 0px 2px 0px #ffffff;
+	box-shadow: 0px 2px 2px #cdcdcd, inset 0px 2px 0px #ffffff;
+	
+}
+.activity_frame_inlay > p {
+	padding:5px 10px 5px 10px;
+	font-size:13px;
+	letter-spacing:2px;
+}
+
+.btn-group {
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+/*	-moz-box-shadow: 0px 1px 2px #dbdbdb, inset 0px 2px 4px #ffffff;
+	-webkit-box-shadow: 0px 1px 2px #dbdbdb, inset 0px 4px 4px #ffffff;
+	box-shadow: 0px 1px 2px #dbdbdb, inset 0px 4px 4px #ffffff;*/
+}
+
+/* ---------------------------------------  BEGIN ACTIVITY iFRAME STYLES --------------------------------------- */
+
+.clean_bg {
+	background:none !important;
+}
+
+html.clean_bg {
+	padding: 0;
+	margin-top: -15px;
+}
+
+#activity_wrapper {
+	padding: 15px 15px 15px 15px;
+}
+#activity_pagnation {
+	
+}
+
+.shadow_wrap {
+	height:385px;
+	width:770px;
+	position:absolute;
+	left:117px;
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.5) inset;
+	box-shadow:0 0 20px rgba(0,0,0,0.5) inset;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	z-index:1;
+}
+
+.lft {float:left;}
+.rt {float:right;}
+
+/* --- LAYOUT TYPE  --- */
+
+.activity {
+	height:385px;
+	width:100%;	
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.vocab_review {}
+
+.vocab_review {}
+
+.transcription {}
+
+.treasure_hunt {}
+
+/* --- CONTAINERS  --- */
+
+.btn_container, .drop_zone, .panel {
+	float:left;
+	height:385px;
+}
+
+.btn_container {
+	background:#E4E4E4;
+	/*border:1px solid #CECECE;*/
+	margin-right:23px;
+	padding:4px 5px 4px 7px;
+	width:93px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+.btn_container div {
+	display:inline-block;
+	margin-bottom:0px;
+	
+}
+
+.btn_container div:last-child { margin-bottom:-3px;}
+
+.btn_container div.drop_btn {
+	background-image: url(../img/btn_bg_lrg.png);
+	background-repeat:no-repeat;
+	border:none;
+	height: 78px;
+	width:79px;
+	padding:0;
+}
+
+.btn_container div.drop_btn:hover {cursor:pointer;}
+
+.drop_zone {width:535px;}
+
+.panel {
+	background: #8e8e8e;
+	background: -moz-linear-gradient(45deg, #8e8e8e 0%, #686868 100%);
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#8e8e8e), color-stop(100%,#686868));
+	background: -webkit-linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+	background: -o-linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+	background: -ms-linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+	background: linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e8e8e', endColorstr='#686868',GradientType=1 );	
+	color:white;
+	padding:25px 15px 10px;
+	width:235px;
+	text-shadow:-1px 0 0 rgba(0,0,0,0.5);
+	border-radius:0 3px 3px 0;
+}
+
+.panel i {
+	display:block;
+	font-size:14em;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+/* ---------------------------------------  BEGIN ACTIVITY iFRAME STYLES --------------------------------------- */
+
+/* Lifted corners */
+.lifted {
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.lifted:before, .lifted:after {
+	bottom:10px;
+	left:10px;
+	width:50%;
+	height:20%;
+	max-width:700px;
+	max-height:200px;
+	-webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.4);
+	box-shadow:0 15px 10px rgba(0, 0, 0, 0.4);
+	-webkit-transform:rotate(-2deg);
+	-moz-transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
+	transform:rotate(-2deg);
+}
+.lifted:after {
+	right:10px;
+	left:auto;
+	-webkit-transform:rotate(2deg);
+	-moz-transform:rotate(2deg);
+	-ms-transform:rotate(2deg);
+	-o-transform:rotate(2deg);
+	transform:rotate(2deg);
+}
+
+/*  --------------------------  END CSS SHADOW FOR HERO UNIT ---------------------------  */
+
+
+.nav_bottom, .nav_bottom dl, .nav_bottom a {
+	font-size:13px;
+	font-weight:normal;
+	letter-spacing:2px;
+	line-height:15px;
+	padding: 0;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	
+}
+.nav_bottom > dd {
+	display: inline;
+    list-style: none outside none;
+	padding-left: 5px;
+	margin-top: 15px;
+	float:right;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.nav_social > dd {
+	display: inline-block;
+    list-style: none outside none;
+	padding-left: 10px;
+	margin-top: 5px;
+	float:right;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.right-btngroup-top-marg {
+	margin-top: 0px;
+}
+	
+.dropdown-menu,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+.nav_unit  >  ul a {
+	color: #FFFFFF;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.nav_unit  >  ul :hover {
+			color:#000;  
+			/*opacity:0.9;*/
+			text-shadow: -1px -1px 1px rgba(255, 255, 255, 1);
+}
+
+/* ---------------------------------------   BEGIN TODDS CHANGES FOR NAV_UNIT   --------------------------------------- */
+
+.nav_unit > ul > li :after {
+	font-family: Consolas, Courier New, Arial, sans-serif;
+	/*content: '↓';*/
+	margin-left: 6px;
+	color: #333;
+}
+
+.unit_arrow {
+	margin-top: 16px;
+	margin-left: 6px;
+	margin-right: 0px;
+}
+
+.nav_unit {
+  background-image:url(/img/bg_unit_nav.png);
+  background-repeat: repeat-x;
+  height:50px;
+  margin-top:0px;
+  width:470px;
+  width: auto;
+  min-width:100px;/**/
+  float:right;
+  -webkit-border-radius: 0px 3px 0 0;
+  -moz-border-radius: 0px 3px 0 0;
+  border-radius: 0px 4px 0 0;
+  border-top: solid thin #fff;
+  border-top: solid thin #fff;			
+}
+
+.nav_unit  > ul {
+	display:inline-block;
+	list-style-type: none;
+	height:53px;
+	margin: 0;	
+	padding: 0;
+}
+
+.nav_unit  > ul > li {
+	float:right;
+}
+
+.nav_unit  > ul > li > a:hover {
+	background-color:#CDCDCD;
+	
+}
+
+.nav_unit  >  ul a {
+	background-image: url(/img/nav_unit_divider.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	line-height: 49px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #333;
+}
+
+.dropdown-menu {
+    border-radius: 0 0 3px 3px !important;
+    margin: 0 0 0 1px;
+    min-width: 116px !important;
+    padding: 5px 0;
+    position: absolute;
+    top: 100%;
+    width: 111px;
+    z-index: 1000;
+}
+
+
+
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #C5C5C5;
+  background-image: none;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #C5C5C5;
+  background-image: none;
+}
+
+ul, ol {
+    margin: 0 0 10px;
+    padding: 0;
+}
+/* ---------------------------------------   END TODDS CHANGES FOR NAV_UNIT   --------------------------------------- */
+
+.nav_unit > ul > a {
+	display:inline-block;
+	background-position-y: top;
+	
+}
+
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+			color:#fff;
+}
+
+.dropdown-menu.dropdown_chooselang {
+    margin: 8px 0 0 -12px;
+    width: 189px;
+}
+
+/* ----------------------------- END RESOURCE STYLES ------------------------------ */
+
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* -------------------------------------------  BEGIN ACTIVITIES BUTTONS WITH 2 LINES AAA --------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.corner {
+    border-radius: 0 ;
+}
+
+.btn_lessons {
+	background-color: grey;
+	cursor: pointer;
+	max-width: 116px !important;
+	padding: 11px;
+	padding-right: 22px;
+	padding-left: 16px;
+	text-align: center;
+	line-height: 12px;
+	background-image: url(/bootstrap/img/icon_arrowhead_2_off.png), url(/bootstrap/img/bg_unit_nav.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left top;
+	letter-spacing: 1px;
+	border: none;
+	border-left: solid 1px #A1A1A1;
+	border-right: solid 1px #FFF;
+	height: 51px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.btn_activities {
+    background-color: grey;
+    cursor: pointer !important;
+    max-width: 150px !important;
+    padding: 11px !important;
+	padding-right: 22px !important;
+    text-align: center !important;
+	line-height: 12px !important;
+	background-image: url(/bootstrap/img/icon_arrowhead_2_off.png), url(/bootstrap/img/bg_unit_nav.png) !important;
+	background-image:url(/bootstrap/img/bg_unit_nav.png) !important;
+	background-repeat: no-repeat, repeat-x !important;
+	background-position: right center, left top;
+	letter-spacing: 1px;
+	border:none;
+	border-left: solid 1px #A1A1A1;
+	border-right: solid 1px #FFF;
+	height:52px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.btn-group:last-child {
+	border-radius: 0 6px 6px 0;
+}
+.btn_lessons:hover {
+	background-image: url(/bootstrap/img/icon_arrowhead_2_on.png), url(/bootstrap/img/bg_unit_nav_on.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left top;
+}
+.round_top_right {
+	border-radius: 0 3px 0 0 !important;
+}
+.head {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.act_btn_description {
+	letter-spacing: 1px;
+}
+
+.btn_lessons_description {
+	font-size: 12px;
+	letter-spacing: 2px;
+	left: -5px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------  END ACTIVITIES BUTTONS WITH 2 LINES AAA --------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+
+/* ----------------------------- Apply responsive CSS fixes as necessary ----------------------------- */
+/* ------------- CHANGE .dropdown-menu width and radius in bootstrap.css if a new version is downloaded ---------------------*/
+
+/*
+
+@media (min-width: 1200px) { }
+@media (min-width: 980px) {
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) { }
+@media (max-width: 767px) { }
+@media (max-width: 480px) { }
+
+*/
+
+/* Portrait tablet to landscape and desktop */
+
+/* Culture / Grammar Notes */
+.notes_area {
+	margin-top:13px; 
+	margin-left: 17px;
+	background-color: black; 
+	border: none; 
+	width: 885px; 
+	height: 520px; 
+	display: none;
+	overflow:auto;
+}
+
+/* ----------------------Administration---------------------- */
+
+.adminClassSeparator {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+.adminClassLastRowTop {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCC;
+}
+
+.adminButton 
+{
+    padding-top:3px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:1px;
+}
+
+
+#class_title {
+	color:#6C6C6C;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:24px;
+	letter-spacing: 2px;
+	padding :12px 10px 0 12px;
+}
+
+/*  Dialog CSS  */
+#loginDialog
+{
+	font-size:62.5%;
+}
+
+#registerDialog
+{
+	font-size:75%;
+}
+
+#contactDialog
+{
+	font-size:62.5%;
+}
+
+#cultureNotesDialog, #grammarNotesDialog
+{
+	display: none;
+	font-size:62.5%;
+	width: 720px;
+	height: 480px;
+	background-color: #CCC;
+	position: absolute;
+	top: 269px;
+	left: 275px;	
+}
+
+#adminViewDialog, #studentActivityDialog
+{
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 30px;
+}
+
+.studentActivityTitle 
+{
+	margin-top: 15px;
+	width: 200px;
+}
+
+/* ---------------------------------------------------------- */
+/* Glossary */
+.glossaryTitle
+{
+	color: #357AA9;
+	font-size: 30px;
+	width: 322px;
+	float: left;	
+}
+
+.glossaryLink a
+{
+	color: #357AA9;
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+.emptyGlossaryItem, .glossaryLink
+{
+	float: left;	
+	width: 124px;
+}
+
+.glossaryTranslation
+{
+	float: left;
+	color: #145129;
+	font-size: 15px;
+	width: 199px;
+}
+
+.glossarylinkLeft
+{
+	padding-left: 0px;
+	float: left;
+}
+
+.glossaryLinkRight
+{
+	padding-left: 0px;
+	float: left;
+}
+
+.glossaryTitleArea
+{
+	padding-left: 30px;
+	padding-bottom: 24px;
+}
+
+.glossaryTranslationsArea
+{
+	padding-left: 30px;
+}
+
+.glossaryLabel
+{
+	float:left;
+	color: #145129;
+	width: 200px;
+}
+
+.glossaryValue
+{
+	float:left;
+	color: #357AA9;
+	padding-left: 5px;
+}
+
+.loggedInLabel
+{
+	float: right;
+	padding-left: 19px;
+	padding-top: 7px;
+}

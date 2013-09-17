@@ -1,0 +1,36 @@
+<!-- ---------------------------------------------------------------------------------
+Purpose:	Various 'displays' are defined in <div>'s defined in this file
+			All dynamic content generated for these divs are programmed in the
+			appropriate .js file 
+----------------------------------------------------------------------------------  -->
+
+<div id="LoginForm" style="display:table-cell;vertical-align:middle;">
+  <p class="text-error hide" id="loginErrorLabel" style="font-size: 10px;"></p>
+  <form class="form-signin"><br />
+    <input id="loginEmail" type="text" class="input-block-level" placeholder="Email address" value="">
+    <input id="loginPassword" type="password" class="input-block-level" placeholder="Password" value="">
+  </form>
+</div>
+<div id="RegisterForm">
+  <form class="form-register" id="RegisterFormItems">
+    <input class="registerFormItem" name="registrationClassID" id="registrationClassID" type="hidden" value="-1">
+    <input class="registerFormItem" name="registrationType" id="registrationType" type="hidden" value="Student">
+    <input id="registerEmailName" name="registerEmailName" type="text" onKeyUp="framework.ui.lookupStudent()" class="registerFormItem input-block-level" placeholder="Email address" value="">
+    <input id="registerFirstName" name="registerFirstName" type="text" class="registerFormItem input-block-level" placeholder="First Name" value="">
+    <input id="registerLastName" name="registerLastName" type="text" class="registerFormItem input-block-level" placeholder="Last Name" value="">
+    <span id="registrationPasswords">
+      <input id="registerPassword" name="registerPassword" type="password" class="registerFormItem input-block-level" placeholder="Password" value="">
+      <input id="registerPassword2" name="registerPassword2" type="password" class="registerFormItem input-block-level" placeholder="Confirm Password" value="">
+    </span>
+    <p class="text-error hide message" id="registerErrorLabel"></p>
+  </form>
+</div>
+<div id="ContactUsForm">
+  <form class="form-contact" id="ContactUsFormItems">
+    <input id="contactUsFirstName" name="contactUsFirstName" type="text" class="input-block-level" placeholder="First Name" value="">
+    <input id="contactUsLastName" name="contactUsLastName" type="text" class="input-block-level" placeholder="Last Name" value="">
+    <input id="contactUsEmailName" name="contactUsEmailName" type="text" class="input-block-level" placeholder="Email address" value="">
+    <textarea rows=8 id="contactUsProblem" name="contactUsProblem" class="input-block-level" placeholder="Problem" value=""></textarea>
+    <p class="text-error hide message" id="contactUsErrorLabel"></p>
+  </form>
+</div>

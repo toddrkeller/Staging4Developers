@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>--------------  DLiLearn  ACTIVITY TEMPLATE -------------</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<script src="js/jquery.js" type="text/javascript"></script>
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet">
+
+<!-- CSS -->
+<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+<link href="css/bootstrap.css" rel="stylesheet">
+<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link href="css/jquery.dropdown.css" rel="stylesheet">
+<link href="css/dlilearn_custom.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="ico/favicon.ico">
+
+<!--  /////// EMBEDED STYLE OVERIDE FOR MAIN ACTIVITY BUTTONS ////////// -->
+<style>
+.corner {
+	border-radius: 0;
+}
+.btn_lessons {
+	background-color: grey;
+	cursor: pointer;
+	max-width: 116px !important;
+	padding: 11px;
+	padding-right: 22px;
+	padding-left: 16px;
+	text-align: center;
+	line-height: 12px;
+	background-image: url(img/icon_arrowhead_2_off.png), url(img/bg_unit_nav.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left top;
+	letter-spacing: 1px;
+	border: none;
+	border-left: solid 1px #A1A1A1;
+	border-right: solid 1px #FFF;
+	height: 51px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.btn-group:last-child {
+	border-radius: 0 6px 6px 0;
+}
+.btn_lessons:hover {
+	background-image: url(img/icon_arrowhead_2_on.png), url(img/bg_unit_nav_on.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: right center, left top;
+}
+.round_top_right {
+	border-radius: 0 3px 0 0 !important;
+}
+.head {
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
+}
+.btn_lessons_description {
+	font-size: 12px;
+	letter-spacing: 2px;
+	left: -5px;
+}
+</style>
+
+<!--  BEGIN JQUERY ROLLOVER SCRIPT // 
+	  OFF State images should end in "_off" and ON states should END with "_on" 
+      -->
+<script type="text/javascript">
+	$(document).ready(function() {
+	$("img.rollover").hover(
+	function() { this.src = this.src.replace("_off", "_on");
+	},
+	function() { this.src = this.src.replace("_on", "_off");
+	});
+	});
+</script>
+<!--  END JQUERY ROLLOVER SCRIPT // 
+	  OFF State images should end in "_off" and ON states should END with "_on" 
+      -->
+</head>
+<body>
+<!-- ///// BEGIN WRAP  ///// -->
+<div id="wrap"> 
+  <!-- ///// BEGIN MODAL LOGIN - REGISTER ///// -->
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3 id="myModalLabel"><span>Welcome to</span>DLiLearn</h3>
+      <p>Efficiently pursue professional markets whereas superior technologies. Assertively myocardinate dynamic web-readiness through intuitive communities. Please Log in or Register to continue...</p>
+    </div>
+    <div class="modal-body">
+      <div class="row-fluid">
+        <div class="span6 first">
+          <h4>Member Login</h4>
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Email Address:</label>
+              <div class="controls">
+                <input type="text" id="inputEmail">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Password:</label>
+              <div class="controls">
+                <input type="password" id="inputPassword">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <button type="submit" class="btn">Login<i class="icon-signin"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- ///// END MEMBER LOGIN ///// -->
+        <div class="span6 last">
+          <h4>New Registration</h4>
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Email Address:</label>
+              <div class="controls">
+                <input type="text" id="inputEmail">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Password:</label>
+              <div class="controls">
+                <input type="password" id="inputPassword">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputRe-Enter">Re-Enter:</label>
+              <div class="controls">
+                <input type="password" id="inputRe-Enter">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <button type="submit" class="btn">Register<i class="icon-edit"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- ///// END REGISTER FORM ///// --> 
+      </div>
+    </div>
+  </div>
+  <!-- ///// END MODAL ///// -->
+  
+  <div class="navbar navbar-fixed-top"> <!-- ///// BEGIN NAVBAR-FIXED-TOP ///// -->
+    <div class="navbar-inner"> <!-- ///// BEGIN NAVBAR-INNER ///// -->
+      <div class="container"> <!-- ///// BEGIN CONTAINER - REGISTER ///// -->
+        <ul class="login pull-right">
+          <!-- Button to trigger modal --> 
+          <!--<li><a data-toggle="modal" href="#myModal">Login</a> <i class="icon-user icon-large white text_ds hidden-phone"></i> <span class="divider"> / </span> </li>
+<li><a data-toggle="modal" href="#myModal">Register</a> <i class="icon-edit icon-large white text_ds hidden-phone"></i></li>-->
+          <li><a>My Profile</a> <img src="img/icon_cog.png" alt="My Profile"></li>
+        </ul>
+        
+        <!-- /////////////////////////////////////////////// BEGIN BREADCRUMB ///////////////////////////////////////////////////// -->
+        <ul class="breadcrumb pull-left">
+          <li><a
+          href="#">Home</a> <span class="divider">/</span></li>
+          <li class="active">Resources</li>
+        </ul>
+      </div>
+      <!-- ///// END NAV CONTAINER ///// --> 
+    </div>
+    <!-- ///// END NAVBAR-INNER ///// --> 
+  </div>
+  <!-- ///// END NAVBAR-FIXED-TOP ///// -->
+  
+  <div class="container"> <!-- /////// BEGIN CONTAINER ////// --> 
+    <!-- /////// BEGIN MAIN_NAV ////// -->
+    <nav class="main_nav"><a 
+        href="index.html" class="tooltip-test" title="DLiLearn Home"><img src="img/logo_dlilearn.png" alt="DLiLearn" width="224" height="43" class="responsive-image pull-left"></a>
+      <ul class="main_nav_right">
+        <li><a 
+        href="mailto:todd.keller2@dliflc.edu?subject=DLiLearn"><img 
+        src="img/nav_top_contact_off.png" alt="CONTACT" class="rollover"></a></li>
+        <li><a 
+        href="faq.html"><img 
+        src="img/nav_top_help_off.png" alt="HELP" class="rollover"></a></li>
+        <li><a 
+        href="http://www.dliflc.edu/index.html"><img 
+        src="img/nav_top_dliflc_off.png" alt="DLIFLC" class="rollover"></a></li>
+        <li><a 
+        href="index.html"><img 
+        src="img/nav_top_home_off.png" alt="HOME" class="rollover"></a></li>
+      </ul>
+    </nav>
+    <!-- ///// END MAIN_NAV ///// --> 
+  </div>
+  <!-- ///// END CONTAINER ///// -->
+  
+  <div class="container"> <!-- /////// BEGIN CONTAINER  ////// -->
+    <div class="drop-shadow lifted"> <!-- /////// BEGIN DROP-SHADOW LIFTED - ACTIVITY FRAME ////// -->
+      <div class="activity_frame lifted_a"> <!-- /////// BEGIN ACTIVITY_FRAME LIFTED_A ////// -->
+        <nav class="activity_frame_hd"> <!-- /////// BEGIN ACTIVITY_FRAME_HD ////// -->
+          <header id="class_title">
+            <h2 class="lang_hd">FAQ</h2>
+          </header>
+        </nav>
+        <!-- /////// END ACTIVITY_FRAME_HD ////// --> 
+        
+        <!-- /////// START CONTENT LAYOUT /////// -->
+    <div id='faqBody'>
+        <div class="faq-header container">
+          <div class="row-fluid">
+            <div>
+              <p>This space can be used for text or instructions</p>             
+            </div>
+          </div>
+        </div>
+        <!-- /////// HEADER ////// -->
+        <div class="faq container">
+          <div class="row-fluid"> 
+            <!-- SIDEBAR -->
+            <aside class="sidebar span3">
+            <!-- NAV LIST --> 
+              <div class="content-item">
+                <ul class="nav nav-list">
+                  <li class="nav-header">Help &amp; FAQs</li>
+                  <li><a href="#">General FAQs</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Most Asked FAQs</a></li>
+                  <li><a href="#">Help Link</a></li>
+                  <li><a href="#">Another Help Link</a></li>
+                </ul>
+              </div>
+              <!-- END NAV LIST --> 
+              <!-- NAV LIST --> 
+              <div class="content-item">
+                <ul class="nav nav-list">
+                  <li class="nav-header">Help &amp; FAQs</li>
+                  <li><a href="#">General FAQs</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Most Asked FAQs</a></li>
+                  <li><a href="#">Help Link</a></li>
+                  <li><a href="#">Another Help Link</a></li>
+                </ul>
+              </div>
+              <!-- END NAV LIST --> 
+              <!-- NAV LIST --> 
+              <div class="content-item">
+                <ul class="nav nav-list">
+                  <li class="nav-header">Help &amp; FAQs</li>
+                  <li><a href="#">General FAQs</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Most Asked FAQs</a></li>
+                  <li><a href="#">Help Link</a></li>
+                  <li><a href="#top">Another Help Link</a></li>
+                </ul>
+              </div>
+              <!-- END NAV LIST --> 
+                <!-- NAV LIST --> 
+              <div class="content-item">
+                <ul class="nav nav-list">
+                  <li class="nav-header">Help &amp; FAQs</li>
+                  <li><a href="#">General FAQs</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Most Asked FAQs</a></li>
+                  <li><a href="#">Help Link</a></li>
+                  <li><a href="#top">Another Help Link</a></li>
+                </ul>
+              </div>
+              <!-- END NAV LIST --> 
+
+            </aside>
+            <!-- END SIDEBAR --> 
+            
+            <!-- RESOURCE CONTENT -->
+            <section class="content faq-accordion span9 last">           
+              <h3><a id="top">Top FAQs</a></h3>
+              <!-- TOP FAQ 1 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion1">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">&nbsp;&nbsp;1. What is a FAQ? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseOne" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p>FAQ stands for <em>Frequently Asked Question</em></p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 1 --> 
+              
+               <!-- TOP FAQ 2 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion2">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">&nbsp;&nbsp;2. Do you know how to make homemade cornbread? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseTwo" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 2 --> 
+
+ 			 <!-- TOP FAQ 3 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion3">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">&nbsp;&nbsp;3. How tall is the Empire State Building? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseThree" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 3 --> 
+
+			  <!-- TOP FAQ 4 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion4">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseFour">&nbsp;&nbsp;4. Where do I go when I can't find chocolate? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseFour" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 4 -->
+               
+               <!-- TOP FAQ 5 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion5">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseFive">&nbsp;&nbsp;5. Does hope really float? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseFive" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                       <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 5 --> 
+              
+               <!-- TOP FAQ 6 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion6">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseSix">&nbsp;&nbsp;6. How many days can you go without sleep? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseSix" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                      <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 6 --> 
+
+ 			 <!-- TOP FAQ 7 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion7">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion7" href="#collapseSeven">&nbsp;&nbsp;7. Where can I find a good mechanic? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseSeven" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                      <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 7 --> 
+
+			  <!-- TOP FAQ 8 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion8">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion8" href="#collapseEight">&nbsp;&nbsp;8. Who won the super bowl? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseEight" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 8 --> 
+              
+              <!-- TOP FAQ 9 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion9">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion9" href="#collapseNine">&nbsp;&nbsp;9. Can too much mexican food be a bad thing? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseNine" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 9 --> 
+
+			  <!-- TOP FAQ 10 -->
+              <div class="clearfix">
+                <div class="accordion" id="accordion10">                   
+                  <div class="accordion-group">
+                    <div class="accordion-heading">
+                      <div class="row-fluid">
+                        <div class="toggle-btn"> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion10" href="#collapseTen">10. How often should you call your mom? <i class="icon-chevron-right"></i> </a> </div>
+                      </div>                      
+                    </div>
+                    <!-- END HEADING -->
+                    <div id="collapseTen" class="accordion-body collapse">
+                      <div class="accordion-inner clearfix">
+                        <p> At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                        <p><a href="#top" class="anchor">back to top <i class="icon-arrow-up"></i></a></p>                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END TOP FAQ 10 --> 
+
+              
+              
+                            
+            </section>
+            <!-- END CONTENT --> 
+            
+          </div>
+          <!-- END ROW --> 
+        </div>
+        <!-- /////// END CONTENT LAYOUT ////// --> 
+      </div>
+  </div> <!-- END OF faqBody -->
+    </div>
+  </div>
+  <!-- /////// END CONTAINER /////// --> 
+  <br />
+  <br />
+  <div id="push"></div>
+</div>
+<!--  ///////  END WRAP  ///////  -->
+
+<div id="footer"> <!--  ///////  BEGIN FOOTER  ///////  -->
+  <div class="container"> 
+    <!--  ///////  BEGIN FOOTER_CONTAINER  ///////  -->
+    <div class="pull-left"><a 
+    href="#"><img 
+    src="img/logo_dliflc.png" alt="DLIFLC" width="241" height="72" class="responsive-image pull-left push-13"></a> 
+      
+      <!--  ///////  BEGIN DLI_ADDRESS  ///////  -->
+      <div class="dli_address"> DLIFLC &middot; 1759 Lewis Rd. Bldg 614, Ste. 251<br />
+        Presidio of Monterey &middot; Monterey, CA 93944<br />
+        831.242.5119 (DSN-768) </div>
+      <!--  ///////  END DLI_ADDRESS  ///////  --> 
+    </div>
+    <!--  ///////  END FOOTER_CONTAINER  ///////  --> 
+    <!--  ///////  BEGIN CONTAINER  ///////  -->
+    <nav class="pull-right"> <!--  ///////  BEGIN NAV PULL-RIGHT  ///////  -->
+      <dl class="nav_bottom">
+        <dd><a href="#">Contact</a></dd>
+        <dd>&middot;</dd>
+        <dd><a href="#">Help</a></dd>
+        <dd>&middot;</dd>
+        <dd><a href="#">Home</a></dd>
+      </dl>
+      <dl class="nav_social">
+        <dd><img src="img/icon_facebook.png" alt="FACEBOOK" width="11" height="16"></dd>
+        <dd><img src="img/icon_forum.png" alt="Forum" width="21" height="18"></dd>
+        <dd><img src="img/icon_adobe_connect.png" alt="Adobe Connect" width="20" height="17"></dd>
+        <dd><img src="img/icon_skype.png" alt="Skype" width="17" height="17"></dd>
+      </dl>
+    </nav>
+    <!--  ///////  END NAV PULL-RIGHT  ///////  --> 
+  </div>
+  <!--  ///////  END CONTAINER  ///////  --> 
+</div>
+<!--  ///////  END FOOTER  ///////  --> 
+<!--  /////// javascript /////// --> 
+<!-- ///////  Placed at the end of the document so the pages load faster  /////// --> 
+<script src="js/jquery.js"></script> 
+<script src="js/jquery.mCustomScrollbar.concat.min.js"></script> 
+<script>
+    (function($){
+      $(window).load(function(){
+				$(".faq").mCustomScrollbar({
+					updateOnContentResize:true,
+					scrollButtons:{
+						enable:true
+					},
+					theme:"dark"     
+				});
+			});
+		})(jQuery);
+</script> 
+<script src="js/bootstrap-transition.js"></script> 
+<script src="js/bootstrap-alert.js"></script> 
+<script src="js/bootstrap-modal.js"></script> 
+<!-- <script src="js/bootstrap-dropdown.js"></script> --> 
+<script src="js/bootstrap-scrollspy.js"></script> 
+<script src="js/bootstrap-tab.js"></script> 
+<script src="js/bootstrap-tooltip.js"></script> 
+<script src="js/bootstrap-popover.js"></script> 
+<script src="js/bootstrap-button.js"></script> 
+<script src="js/bootstrap-collapse.js"></script> 
+<script src="js/bootstrap-carousel.js"></script> 
+<script src="js/bootstrap-typeahead.js"></script> 
+<script src="js/jquery.dropdown.js"></script> 
+<script src="js/jquery.mousewheel.min.js"></script> 
+<script src="js/TweenLite.min.js"></script> 
+<script src="js/CSSPlugin.min.js"></script>
+</body>
+</html>

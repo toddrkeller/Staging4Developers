@@ -1,0 +1,195 @@
+  <div id="bodyContent">
+
+  <!-- ///// BEGIN MODAL LOGIN - REGISTER ///// -->
+  <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+      <h3 id="myModalLabel"><span>Welcome to</span>DLiLearn</h3>
+      <p>Efficiently pursue professional markets whereas superior technologies. Assertively myocardinate dynamic web-readiness through intuitive communities. Please Log in or Register to continue...</p>
+    </div>
+    <div class="modal-body">
+      <div class="row-fluid">
+        <div class="span6 first">
+          <h4>Member Login</h4>
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Email Address:</label>
+              <div class="controls">
+                <input type="text" id="inputEmail">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Password:</label>
+              <div class="controls">
+                <input type="password" id="inputPassword">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <button type="submit" class="btn">Login<i class="icon-signin"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- ///// END MEMBER LOGIN ///// -->
+        <div class="span6 last">
+          <h4>New Registration</h4>
+          <form class="form-horizontal">
+            <div class="control-group">
+              <label class="control-label" for="inputEmail">Email Address:</label>
+              <div class="controls">
+                <input type="text" id="inputEmail">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputPassword">Password:</label>
+              <div class="controls">
+                <input type="password" id="inputPassword">
+              </div>
+            </div>
+            <div class="control-group">
+              <label class="control-label" for="inputRe-Enter">Re-Enter:</label>
+              <div class="controls">
+                <input type="password" id="inputRe-Enter">
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="controls">
+                <button type="submit" class="btn">Register<i class="icon-edit"></i></button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- ///// END REGISTER FORM ///// --> 
+      </div>
+    </div>
+  </div>
+  <!-- ///// END MODAL ///// -->
+  
+  <div class="navbar navbar-fixed-top"> <!-- ///// BEGIN NAVBAR-FIXED-TOP ///// -->
+    <div class="navbar-inner"> <!-- ///// BEGIN NAVBAR-INNER ///// -->
+      <div class="container"> <!-- ///// BEGIN CONTAINER - LOGIN and Reg ///// -->
+          <!-- Button to trigger modal -->
+          <!--
+          <li><a data-toggle="modal" href="#myModal">Login</a>&#160;<img src="img/icon_user_white.png" alt="Login"><span class="divider">&#160;&#183;&#160;</span></li>
+          <li><a data-toggle="modal" href="#myModal">Register</a>&#160;<img src="img/icon_register_white.png" alt="Register"></li>
+          -->
+
+
+        <div id='loggedInLabel' class='loggedInLabel'>&nbsp;</div>
+
+
+        <ul class="login pull-right">          
+          <li><a href="javascript:framework.ui.ShowLogin();">Login</a>&#160;<img src="img/icon_user_white.png" alt="Login"><span class="divider">&#160;&#183;&#160;</span></li>
+          <li><a href="javascript:framework.Register('New Student')">Register</a>&#160;<img src="img/icon_register_white.png" alt="Register"></li>
+          
+        </ul>
+        
+        <!-- ///// BEGIN CHOOSE LANG //// -->
+        <ul class="choose_lang unstyled pull-left">
+          <li class="dropdown"> <a 
+                href="#" class="dropdown" data-toggle="dropdown">Choose Language</a>
+            <ul class="dropdown-menu dropdown_chooselang">
+              <li><a href="activity_template_enabling_09.html">Japanese</a></li>
+              <li><a href="#">Spanish</a></li>
+              <!--
+              <li class="divider"></li>
+              <li class="nav-header">Middle East</li>
+              <li><a href="#">Pashto</a></li>
+              <li><a href="#">Arabic</a></li>
+              -->
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <!-- ///// END NAV CONTAINER ///// --> 
+    </div>
+    <!-- ///// END NAVBAR-INNER ///// --> 
+  </div>
+  <!-- ///// END NAVBAR-FIXED-TOP ///// -->
+  
+  <div class="container"> <!-- /////// BEGIN CONTAINER ////// --> 
+    <!-- /////// BEGIN MAIN_NAV ////// -->
+    <nav class="main_nav"><a 
+        href="#" class="tooltip-test" title="DLiLearn Home"><img src="img/logo_dlilearn.png" alt="DLiLearn" width="224" height="43" class="responsive-image pull-left"></a>
+      <ul class="main_nav_right">
+        <li><a 
+        href="mailto:todd.keller2@dliflc.edu?subject=DLiLearn"><img 
+        src="img/nav_top_contact_off.png" alt="CONTACT" class="rollover"></a></li>
+        <li><a 
+        href="javascript:framework.ui.showFaq()"><img 
+        src="img/nav_top_help_off.png" alt="HELP" class="rollover"></a></li>
+        <li><a 
+        href="http://www.dliflc.edu/index.html"><img 
+        src="img/nav_top_dliflc_off.png" alt="DLIFLC" class="rollover"></a></li>
+        <li><a 
+        href="javascript:framework.ui.ShowMainWindow('home')"><img 
+        src="img/nav_top_home_off.png" alt="HOME" class="rollover"></a></li>
+      </ul>
+    </nav>
+    <!-- ///// END MAIN_NAV ///// --> 
+  </div>
+  <!-- ///// END CONTAINER ///// -->
+  
+  <div class="container"> <!-- /////// BEGIN CONTAINER  ////// -->
+    <div class="slider drop-shadow lifted"> <!-- /////// BEGIN DROP-SHADOW LIFTED  - MAIN HERO UNIT and SLIDER  ////// -->
+      <div class="slider drop-shadow_inlay"> <!-- /////// BEGIN DROP-SHADOW INLAY ////// -->
+        <div id="myCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="item active"> <img src="img/main-slider-img-japan.jpg" alt="">
+              <div class="carousel-caption">
+                <h4>WELCOME TO DLiLearn JAPANESE</h4>
+                <p><strong>Japanese:</strong> is an East Asian language spoken by about 125 million speakers, primarily in Japan, where it is the national language. It is a member of the Japonic (or Japanese-Ryukyuan) language family, whose relation to other language groups, particularly to Korean and the suggested Altaic language family, is debated.<br/>
+                  <br/>
+                  <a href="#"><span>&nbsp;</span>Get Started</a></p>
+              </div>
+            </div>
+            <!-- END --> 
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a> <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a> </div>
+      </div>
+      <!-- /////// END DROP-SHADOW-INLAY /////// --> 
+    </div>
+    <!-- /////// END DROP-SHADOW LIFTED - MAIN HERO UNIT and SLIDER  /////// -->
+    
+    <div class="row"> <!-- /////// BEGIN ROW - 3 COLUMNS /////// --> 
+      <!-- /////// BEGIN ARTICLE /////// -->
+      <article class="span4 center"><a 
+        href="javascript:framework.ui.ShowMainWindow('cl')"><img src="img/icon_home.png" alt="Class" class="hd_icon"></a><br />
+        <img 
+        src="img/hd_txt_classroom.png" alt="CLASSROOM" class="hd_icon_txt"><br />
+        <p class="left">Fifty multimedia rich, self-pace classroom activities used during first ten weeks of instruction.</p>
+      </article>
+      <!-- /////// END ARTICLE /////// -->
+      
+      <div class="span0"> </div>
+      <!-- /////// BEGIN and END MARGIN DIV /////// --> 
+      
+      <!-- /////// BEGIN ARTICLE /////// -->
+      <article class="span4 center"><a 
+        href="javascript:framework.ui.ShowMainWindow('hw')"><img src="img/icon_book.png" alt="Homework" class="hd_icon responsive-image"></a><br />
+        <img 
+        src="img/hd_txt_homework.png" alt="HOMEWORK" class="hd_icon_txt responsive-image">
+        <p class="left">Fifty FLO homework assignments cover the fist ten curriculum weeks.</p>
+      </article>
+      <!-- /////// END ARTICLE /////// -->
+      
+      <div class="span0"> </div>
+      <!-- /////// BEGIN and END MARGIN DIV /////// --> 
+      
+      <!-- /////// BEGIN ARTICLE /////// -->
+      <article class="span4 center pull-right"><a 
+        href="#"><img src="img/icon_resources.png" alt="Resources" class="hd_icon responsive-image"></a><br />
+        <img 
+        src="img/hd_txt_resources.png" alt="RESOURCES" class="hd_icon_txt responsive-image">
+        <p class="left">Supplementary useful materials produced at DLIFLC.</p>
+      </article>
+      <!-- /////// END ARTICLE /////// --> 
+    </div>
+    <!-- /////// BEGIN ROW - 3 COLUMNS /////// --> 
+  </div>
+  <!-- /////// END CONTAINER /////// --> 
+  <br />
+  <br />
+  <div id="push"></div>
+</bodyContent>

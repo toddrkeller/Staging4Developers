@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>iLearn Basic Course</title>
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+
+<meta name="description" content="">
+<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+
+<!-- CSS -->
+<link rel="stylesheet" href="css/dlilearn-theme/jquery-ui-1.9.2.custom.min.css" />
+<link href="css/iLearn.css" rel="stylesheet" type="text/css" />
+
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+<link rel="stylesheet" href="bootstrap/css/font-awesome.min.css">
+<link href="bootstrap/css/jquery.dropdown.css" rel="stylesheet">
+<link href="css/dlilearn_custom.css" rel="stylesheet">
+<!--<link href="js/jquery-dropdown/jquery.dropdown.css" rel="stylesheet">-->
+<link href="js/jquery-dropdown/jquery.dropdownCust.css" rel="stylesheet">
+
+<script src="js/dlilearn-jquery/jquery.js"></script> 
+<script src="js/dlilearn-jquery/jquery-ui-1.9.2.custom.min.js"></script>
+<script src="js/jwplayer/jwplayer.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery-dropdown/jquery.dropdown.js"></script>  <!-- must be below bootstrap to work -->
+
+<!-- Framework Scripts -->
+<script src="js/framework.js" type="text/javascript"></script>
+<script src="js/dialogs.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>
+<script src="js/data.js" type="text/javascript"></script>
+<script src="js/menu.js" type="text/javascript"></script>
+<script src="js/ui.js"  type="text/javascript"></script>
+<script src="js/unit.js" type="text/javascript"></script>
+<script src="js/glossary.js" type="text/javascript"></script>
+<script src="js/lesson.js" type="text/javascript"></script>
+<script src="js/activity.js" type="text/javascript"></script>
+<script src="js/progress.js" type="text/javascript"></script>
+
+
+<!-- Fav and touch icons -->
+<link rel="shortcut icon" href="ico/favicon.ico">
+
+<script type="text/javascript">
+	$(document).ready(function() {
+  	$("img.rollover").hover(
+  	function() { this.src = this.src.replace("_off", "_on");
+  	},
+  	function() { this.src = this.src.replace("_on", "_off");
+  	});
+
+    $("[rel=tooltip]").tooltip();
+    initialize_iLearn();  // defined in framework.js
+
+	});
+</script>
+
+</head>
+<body>
+
+<!-- ///// BEGIN MainBody  ///// -->
+<div id="MainBody"></div>
+<!--  ///////  END MainBody  ///////  --> 
+
+<!--  ///////  BEGIN FOOTER  ///////  -->
+<div id="footer">
+  <div class="container"> 
+    <!--  ///////  BEGIN FOOTER_CONTAINER  ///////  -->
+    <div class="pull-left"><a 
+    href="#"><img 
+    src="img/logo_dliflc.png" alt="DLIFLC" width="241" height="72" class="responsive-image pull-left push-13"></a> 
+      
+      <!--  ///////  BEGIN DLI_ADDRESS  ///////  -->
+      <div class="dli_address"> DLIFLC &middot; 1759 Lewis Rd. Bldg 614, Ste. 251<br />
+        Presidio of Monterey &middot; Monterey, CA 93944<br />
+        831.242.5119 (DSN-768) </div>
+      <!--  ///////  END DLI_ADDRESS  ///////  --> 
+    </div>
+    <!--  ///////  END FOOTER_CONTAINER  ///////  --> 
+    <!--  ///////  BEGIN CONTAINER  ///////  -->
+    <nav class="pull-right"> <!--  ///////  BEGIN NAV PULL-RIGHT  ///////  -->
+      <dl class="nav_bottom">
+        <dd><a href="#">Contact</a></dd>
+        <dd>&middot;</dd>
+        <dd><a href="#">Help</a></dd>
+        <dd>&middot;</dd>
+        <dd><a href="#">Home</a></dd>
+      </dl>
+      <dl class="nav_social">
+        <dd><img src="img/icon_facebook.png" alt="FACEBOOK" width="11" height="16"></dd>
+        <dd><img src="img/icon_forum.png" alt="Forum" width="21" height="18"></dd>
+        <dd><img src="img/icon_adobe_connect.png" alt="Adobe Connect" width="20" height="17"></dd>
+        <dd><img src="img/icon_skype.png" alt="Skype" width="17" height="17"></dd>
+      </dl>
+    </nav>
+    <!--  ///////  END NAV PULL-RIGHT  ///////  --> 
+  </div>
+  <!--  ///////  END CONTAINER  ///////  --> 
+</div>
+<!--  ///////  END FOOTER  ///////  --> 
+
+
+<!--Dialogs-->
+<div id="FrameworkStorage" style="display:none"></div>
+<div id="addClassDialog" class="popup"></div>
+<div id="adminDialog" class="popup"></div>
+<div id="siteMessage" class="popup"><!-- called from siteMessage() function --></div>
+<div id="simplePopup" class="popup"></div>
+<div id='debugDiv' style='display:none'>
+    <a href='javascript:debug()'>debug</a>
+    &nbsp;<span><a href='javascript:framework.ui.showLogMessagesDialog()'>messages</a></span>
+    &nbsp;<span id='debugInfo'></span>
+</div>
+<div id="errorDialog" style="display: table-cell;vertical-align: middle"><!--loaded from javascript before opening--></div>
+<div id="loginDialog" style="padding-top:10px; display:none;"><!--loaded from /content/login.html--></div>
+<div id="registerDialog"><!--loaded from /content/login.html--></div>
+<div id="contactDialog"><!--loaded from /content/contact.html--></div>
+<div id="cultureNotesDialog"><!--loaded from /content/notes.html--></div>
+<div id="grammarNotesDialog"><!-- loaded from /content/notes.html --></div>
+<div id="progressDialog"><!--loaded from /content/notes.html--></div>
+<div id="faqDialog"><!--loaded from /content/notes.html--></div>
+<div id="glossaryDialog"><!-- loaded from /content/glossary.html --></div>
+<div id="glossaryDialogDetail"><!-- loaded from /content/glossary.html --></div>
+
+<div id="confirmationDialog" style="height:200px;display:table-cell;vertical-align:middle; display:none;"></div>
+<div id="activityDialog" class="modal hide fade" tabindex="-1" role="dialog" aria-hidden="true"><!-- this div is for testing at this time --></div>
+<div id="instructorsDialog" class="popup"><!-- --></div>
+<div id="adminViewDialog" style="background-color:#CCC"><!-- loaded from /content/admin_main.html --></div>
+<div id="studentActivityDialog" style="background-color:#CCC"><!-- loaded from /content/admin_main.html --></div>
+
+
+
+<!--  /////// javascript /////// --> 
+<!-- ///////  Placed at the end of the document so the pages load faster  /////// --> 
+<script src="bootstrap/js/bootstrap-transition.js"></script> 
+<script src="bootstrap/js/bootstrap-alert.js"></script> 
+<script src="bootstrap/js/bootstrap-modal.js"></script> 
+<script src="bootstrap/js/bootstrap-dropdown.js"></script> 
+<script src="bootstrap/js/bootstrap-scrollspy.js"></script> 
+<script src="bootstrap/js/bootstrap-tab.js"></script> 
+<script src="bootstrap/js/bootstrap-tooltip.js"></script> 
+<script src="bootstrap/js/bootstrap-popover.js"></script> 
+<script src="bootstrap/js/bootstrap-button.js"></script> 
+<script src="bootstrap/js/bootstrap-collapse.js"></script> 
+<script src="bootstrap/js/bootstrap-carousel.js"></script> 
+<script src="bootstrap/js/bootstrap-typeahead.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config>
+  <!-- Root Path for iLearn -->
+<!--<coursePath>/iLearn/</coursePath>-->  
+ <coursePath>/</coursePath>
+  <!-- Target Language Strings -->
+  <targetLanguage>japanese</targetLanguage>
+  <targetLangSm>ja</targetLangSm>
+  <!-- Progect paths.  All paths are relative to the coursePath specified above -->
+  <images>images/</images>
+  <templates>templates/</templates>
+  <activityCommonFolderPath>js/common/</activityCommonFolderPath>
+  <jwplayer>jwplayer/</jwplayer>
+  <cultureNotes>/lessons/japanese/culture_notes</cultureNotes>
+  <grammarNotes>/lessons/japanese/grammar_notes</grammarNotes>
+  <!-- Actual Physical Path to the target Language Course.  Use by some web services -->
+  <developerMode>no</developerMode>
+  <developerInfo>instructor@gmail.com~instructor</developerInfo>
+  <!-- Set installationType to either classroom or public -->
+  <installationType>classroom</installationType>
+</Config>

@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Debug Dialog</title>
+</head>
+<body>
+    <div id="debugDialog" style="white-space: nowrap;">
+        <table cellpadding="0" cellspacing="0" border="0">
+        <tr>
+            <td style="width:70px;text-align:right;"><span style="vertical-align: middle;"><label><strong>Search:&nbsp;</strong></label></span></td>
+            <td><input id="debugFilter" type="text" value="" style="width: 444px; margin-bottom: 5px; margin-top: 5px;"></td>
+            <td>&nbsp;</td>
+            <td><a href='javascript:framework.ui.clearLogMessageField();'>
+                <button id="clearLogFieldButton">
+                    <i class="icon-remove"></i>
+                </button>
+            </a></td>
+        </tr>
+        </table>
+        <!--<table cellpadding="0" cellspacing="0" border="0">
+        <tr style="height:10px;">
+            <td style="width:70px;text-align:right;height:10px;"><label for="from"><strong>From:&nbsp;</strong></label></td>
+            <td style="height:10px;"><input type="text" class="input-small" id="debugFrom" name="from" /></td>
+            <td style="height:10px;"><label for="to"><strong>&nbsp;To:&nbsp;</strong></label></td>
+            <td style="height:10px;"><input type="text" id="debugTo" class="input-small" name="to" /></td>
+            <td style="height:10px;">&nbsp;</td>
+            <td style="vertical-align:top;padding-top:2px;height:12px;"><a href='javascript:framework.ui.clearLogRangeFields();'>
+                <a href='javascript:framework.ui.clearLogDateRange();'>
+                <button id="clearRangeButton">
+                    <i class="icon-remove"></i>
+                </button></a></td>
+        </tr>
+        </table>-->
+        <div id="debugDialogBody">
+        </div>
+    </div>
+</body>
+</html>
