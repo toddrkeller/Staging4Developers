@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Cebuano" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" >
+    <item>
+      <file_video>vb_02_01_capstone1.flv</file_video>
+      <question dir="ltr">Which of the following greetings is used in the conversation?</question>
+      <choice dir="ltr" crrt="true">Good morning. - c</choice>
+      <!--<choice dir="ltr" crrt="true">Good morning. - c Which of the following greetings is used in the conversation? Which of the following greetings is used in the conversation?</choice>-->
+      <choice dir="ltr" crrt="">Good afternoon.</choice>
+      <choice dir="ltr" crrt="">Good afternoon to you, too.</choice>
+      <choice dir="ltr" crrt="true">Good morning to you, too. - c</choice>
+      <hint dir="ltr"><![CDATA[The conversation takes place in the morning.]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The soldier says, <b>Maayong buntag</b> <i>(Good morning),</i> and the Cebuano speaker replies in turn, <b>Maayong buntag sab nimo</b> <i>(Good morning to you, too.)</i>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone2.flv</file_video>
+      <question dir="ltr">Which of the following phrases does the Cebuano speaker use in the conversation?</question>
+      <choice dir="ltr" crrt="">Nice to meet you.</choice>
+      <choice dir="ltr" crrt="true">Please come in. - c</choice>
+      <choice dir="ltr" crrt="true">Please wait. - c</choice>
+      <choice dir="ltr" crrt="">Welcome.</choice>
+      <hint dir="ltr"><![CDATA[The Cebuano speaker uses <b>palihog</b> <i>(please)</i> in all of his statements in the conversation.]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The Cebuano speaker says, <b>Huwat palihog</b> <i>(Please wait),</i> and then, <b>Sulod palihog</b> <i>(Please come in).</i>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone3.flv</file_video>
+      <question dir="ltr">Which of the following questions does the soldier ask in the interview?</question>
+      <choice dir="ltr" crrt="true">Who is this woman? - c</choice>
+      <choice dir="ltr" crrt="true">Are you sure? - c</choice>
+      <choice dir="ltr" crrt="">Is this right?</choice>
+      <choice dir="ltr" crrt="true">Who is this man? - c</choice>
+      <hint dir="ltr"><![CDATA[The soldier does not ask, <b>Insakto ba ni?</b>]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The soldier uses these questions in the interview.]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone4.flv</file_video>
+      <question dir="ltr">Which of the following food/beverage items are mentioned in the conversation?</question>
+      <choice dir="ltr" crrt="">Fruit</choice>
+      <choice dir="ltr" crrt="true">Pork - c</choice>
+      <choice dir="ltr" crrt="true">Coffee - c</choice>
+      <choice dir="ltr" crrt="true">Chicken - c</choice>
+      <hint dir="ltr"><![CDATA[The term <b>prutas</b> is not used in the conversation.]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. The soldier and Cebuano speaker mention <i>pork</i> <b>(baboy),</b> <i>chicken</i> <b>(manok),</b> and <i>coffee</i> <b>(kape).</b>]]></feedback>
+    </item>
+    <item>
+      <file_video>vb_02_01_capstone5.flv</file_video>
+      <question dir="ltr">Which of the following languages are mentioned in the conversation?</question>
+      <choice dir="ltr" crrt="true">English - c</choice>
+      <choice dir="ltr" crrt="">Tagalog</choice>
+      <choice dir="ltr" crrt="">Filipino</choice>
+      <choice dir="ltr" crrt="true">Cebuano - c</choice>
+      <hint dir="ltr"><![CDATA[The soldier is looking for someone who can speak both Cebuano and English.]]></hint>
+      <feedback dir="ltr"><![CDATA[Correct. <i>Cebuano</i> <b>(Bisaya</b> or <b>Binisaya)</b> and <i>English</i> <b>(Ingles)</b> are mentioned in the conversation.]]></feedback>
+    </item>
+
+</content>
