@@ -1,0 +1,318 @@
+#clickGuard {
+    background-color: grey;
+    height: 404px;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 589px;
+    z-index: 99;
+}
+
+#ex2PhraseTLLabel {
+    float: left;
+    font-size: 15px;
+    left: 26px;
+    position: relative;
+    top: -13px;
+    width: 435px;
+}
+
+#ex2PhraseENLabel {
+    border-top: medium solid white;
+    font-size: 12px;
+    padding-top: 15px;
+    clear: both;
+}
+
+
+#ex1PhraseTLLabel {
+    float: left;
+    font-size: 15px;
+    left: 26px;
+    position: relative;
+    top: -13px;
+    width: 435px;
+}
+
+#ex1PhraseENLabel{
+	font-size: 12px;
+}
+
+
+#phraseENLabel {
+    border-bottom: medium solid white;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+
+#itemText {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#phraseTLLabel{
+	font-size: 12px;
+}
+
+
+.itemImg{
+    background-color: grey;
+    margin-left: 6px;
+    margin-top: 13px;
+}
+
+#playBtn {
+    height: 42px;
+    left: 17px;
+    margin-top: 12px;
+    position: relative;
+    width: 42px;
+}
+
+
+#playBtnEx1 {
+	float: left;
+	width: 20px;
+}
+
+#playBtnEx2 {
+	float: left;
+	width: 20px;
+}
+
+#playBtn_ex1s1, #playBtn_ex2s1{
+	width: 25px;
+}
+
+#explanationLabel{
+	font-size: 12px;
+}
+
+#grammarLabel, #exampleLabel {
+    background-color: lightblue;
+    border: 1px solid;
+    left: 410px;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    width: 129px;
+}
+#grammar{
+	padding: 15px;
+	background-color: lightgray;
+    height: 320px;
+    position: relative;
+    width: 550px;
+   	-moz-user-select: none;
+	-webkit-user-select: none;
+	overflow: auto;
+}
+
+#main {
+	background-color: lightgray;
+    height: 350px;
+    position: relative;
+    width: 580px;
+   	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#correctBubble {
+    background-color: #A0AA5D;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    right: 75px;
+    top: 2px;
+}
+
+#questionsButton {
+	cursor:default;
+    background-color: lightgray;
+    left: 2px;
+    margin: 5px;
+    padding: 6px 3px 5px 15px;
+    position: absolute;
+    width: 159px;
+    -moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#incorrectBubble {
+    background-color: #C05C1D;
+    color: white;
+    padding: 8px;
+    position: absolute;
+    right: 75px;
+    top: 2px;
+}
+
+.hidden{
+	display: none;
+}
+
+.invisible{
+	opacity: 0;
+}
+
+#statusBar {
+    background-color: grey;
+    height: 40px;
+    margin-top: 5px;
+    position: absolute;
+    width: 580px;
+}
+
+#itemNumDiv {
+    background-color: white;
+    cursor: default;
+    height: 30px;
+    left: 7px;
+    position: absolute;
+    top: 5px;
+    width: 75px;
+    z-index: 5;
+}
+
+#itemNumLabel{
+    -moz-user-select: none;
+    bottom: 0;
+    cursor: default;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    left: 6px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 6px;
+}
+
+#itemNumText {
+    -moz-user-select: none;
+    bottom: 0;
+    cursor: default;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    left: 3px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 6px;
+}
+
+#setLabel{
+    -moz-user-select: none;
+    bottom: 0;
+    cursor: default;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    left: 6px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 6px;
+}
+
+#setDiv {
+    left: auto;
+    position: absolute;
+    right: 69px;
+    width: 75px;
+}
+
+
+#nextDiv {
+    margin-right: 5px;
+    margin-top: 7px;
+    position: absolute;
+    right: 28px;
+    top: 0;
+}
+
+
+#nextBtnLink{
+    position: absolute;
+    top: 0;	
+}
+
+#nextBtn_s1{
+	
+}
+
+
+#nextBtnClickGuard{
+    position: absolute;
+}
+
+
+#prevDiv {
+    margin-right: 5px;
+    margin-top: 7px;
+    position: absolute;
+    right: 58px;
+    top: 0;
+}
+
+
+#prevBtnLink {
+    position: absolute;
+    top: 0;
+}
+
+#prevBtn_s1{
+	
+}
+
+
+#prevBtnClickGuard {
+    position: absolute;
+}
+
+
+#prevItemDiv {
+    margin-right: 5px;
+    margin-top: 7px;
+    position: absolute;
+    left: 90px;
+    top: 0;
+}
+
+
+#prevItemBtnLink {
+    position: absolute;
+    top: 0;
+}
+
+#prevItemBtn_s1{
+	
+}
+
+
+#prevItemBtnClickGuard {
+    position: absolute;
+    display: none;
+}
+
+#nextItemDiv {
+    margin-right: 5px;
+    margin-top: 7px;
+    position: absolute;
+    left: 121px;
+    top: 0;
+}
+
+
+#nextItemBtnLink {
+    position: absolute;
+    top: 0;
+}
+
+#nextItemBtn_s1{
+	
+}
+
+#nextItemBtnClickGuard {
+    position: absolute;
+}

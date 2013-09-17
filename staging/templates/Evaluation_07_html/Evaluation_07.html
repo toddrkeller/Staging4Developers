@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+		<title>Evaluation 7 HTML</title>
+
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />  
+                
+               <link type="text/css" href="../common/css/dlilearn_custom.css" rel="stylesheet" />
+               <link type="text/css" href="../common/css/dlilearn_activities.css" rel="stylesheet" />
+               <link type="text/css" href="../common/css/bootstrap.css" rel="stylesheet" />
+
+
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_video.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+
+		<script src="Evaluation_07.js"></script>
+		<style type="text/css">
+                    #activities div {
+                    }
+
+		</style>
+
+                <script type="text/javascript">
+
+
+                </script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		<div id="activity_wrapper">    
+
+		<h3 class="activity_hd"  style="margin-left:-10px;">Evaluation 07 | Multiple Choice Image</h3>
+		<div class="activity_description">Click the Play button and listen to the TL sentence. Next, select the correct image that corresponds with the TL sentence.</div>
+                <div id="activities">
+
+                            <div id="audioBtn">
+                                 <div id="htmlAudioPlayerDiv">  </div>
+                                 <div id="flashAudioPlayerDiv">  </div>
+                                 <div id="embeddedAudioPlayerDiv">  </div>
+                                 <img  id="playBtn" class="css_playBtn" alt="play button" src="../common/img/btn_play_audio_on.png"  border="0" style="max-width:300%;"/>
+                            </div>
+                             <div id="imageDisplay">
+                                       <div>
+                                      <img class="image" alt="picture"/><span>&nbsp;</span><img class="image" alt="picture"/>
+                                       </div>
+                                       <div style="margin-top:5px;">
+                                      <img class="image" alt="picture"/><span>&nbsp;</span><img class="image" alt="picture"/>
+                                      </div>   
+
+
+                           </div>
+                           
+                          <div id="container_setDiv" class="roundCorners pull-right" style="">
+                            <div class="btn-group pull-right">
+                              <button class="btn btn_prev" id="prev" title="prev">Prev</button>
+                              <button class="btn btn_next" id="next" title="next">Next</button>
+                            </div>
+                            <div class="margin_5 pull-right">&nbsp;</div>
+                            <div class="btn-group pull-right off">
+                              <button class="btn btn_set off" id="setDiv" title="SET">SET:</button>
+                              <button class="btn btn_set_value off" id="setText" title="SET"><span id="id_stepNo">1/2</span></button>
+                            </div> 
+                          </div>  
+
+                          <div id="submit">
+                                <img src="../common/img/btn_submit.png" onclick="{checkAnswers();}"/>
+                          </div>
+
+
+
+
+
+                </div>
+
+ 		<div id="id_feedback" >
+			<div id="feedbackHeader" style="height:80px; width:500px; font-size:16pt;">Set completed</div>
+			<div id="feedbackText" style="height:100px; width:500px;">Set completed text</div>
+			<button id="feedbackBtn" class="btn pull-right" onclick="{closeFeedback();}">OK</button>
+		</div>
+
+
+                <div id="clickGuard"></div>
+                
+                
+                <p id="feedbackText2">logStudent</p>
+
+	</body>
+</html>

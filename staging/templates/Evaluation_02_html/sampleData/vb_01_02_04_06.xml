@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Cebuano" xmlns:hs="http://www.dliflc.edu/products/headstart">
+    <hs:item>
+      <hs:lang_en>11:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">ug usa ka gatos </hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">ka gatos </hs:distractor_1>
+      <hs:distractor_2 dir="ltr">ug duha ka gatos</hs:distractor_2>
+      <hs:file_input>vb_1100_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The speech is at 11:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Napulo||ug usa ka gatos||ka oras||ang||speech.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>16:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">unom ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">lima ka gatos</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">tulo ka gatos</hs:distractor_2>
+      <hs:file_input>vb_1600_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The appointment is at 16:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Napulo ug||unom ka gatos||ka oras||ang||appointment.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>23:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">ug tulo ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">ug duha ka gatos </hs:distractor_1>
+      <hs:distractor_2 dir="ltr">ka gatos </hs:distractor_2>
+      <hs:file_input>vb_2300_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The departure is at 23:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Kawhaan||ug tulo ka gatos||ka oras||ang||departure.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>20:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">kawhaan ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">napulo ug siyam </hs:distractor_1>
+      <hs:distractor_2 dir="ltr">kawhaan ug tulo ka gatos</hs:distractor_2>
+      <hs:file_input>vb_2000_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The meeting ends at 20:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Kutob||kawhaan ka gatos||ka oras||ang||meeting.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>15:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">lima ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">tulo ka gatos</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">usa ka gatos</hs:distractor_2>
+      <hs:file_input>vb_1500_hours_md.png</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>The train leaves at 15:00 sharp.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Napulo ug||lima ka gatos||ka oras||gyud||mugikan||ang||tren.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>10:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">Napulo ka gatos</hs:lang_tl>
+      <hs:word_inst>1</hs:word_inst>
+      <hs:distractor_1 dir="ltr">Napulo ug tulo ka gatos</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">Kawhaan ka gatos</hs:distractor_2>
+      <hs:file_input>vb_1000_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>Class starts at 10:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Napulo ka gatos||ka oras||musugod ang||klase.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>13:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">Napulo ug tulo </hs:lang_tl>
+      <hs:word_inst>1</hs:word_inst>
+      <hs:distractor_1 dir="ltr">Kawhaan ug duha </hs:distractor_1>
+      <hs:distractor_2 dir="ltr">Napulo ug unom </hs:distractor_2>
+      <hs:file_input>vb_1300_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>Lunch is at 13:00. </hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Napulo ug tulo||ka gatos||ka oras||ang||paniudto.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>21:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">usa ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">duha ka gatos</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">tulo ka gatos</hs:distractor_2>
+      <hs:file_input>vb_2100_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The ball is at 21:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Kawhaan ug||usa ka gatos||ka oras||ang||sayaw.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>24:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">upat ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">usa ka gatos</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">tulo ka gatos</hs:distractor_2>
+      <hs:file_input>vb_2400_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The fireworks start at 24:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Kawhaan ug||upat ka gatos||ka oras||musugod||ang||pabuto.</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>18:00</hs:lang_en>
+      <hs:lang_tl dir="ltr">walo ka gatos</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">pito ka gatos </hs:distractor_1>
+      <hs:distractor_2 dir="ltr">siyam ka gatos</hs:distractor_2>
+      <hs:file_input>vb_1800_hours_md.png</hs:file_input>
+      <hs:type>image</hs:type>
+      <hs:lang_en_phrase>The bank closes at 18:00.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Napulo ug||walo ka gatos||ka oras||tigserado||ang||bangko.</hs:lang_tl_phrase>
+    </hs:item>
+
+</hs:content>

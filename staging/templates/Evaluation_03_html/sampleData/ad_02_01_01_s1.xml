@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="MSA" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart"  rtl="true">
+  <hs:set>
+    <hs:stml_media></hs:stml_media>
+    <hs:correct_response_media>ad0001_ams.flv</hs:correct_response_media>
+    <hs:correct_response_feedback><![CDATA[You need to say, "Hello" (formal greeting). You selected, "ah-lan wa sah-lan." This is correct.]]></hs:correct_response_feedback>
+    <hs:d_1_media>ad0010_ams.flv</hs:d_1_media>
+    <hs:d_1_feedback><![CDATA[You need to say, "Hello" (formal greeting). You selected, "ismee jaan." This means, "My name is John."]]></hs:d_1_feedback>
+    <hs:d_2_media>ad0013_ams.flv</hs:d_2_media>
+    <hs:d_2_feedback><![CDATA[You need to say, "Hello" (formal greeting). You selected, "ma'a as-salaama." This means "Good-bye." ]]></hs:d_2_feedback>
+    <hs:additional_feedback><![CDATA[The correct choice is "ah-lan wa sah-lan."]]></hs:additional_feedback>
+    <hs:media_type>video</hs:media_type>
+  </hs:set>
+
+</hs:content>

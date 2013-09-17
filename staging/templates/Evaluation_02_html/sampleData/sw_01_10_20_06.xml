@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Swahili" xmlns:hs="http://www.dliflc.edu/products/headstart">
+    <hs:item>
+      <hs:lang_en>weapon</hs:lang_en>
+      <hs:lang_tl dir="ltr">silaha</hs:lang_tl>
+      <hs:word_inst>7</hs:word_inst>
+      <hs:distractor_1 dir="ltr">bastola</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">vilipukaji </hs:distractor_2>
+      <hs:file_input>sw_name_caliber_weapon.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>What is the caliber and type of the weapon?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Jina||na||kipenyo||cha||mwanzi||wa||silaha||ni||nini?
+
+
+</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>pistol</hs:lang_en>
+      <hs:lang_tl dir="ltr">Bastola</hs:lang_tl>
+      <hs:word_inst>1</hs:word_inst>
+      <hs:distractor_1 dir="ltr">Risasi</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">Kombora</hs:distractor_2>
+      <hs:file_input>sw_pistol_carried.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>Where was the pistol carried?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Bastola||ilibebewa||wapi?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>IED</hs:lang_en>
+      <hs:lang_tl dir="ltr">Vilipukaji </hs:lang_tl>
+      <hs:word_inst>1</hs:word_inst>
+      <hs:distractor_1 dir="ltr">Bunduki</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">Chemba</hs:distractor_2>
+      <hs:file_input>sw_ied_located_vehicle.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>Is this IED located in a vehicle?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Vilipukaji||viko||ndani||ya||gari?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>ammunition</hs:lang_en>
+      <hs:lang_tl dir="ltr">Risasi</hs:lang_tl>
+      <hs:word_inst>1</hs:word_inst>
+      <hs:distractor_1 dir="ltr">Kombora</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">Kiweko</hs:distractor_2>
+      <hs:file_input>sw_where_ammo_stored.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>Where is the ammunition stored?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Risasi||zimewekwa||wapi?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>mortar</hs:lang_en>
+      <hs:lang_tl dir="ltr">kombora</hs:lang_tl>
+      <hs:word_inst>10</hs:word_inst>
+      <hs:distractor_1 dir="ltr">silaha</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">bastola</hs:distractor_2>
+      <hs:file_input>sw_fire_mortar_cannon.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>Is this an indirect-fire weapon like a mortar or cannon?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Hii||ni||silaha||isiyo||dhahiri||ya||kufyatulia||shabaha||kama||kombora||au||mizinga?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>magazine</hs:lang_en>
+      <hs:lang_tl dir="ltr">Chemba</hs:lang_tl>
+      <hs:word_inst>1</hs:word_inst>
+      <hs:distractor_1 dir="ltr">Bastola</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">Risasi</hs:distractor_2>
+      <hs:file_input>sw_large_magazine.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>How large was the magazine?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Chemba||ilikuwa||na||ukubwa||gani?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>rifle</hs:lang_en>
+      <hs:lang_tl dir="ltr">bunduki</hs:lang_tl>
+      <hs:word_inst>3</hs:word_inst>
+      <hs:distractor_1 dir="ltr">kombora</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">chemba</hs:distractor_2>
+      <hs:file_input>sw_how_large_rifle.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>How large was the rifle?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Ukubwa||wa||bunduki||ulikuwa||nini?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>missile</hs:lang_en>
+      <hs:lang_tl dir="ltr">kombora</hs:lang_tl>
+      <hs:word_inst>2</hs:word_inst>
+      <hs:distractor_1 dir="ltr">kiweko</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">silaha</hs:distractor_2>
+      <hs:file_input>sw_when_observe_missile.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>Where and when did you observe the missile?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Uliona||kombora||wapi||na||lini?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>tripod</hs:lang_en>
+      <hs:lang_tl dir="ltr">kiweko</hs:lang_tl>
+      <hs:word_inst>5</hs:word_inst>
+      <hs:distractor_1 dir="ltr">bastola</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">vilipukaji </hs:distractor_2>
+      <hs:file_input>sw_weapon_mounted_tripod.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>Was the weapon mounted on a tripod?</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Silaha||ilikuwa||imepandishwa||kwa||kiweko||?</hs:lang_tl_phrase>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>grenade</hs:lang_en>
+      <hs:lang_tl dir="ltr">guruneti</hs:lang_tl>
+      <hs:word_inst>3</hs:word_inst>
+      <hs:distractor_1 dir="ltr">risasi</hs:distractor_1>
+      <hs:distractor_2 dir="ltr">kombora</hs:distractor_2>
+      <hs:file_input>sw_this_is_grenade.flv</hs:file_input>
+      <hs:type>video</hs:type>
+      <hs:lang_en_phrase>This is a grenade.</hs:lang_en_phrase>
+      <hs:lang_tl_phrase dir="ltr">Hili||ni||guruneti||.</hs:lang_tl_phrase>
+    </hs:item>
+
+</hs:content>

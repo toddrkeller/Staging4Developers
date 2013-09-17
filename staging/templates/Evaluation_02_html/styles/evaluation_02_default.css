@@ -1,0 +1,165 @@
+#main{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#item_container0{
+	height: 210px;
+    left: 18px;
+    position: absolute;
+    top: 5px;
+    width: 660px;
+	border: 1px #dddddd solid;
+    background-color: #eeeeee;
+	
+}
+#item_container1{
+	height: 210px;
+    left: 18px;
+    position: absolute;
+    top: 225px;
+    width: 660px;
+	border: 1px #dddddd solid;
+    background-color: #eeeeee;
+}
+.qtext{
+	position: relative;
+	float: left;
+	left:5px;
+	top: 20px;
+	width:440px;
+	height: 200px;
+	
+}
+.qinput{
+	position: relative;
+	float: left;
+	top: 5px;
+	width:210px;
+	height: 200px;
+	text-align: center;
+}
+.qpic{
+	padding: 20px 10px 0px 15px;
+}
+#videoContainer1, #videoContainer2{
+    background-color: grey;
+    height: 150px;
+    left: 5px;
+	top:20px;
+    position: absolute;
+    width: 200px;
+}
+.videoScreen{
+    width: 200px;
+    height:150px;
+    margin: 0px 0px 0px 0px;
+}
+.playBtn {
+    width: 30px;
+    position: absolute;
+}
+
+#playBtnVid1, #playBtnVid2{
+    top: 120px;	
+    position: absolute;
+    left: 8px;
+    cursor: pointer;
+}
+
+.qWord{
+	position: relative;
+	float: left;
+	font-size: 18px;
+	padding-bottom:10px;
+}
+.dropdownMenu{
+	position: relative;
+	float: left;
+}
+.dropdownMenu select{
+	font-size: 18px;
+}
+#id_submitBtn{
+	visibility: hidden;
+}
+#feedback {
+    top: 190px;
+}
+
+.itemCompleted{
+	border: 3px solid darkGrey;
+	background-color: darkGrey;
+}
+
+.itemNotCompleted{
+	border: 3px solid lightGrey;
+	background-color: lightGrey;
+}
+
+
+
+#clickGuard{
+	height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    opacity: .2;
+    background-color: #ffffff;
+}
+.roundCorners{
+	border-radius: 3px 3px 3px 3px;
+}
+
+#container_setDiv{
+	position:absolute;
+	left: 18px;
+	top: 443px;
+    width: 660px;
+    height: 40px;
+    margin: 5px;
+    background-color: #f6f6f6;
+}
+#setDiv {
+	left: 610px;
+	z-index:5;
+	height: 30px;
+	background-color: white;
+	width: 40px;
+	position: relative;
+	top: 5px;
+	color:#080808;
+}
+#id_submitBtn{
+	position:absolute;
+	width: 27px;
+	left: 40px;
+	top:7px;
+	z-index:12;
+	color:#666666;
+	display: inline;
+}
+#nextDiv {
+	position:absolute;
+	width:27px;
+	height:27px;
+	z-index:11;
+	left: 575px;
+	top: 7px;
+}
+#prevDiv {
+	position:absolute;
+	width:27px;
+	height:27px;
+	z-index:11;
+	left: 545px;
+	top: 7px;
+}
+
+#setText {
+	left:3px;
+}
+#setDiv{
+	width: 45px;
+	padding-right: 3px;
+}

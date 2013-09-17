@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Cebuano" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <hs:set>
+    <hs:stml_media>vb_wound_was_cleaned_2.flv</hs:stml_media>
+    <hs:stml_en>The wound was cleaned.  </hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>The wound was cleaned.  </hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>The caregiver gives first aid.</hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>The doctor removes the tourniquet.</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The wound was cleaned.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_dr_evaluates_head_trauma_2.flv</hs:stml_media>
+    <hs:stml_en>The doctor evaluates the head trauma.</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>The doctor evaluates the head trauma.</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>Call for the evacuation team!</hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>Call the medic!</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The burn was treated.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_bandage_was_applied_2.flv</hs:stml_media>
+    <hs:stml_en>The bandage was applied.</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>The bandage was applied.</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>The bleeding was stopped.              </hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>The wound was cleaned.  </hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The bandage was applied.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_look_after_fainted_2.flv</hs:stml_media>
+    <hs:stml_en>Look after the one who fainted!</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>Look after the one who fainted!</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>We need to call the medic now.</hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>The evacuation team is getting ready.</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The one who fainted was rushed to the hospital.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_broken_bone_detected_2.flv</hs:stml_media>
+    <hs:stml_en>The broken bone was detected.</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>The broken bone was detected.</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>He went to check his pulse. </hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>Apply a bandage!</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The broken bone was detected.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_assistant_takes_pulse_2.flv</hs:stml_media>
+    <hs:stml_en>The assistant takes the soldier's pulse. </hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>The assistant takes the soldier's pulse. </hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>Find any medic.</hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>The doctor evaluates the head trauma.</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The assistant takes the soldier's pulse.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_find_medic_2.flv</hs:stml_media>
+    <hs:stml_en>Find any medic.</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>Find any medic.</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>Two soldiers fainted from dehydration. </hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>The nurse adjusts the splint.</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>Find any medic.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_call_evac_team_now_2.flv</hs:stml_media>
+    <hs:stml_en>Call the evacuation team now.</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>Call the evacuation team now.</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>The heart attack was monitored.</hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>The bleeding was stopped.              </hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>Call the evacuation team now.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_doctor_calms_patient_2.flv</hs:stml_media>
+    <hs:stml_en>The doctor calms the patient. </hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>The doctor calms the patient. </hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>Making a tourniquet saved his life. </hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>Two civilians were among the casualties.</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>The doctor calms the patient.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+  <hs:set>
+    <hs:stml_media>vb_having_heart_attack_2.flv</hs:stml_media>
+    <hs:stml_en>He is having a heart attack.</hs:stml_en>
+    <hs:correct_response_media></hs:correct_response_media>
+    <hs:correct_response_en>He is having a heart attack.</hs:correct_response_en>
+    <hs:d_1_media></hs:d_1_media>
+    <hs:d_1_en>The nurse calms the patient.</hs:d_1_en>
+    <hs:d_2_media></hs:d_2_media>
+    <hs:d_2_en>We stopped the bleeding.</hs:d_2_en>
+    <hs:additional_feedback>The correct answer is: <i>He monitors the heart attack.</i></hs:additional_feedback>
+    <hs:media_type>audio</hs:media_type>
+  </hs:set>
+
+</hs:content>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="MSA" xmlns:hs="http://www.dliflc.edu/products/headstart"  rtl="true">
+    <hs:set>
+      <hs:stml_media>ad0006_ams.flv</hs:stml_media>
+      <hs:stml_en>How are you?</hs:stml_en>
+      <hs:correct_response_media>ad0007_ems.flv</hs:correct_response_media>
+      <hs:correct_response_en>I'm fine, thanks, and you?</hs:correct_response_en>
+      <hs:d_1_media>ad0008_ems.flv</hs:d_1_media>
+      <hs:d_1_en>Praise Allah.</hs:d_1_en>
+      <hs:d_2_media>ad0014_ems.flv</hs:d_2_media>
+      <hs:d_2_en>See you later.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>ad0009_ems.flv</hs:stml_media>
+      <hs:stml_en>What's your name?</hs:stml_en>
+      <hs:correct_response_media>ad0010_ams.flv</hs:correct_response_media>
+      <hs:correct_response_en>My name is John.</hs:correct_response_en>
+      <hs:d_1_media>ad0013_ams.flv</hs:d_1_media>
+      <hs:d_1_en>Good-bye.</hs:d_1_en>
+      <hs:d_2_media>ad0004_ams.flv</hs:d_2_media>
+      <hs:d_2_en>How is your health?</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>ad0013_ams.flv</hs:stml_media>
+      <hs:stml_en>Good-bye.</hs:stml_en>
+      <hs:correct_response_media>ad0015_ems.flv</hs:correct_response_media>
+      <hs:correct_response_en>See you tomorrow.</hs:correct_response_en>
+      <hs:d_1_media>ad0012_ems.flv</hs:d_1_media>
+      <hs:d_1_en>Welcome.</hs:d_1_en>
+      <hs:d_2_media>ad0003_ems.flv</hs:d_2_media>
+      <hs:d_2_en>Good morning.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>ad0011_ems.flv</hs:stml_media>
+      <hs:stml_en>Nice to meet you.</hs:stml_en>
+      <hs:correct_response_media></hs:correct_response_media>
+      <hs:correct_response_en>Nice to meet you.</hs:correct_response_en>
+      <hs:d_1_media></hs:d_1_media>
+      <hs:d_1_en>Welcome.</hs:d_1_en>
+      <hs:d_2_media></hs:d_2_media>
+      <hs:d_2_en>Good evening.</hs:d_2_en>
+    </hs:set>
+    <hs:set>
+      <hs:stml_media>ad0004_ams.flv</hs:stml_media>
+      <hs:stml_en>How is your health?</hs:stml_en>
+      <hs:correct_response_media></hs:correct_response_media>
+      <hs:correct_response_en>How is your health?</hs:correct_response_en>
+      <hs:d_1_media></hs:d_1_media>
+      <hs:d_1_en>Hello (formal greeting).</hs:d_1_en>
+      <hs:d_2_media></hs:d_2_media>
+      <hs:d_2_en>Good-bye.</hs:d_2_en>
+    </hs:set>
+
+</hs:content>
