@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content target_language="Farsi"
+	xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+	<set>
+		<grammar_note>
+			<explanation>ex 1 In order to politely request food or drink, use the phrase: In order to politely request food or drink, use the phrase: In order to politely request food or drink, </explanation>
+			<phrase_TL dir="ltr">phrase tl 1 TL Sample text input TL Sample text input TL Sample text </phrase_TL>
+			<phrase_EN>phrase en 1 Sample text input .... Sample text input .... </phrase_EN>
+		</grammar_note>
+		<items>
+			<item>
+				<keyword_TL dir="ltr">TL_1</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_1 TL Sample text input TL_1 TL Sample text </phrase_complete_TL>
+				<phrase_EN>Sample text input 1. Sample text input rice. Sample text input rice. Sample text input rice.</phrase_EN>
+				<object_audio>1.mp3</object_audio>
+				<image_color>1.png</image_color>
+				<image_grey>grey/1.png</image_grey>
+				<feedback><![CDATA[Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. Testing 1 2 3. ]]></feedback>
+			</item>
+			<item>
+				<keyword_TL dir="ltr">TL_2</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_2</phrase_complete_TL>
+				<phrase_EN>Sample text input 2.</phrase_EN>
+				<object_audio>2.mp3</object_audio>
+				<image_color>2.png</image_color>
+				<image_grey>grey/2.png</image_grey>
+				<feedback><![CDATA[Feedback for 2]]></feedback>
+			</item>
+			<item>
+				<keyword_TL dir="ltr">TL_3</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_3</phrase_complete_TL>
+				<phrase_EN>Sample text input 3.</phrase_EN>
+				<object_audio>3.mp3</object_audio>
+				<image_color>3.png</image_color>
+				<image_grey>grey/3.png</image_grey>
+				<feedback><![CDATA[Feedback for 3]]></feedback>
+			</item>
+			<item>
+				<keyword_TL dir="ltr">TL_4</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_4</phrase_complete_TL>
+				<phrase_EN>Sample text input 4.</phrase_EN>
+				<object_audio>4.mp3</object_audio>
+				<image_color>4.png</image_color>
+				<image_grey>grey/4.png</image_grey>
+				<feedback><![CDATA[Feedback for 4]]></feedback>
+			</item>
+			<item>
+				<keyword_TL dir="ltr">TL_5</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_5.</phrase_complete_TL>
+				<phrase_EN>Sample text input 5.</phrase_EN>
+				<object_audio>5.mp3</object_audio>
+				<image_color>5.png</image_color>
+				<image_grey>grey/5.png</image_grey>
+				<feedback><![CDATA[Feedback for cheese]]></feedback>
+			</item>
+		</items>
+	</set>
+<!--	<set>
+		<grammar_note>
+			<explanation>ex 2 Set 2 In order to politely request food or drink, use the phrase:</explanation>
+			<phrase_TL dir="ltr">phrase tl 2 Set 2 TL Sample text input </phrase_TL>
+			<phrase_EN>phrase en 2 Set 2 Sample text input ....</phrase_EN>
+		</grammar_note>
+		<items>
+			<item>
+				<keyword_TL dir="ltr">TL_11</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_11</phrase_complete_TL>
+				<phrase_EN>Sample text input 11.</phrase_EN>
+				<object_audio>11.mp3</object_audio>
+				<image_color>11.png</image_color>
+				<image_grey>grey/11.png</image_grey>
+				<feedback><![CDATA[Feedback for 11]]></feedback>
+			</item>
+			<item>
+				<keyword_TL dir="ltr">TL_12</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_12</phrase_complete_TL>
+				<phrase_EN>Sample text input 12.</phrase_EN>
+				<object_audio>12.mp3</object_audio>
+				<image_color>12.png</image_color>
+				<image_grey>grey/12.png</image_grey>
+				<feedback><![CDATA[Feedback for 12]]></feedback>
+			</item>
+			
+			<item>
+				<keyword_TL dir="ltr">TL_13</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_13</phrase_complete_TL>
+				<phrase_EN>Sample text input 13.</phrase_EN>
+				<object_audio>13.mp3</object_audio>
+				<image_color>13.png</image_color>
+				<image_grey>grey/13.png</image_grey>
+				<feedback><![CDATA[Feedback for 13]]></feedback>
+			</item>
+			<item>
+				<keyword_TL dir="ltr">TL_14</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_14</phrase_complete_TL>
+				<phrase_EN>Sample text input 14.</phrase_EN>
+				<object_audio>14.mp3</object_audio>
+				<image_color>14.png</image_color>
+				<image_grey>grey/14.png</image_grey>
+				<feedback><![CDATA[Feedback for 14]]></feedback>
+			</item>
+		<item>
+				<keyword_TL dir="ltr">TL_15</keyword_TL>
+				<phrase_complete_TL dir="ltr">TL Sample text input TL_15.</phrase_complete_TL>
+				<phrase_EN>Sample text input 15.</phrase_EN>
+				<object_audio>15.mp3</object_audio>
+				<image_color>15.png</image_color>
+				<image_grey>grey/15.png</image_grey>
+				<feedback><![CDATA[Feedback for 15]]></feedback>
+			</item>
+		</items>
+</set>-->
+</content>

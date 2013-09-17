@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<title>Enabling 27 HTML</title>
+
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+        
+        <link type="text/css" href="../common/css/dlilearn_activities.css" rel="stylesheet" />
+
+		<script src="Enabling_27.js"></script>
+	</head>
+	<body>
+		<div id="flashAudioPlayerDiv"></div>
+		<div id="htmlAudioPlayerDiv"></div>
+		<div id="embeddedAudioPlayerDiv"></div>
+
+		<h3 class="activity_hd">Enabling 27 |
+		(paintbrush/become familiar with TL colors)</h3>
+		<div class="activity_description">
+			Click on a color to hear the color
+			in the target language. Click in the image where the color
+			belongs.
+		</div>
+
+		<div id="main">
+			<div id="leftContainer" class="concave">
+				<div id="dropContainer">
+					<div id="imageContainer">
+						<img id="wholeImage" />
+						<div id="canvasFragments">
+							<!--<canvas id="can1" class="invisible"></canvas>
+							<canvas id="can2" class="invisible"></canvas>
+							<canvas id="can3" class="invisible"></canvas>
+							<canvas id="can4" class="invisible"></canvas>
+							<canvas id="can5" class="invisible"></canvas>-->
+						</div>
+						<img id="outline" />
+					</div>
+				</div>
+
+				<div id="labelContainer">
+					<div id="playBtn0" class="playBtn">
+						<a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)"
+						onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1);playBtnClick();"
+						onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)"
+						onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" > <img id="playBtn_s1"   src="../common/Library/images/playBtn_s1.png" border="0"> </a>
+					</div>
+
+					<div id="labelText"></div>
+				</div>
+			</div>
+		
+			<div id="right_col">
+				<div id="dragBubbles">
+					<!--<div id="dragBubble_1" class="dragBubble roundCorners" >
+					<span id="dragBubbleText_1" class="dragBubbleText">One</span>
+					</div>
+
+					<div id="dragBubble_2" class="dragBubble roundCorners" >
+					<span id="dragBubbleText_2" class="dragBubbleText">Two</span>
+					</div>
+
+					<div id="dragBubble_3" class="dragBubble roundCorners" >
+					<span id="dragBubbleText_3" class="dragBubbleText">Three</span>
+					</div>
+					<div id="dragBubble_4" class="dragBubble roundCorners" >
+					<span id="dragBubbleText_4" class="dragBubbleText">Four</span>
+					</div>
+
+					<div id="dragBubble_5" class="dragBubble roundCorners" >
+					<span id="dragBubbleText_5" class="dragBubbleText">Five</span>
+					</div>	-->
+				</div>
+
+				<div id="feedback" class="convex" >
+					<h2 id="feedbackHeader">Set completed</h2>
+					<p id="feedbackText">
+						Set completed text
+					</p>
+					<button id="feedbackBtn" onclick="{closeFeedback();}">
+						OK
+					</button>
+				</div>
+
+				<div id="stageClickGuard"></div>
+
+				<div id="pageBtns">
+					<div id="nextDiv">
+						<a id="nextBtnLink" href="javascript:;" onMouseOut="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s1.png',1)"
+						onMouseDown="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s3.png',1);nextClick();"
+						onMouseUp="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s2.png',1)"
+						onMouseOver="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" > <img  id="nextBtn_s1" src="../common/Library/images/nextBtn_s1.png" border="0"> </a>
+						<img id="nextBtnClickGuard" src="../common/Library/images/nextBtn_s3.png" border="0">
+					</div>
+
+					<div id="prevDiv">
+						<a  id="prevBtnLink"  href="javascript:;" onMouseOut="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s1.png',1)"
+						onMouseDown="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s3.png',1);prevClick();"
+						onMouseUp="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s2.png',1)"
+						onMouseOver="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" > <img  id="prevBtn_s1" src="../common/Library/images/prevBtn_s1.png" border="0"> </a>
+						<img id="prevBtnClickGuard" src="../common/Library/images/prevBtn_s3.png" border="0">
+					</div>
+				</div>
+				
+				<div id="container_setDiv" class="roundCorners btn-group noSelect">
+					<div id="setDiv" class="roundCorners">
+						<div id="setTitle" class="bootstrapLabel btn_set noSelect">
+							SET:
+						</div>
+						<span id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</span>
+					</div>
+				</div>
+			</div>
+
+		<div id="snippets" class="hidden">
+			<div id="dragBubble_id" class="[dragBubble] roundCorners" >
+				<span id="dragBubbleText_textId" class="[dragBubbleText]">Snip</span>
+			</div>
+		</div>
+<!--
+
+-->		
+	</body>
+</html>

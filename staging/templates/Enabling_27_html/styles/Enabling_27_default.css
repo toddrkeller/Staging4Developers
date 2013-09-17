@@ -1,0 +1,156 @@
+canvas{
+	left: 0;
+    position: absolute;
+    top: 0;
+}
+
+#canvasFragments{
+	
+}
+
+#wholeImage{
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.hidden{
+	display:none;
+}
+
+.invisible{
+	opacity: 0;
+}
+
+#output{
+	position: absolute;
+}
+
+#nextDiv{
+	float: right;
+	margin-top: 7px;
+	margin-right: 7px;
+}
+
+#nextBtnLink{
+	
+}
+
+#nextBtn_s1{
+	
+}
+
+#prevDiv{
+	float: right;
+	margin-top: 7px;
+	margin-right: 5px;
+}
+
+#prevBtnLink{
+	
+}
+
+#prevBtn_s1{
+	
+}
+
+#setDiv {
+    left: 7px;
+}
+
+#nextBtnClickGuard{
+    display: block;
+    position: absolute;
+    top: 8px;
+}
+
+#prevBtnClickGuard{
+    display: block;
+    position: absolute;
+    top: 8px;
+}
+
+#labelContainer {
+    top: 225px;
+    left: 30px;
+    position: absolute;
+}
+
+#labelText {
+	cursor: default;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    -moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#playBtn0 {
+    float: left;
+}
+
+#imageContainer {
+    top: 10px;
+    left: 21%;
+    position: absolute;
+}
+
+
+#dropContainer {
+    height: 359px;
+    left: 27px;
+    position: absolute;
+    top: 10px;
+    width: 571px;
+}
+
+.dragBubbleText {
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 100%;
+}
+
+.dragBubble {
+    cursor: pointer;
+    float: left;
+    height: 81px;
+    margin-left: 5px;
+    margin-top: 2px;
+    width: 84px;
+}
+
+
+#dragBubbles {
+    height: 91px;
+    left: 23px;
+    position: absolute;
+    top: 275px;
+    width: 578px;
+}
+
+
+
+
+#stageClickGuard {
+    background-color: grey;
+    height: 95px;
+    left: 19px;
+    opacity: 0;
+    position: absolute;
+    top: 272px;
+    width: 586px;
+}
+
+
+#startButton {
+	cursor:default;
+    background-color: lightgray;
+    left: 404px;
+    margin: 5px;
+    padding: 6px 3px 5px 15px;
+    position: absolute;
+    width: 61px;
+    -moz-user-select: none;
+	-webkit-user-select: none;
+}

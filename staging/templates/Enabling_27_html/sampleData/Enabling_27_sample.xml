@@ -1,0 +1,132 @@
+<content>
+    <!--<colors>
+        <color source="redbubble.png"   audio="1.mp3" dir="ltr" icon="red"><![CDATA[ red1]]></color>
+        <color source="bluebubble.png"  audio="2.mp3" dir="ltr" icon="blue"><![CDATA[ blue2]]></color>
+        <color source="greenbubble.png"  audio="3.mp3" dir="ltr" icon="green"><![CDATA[ green3 ]]></color>
+        <color source="whitebubble.png"  audio="4.mp3" dir="ltr" icon="white"><![CDATA[ white4 ]]></color>
+        <color source="yellowbubble.png"  audio="5.mp3" dir="ltr" icon="yellow"><![CDATA[ yellow5 ]]></color>
+        <color source="brownbubble.png"  audio="6.mp3" dir="ltr" icon="brown"><![CDATA[ brown6 ]]></color>
+        <color source="blackbubble.png" labelColor="#ffffff" audio="7.mp3" dir="ltr" icon="black"><![CDATA[ black7 ]]></color>
+        <color source="orangebubble.png"  audio="8.mp3" dir="ltr" icon="orange"><![CDATA[ orange8 ]]></color>
+ 	</colors>-->
+	 <colors>
+	        <color source="icon_paint_red.png"   audio="1.mp3" dir="ltr" icon="red"><![CDATA[ red1]]></color>
+	        <color source="icon_paint_blue.png"  audio="2.mp3" dir="ltr" icon="blue"><![CDATA[ blue2]]></color>
+	        <color source="icon_paint_green.png"  audio="3.mp3" dir="ltr" icon="green"><![CDATA[ green3 ]]></color>
+	        <color source="icon_paint_white.png"  audio="4.mp3" dir="ltr" icon="white"><![CDATA[ white4 ]]></color>
+	        <color source="icon_paint_yellow.png"  audio="5.mp3" dir="ltr" icon="yellow"><![CDATA[ yellow5 ]]></color>
+	        <color source="icon_paint_brown.png"  audio="6.mp3" dir="ltr" icon="brown"><![CDATA[ brown6 ]]></color>
+	        <color source="icon_paint_black.png" labelColor="#ffffff" audio="7.mp3" dir="ltr" icon="black"><![CDATA[ black7 ]]></color>
+	        <color source="icon_paint_orange.png"  audio="8.mp3" dir="ltr" icon="orange"><![CDATA[ orange8 ]]></color>
+	 </colors>
+ 
+ 
+    <set audio="11.mp3">
+        <label dir="ltr"><![CDATA[ 일본 ]]></label>
+        <outline source="flag_japan_outline.png"></outline>
+        <background source="flag_japan_background.png"></background>
+        <maps>
+            <map name="img1Map">
+                <icon>red</icon>
+                <image source="flag_japan_red.png"></image>
+            </map>
+            <map name="img2Map">
+                <icon>white</icon>
+                <image source="flag_japan_white.png"></image>
+            </map>
+            <map name="img3Map">
+                <icon>green</icon>
+            </map>
+            <map name="img4Map">
+                <icon>yellow</icon>
+            </map>
+            <map name="img5Map">
+                <icon>orange</icon>
+            </map>
+        </maps>
+    </set>
+   <set  audio="12.mp3">
+       <label dir="ltr"><![CDATA[ 중국 ]]></label>
+        <outline source="flag_china_outline.png"></outline>
+        <background source="flag_china_background.png"></background>
+        <maps>
+            <map name="img1Map" >
+                <icon>red</icon>
+                <image source="flag_china_red.png"></image>
+            </map>
+            <map name="img2Map">
+                <icon>yellow</icon>
+                <image source="flag_china_yellow.png"></image>
+            </map>
+            <map name="img3Map" >
+                <icon>white</icon>
+            </map>
+            <map name="img4Map">
+                <icon>green</icon>
+            </map>
+            <map name="img5Map">
+                <icon>blue</icon>
+            </map>
+            <map name="img6Map">
+                <icon>black</icon>
+            </map>
+        </maps>
+    </set>
+    <set audio="13.mp3">
+        <label dir="ltr"><![CDATA[ 한국 ]]></label>
+        <outline source="flag_southkorea_outline.png"></outline>
+        <background source="flag_southkorea_background.png"></background>
+        <maps>
+            <map name="img1Map" >
+                <icon>red</icon>
+                <image source="flag_southkorea_red.png"></image>
+            </map>
+            <map name="img2Map" completed="true">
+                <icon>blue</icon>
+                <image source="flag_southkorea_blue.png"></image>
+            </map>
+            <map name="img3Map">
+                <icon>white</icon>
+                <image source="flag_southkorea_white.png"></image>
+            </map>
+            <map name="img4Map">
+                <icon>black</icon>
+                <image source="flag_southkorea_black.png"></image>
+            </map>
+            <map name="img5Map">
+                <icon>brown</icon>
+            </map>
+            <map name="img6Map">
+                <icon>orange</icon>
+            </map>
+        </maps>
+    </set>
+    <set audio="14.mp3">
+        <label dir="ltr"><![CDATA[ 북한 ]]></label>
+        <outline source="flag_northkorea_outline.png"></outline>
+        <background source="flag_northkorea_background.png"></background>
+        <maps>
+            <map name="img1Map" >
+                <icon>red</icon>
+                <image source="flag_northkorea_red.png"></image>
+            </map>
+            <map name="img2Map" completed="true">
+                <icon>blue</icon>
+                <image source="flag_northkorea_blue.png"></image>
+            </map>
+            <map name="img3Map">
+                <icon>white</icon>
+                <image source="Flag_northkorea_white.png"></image>
+            </map>
+            <map name="img4Map">
+                <icon>black</icon>
+            </map>
+            <map name="img5Map">
+                <icon>brown</icon>
+            </map>
+            <map name="img6Map">
+                <icon>orange</icon>
+            </map>
+        </maps>
+    </set>
+</content>

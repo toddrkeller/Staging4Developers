@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+		<title>Enabling 38 HTML</title>
+
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<link href="../common/css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		<script src="../common/js/jquery.mCustomScrollbar.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_video.js"></script>
+		<script src="../common/js/dli_audio.js"></script>
+
+		<script src="Enabling_38.js"></script>
+		<style type="text/css">
+                    #displaySection div {
+                        float: left;
+                    }
+
+                    #activitySection div {
+                        float: left;
+                    }
+
+		</style>
+
+        
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+		<h3 class="activity_hd">Enabling 38</h3>
+		<div class="activity_description">Click the play button to listen to the passage, then click the play button next to the "SELECT". Click the "SELECT" button and the click the appropriate text. Click the Prev/Next buttons to move between sets.
+		</div>
+		<div id="main">
+			<div id="displaySection" class="roundCorners" >
+				<div id="imageDisplay" style="float:left;">
+					<div id="image_placeholder" style="margin-left:10px; margin-top: 10px; height:120px; width:160px; border:1px white solid">
+						<img id="main_image" alt="picture"/>
+					</div>
+				</div>			
+				<div id="playBtnContainer_dummy"></div>
+				<div id="playBtnContainer">                                       
+					<img  id="playBtn" class="playBtn" alt="play button" src="../common/img/btn_play_sm_off.png"  border="0">
+				</div>                                
+
+				
+				<div id="textDisplay">
+					<div id="main_text">
+					</div>
+				</div>
+			</div>
+
+
+			<div id="activitySection" style="width:640px;height:250px;margin-top:10px">
+				  <div id="item_1" class="item_div">
+					  <div class="audioBox">
+					  <div id="playBtn0" class="playBtn"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)"
+			   onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1)"
+			   onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1);"
+			   onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" >
+			   <img id="playBtn_s0"   src="../common/Library/images/playBtn_s1.png" border="0"></a>
+						   </div>
+					  </div>
+					  <div class="selectBox" id="sel_0">SELECT</div>
+					  <div class="textBox38"   id="txt_0">text box</div>
+				  </div>   <br /> <br />
+				  <div id="item_2" class="item_div">
+					  <div class="audioBox">
+						  <div id="playBtn1" class="playBtn"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)"
+			   onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1)"
+			   onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1);"
+			   onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" >
+			   <img id="playBtn_s1"   src="../common/Library/images/playBtn_s1.png" border="0"></a>
+						  </div>
+					  </div>
+					  <div class="selectBox" id="sel_1">SELECT</div>
+					  <div class="textBox38"   id="txt_1">text box</div>
+				  </div>   <br />  <br />
+				  <div id="item_3" class="item_div">
+					  <div class="audioBox">
+						  <div id="playBtn2" class="playBtn"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)"
+			   onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1)"
+			   onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1);"
+			   onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" >
+			   <img id="playBtn_s2"   src="../common/Library/images/playBtn_s1.png" border="0"></a>
+						  </div>
+					  </div>
+					  <div class="selectBox" id="sel_2">SELECT</div>
+					  <div class="textBox38"   id="txt_2">text box</div>
+				  </div>  <br />  <br />
+				  <div id="item_4" class="item_div">
+					  <div class="audioBox">
+						  <div id="playBtn3" class="playBtn"> <a href="javascript:;" onMouseOut="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s1.png',1)"
+			   onMouseDown="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s3.png',1)"
+			   onMouseUp="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1);"
+			   onMouseOver="MM_swapImage('playBtn_s1','','../common/Library/images/playBtn_s2.png',1)" >
+			   <img id="playBtn_s3"   src="../common/Library/images/playBtn_s1.png" border="0"></a>
+						  </div>
+					  </div>
+					  <div class="selectBox"  id="sel_3">SELECT</div>
+					  <div class="textBox38"    id="txt_3">text box</div>
+				  </div>
+			</div>
+			<div id="feedback_dummy"></div>
+			<div id="feedback_en38" >
+				<h4 id="feedbackHeader">Set completed</h4>
+				<div id="feedbackText">Set completed text</div>
+				<button id="feedbackBtn" onclick="{closeFeedback();}">OK</button>
+			</div>
+			<div id="container_setDiv" class="roundCorners noSelect" >
+				<div id="id_setDiv" class="roundCorners">
+					<div id="setTitle" class="bootstrapLabel btn_set noSelect">SET</div>
+					<div id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</div>				
+				</div>
+				<div id="id_prev_next_div" class="btn-group">
+					<button class="btn btn_prev" id="prevBtn" title="prev" onclick="prevClick()">< Prev</button>
+					<button class="btn btn_next" id="nextBtn" title="next" onclick="nextClick()">Next ></button>
+				</div>			
+			</div>	
+			<div id="activityGuard"></div>
+			<div id="txtGuard"></div>			
+		</div>
+
+			
+		<div id="clickGuard"></div>
+		<div id="submit" style="display:none">
+			  <button onclick="{checkAnswers();}">Submit</button>
+		</div>
+		<div id="htmlAudioPlayerDiv">  </div>
+		<div id="flashAudioPlayerDiv">  </div>
+		<div id="embeddedAudioPlayerDiv">  </div>
+	</body>
+</html>

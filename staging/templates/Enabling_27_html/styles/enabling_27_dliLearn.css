@@ -1,0 +1,340 @@
+.noSelect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;          
+}
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    float: left;
+    font-size: 14px;
+    margin-left: 0;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+#setText {
+    border-radius: 0 4px 4px 0;
+    bottom: auto;
+    font-size: 14px;
+    height: 20px;
+    left: 0;
+    padding-right: 7px;
+    padding-top: 7px;
+    position: relative;
+    top: 0;
+    width: 29px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f7f7f7;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#container_setDiv {
+    background-color: transparent;
+    cursor: default;
+    float: left;
+    height: 40px;
+    margin: 15px 0 0 5px;
+    position: static;
+    width: 365px;
+}
+#setDiv {
+    background-color: #f7f7f7;
+    cursor: default;
+    height: 30px;
+	float: right;
+    position: relative;
+    top: 0px;
+    width: 115px;
+    z-index: 0;
+}
+#clickGuard {
+    background-color: grey;
+    display: none;
+    height: 353px;
+    left: -11px;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    width: 191px;
+    z-index: 166;
+}
+.activity_description {
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+    margin-left: 26px;
+    margin-top: -19px;
+}
+.activity_hd {
+    color: grey;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: 4px;
+}
+html body {
+    background-color: #f7f7f7;
+    color: #444444;
+    font-family: 'FuturaMedium';
+    letter-spacing: 2px;
+    line-height: 20px;
+    position: absolute;
+}
+.roundCorners {
+    border-radius: 0 0 0 0;
+}
+.divBtn {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border: thin solid #BDBDBD;
+    box-shadow: 0 2px 2px #BDBDBD;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    margin: 13px 2px 2px 19px;
+    width: 180px;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #f7f7f7;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    margin: 13px 0 0 20px;
+    max-height: 170px;
+    min-height: 170px;
+    padding: 20px;
+    position: absolute;
+    top: 177px;
+    width: 300px;
+    z-index: 0;
+}
+#feedbackHeader {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -13px;
+}
+#feedbackText {
+    margin-top: -13px;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 26px;
+}
+#pageBtns {
+    display: none;
+    float: left;
+    width: 100px;
+}
+#outline {
+}
+#right_col {
+    height: 436px;
+    left: 532px;
+    position: relative;
+    width: 370px;
+}
+#leftContainer {
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #f7f7f7;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD inset;
+    float: left;
+    height: 400px;
+    left: 15px;
+    position: relative;
+    width: 505px;
+	padding: 0px !important;
+}
+canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+	border-radius: 3px;
+	border: solid thin grey;
+}
+#canvasFragments {
+	border-radius: 3px;
+}
+#wholeImage {
+    left: 0;
+    position: absolute;
+    top: 0;
+	border-radius: 3px;
+}
+.hidden {
+    display: none;
+	border-radius: 3px;
+}
+.invisible {
+    opacity: 0;
+	border-radius: 3px;
+}
+#output {
+    position: absolute;
+	border-radius: 3px;
+}
+#nextDiv {
+    float: left;
+    height: 28px;
+    left: 51px;
+    top: 11px;
+    width: 28px;
+}
+#nextBtnLink {
+}
+#nextBtn_s1 {
+}
+#prevDiv {
+    float: left;
+    height: 28px;
+    left: 17px;
+    width: 28px;
+}
+#prevBtnLink {
+}
+#prevBtn_s1 {
+}
+#nextBtnClickGuard {
+    display: block;
+    position: relative;
+    top: -30px;
+}
+#prevBtnClickGuard {
+    display: block;
+    position: relative;
+    top: -30px;
+}
+#labelContainer {
+    left: 8px;
+    position: absolute;
+    top: 340px;
+}
+#labelText {
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    cursor: default;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#playBtn0 {
+    float: left;
+}
+#imageContainer {
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+#dropContainer {
+    height: 348px;
+    position: absolute;
+    top: 0;
+    width: 527px;
+}
+.dragBubbleText {
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 100%;
+}
+.dragBubble {
+    cursor: pointer;
+    float: left;
+    height: 86px;
+    margin-left: 22px;
+    margin-top: 3px;
+    width: 87px;
+}
+#dragBubbles {
+    height: 171px;
+    margin: 0 0 0 16px;
+    position: absolute;
+    top: 0;
+    width: 341px;
+}
+#stageClickGuard {
+    background-color: grey;
+    height: 95px;
+    left: 19px;
+    opacity: 0;
+    position: absolute;
+    top: 272px;
+    width: 586px;
+}
+#startButton {
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    background-color: lightgray;
+    cursor: default;
+    left: 404px;
+    margin: 5px;
+    padding: 6px 3px 5px 15px;
+    position: absolute;
+    width: 61px;
+}
+
+/* START dlilearn_activities.css OVERRIDE  */
+
+.ui-droppable {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+}
+
+.dragBubble {
+    background-color: transparent !important;
+	background-repeat: no-repeat !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 14px !important;
+	padding: 0px !important;
+}
+
+#setDiv, #setDiv:hover {
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+}
