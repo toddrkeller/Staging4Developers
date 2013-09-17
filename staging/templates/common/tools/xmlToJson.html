@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>XML To Json Tool</title>
+
+		<script src="../js/xml2json.js"></script>
+		<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+		<script src="vkbeautify.0.99.00.beta.js"></script>
+		
+		<script>
+			function ajaxErrorFunc(jqXHR, textStatus, errorThrown){
+				alert('Error');
+			}
+		
+		
+			function generate(){
+				prepareXML();
+				
+				var textArea = document.getElementById("textArea");
+				var xmlData = document.getElementById("xmlData");
+				
+				var X2JSinst = new X2JS();
+				var jsonData = X2JSinst.xml_str2json(xmlData.value);
+				
+				var str = JSON.stringify(jsonData);
+				textArea.value = str;
+				
+				$("#xmlData").attr("value", vkbeautify.xml(xmlString));
+			}
+			
+			function generateFromJson(){
+				var jsonData = document.getElementById("textArea").value;
+				
+				var X2JSinst = new X2JS();
+	
+				var jsonObj = JSON.parse(jsonData);
+				
+				var xmlFromJson = X2JSinst.json2xml_str(jsonObj);
+				
+				$("#xmlFromJsonData").attr("value", vkbeautify.xml(xmlFromJson));
+			}
+			
+			function prepareXML(){
+				var xmlString = $("#xmlData").attr("value");
+				xmlString = xmlString.replace(/\n/g, "");
+				xmlString = xmlString.replace(/\t/g, "");
+				var $nxml = $(xmlString);
+								
+				//remove double spaces until none left
+				var priorLength = 0;
+				while(priorLength != xmlString.length){
+					priorLength = xmlString.length;
+								
+					xmlString = xmlString.replace(/[ ][ ]/g, " ");
+				}
+					
+				//remove empty tags
+				xmlString = xmlString.replace(/\>[ ]\</g, "><");
+				
+				/*$($nxml).find("*").each(function(){
+				    var text = $(this).text();
+				    
+				    $(this).contents().map(function() { 
+					  // if the node is a textNode, use its nodeValue, otherwise empty string
+					  return this.nodeType == 3 ? this.nodeValue : undefined; 
+					  // get the array, and join it together:
+					}).get().join('');
+					
+				    var allSpaces = true;
+				    
+				    if(text.length > 0){
+					    for(var i = 0; i < text.length; i++){
+					        if(text[i] != " "){
+					            allSpaces = false;
+					            break;
+					        }
+				    	}
+				    
+					    if(allSpaces){
+					         $(this).text("");
+					    }
+				    }
+				});
+				
+				var out = new XMLSerializer().serializeToString($nxml);
+				out;*/
+			}
+		</script>
+	</head>
+	<body>
+		<p>XML Data:</p>
+		<textArea id="xmlData" value=""></textArea>
+		<input type="submit" value="Submit"  onclick="generate()" >
+		<p>Json Output:</p>
+		<textArea id="textArea" value=""></textArea>
+		<p>XML from Json:</p>
+		<textArea id="xmlFromJsonData" value=""></textArea>
+		<input type="submit" value="Submit"  onclick="generateFromJson()" >
+	</body>
+</html>

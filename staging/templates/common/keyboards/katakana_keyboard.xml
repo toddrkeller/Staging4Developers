@@ -1,0 +1,62 @@
+<div id="keyboard">
+    <button onclick="letterClicked(this)">ア</button>
+    <button onclick="letterClicked(this)">イ</button>
+    <button onclick="letterClicked(this)">ウ</button>
+    <button onclick="letterClicked(this)">エ</button>
+    <button onclick="letterClicked(this)">オ</button>
+    <button onclick="letterClicked(this)">カ</button>
+    <button onclick="letterClicked(this)">キ</button>
+    <button onclick="letterClicked(this)">ク</button>
+    <button onclick="letterClicked(this)">ケ</button>
+    <button onclick="letterClicked(this)">コ</button>
+
+    <button onclick="letterClicked(this)">サ</button>
+    <button onclick="letterClicked(this)">シ</button>
+    <button onclick="letterClicked(this)">ス</button>
+    <button onclick="letterClicked(this)">セ</button>
+    <button onclick="letterClicked(this)">ソ</button>
+    <button onclick="letterClicked(this)">タ</button>
+    <button onclick="letterClicked(this)">チ</button>
+    <button onclick="letterClicked(this)">ツ</button>
+    <button onclick="letterClicked(this)">テ</button>
+    <button onclick="letterClicked(this)">ト</button>
+
+    <button onclick="letterClicked(this)">ナ</button>
+    <button onclick="letterClicked(this)">ニ</button>
+    <button onclick="letterClicked(this)">ヌ</button>
+    <button onclick="letterClicked(this)">ネ</button>
+    <button onclick="letterClicked(this)">ノ</button>
+    <button onclick="letterClicked(this)">ハ</button>
+    <button onclick="letterClicked(this)">ヒ</button>
+    <button onclick="letterClicked(this)">フ</button>
+    <button onclick="letterClicked(this)">ヘ</button>
+    <button onclick="letterClicked(this)">ホ</button>
+
+    <button onclick="letterClicked(this)">マ</button>
+    <button onclick="letterClicked(this)">ミ</button>
+    <button onclick="letterClicked(this)">ム</button>
+    <button onclick="letterClicked(this)">メ</button>
+    <button onclick="letterClicked(this)">モ</button>
+    <button onclick="letterClicked(this)">ラ</button>
+    <button onclick="letterClicked(this)">リ</button>
+    <button onclick="letterClicked(this)">ル</button>
+    <button onclick="letterClicked(this)">レ</button>
+    <button onclick="letterClicked(this)">ロ</button>
+    
+
+    
+    <button onclick="letterClicked(this)">ヤ</button>
+    <button onclick="letterClicked(this)">ユ</button>
+    <button onclick="letterClicked(this)">ヨ</button>
+    <button onclick="letterClicked(this)">ワ</button>
+    <button onclick="letterClicked(this)">ヲ</button>
+    <button onclick="letterClicked(this)">ン</button>
+    <button onclick="letterClicked(this)">゛</button>
+    <button onclick="letterClicked(this)">゜</button>
+    <button onclick="letterClicked(this)">々</button>
+
+
+<button onclick="spaceClicked()">space</button>
+
+<button onclick="delClicked()">Del</button>
+</div>

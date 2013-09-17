@@ -1,0 +1,36 @@
+<div id="keyboard">
+    <div id="letter1" class="letter roundCornersLetter">W</div>
+    <div id="letter2" class="letter roundCornersLetter">E</div>
+    <div id="letter3" class="letter roundCornersLetter">R</div>
+    <div id="letter4" class="letter roundCornersLetter">T</div>
+    <div id="letter5" class="letter roundCornersLetter">Y</div>
+    <div id="letter6" class="letter roundCornersLetter">Ƴ</div>
+    <div id="letter7" class="letter roundCornersLetter">U</div>
+    <div id="letter8" class="letter roundCornersLetter">I</div>
+    <div id="letter9" class="letter roundCornersLetter">O</div>
+    <div id="letter10" class="letter roundCornersLetter">A</div>
+
+    <div id="letter11" class="letter roundCornersLetter">S</div>
+    <div id="letter12" class="letter roundCornersLetter">D</div>
+    <div id="letter13" class="letter roundCornersLetter">Ɗ</div>
+    <div id="letter14" class="letter roundCornersLetter">F</div>
+    <div id="letter15" class="letter roundCornersLetter">G</div>
+    <div id="letter16" class="letter roundCornersLetter">H</div>
+    <div id="letter17" class="letter roundCornersLetter">J</div>
+    <div id="letter18" class="letter roundCornersLetter">K</div>
+
+    <div id="letter19" class="letter roundCornersLetter">Ƙ</div>
+    <div id="letter20" class="letter roundCornersLetter">L</div>
+    <div id="letter21" class="letter roundCornersLetter">Z</div>
+    <div id="letter22" class="letter roundCornersLetter">C</div>
+    <div id="letter23" class="letter roundCornersLetter">V</div>
+    <div id="letter24" class="letter roundCornersLetter">B</div>
+    <div id="letter25" class="letter roundCornersLetter">Ɓ</div>
+    <div id="letter26" class="letter roundCornersLetter">N</div>
+
+    <div id="letter27" class="letter roundCornersLetter">M</div>
+    <div id="letter28" class="letter roundCornersLetter">-</div>
+    <div id="letter29" class="letter roundCornersLetter">'</div>
+    <div id="letter30" class="letter roundCornersLetter">!</div>
+    <div id="letter31" class="letter roundCornersLetter">?</div>
+</div>

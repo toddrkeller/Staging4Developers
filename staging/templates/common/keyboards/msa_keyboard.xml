@@ -1,0 +1,46 @@
+<div id="keyboard">
+
+    <button onclick="letterClicked(this)">ا</button>
+    <button onclick="letterClicked(this)">آ</button>
+    <button onclick="letterClicked(this)">ء</button>
+    <button onclick="letterClicked(this)">أ</button>
+    <button onclick="letterClicked(this)">إ</button>
+    <button onclick="letterClicked(this)">ب</button>
+    <button onclick="letterClicked(this)">ت</button>
+    <button onclick="letterClicked(this)">ث</button>
+    <button onclick="letterClicked(this)">ج</button>
+    <button onclick="letterClicked(this)">ح</button>
+
+    <button onclick="letterClicked(this)">خ</button>
+    <button onclick="letterClicked(this)">د</button>
+    <button onclick="letterClicked(this)">ذ</button>
+    <button onclick="letterClicked(this)">ر</button>
+    <button onclick="letterClicked(this)">ز</button>
+    <button onclick="letterClicked(this)">س</button>
+    <button onclick="letterClicked(this)">ش</button>
+    <button onclick="letterClicked(this)">ص</button>
+
+    <button onclick="letterClicked(this)">ض</button>
+    <button onclick="letterClicked(this)">ط</button>
+    <button onclick="letterClicked(this)">ظ</button>
+    <button onclick="letterClicked(this)">ع</button>
+    <button onclick="letterClicked(this)">غ</button>
+    <button onclick="letterClicked(this)">ف</button>
+    <button onclick="letterClicked(this)">ق</button>
+    <button onclick="letterClicked(this)">ك</button>
+
+    <button onclick="letterClicked(this)">ل</button>
+    <button onclick="letterClicked(this)">م</button>
+    <button onclick="letterClicked(this)">ن</button>
+    <button onclick="letterClicked(this)">ه</button>
+    <button onclick="letterClicked(this)">و</button>
+    <button onclick="letterClicked(this)">ؤ</button>
+    <button onclick="letterClicked(this)">ي</button>
+    <button onclick="letterClicked(this)">ئ</button>
+    <button onclick="letterClicked(this)">ى</button>
+    <button onclick="letterClicked(this)">ة</button>
+
+<button onclick="spaceClicked()">space</button>
+
+<button onclick="delClicked()">Del</button>
+</div>
