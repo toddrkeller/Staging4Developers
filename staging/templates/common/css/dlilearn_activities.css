@@ -1,0 +1,676 @@
+
+/* --- FUTURA --- */
+/*------------------------------------*/
+
+@font-face {
+    font-family: 'FuturaMedium';
+    src:url('../../../css/futura-medium-webfont.eot');
+	src: url('../../../css/futura-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../../css/futura-medium-webfont.woff') format('woff'),
+         url('../../../css/futura-medium-webfont.ttf') format('truetype'),
+         url('../../../css/futura-medium-webfont.svg#FuturaMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('../../../css/futura_bold-webfont.eot');
+    src: url('../../../css/futura_bold-webfont.eot?#iefix') format('eot'),
+         url('../../../css/futura_bold-webfont.woff') format('woff'),
+         url('../../../css/futura_bold-webfont.ttf') format('truetype'),
+         url('../../../css/futura_bold-webfont.svg#webfontrIGithyc') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* @import url("../../../font/fonts.css"); */
+
+html, body {
+	background-image:none;
+	background-color:#f5f5f5;
+	margin:0;
+	font-family: 'FuturaMedium';
+}
+
+#activity_wrapper {
+	font-family: 'FuturaMedium';
+	/*height:700px;*/		/*  Change as needed-- Variable will have to be passed up to main framework */
+	width:910px;
+	overflow: visible;
+	/*border: solid thin #F00;*/
+	padding: 15px;
+	color:#444444;
+	text-shadow: 0px 1px 0px #fff;
+	font: FuturaMedium;
+	letter-spacing:2px;
+	margin-top:-5px;
+	border-radius: 3px;
+	/*margin-right: -12px;*/
+	 
+}
+
+.margin_15 {
+	margin: 15px;
+}
+
+.margin_10 {
+	margin: 10px;
+}
+
+.margin_55 {
+	margin: 5px;
+}
+
+.activity_hd {
+	font-family: inherit;
+    font-size: 22px;
+    letter-spacing: 2px;
+	color: #444444;
+    text-shadow: 1px 1px 0 #FFFFFF;
+}
+.activity_description {
+	font-family: inherit;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 20px;
+	clear:both;
+}
+
+
+.convex {
+	border: solid thin #b8b8b8;
+	border-radius: 3px;
+	-webkit-box-shadow:  0px 2px 4px 0px rgba(00, 00, 00, .20) !important;
+    box-shadow:  0px 2px 4px 0px rgba(00, 00, 00, .20) !important;
+	padding: 5px;
+	
+	background: #fcfcfc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcfcfc 0%, #fcfcfc 25%, #e6e6e6 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(25%,#fcfcfc), color-stop(100%,#e6e6e6)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fcfcfc 0%,#fcfcfc 25%,#e6e6e6 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fcfcfc 0%,#fcfcfc 25%,#e6e6e6 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fcfcfc 0%,#fcfcfc 25%,#e6e6e6 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fcfcfc 0%,#fcfcfc 25%,#e6e6e6 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e6e6e6',GradientType=0 );  IE6-8 */
+	
+}
+
+.convex_orange {
+	border: solid 1px #989898;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 2px 4px 0px rgba(00, 00, 00, .20), inset 0px 1px 0px 0px rgba(255, 255, 255, .4);
+	-webkit-box-shadow:  0px 2px 4px 0px rgba(00, 00, 00, .20), inset 0px 1px 0px 0px rgba(255, 255, 255, .4);
+    box-shadow:  0px 2px 4px 0px rgba(00, 00, 00, .20), inset 0px 1px 0px 0px rgba(255, 255, 255, .4);
+	padding: 5px;
+	background-color: #f6a816;
+	color: #ffffff;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.orange_border:hover {
+	border: solid 2px #f6a816;
+	border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+	top: -2px;
+	left: -2px;
+}
+
+.concave {
+	border: solid thin #b8b8b8;
+	border-radius: 3px;
+	-webkit-box-shadow:  0px 1px 0px 0px rgba(255, 255, 255, 1);
+    box-shadow:  0px 1px 0px 0px rgba(255, 255, 255, 1);
+	padding: 5px;
+
+	
+	background: #e6e6e6; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e6e6e6 0%, #fcfcfc 73%, #fcfcfc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6e6e6), color-stop(73%,#fcfcfc), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e6e6e6 0%,#fcfcfc 73%,#fcfcfc 100%); /* W3C */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6e6e6', endColorstr='#fcfcfc',GradientType=0 );  IE6-9 */
+}
+
+.grip_pattern {
+	border: solid thin #b8b8b8;
+	border-radius: 3px;
+	-moz-box-shadow:inset 0px 1px 0px 0px rgba(255, 255, 255, 1), 0px 5px 11px 2px rgba(119, 119, 119, 0.4);
+	-webkit-box-shadow:  0px 1px 0px 0px rgba(255, 255, 255, 1), inset 0px 5px 11px 2px rgba(119, 119, 119, 0.4);
+    box-shadow:  0px 1px 0px 0px rgba(255, 255, 255, 1),inset 0px 5px 11px 2px rgba(119, 119, 119, 0.4);
+	padding: 5px;
+	background-image:url(../img/bg_grip_pattern.png);
+	background-repeat:repeat;
+}
+
+/*
+.test_div {  	 
+	width: 175px;
+	height: 220px;
+}
+ */
+
+/* 
+.radios {  
+	width: 200px;
+	float: left;
+}
+*/
+
+/*
+.checks {   
+	width: 200px;
+	margin-left:-22px;
+	float: left;
+}
+*/
+
+/*  --- BEGIN CUSTOM FORM STYLES > NEEDS 'js/custom_form_elements.js' TO WORK ---  */
+
+.checkbox {
+	width: 44px;
+	height: 44px;
+	padding: 0 5px 0 0;
+	margin-top: 3px;
+	margin-top: 5px\9; /* IE HACK */
+	background: url(../../common/img/checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+
+.radio {
+	width: 44px;
+	height: 44px;
+	padding: 0 5px 0 0;
+	background: url(../../common/img/radio.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+
+.radio_text {
+	margin: 11px 0 0 -3px;
+}
+.check_text {
+	margin: 11px 0 0 -3px;
+}
+
+.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 21px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(../../common/img/select.png) no-repeat;
+	overflow: hidden;
+}
+/*  --- END CUSTOM FORM STYLES ---  */
+
+
+#setText {
+	
+	text-align: center;
+	left: 5px !important;
+	right: 0px;
+	top: 3px !important;
+	bottom: 0px;
+	font-size: 14px;
+	position: relative;
+}
+
+/**/
+
+.btn.off, .btn[off], .btn.off:hover, .btn[off]:hover, .btn.off:focus, .btn[off]:focus  {
+    display: inline-block;
+ *display: inline;
+	padding: 4px 12px;
+	margin-bottom: 0;
+ *margin-left: .3em;
+	font-size: 14px;
+	line-height: 20px;
+	color: #333333;
+	text-align: center;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+	vertical-align: middle;
+	cursor: default;
+	background-color: #f5f5f5;
+ *background-color: #e6e6e6;
+	background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+	background-repeat: repeat-x;
+	border: 1px solid #bbbbbb;
+ *border: 0;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-bottom-color: #a2a2a2;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+ filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+ *zoom: 1;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	
+	background-position: 0;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	transition: none;
+}
+
+
+.btn.disabled, .btn[disabled] {
+    background-image: none;
+    box-shadow: none;
+    cursor: default;
+    opacity: 0.65;
+}
+
+#setDiv, #setDiv:hover {
+	height: auto !important;
+	text-align:left;
+	/*margin-top: -4px;*/ /* AAA TEMP */
+	border: solid 1px #ACACAC;
+	background-color: #FFF;
+	background-image: url("../../common/Library/images/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border: thin solid #BDBDBD;
+    /*box-shadow: 0 1px 2px #BDBDBD, inset 0 1px 0px #FFFFFF;*/  /* AAA TEMP */
+	width: auto !important; /* AAA TEMP */
+	color: #fff;
+	text-shadow: 0 1px 1px #666666;
+}
+
+
+#setText {
+	bottom: 0 !important;
+	left: 1px !important;
+	right: 0 !important;
+	top: 0 !important;
+}
+
+
+.btn_set {
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	background-color: #999;
+	*background-color: #999;
+	background-image:url(../../common/img/bg_btn_set.png) !important;
+	background-repeat:repeat-x !important;
+	background-position:bottom !important;
+ 
+	left: 3px;
+    letter-spacing: 2px;
+}
+
+.btn_set:hover {
+	background-color: #999;
+	*background-color: #999;
+	background-image:url(../../common/img/bg_btn_set.png) !important;
+	background-repeat:repeat-x !important;
+	background-position:bottom !important;
+}
+
+.btn_set_value {
+	left: -10px !important;
+}
+
+.btn_img {
+	padding:0px;
+	display:inline-block;
+	/*height:44px;*/
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn_img_arrows {
+	padding:0px;
+	display:inline-block;
+	margin: 0 0 0 10px;
+    min-height: 25px;
+    min-width: 30px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.roundCorners{
+	border-radius: 3px;
+}
+
+/*#container_setDiv{
+    height: auto;
+	padding:5px;
+    position: relative;
+    width: 100%;
+}*/
+
+/*#setDiv {
+	height: 30px;
+	width: 40px;
+	position: relative;
+	
+}*/
+
+#debugPanel {
+    background: none repeat scroll 0 0 lightgray;
+    border: 2px solid #333333;
+    border-radius: 10px 10px 10px 10px;
+    /*box-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.8);*/
+    left: 70px;
+    padding: 20px;
+    position: absolute;
+    top: 160px;
+    z-index: 100;
+    min-height: 140px;
+    max-height: 200px;
+    width: 400px;
+	left: -999999px;
+}
+
+#question {
+	border: solid thin #bdbdbd;
+	background-image:url(../../common/img/bg_dropbubble_50.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color: #F7F7F7;
+	box-shadow: 0px 2px 4px #BDBDBD;
+    border-radius: 3px;
+}
+
+#choices {
+	border: solid thin #bdbdbd;
+	background-image:url(../../common/img/bg_gradient_125.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color: #F7F7F7;
+	box-shadow: 0px 2px 4px #BDBDBD;
+    border-radius: 3px;
+}
+
+#feedback {
+    border: solid thin #bdbdbd;
+	background-image:url(../../common/img/bg_gradient_125.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	background-color: #F7F7F7;
+	box-shadow: 0px 2px 4px #BDBDBD;
+    border-radius: 3px;
+    display: none;
+    padding: 15px;
+    position: relative;
+    z-index: 100;
+}
+
+.btn-container {
+	letter-spacing: 0;
+}
+
+
+/* ---------- BEGIN Play Btn Large ------------ */
+.playBtn {
+	width: 55px;
+	height: 55px;
+}
+
+
+
+/* ---------- BEGIN Video Container ------------ */
+#videoContainer {
+	box-shadow: 1px 2px 0px #FFFFFF;
+}
+
+/* ----------BEGIN DROP TARGETS ------------ */
+.ui-droppable {
+	background-image:url(../../common/img/bg_droptexthere.png);
+	background-position:center;
+	background-repeat: no-repeat;
+	border: solid thin #e3e3e3;
+	background-color:#f5f5f5;
+	border-radius: 3px;
+}
+
+.dropTargetText {
+	font-size: 16px;
+	letter-spacing:2px;
+}
+
+.droppable {
+	border: solid thin #939393;
+	background-color:#cecece;
+	border-radius: 3px;
+	padding: 2px 5px;
+	font-size: 14px;
+	-moz-box-shadow: 0px 1px 0px #FFFFFF, inset 0px 3px 3px 0px rgba(147, 147, 147, .6);
+	-webkit-box-shadow:  0px 1px 0px #FFFFFF, inset 0px 3px 3px 0px rgba(147, 147, 147, .6);
+    box-shadow:  0px 1px 0px #FFFFFF, inset 0px 3px 3px 0px rgba(147, 147, 147, .6);
+}
+
+
+/* ----------BEGIN DRAG BUBBLES ------------ */
+
+.dragBubble {
+	border: solid thin #afafaf;
+	background-color:#f7f7f7;
+	background-image:url(../../common/img/bg_dropbubble_50.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	box-shadow: 0px 2px 2px #BDBDBD;
+	padding: 2px 5px;
+	font-size: 14px;
+	border-radius: 3px;
+	font-size: 14px !important;
+	padding-left:7px !important;
+}
+
+.dragBubble:hover {
+	border: solid thin #a5a5a5;
+	-moz-box-shadow: 0px 3px 4px #BDBDBD, inset 0px 0px 10px 2px rgba(255, 255, 255, 1);
+	-webkit-box-shadow:  0px 3px 4px #BDBDBD, inset 0px 0px 10px 2px rgba(255, 255, 255, 1);
+    box-shadow:  0px 3px 4px #BDBDBD, inset 0px 0px 10px 2px rgba(255, 255, 255, 1);
+
+}
+
+/* ----------END DRAG BUBBLES ------------ */
+
+hr {
+	border:none;
+	height:0;
+	border-top:solid 1px #ccc;
+	margin:1em 0;
+}
+
+.btn_bottom_right {
+	position: absolute; 
+	bottom: 15px;
+	right:15px;
+}
+
+.arrow_bottom_right {
+	position: absolute; 
+	bottom: 17px;
+	right:75px;
+}
+
+/* ------------------------------------------------  BEGIN FORM STYLES ------------------------------------------------ */
+/* ----------------------------------------------  Reset form elements ---------------------------------------------- */
+	
+	input, select, textarea {
+	margin:0;
+	padding:0;
+	font-size:0.85em;
+	outline:none;
+	font-family:inherit;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	box-sizing:border-box;
+}
+/* ----------------------------------------------  Inputs, textareas and selects  ---------------------------------------------- */
+
+
+	input[type="text"], textarea, select, div.styled, input[type="file"] {
+	width:12em;
+	border-radius:2px;
+	border: solid 1px #ccc;
+	padding:0.4em;
+}
+div.styled, select, input[type="submit"], input[type="button"],  input[type="file"]:after {
+	background: white url(../img/formelements-select.png) no-repeat center right;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+input[type="text"], textarea, input[type="file"] {
+	background-color: #f5f5f5;
+	-webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+	box-shadow: inset 0 2px 3px rgba(0,0,0,0.2);
+}
+.ie9 input[type="text"] {
+	line-height:normal;
+} /* Get the stuff to line up right */
+textarea {
+	width:100%;
+	height:10em;
+}
+/* ----------------------------------------------  Select menu  ---------------------------------------------- */
+	
+	/* For IE and Firefox */
+
+	div.styled {
+	overflow:hidden;
+	padding:0;
+	margin:0;
+}
+.ie7 div.styled {
+	border:none;
+}
+div.styled select {
+	width:115%;
+	background-color:transparent;
+	background-image:none;
+	-webkit-appearance: none;
+	border:none;
+	box-shadow:none;
+}
+.ie7 div.styled select {
+	width:100%;
+	background-color:#fff;
+	border: solid 1px #ccc;
+	padding:0.3em 0.5em;
+}
+/* ----------------------------------------------  File field  ----------------------------------------------  */
+
+	/* Webkit Only */
+	
+	input[type="file"] {
+	position: relative;
+	-webkit-appearance: none;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 40%;
+	padding:0;
+}
+ input[type=file]::-webkit-file-upload-button {
+ width: 0;
+padding: 0;
+margin: 0;
+-webkit-appearance: none;
+border: none;
+}
+input[type="file"]:after {
+	content: 'Upload File';
+	margin:0 0 0 0.5em;
+	display: inline-block;
+	left: 100%;
+	position: relative;
+	background:white url(../img/formelements-select.png) no-repeat center left;
+	padding:0.3em 0.5em;
+	border: solid 1px #ccc !important;
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+	border-radius:4px;
+}
+input[type="file"]:active:after {
+	box-shadow:none;
+}
+/* ----------------------------------------------  Checkboxes and Radio inputs  ----------------------------------------------  */	
+		
+	input[type="radio"],  input[type="checkbox"] {
+	position: absolute;
+	left: -999em;
+}
+label:before {
+	display: inline-block;
+	position: relative;
+	top:0.25em;
+	left:-2px;
+	content:'';
+	width:44px;
+	height:44px;
+	background-image:url(../img/formelements.png);
+}
+input[type="checkbox"] + label:before {
+	background-position: 0 -44px;
+}
+input[type="checkbox"]:checked + label:before {
+	background-position: 0 0;
+}
+input[type="radio"] + label:before {
+	background-position: -44px -44px;
+}
+input[type="radio"]:checked + label:before {
+	background-position: -44px 0;
+}
+/* Remove the custom styling for IE 7-8 */
+		
+		.ie8 label:before {
+	display:none;
+	content:none;
+}
+.ie8 input[type="checkbox"],  .ie8 input[type="radio"],  .ie7 input[type="checkbox"],  .ie7 input[type="radio"] {
+	position: static;
+	left:0;
+}
+.ie8 input[type="checkbox"],  .ie8 input[type="radio"] {
+	position:relative;
+	top:5px;
+	margin-right:0.5em;
+}
+input[type="text"]:focus, textarea:focus {
+	border-color:#000;
+}
+/* ---------------------------------------------- Form Submit and Next buttons ---------------------------------------------- */	
+
+	input[type="submit"],  input[type="button"] {
+	padding:0.5em 1em;
+	line-height:1em;
+	cursor:pointer;
+	border-radius:4px;
+	color:#000;
+	font-weight:bold;
+	font-size:inherit;
+	border:solid 1px #ccc;
+	box-shadow:0 1px 5px rgba(0,0,0,0.2);
+	background-position: center bottom;
+}
+/* Gradient Generator by : http://www.colorzilla.com/gradient-editor/ */
+		
+	input[type="submit"]:active,  input[type="button"]:active {
+	-webkit-box-shadow: none;
+	box-shadow:none;
+}
+	
+/* IE7 needs you to change the background to transparent when using image background for submit buttons */	
+
+/* ------------------------------------------------  END FORM STYLES ------------------------------------------------ */

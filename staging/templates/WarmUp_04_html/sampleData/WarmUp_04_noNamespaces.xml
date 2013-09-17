@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content target_language="German" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    <item>
+      <tl_word dir="ltr">ttest1 in target language</tl_word>
+      <en_word dir="ltr">etest1 in English language</en_word>
+      <image>1.png</image>
+      <audio>1.ogg</audio>
+      <hint dir="ltr">hint1</hint>
+      <feedback dir="ltr">feedback1</feedback>
+    </item>
+    <item>
+      <tl_word dir="ltr">ttest2 in target language</tl_word>
+      <en_word dir="ltr">etest2 in English language</en_word>
+      <image>2.png</image>
+      <audio>2.ogg</audio>
+      <hint dir="ltr">hint2</hint>
+      <feedback dir="ltr">feedback2</feedback>
+    </item>
+    <item>
+      <tl_word dir="ltr">ttest3 in target language</tl_word>
+      <en_word dir="ltr">etest3 in English language</en_word>
+      <image>3.png</image>
+      <audio>3.ogg</audio>
+      <hint dir="ltr">hint3</hint>
+      <feedback dir="ltr">feedback3</feedback>
+    </item>
+    <item>
+      <tl_word dir="ltr">ttest4 in target language</tl_word>
+      <en_word dir="ltr">etest4 in English language</en_word>
+      <image>4.png</image>
+      <audio>4.ogg</audio>
+      <hint dir="ltr">hint4</hint>
+      <feedback dir="ltr">feedback4</feedback>
+    </item>
+    <item>
+      <tl_word dir="ltr">ttest5 in target language</tl_word>
+      <en_word dir="ltr">etest5 in English language</en_word>
+      <image>5.png</image>
+      <audio>5.ogg</audio>
+      <hint dir="ltr">hint5</hint>
+      <feedback dir="ltr">feedback5</feedback>
+    </item>
+    <item>
+      <tl_word dir="ltr">ttest6 in target language</tl_word>
+      <en_word dir="ltr">etest6 in English language</en_word>
+      <image>6.png</image>      
+      <audio>6.ogg</audio>
+      <hint dir="ltr">hint6</hint>
+      <feedback dir="ltr">feedback6</feedback>
+    </item>
+  
+  <item>
+    <tl_word dir="ltr">ttest7 in target language</tl_word>
+    <en_word dir="ltr">etest7 in English language</en_word>
+    <image>7.png</image>
+    <audio>7.ogg</audio>
+    <hint dir="ltr">hint7</hint>
+    <feedback dir="ltr">feedback7</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest8 in target language</tl_word>
+    <en_word dir="ltr">etest8 in English language</en_word>
+    <image>8.png</image>
+    <audio>8.ogg</audio>
+    <hint dir="ltr">hint8</hint>
+    <feedback dir="ltr">feedback8</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest9 in target language</tl_word>
+    <en_word dir="ltr">etest9 in English language</en_word>
+    <image>9.png</image>
+    <audio>9.ogg</audio>
+    <hint dir="ltr">hint9</hint>
+    <feedback dir="ltr">feedback9</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest10 in target language</tl_word>
+    <en_word dir="ltr">etest10 in English language</en_word>
+    <image>10.png</image>
+    <audio>10.ogg</audio>
+    <hint dir="ltr">hint10</hint>
+    <feedback dir="ltr">feedback10</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest11 in target language</tl_word>
+    <en_word dir="ltr">etest11 in English language</en_word>
+    <image>11.png</image>
+    <audio>11.ogg</audio>
+    <hint dir="ltr">hint11</hint>
+    <feedback dir="ltr">feedback11</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest12 in target language</tl_word>
+    <en_word dir="ltr">etest12 in English language</en_word>
+    <image>12.png</image>      
+    <audio>12.ogg</audio>
+    <hint dir="ltr">hint12</hint>
+    <feedback dir="ltr">feedbac12</feedback>
+  </item>
+
+  <item>
+    <tl_word dir="ltr">ttest13 in target language</tl_word>
+    <en_word dir="ltr">etest13 in English language</en_word>
+    <image>13.png</image>
+    <audio>13.ogg</audio>
+    <hint dir="ltr">hint13</hint>
+    <feedback dir="ltr">feedback13</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest14 in target language</tl_word>
+    <en_word dir="ltr">etest14 in English language</en_word>
+    <image>14.png</image>
+    <audio>14.ogg</audio>
+    <hint dir="ltr">hint14</hint>
+    <feedback dir="ltr">feedback14</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest15 in target language</tl_word>
+    <en_word dir="ltr">etest15 in English language</en_word>
+    <image>15.png</image>
+    <audio>15.ogg</audio>
+    <hint dir="ltr">hint15</hint>
+    <feedback dir="ltr">feedback15</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest16 in target language</tl_word>
+    <en_word dir="ltr">etest16 in English language</en_word>
+    <image>16.png</image>
+    <audio>16.ogg</audio>
+    <hint dir="ltr">hint16</hint>
+    <feedback dir="ltr">feedback16</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest17 in target language</tl_word>
+    <en_word dir="ltr">etest17 in English language</en_word>
+    <image>17.png</image>
+    <audio>17.ogg</audio>
+    <hint dir="ltr">hint17</hint>
+    <feedback dir="ltr">feedback17</feedback>
+  </item>
+  <item>
+    <tl_word dir="ltr">ttest18 in target language</tl_word>
+    <en_word dir="ltr">etest18 in English language</en_word>
+    <image>18.png</image>      
+    <audio>18.ogg</audio>
+    <hint dir="ltr">hint18</hint>
+    <feedback dir="ltr">feedback18</feedback>
+  </item> 
+</content>

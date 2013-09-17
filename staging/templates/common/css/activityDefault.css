@@ -1,0 +1,107 @@
+.activity_hd{
+	display: none;
+}
+
+.activity_description{
+	display: none;
+}
+
+#setText {
+	cursor:default;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	left: 6px;
+	right: 0px;
+	top: 6px;
+	bottom: 0px;
+	font-size: 17px;
+	position: relative;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+.disableSelection{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#setDiv {
+	cursor:default;
+	left: 520px;
+	z-index:5;
+	height: 30px;
+	background-color: white;
+	width: 40px;
+	position: relative;
+	top: 5px;
+}
+
+.roundCorners{
+	border-radius: 10px 10px 10px 10px;
+}
+
+#container_setDiv{
+	position:absolute;
+	left: 15px;
+	top: 363px;
+    width: 577px;
+    height: 40px;
+    margin: 10px;
+    background-color: #8D8D8D;
+}
+
+#debugPanel {
+    background: none repeat scroll 0 0 lightgray;
+    border: 2px solid #333333;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.8);
+    left: 70px;
+    padding: 20px;
+    position: absolute;
+    top: 160px;
+    z-index: 100;
+    min-height: 140px;
+    max-height: 200px;
+    width: 400px;
+}
+
+#feedback {
+    background: none repeat scroll 0 0 lightgray;
+    border: 2px solid #333333;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0.3em 0.3em 0.5em rgba(0, 0, 0, 0.8);
+    left: 70px;
+    padding: 20px;
+    position: absolute;
+    top: 160px;
+    z-index: 100;
+    min-height: 140px;
+    max-height: 200px;
+    width: 400px;
+    display: none;
+    -moz-user-select: none;
+	-webkit-user-select: none;
+}
+
+#activityNavButtons
+{
+    float: right;
+    padding-right: 10px;
+    padding-top: 7px;
+}
+
+#prevArrowDiv img
+{
+    padding-right: 5px;
+}
+
+#activityNavDiv {
+    z-index:5;
+    height: 30px;
+    background-color: white;
+    width: 40px;
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-right: 7px;
+}

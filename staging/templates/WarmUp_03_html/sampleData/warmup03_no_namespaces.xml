@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content target_language="Swahili">
+  <section>
+    <item>
+      <lang_en>Sit!</lang_en>
+      <lang_tl dir="ltr">Kaa!</lang_tl>
+      <file_audio>sw_sit.mp3</file_audio>
+      <file_input>sw_sit.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The action opposite of standing.</hint>
+      <feedback>"Kaa" means sit.</feedback>
+    </item>
+    <item>
+      <lang_en>Stand up!</lang_en>
+      <lang_tl dir="ltr">Simama!</lang_tl>
+      <file_audio>sw_stand up.mp3</file_audio>
+      <file_input>sw_stand_up.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The action opposite of sitting.</hint>
+      <feedback>"Simama" means stand up.</feedback>
+    </item>
+    <item>
+      <lang_en>Wait!</lang_en>
+      <lang_tl dir="ltr">Subiri!</lang_tl>
+      <file_audio>sw_wait.mp3</file_audio>
+      <file_input>sw_wait.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of remaining inactive in anticipation of something.  </hint>
+      <feedback>"Subiri" means wait.</feedback>
+    </item>
+    <item>
+      <lang_en>Come!</lang_en>
+      <lang_tl dir="ltr">Njoo!</lang_tl>
+      <file_audio>sw_come.mp3</file_audio>
+      <file_input>sw_come.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of moving toward someone or some place. </hint>
+      <feedback>"Njoo" means come.</feedback>
+    </item>
+    <item>
+      <lang_en>Go!</lang_en>
+      <lang_tl dir="ltr">Nenda!</lang_tl>
+      <file_audio>sw_go.mp3</file_audio>
+      <file_input>sw_go.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of moving away or departing.</hint>
+      <feedback>"Nenda" means go.</feedback>
+    </item>
+    <item>
+      <lang_en>Stop!</lang_en>
+      <lang_tl dir="ltr">Acha!</lang_tl>
+      <file_audio>sw_stop.mp3</file_audio>
+      <file_input>sw_stop.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of not moving.</hint>
+      <feedback>"Acha" means stop.</feedback>
+    </item>
+    <item>
+      <lang_en>Take!</lang_en>
+      <lang_tl dir="ltr">Chukuwa!</lang_tl>
+      <file_audio>sw_take.mp3</file_audio>
+      <file_input>sw_take.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of possessing or holding something. </hint>
+      <feedback>"Chukuwa" means take.</feedback>
+    </item>
+    <item>
+      <lang_en>Give!</lang_en>
+      <lang_tl dir="ltr">Nipe!</lang_tl>
+      <file_audio>sw_give.mp3</file_audio>
+      <file_input>sw_give.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of handing over a possession.  </hint>
+      <feedback>"Nipe" means give.</feedback>
+    </item>
+    <item>
+      <lang_en>Put down!</lang_en>
+      <lang_tl dir="ltr">Weka chini!</lang_tl>
+      <file_audio>sw_put_down.mp3</file_audio>
+      <file_input>sw_put_down.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of placing an object on a lower surface or the ground.</hint>
+      <feedback>"Weka chini" means put down.</feedback>
+    </item>
+    <item>
+      <lang_en>Pick up!</lang_en>
+      <lang_tl dir="ltr">Beba!</lang_tl>
+      <file_audio>sw_pick_up.mp3</file_audio>
+      <file_input>sw_pick_up.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of lifting an object.  </hint>
+      <feedback>"Beba" means pick up.</feedback>
+    </item>
+    <item>
+      <lang_en>Speak!</lang_en>
+      <lang_tl dir="ltr">Ongea!</lang_tl>
+      <file_audio>sw_speak.mp3</file_audio>
+      <file_input>sw_speak.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of producing words.</hint>
+      <feedback>"Ongea" means speak.</feedback>
+    </item>
+    <item>
+      <lang_en>Listen!</lang_en>
+      <lang_tl dir="ltr">Sikiliza!</lang_tl>
+      <file_audio>sw_listen.mp3</file_audio>
+      <file_input>sw_listen.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of paying attention to what is said.</hint>
+      <feedback>"Sikiliza" means listen.</feedback>
+    </item>
+    <item>
+      <lang_en>Open!</lang_en>
+      <lang_tl dir="ltr">Fungua!</lang_tl>
+      <file_audio>sw_open.mp3</file_audio>
+      <file_input>sw_open.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The opposite of closed.</hint>
+      <feedback>"Fungua" means open.</feedback>
+    </item>
+    <item>
+      <lang_en>Close!</lang_en>
+      <lang_tl dir="ltr">Funga!</lang_tl>
+      <file_audio>sw_close.mp3</file_audio>
+      <file_input>sw_close.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The opposite of open.</hint>
+      <feedback>"Funga" means close.</feedback>
+    </item>
+    <item>
+      <lang_en>Turn on!</lang_en>
+      <lang_tl dir="ltr">Washa!</lang_tl>
+      <file_audio>sw_turn_on.mp3</file_audio>
+      <file_input>sw_turn_on.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The opposite of turn off.</hint>
+      <feedback>"Washa" means turn on.</feedback>
+    </item>
+    <item>
+      <lang_en>Turn off!</lang_en>
+      <lang_tl dir="ltr">Zima!</lang_tl>
+      <file_audio>sw_turn_off.mp3</file_audio>
+      <file_input>sw_turn_off.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The opposite of turn on.</hint>
+      <feedback>"Zima" means turn off.</feedback>
+    </item>
+    <item>
+      <lang_en>Load!</lang_en>
+      <lang_tl dir="ltr">Pakia!</lang_tl>
+      <file_audio>sw_load.mp3</file_audio>
+      <file_input>sw_load.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of putting cargo on a truck.</hint>
+      <feedback>"Pakia" means load.</feedback>
+    </item>
+    <item>
+      <lang_en>Unload!</lang_en>
+      <lang_tl dir="ltr">Pakua!</lang_tl>
+      <file_audio>sw_unload.mp3</file_audio>
+      <file_input>sw_unload.flv</file_input>
+      <media_type>video</media_type>
+      <hint>The act of taking cargo off a truck.</hint>
+      <feedback>"Pakua" means unload.</feedback>
+    </item>
+
+  </section>
+</content>

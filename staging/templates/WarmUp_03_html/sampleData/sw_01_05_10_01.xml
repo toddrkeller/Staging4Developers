@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Swahili" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+  <hs:section>
+    <hs:item>
+      <hs:lang_en>Sit!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Kaa!</hs:lang_tl>
+      <hs:file_audio>sw_sit.mp3</hs:file_audio>
+      <hs:file_input>sw_sit.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The action opposite of standing.</hs:hint>
+      <hs:feedback>"Kaa" means sit.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Stand up!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Simama!</hs:lang_tl>
+      <hs:file_audio>sw_stand up.mp3</hs:file_audio>
+      <hs:file_input>sw_stand_up.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The action opposite of sitting.</hs:hint>
+      <hs:feedback>"Simama" means stand up.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Wait!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Subiri!</hs:lang_tl>
+      <hs:file_audio>sw_wait.mp3</hs:file_audio>
+      <hs:file_input>sw_wait.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of remaining inactive in anticipation of something.  </hs:hint>
+      <hs:feedback>"Subiri" means wait.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Come!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Njoo!</hs:lang_tl>
+      <hs:file_audio>sw_come.mp3</hs:file_audio>
+      <hs:file_input>sw_come.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of moving toward someone or some place. </hs:hint>
+      <hs:feedback>"Njoo" means come.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Go!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Nenda!</hs:lang_tl>
+      <hs:file_audio>sw_go.mp3</hs:file_audio>
+      <hs:file_input>sw_go.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of moving away or departing.</hs:hint>
+      <hs:feedback>"Nenda" means go.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Stop!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Acha!</hs:lang_tl>
+      <hs:file_audio>sw_stop.mp3</hs:file_audio>
+      <hs:file_input>sw_stop.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of not moving.</hs:hint>
+      <hs:feedback>"Acha" means stop.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Take!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Chukuwa!</hs:lang_tl>
+      <hs:file_audio>sw_take.mp3</hs:file_audio>
+      <hs:file_input>sw_take.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of possessing or holding something. </hs:hint>
+      <hs:feedback>"Chukuwa" means take.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Give!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Nipe!</hs:lang_tl>
+      <hs:file_audio>sw_give.mp3</hs:file_audio>
+      <hs:file_input>sw_give.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of handing over a possession.  </hs:hint>
+      <hs:feedback>"Nipe" means give.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Put down!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Weka chini!</hs:lang_tl>
+      <hs:file_audio>sw_put_down.mp3</hs:file_audio>
+      <hs:file_input>sw_put_down.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of placing an object on a lower surface or the ground.</hs:hint>
+      <hs:feedback>"Weka chini" means put down.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Pick up!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Beba!</hs:lang_tl>
+      <hs:file_audio>sw_pick_up.mp3</hs:file_audio>
+      <hs:file_input>sw_pick_up.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of lifting an object.  </hs:hint>
+      <hs:feedback>"Beba" means pick up.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Speak!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Ongea!</hs:lang_tl>
+      <hs:file_audio>sw_speak.mp3</hs:file_audio>
+      <hs:file_input>sw_speak.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of producing words.</hs:hint>
+      <hs:feedback>"Ongea" means speak.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Listen!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Sikiliza!</hs:lang_tl>
+      <hs:file_audio>sw_listen.mp3</hs:file_audio>
+      <hs:file_input>sw_listen.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of paying attention to what is said.</hs:hint>
+      <hs:feedback>"Sikiliza" means listen.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Open!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Fungua!</hs:lang_tl>
+      <hs:file_audio>sw_open.mp3</hs:file_audio>
+      <hs:file_input>sw_open.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The opposite of closed.</hs:hint>
+      <hs:feedback>"Fungua" means open.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Close!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Funga!</hs:lang_tl>
+      <hs:file_audio>sw_close.mp3</hs:file_audio>
+      <hs:file_input>sw_close.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The opposite of open.</hs:hint>
+      <hs:feedback>"Funga" means close.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Turn on!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Washa!</hs:lang_tl>
+      <hs:file_audio>sw_turn_on.mp3</hs:file_audio>
+      <hs:file_input>sw_turn_on.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The opposite of turn off.</hs:hint>
+      <hs:feedback>"Washa" means turn on.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Turn off!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Zima!</hs:lang_tl>
+      <hs:file_audio>sw_turn_off.mp3</hs:file_audio>
+      <hs:file_input>sw_turn_off.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The opposite of turn on.</hs:hint>
+      <hs:feedback>"Zima" means turn off.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Load!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Pakia!</hs:lang_tl>
+      <hs:file_audio>sw_load.mp3</hs:file_audio>
+      <hs:file_input>sw_load.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of putting cargo on a truck.</hs:hint>
+      <hs:feedback>"Pakia" means load.</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:lang_en>Unload!</hs:lang_en>
+      <hs:lang_tl dir="ltr">Pakua!</hs:lang_tl>
+      <hs:file_audio>sw_unload.mp3</hs:file_audio>
+      <hs:file_input>sw_unload.flv</hs:file_input>
+      <hs:media_type>video</hs:media_type>
+      <hs:hint>The act of taking cargo off a truck.</hs:hint>
+      <hs:feedback>"Pakua" means unload.</hs:feedback>
+    </hs:item>
+
+  </hs:section>
+</hs:content>

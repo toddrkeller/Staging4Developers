@@ -1,0 +1,259 @@
+
+.noSelect{
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+
+  /* No support for these yet, use at own risk */
+  -o-user-select: none;
+  user-select: none;          
+}
+#setTitle {
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    border-bottom-left-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 4px;
+    float: left;
+    font-size: 14px;
+    margin-left: 0;
+    padding-left: 6px;
+    padding-top: 7px;
+}
+#setText {
+    border-radius: 0 4px 4px 0;
+    bottom: auto;
+    font-size: 14px;
+    height: 20px;
+    left: 0;
+    padding-right: 7px;
+    padding-top: 7px;
+    position: relative;
+    top: 0;
+    width: 29px;
+}
+.btn_set {
+    background-color: #999999;
+    background-image: url("../../common/img/bg_btn_set.png") !important;
+    background-position: center bottom !important;
+    background-repeat: repeat-x !important;
+    color: #FFFFFF;
+    left: 3px;
+    letter-spacing: 2px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.bootstrapLabel {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F5F5F5;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 0 0 0 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333333;
+    cursor: default;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-left: -1px;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+#container_setDiv {
+    background-color: transparent;
+    cursor: default;
+    height: 40px;
+    left: 15px;
+    margin: 10px;
+    position: relative;
+    top: 0px;
+    width: 898px;
+}
+#setDiv {
+    background-color: #F5F5F5;
+    cursor: default;
+    height: 30px;
+    left: 722px;
+    position: relative;
+    top: 5px;
+    width: 115px;
+    z-index: 0;
+}
+#clickGuard {
+    background-color: lightgray;
+    display: none;
+    height: 289px;
+    left: 0;
+    opacity: 0.3;
+    top: 179px;
+    width: 488px;
+}
+.activity_description {
+    display: block;
+    font-family: inherit;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    margin-top: -19px;
+}
+.activity_hd {
+    color: grey;
+    display: block;
+    font-family: inherit;
+    font-size: 22px;
+    margin-left: 26px;
+    margin-top: -2px;
+}
+html body {
+    background-color: #F5F5F5;
+    color: #444444;
+    font-family: Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+.roundCorners {
+    border-radius: 0 0 0 0;
+}
+.divBtn {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    border: thin solid #BDBDBD;
+    box-shadow: 0 2px 2px #BDBDBD;
+    float: left;
+    font-size: 16px;
+    height: 40px;
+    margin: 13px 2px 2px 19px;
+    width: 180px;
+}
+#feedback {
+    -moz-user-select: none;
+    background: url("../../common/img/bg_dropbubble_50.png") repeat-x scroll center bottom #F5F5F5;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 4px #BDBDBD;
+    display: block;
+    float: left;
+    left: 0;
+    margin: 3px;
+    max-height: 87px;
+    min-height: 70px;
+    padding: 20px;
+    position: relative;
+    top: 0;
+    width: 440px;
+    z-index: 0;
+}
+#feedbackHeader {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -13px;
+}
+#feedbackText {
+    margin-top: -13px;
+}
+#feedbackBtn {
+    bottom: 10px;
+    position: absolute;
+    right: 26px;
+}
+#clickGuard_container {
+    float: left;
+    height: 245px;
+    width: 439px;
+}
+#correctAnswer {
+    border: medium dashed grey;
+    float: left;
+    height: 40px;
+    margin: 19px 0 0 3px;
+    padding: 10px 2px 8px 15px;
+    width: 200px;
+}
+#main {
+    height: 411px;
+    margin-left: 10px;
+    width: 850px;
+}
+#stage {
+    float: left;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 354px;
+}
+#stageImg {
+    background-color: green;
+    border-radius: 3px 3px 3px 3px;
+    height: 283px;
+    left: 15px;
+    margin: 3px;
+    position: absolute;
+    top: 119px;
+    width: 323px;
+}
+#drop {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-size: 100% 100%;
+    border: 1px solid #BDBDBD;
+    box-shadow: 0 2px 4px #BDBDBD;
+    height: 108px;
+    left: 15px;
+    margin: 3px;
+    position: absolute;
+    top: 0;
+    width: 321px;
+}
+#playBtn1 {
+    float: left;
+    height: 52px;
+    margin: 16px -2px 10px 11px;
+    padding: 7px;
+}
+#drag_container {
+    background-image: url("../../common/img/bg_grip_pattern.png");
+    background-repeat: repeat;
+    border: thin solid #B8B8B8;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 0 #FFFFFF, 0 5px 11px 2px rgba(119, 119, 119, 0.4) inset;
+    float: left;
+    height: 281px;
+    margin: 3px;
+    width: 481px;
+}
+.drag {
+    background-image: url("../../common/img/bg_dropbubble_50.png");
+    background-repeat: repeat-x;
+    background-size: 100% auto;
+    border: thin solid #BDBDBD;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 2px 2px #BDBDBD;
+    cursor: default;
+    float: left;
+    font-size: 13px;
+    height: 55px;
+    margin: 15px -7px 3px 26px;
+    padding: 14px 27px 0 36px;
+    width: 142px;
+}
+#drag0 {
+}
+#drag1 {
+}
+#drag2 {
+}
+#drag3 {
+}
+#drag4 {
+}
+#drag5 {
+}

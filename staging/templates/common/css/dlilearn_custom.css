@@ -1,0 +1,805 @@
+@import url("../font/fonts.css");
+
+/* Sticky footer styles
+      -------------------------------------------------- */
+	  
+html, body {
+	color:#6C6C6C;
+	text-shadow: 1px 1px 1px #fff;
+	font-family: 'Didact Gothic', sans-serif;
+	/*text-shadow: 2px 2px 2px #aaa;*/
+	/*padding-top: 60px;*/
+	background: url(../img/bg_diag_grey_lines_lo.png) left top repeat-x, url(../img/bg_warm_grey_lines_lo.png) bottom left repeat;
+	background-repeat: repeat-x, repeat;
+	height: 100%;
+	width: 100%;
+	/*letter-spacing:1px;*/
+}
+
+.responsive-image { max-width:100%; height:auto; width: auto; }
+.row.hd_icon  { max-width:100%; height:auto; } 
+.row.hd_icon_txt { max-width:100%; height:auto; } 
+.color_brass { color:#cda873; }
+.inner_text_shadow { text-shadow: 1px 1px 2px rgba(50, 255, 255, 1), -1px 0px 1px rgba(0, 0, 0, 1); }
+.text_hl { text-shadow: 1px 1px white; }
+.text_ds { text-shadow: 1px 1px 2px rgba(0, 0, 0, .5); }
+.white { color:#FFF; }
+
+.left {
+	text-align:left;
+}
+
+a, a:hover, a:active, a:visited {
+	color:#000;
+}
+
+a:visited {
+	color: #888;
+}
+
+/* Button Tweaks
+      -------------------------------------------------- */
+.btn { color:#6C6C6C; letter-spacing:1px; }
+.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger, .btn-inverse {
+	color:#FFF;
+	letter-spacing:1px;
+}
+
+/* Wrapper for page content to push down footer */
+* {
+	margin: 0; padding:0; position: relative;
+}
+
+.wrap {
+	/*min-height: 100%;*/
+	width: 100%;
+	/*height: 100%;*/
+}
+/* Set the fixed height of the footer here */
+
+#main {
+	position: relative;
+}
+
+.slider.drop-shadow {margin-bottom:40px;}
+
+.footer {
+	clear: both;
+	background-image:url(../img/bg_footer.png);
+	background-repeat: repeat;
+	border-top: solid thin #E6E6E6;
+	-moz-box-shadow: 0px -3px 7px #777;
+	-webkit-box-shadow: 0px -3px 7px #777;
+	box-shadow: 0px -3px 7px #777;
+	margin-top:30px;
+	position: relative;
+	height: 144px;
+	/*margin-top: -144px;  negative value of footer height */
+	
+	
+}
+
+/*Opera Fix*/
+body:before {/* thanks to Maleika (Kohoutec)*/
+content:"";
+height:100%;
+float:left;
+width:0;
+margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+}
+
+
+/* ////////////////////////////////////////////// */
+
+.page-header {
+	border:none;
+	padding:0;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+}
+
+.push-13 {
+	margin-top:13px;
+}
+
+.logo_dlilearn {
+	margin-top: 16px;
+	margin-left: -20px;
+	margin-bottom: 30px;
+}
+
+.hd_icon_txt {
+	margin: 20px 0;
+	display:inline-block;
+}
+
+.dli_address {
+	font-size:12px;
+	letter-spacing:1px;
+	line-height:17px;
+	padding: 32px 20px 10px 253px;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+
+/* Custom page CSS
+      -------------------------------------------------- */
+      /* Not required for template or sticky footer method. */
+
+
+/* /////////////////////////// END STICKY FOOTER ////////////////////////////////// */
+
+#class_title {
+	color:#6C6C6C;
+	display: inline-block;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:24px;
+	letter-spacing: 2px;
+	padding :0 10px 0 12px;
+	width:auto;
+}
+.lang_hd {
+	color:#6C6C6C;
+	text-shadow: 1px 1px 1px #FFF;
+	font-size:26px;
+	letter-spacing: 2px;
+	line-height: 26px;
+	padding: 0px 10px 0 0px;
+	font-weight:normal\9; /* IE8 and below */ 
+	margin-top: -8px\9; /* IE8 and below */  
+}
+.activity_hd {
+	font-size:22px;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px 2px #fff;
+	padding:5px 10px 0px 10px;
+	margin: -3px 0 -5px 3px;
+}
+.activity_description {
+	font-size:16px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px 2px #fff;
+}
+.down_15 {
+	padding: 15px 0 15px 0;
+}
+/* --------------------------- pin for tooltip shifting in btngroup ---------------------------------- */
+.pin {
+	border: 1px solid grey;
+	border-radius: 6px 6px 6px 6px;
+	float: left;
+	height: 90px;
+	width: 90px;
+	position: relative;
+	overflow: hidden;
+}
+.tooltip-inner {
+	text-shadow: 0 1px 0px #000;
+}
+.container[role="main"] {
+	padding-bottom: 120px;
+}
+.tooltip {
+	font-size:12px;
+	letter-spacing: 2px;
+}
+/* ------------------------------------------------------------------------------------------------ */
+/* ------------------------------------- ACTIVIY_AREA --- IFRAME ---------------------------------- */
+.activity_area {
+	border:none;
+	width:100%;
+	height:415px;
+	overflow:auto;
+}
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+}
+.navbar {
+	height: 37px;
+	position: absolute;
+	top:0;
+	margin:0;
+	width: 100%;
+}
+
+.navbar, .navbar-inner, .navbar-fixed-top  {
+	background-image:url(../img/bg_top_navbar.png);
+	background-repeat: repeat-x;
+	max-height: 37px;
+	min-height: 37px;
+	margin:0;
+	padding:0;
+	border:none;
+	width: 100%;
+}
+
+.navbar, .navbar-inner, .navbar-fixed-top  {
+filter: none; /* -----  OVERRIDES bootstrap.css SO THE BGIMAGE SHOWS UP IN IE --------- */
+-webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar .brand, .navbar .breadcrumb > li > a, .navbar .breadcrumb > li, .navbar .login > li > a, .navbar .breadcrumb .divider, .navbar .login .divider {
+	color: #ffffff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+	text-transform:uppercase;
+	letter-spacing:2px;
+	letter-spacing : 1px\9; /* IE8 and below */  
+	text-decoration:none;
+	white-space:nowrap;
+	overflow:hidden;
+}
+ul.login {
+	background-image:url(../img/bg_top_navbar_breadcrumb.png);
+	font-family: 'FuturaMedium';
+	list-style:none;
+	background-repeat: repeat-x;
+	padding:0 0 0 0;
+	margin-bottom:0;
+	height: 36px;
+	padding:8px 10px 0 10px;
+	width:auto;
+	border-left: #CCC groove 2px;
+	border-right: #CCC groove 2px;
+	display: inline-block;
+	white-space:nowrap;
+}
+ul.login > li {
+	display: inline-block;
+}
+.navbar .breadcrumb > li > a:hover, .navbar .login > li > a:hover, .navbar .login > li > a:hover {
+	text-decoration: underline;/*float: right;*/
+}
+.navbar .breadcrumb > li > .active {
+	color:#333;
+}
+ul.choose_lang {
+	background-image:url(../img/bg_top_navbar_breadcrumb.png);
+	background-repeat: repeat-x;
+	font-family: 'FuturaMedium';
+	text-transform:uppercase;
+	letter-spacing:1px;
+	border-radius:0;
+	padding:0 0 0 0;
+	margin-bottom:0;
+	height: 36px;
+	padding:8px 10px 0 10px;
+	border-left: groove 2px #CCC;
+	border-right: groove 2px #CCC;
+	/*width:162px;		 WIDTH NEEDS TO BE A VARIABLE */
+}
+ul.choose_lang > li > a {
+	letter-spacing:2px;
+	letter-spacing : 1px\9; /* IE8 and below */  
+	white-space:nowrap;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+/* -------------------------------------------------------------------- BREADCRUMB ------------------------------ */
+ul.breadcrumb {
+	background-image:url(../img/bg_top_navbar_breadcrumb.png);
+	background-repeat: repeat-x;
+	/*text-transform:uppercase;*/
+	/*font-weight: bold;*/
+	border-radius:0;
+	padding:0 0 0 0;
+	margin-bottom:0;
+	font-family: 'FuturaMedium';
+	height: 36px;
+	padding:8px 10px 0 10px;
+	border-left: groove 2px #CCC;
+	border-right: groove 2px #CCC;
+	width: auto;		/* WIDTH NEEDS TO BE A VARIABLE */
+	white-space:nowrap;
+}
+ul.breadcrumb > li > a {
+	color: #fff;
+	font-family: 'Didact Gothic', sans-serif;
+	font-family: 'FuturaMedium';
+}
+.main_nav {
+	clear:both;
+	padding:0px;
+	margin: 80px 0 50px 0;
+	padding-right:0;
+}
+
+ul.main_nav_right {
+	margin: 0 0 50px 0;
+}
+
+.main_nav_right, .main_nav_right > li {
+	margin-right:0;
+	margin-left:auto;
+	padding-right: 0;
+}
+.main_nav_right, .main_nav_right > li {
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-transform:uppercase;
+	font-weight: 300;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+	padding-left: 24px;
+	padding-right:0;
+	margin-right: 0px;
+	margin-top:18px;
+	display: inline-block;
+	float:right;
+	white-space:nowrap;
+}
+.main_nav h1 {
+	font-size: 60px;
+	letter-spacing: -1px;
+	line-height: 1;
+	margin-bottom: 0;
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/*  --------------------------  BEGIN CSS SHADOW FOR HERO UNIT ---------------------------  */
+.hero-shadow {
+	margin-top:0;
+	margin-bottom:5px;
+}
+
+.drop-shadow {
+	position:relative;
+	padding: 0px;			
+	margin-bottom: 30px;
+	color: inherit;
+	background-color: #eeeeee;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	/*-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+	z-index:0;
+}
+.drop-shadow_inlay {
+	position:relative;
+	padding: 10px;			/*  --------------------------  CHANGE VALUE LATER!!! ---------------------------  */
+	margin-bottom: 30px;
+	min-height: 250px;
+	font-size: 18px;
+	line-height: 30px;
+	color: inherit;
+	background-color: #FFF;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	/*-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;*/
+	z-index:10;
+	
+}
+.drop-shadow:before, .drop-shadow:after {
+	content:"";
+	position:absolute;
+	z-index:-1;
+}
+
+.activity_frame {
+	position:relative;
+	background-color:#e5e5e5;
+	background-image:url(../img/bg_activity_frame.png);
+	background-repeat: repeat;
+	padding: 10px;			/*  --------------------------  CHANGE VALUE LATER!!! ---------------------------  */
+	margin-top: 52px;
+	/*margin-bottom: 30px;*/
+	font-size: 18px;
+	font-weight: 200;
+	/*line-height: 30px;*/
+	color: inherit;
+	background-color: #eeeeee;
+	height: 576px;
+	/*min-height: 558px;*/
+	-webkit-border-radius: 0px 0px 3px 3px;
+	-moz-border-radius: 0px 0px 3px 3px;
+	border-radius: 0px 0px 3px 3px;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+}
+
+.activity_frame_hd {
+	background-image:url(../img/bg_activity_hd.png);
+	background-repeat: repeat-x;
+	max-height: 52px;
+	min-height: 52px;
+	margin:0;
+	margin-bottom:10px;
+	margin-top:-62px;
+	margin-left:-10px;
+	margin-right:-10px;
+	/*padding-left: 10px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border:none;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	-webkit-box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+	box-shadow:inset 1px 1px 0px #ffffff, inset -1px 1px 0px #ffffff;
+}
+
+.activity_frame:before, .activity_frame:after {
+	content:"";
+	position:absolute;
+	z-index:-1;
+}
+
+.activity_frame_inlay {
+	background-color:#f5f5f5;
+	max-height: 470px;
+	min-height: 470px;
+	margin:14px 0 9px 0;
+	/*padding-left: 10px;*/
+	padding-top: 0px;
+	padding-bottom: 0px;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+	border: solid thin #CCC;
+	/* ---------------------------------------------------------- CREATES WHITE HIGHLIGHT ----------------------------- */
+    -moz-box-shadow: 0px 2px 2px #cdcdcd, inset 0px 2px 0px #ffffff;
+	-webkit-box-shadow: 0px 2px 2px #cdcdcd, inset 0px 2px 0px #ffffff;
+	box-shadow: 0px 2px 2px #cdcdcd, inset 0px 2px 0px #ffffff;
+	
+}
+.activity_frame_inlay > p {
+	padding:5px 10px 5px 10px;
+	font-size:13px;
+	letter-spacing:2px;
+}
+
+.btn-group {
+	-webkit-border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+/*	-moz-box-shadow: 0px 1px 2px #dbdbdb, inset 0px 2px 4px #ffffff;
+	-webkit-box-shadow: 0px 1px 2px #dbdbdb, inset 0px 4px 4px #ffffff;
+	box-shadow: 0px 1px 2px #dbdbdb, inset 0px 4px 4px #ffffff;*/
+}
+
+/* ---------------------------------------   ACTIVITY iFRAME STYLES --------------------------------------- */
+
+.clean_bg {
+	background:none !important;
+}
+
+html.clean_bg {padding:15px 15px 0;}
+
+.shadow_wrap {
+	height:385px;
+	width:770px;
+	position:absolute;
+	left:117px;
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.5) inset;
+	-webkit-box-shadow:0 0 20px rgba(0,0,0,0.5) inset;
+	box-shadow:0 0 20px rgba(0,0,0,0.5) inset;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	z-index:1;
+}
+
+.lft {float:left;}
+.rt {float:right;}
+
+/* --- LAYOUT TYPE  --- */
+
+.activity {
+	height:385px;
+	width:100%;	
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.vocab_review {}
+
+.vocab_review {}
+
+.transcription {}
+
+.treasure_hunt {}
+
+/* --- CONTAINERS  --- */
+
+.btn_container, .drop_zone, .panel {
+	float:left;
+	height:385px;
+}
+
+.btn_container {
+	background:#E4E4E4;
+	border:1px solid #CECECE;
+	margin-right:15px;
+	padding:7px 7px 0;
+	width:102px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+.btn_container div {
+	background:#FBFBFB;
+background: #fcfcfc;
+background: -moz-linear-gradient(top, #fcfcfc 0%, #e5e5e5 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#e5e5e5));
+background: -webkit-linear-gradient(top, #fcfcfc 0%,#e5e5e5 100%);
+background: -o-linear-gradient(top, #fcfcfc 0%,#e5e5e5 100%);
+background: -ms-linear-gradient(top, #fcfcfc 0%,#e5e5e5 100%);
+background: linear-gradient(to bottom, #fcfcfc 0%,#e5e5e5 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e5e5e5',GradientType=0 );	
+	display:inline-block;
+	margin-bottom:7px;
+	width:86px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	-moz-box-shadow:0 0 1px rgba(0,0,0,0.75);
+	-webkit-box-shadow:0 0 1px rgba(0,0,0,0.75);
+	box-shadow:0 0 1px rgba(0,0,0,0.75);
+}
+
+.btn_container div:last-child { margin-bottom:0;}
+
+.btn_container div.drop_btn {
+	height:68px;
+	width:86px;
+	margin-bottom:0;
+	-moz-border-radius:none;
+	-webkit-border-radius:none;
+	border-radius:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+	box-shadow:none;
+}
+
+.btn_container div.drop_btn:hover {cursor:pointer;}
+
+.drop_zone {width:535px;}
+
+.panel {
+	background: #8e8e8e;
+background: -moz-linear-gradient(45deg, #8e8e8e 0%, #686868 100%);
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#8e8e8e), color-stop(100%,#686868));
+background: -webkit-linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+background: -o-linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+background: -ms-linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+background: linear-gradient(45deg, #8e8e8e 0%,#686868 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e8e8e', endColorstr='#686868',GradientType=1 );	
+	color:white;
+	padding:25px 15px 10px;
+	width:235px;
+	text-shadow:-1px 0 0 rgba(0,0,0,0.5);
+	border-radius:0 3px 3px 0;
+}
+
+.panel i {
+	display:block;
+	font-size:14em;
+	margin-bottom:20px;
+	text-align:center;
+}
+
+/* Lifted corners */
+.lifted {
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.lifted:before, .lifted:after {
+	bottom:10px;
+	left:10px;
+	width:50%;
+	height:20%;
+	max-width:700px;
+	max-height:200px;
+	-webkit-box-shadow:0 15px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0 15px 10px rgba(0, 0, 0, 0.4);
+	box-shadow:0 15px 10px rgba(0, 0, 0, 0.4);
+	-webkit-transform:rotate(-2deg);
+	-moz-transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg);
+	-o-transform:rotate(-2deg);
+	transform:rotate(-2deg);
+}
+.lifted:after {
+	right:10px;
+	left:auto;
+	-webkit-transform:rotate(2deg);
+	-moz-transform:rotate(2deg);
+	-ms-transform:rotate(2deg);
+	-o-transform:rotate(2deg);
+	transform:rotate(2deg);
+}
+
+/*  --------------------------  END CSS SHADOW FOR HERO UNIT ---------------------------  */
+
+
+.nav_bottom, .nav_bottom dl, .nav_bottom a {
+	font-size:13px;
+	font-weight:normal;
+	letter-spacing:2px;
+	line-height:15px;
+	padding: 0;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+	
+}
+.nav_bottom > dd {
+	display: inline;
+    list-style: none outside none;
+	padding-left: 5px;
+	margin-top: 15px;
+	float:right;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.nav_social > dd {
+	display: inline-block;
+    list-style: none outside none;
+	padding-left: 10px;
+	margin-top: 5px;
+	float:right;
+	color: #fff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
+}
+
+.right-btngroup-top-marg {
+	margin-top: 3px;
+}
+	
+.dropdown-menu,
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a,
+.nav_unit  >  ul a {
+			font-size: 16px;
+			letter-spacing: 1px;
+			color:#6C6C6C;
+}
+
+/* ---------------------------------------   BEGIN TODDS CHANGES FOR NAV_UNIT   --------------------------------------- */
+
+.nav_unit > ul > li :after {
+	font-family: Consolas, Courier New, Arial, sans-serif;
+	/*content: '↓';*/
+	margin-left: 6px;
+	color: #333;
+}
+
+.unit_arrow {
+	margin-top: 16px;
+	margin-left: 6px;
+	margin-right: 0px;
+}
+
+.nav_unit {
+  background-image:url(../img/bg_unit_nav.png);
+  background-repeat: repeat-x;
+  height:50px;
+  margin-top:0px;
+  width:470px;
+  width: auto;
+  min-width:100px;/**/
+  float:right;
+  -webkit-border-radius: 0px 3px 0 0;
+  -moz-border-radius: 0px 3px 0 0;
+  border-radius: 0px 4px 0 0;
+  border-top: solid thin #fff;
+  border-top: solid thin #fff;			
+}
+
+.nav_unit  > ul {
+	display:inline-block;
+	list-style-type: none;
+	height:53px;
+	margin: 0;	
+	padding: 0;
+}
+
+.nav_unit  > ul > li {
+	float:right;
+}
+
+.nav_unit  > ul > li > a:hover {
+	background-color:#CDCDCD;
+	
+}
+
+.nav_unit  >  ul a {
+	background-image: url(../img/nav_unit_divider.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	padding-right: 20px;
+	padding-left: 20px;
+	display: inline-block;
+	line-height: 49px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #333;
+}
+
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #C5C5C5;
+  background-image: none;
+  text-shadow: 1px 1px 1px #333;
+}
+
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover {
+  color: #333333;
+  text-decoration: none;
+  background-color: #C5C5C5;
+  background-image: none;
+}
+/* ---------------------------------------   END TODDS CHANGES FOR NAV_UNIT   --------------------------------------- */
+
+.nav_unit > ul > a {
+	display:inline-block;
+	background-position-y: top;
+	
+}
+
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover,
+.dropdown-menu li > a:hover,
+.dropdown-menu li > a:focus,
+.dropdown-submenu:hover > a {
+			color:#fff;
+}
+
+
+/* ----------------------------- Apply responsive CSS fixes as necessary ----------------------------- */
+/* ------------- CHANGE .dropdown-menu width and radius in bootstrap.css if a new version is downloaded ---------------------*/
+
+/*
+
+@media (min-width: 1200px) { }
+@media (min-width: 980px) {
+  .nav-collapse.collapse {
+    height: auto !important;
+    overflow: visible !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) { }
+@media (max-width: 767px) { }
+@media (max-width: 480px) { }
+
+*/
+
+/* Portrait tablet to landscape and desktop */
+

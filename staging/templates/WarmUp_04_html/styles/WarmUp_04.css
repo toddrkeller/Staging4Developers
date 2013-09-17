@@ -1,0 +1,83 @@
+#main {
+  background-color: lightgray;
+  height: 350px;
+  width: 360px;
+}
+
+#stage {
+  background-color: white;
+  height: 241px;
+  left: 30px;
+  position: absolute;
+  top: 60px;
+  width: 321px;
+}
+
+#stageImg {
+  height: 100px;
+  left: 20px;
+  width: 100px;
+  position: absolute;
+  top: 10px;
+}
+#drop {
+  background-color: #EFEFEF;
+  height: 108px;
+  left: 15px;
+  position: absolute;
+  top: 120px;
+  width: 291px;
+}
+
+
+#playBtn1 {
+  padding: 7px;
+}
+
+#setDiv_container {
+  background-color: lightgray;
+  height: 40px;
+  position: absolute;
+  top: 363px;
+  width: 360px;
+}
+
+#setDiv {
+  left: 10px;
+}
+
+#drag_container {
+  background-color: lightgray;
+  height: 400px;
+  left: 373px;
+  margin: 3px;
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.drag {
+  background-color: grey;
+  height: 49px;
+  margin: 3px;
+  padding: 7px;
+}
+
+#drag0{
+}
+
+#drag1{
+}
+
+#drag2{
+}
+
+#drag3{
+}
+
+#drag4{
+}
+
+#drag5{
+}
+

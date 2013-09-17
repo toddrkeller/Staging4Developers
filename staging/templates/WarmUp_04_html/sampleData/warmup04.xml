@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="German" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart">
+    <hs:item>
+      <hs:tl_word dir="ltr">ttest1 in target language</hs:tl_word>
+      <hs:en_word dir="ltr">etest1 in English language</hs:en_word>
+      <hs:image>py_one.png</hs:image>
+      <hs:audio>test1.mp3</hs:audio>
+      <hs:hint dir="ltr">hint1</hs:hint>
+      <hs:feedback dir="ltr">feedback1</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:tl_word dir="ltr">ttest2 in target language</hs:tl_word>
+      <hs:en_word dir="ltr">etest2 in English language</hs:en_word>
+      <hs:image>py_two.png</hs:image>
+      <hs:audio>test2.mp3</hs:audio>
+      <hs:hint dir="ltr">hint2</hs:hint>
+      <hs:feedback dir="ltr">feedback2</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:tl_word dir="ltr">ttest3 in target language</hs:tl_word>
+      <hs:en_word dir="ltr">etest3 in English language</hs:en_word>
+      <hs:image>py_three.png</hs:image>
+      <hs:audio>test3.mp3</hs:audio>
+      <hs:hint dir="ltr">hint3</hs:hint>
+      <hs:feedback dir="ltr">feedback3</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:tl_word dir="ltr">ttest4 in target language</hs:tl_word>
+      <hs:en_word dir="ltr">etest4 in English language</hs:en_word>
+      <hs:image>py_four.png</hs:image>
+      <hs:audio>test1.mp3</hs:audio>
+      <hs:hint dir="ltr">hint4</hs:hint>
+      <hs:feedback dir="ltr">feedback4</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:tl_word dir="ltr">ttest5 in target language</hs:tl_word>
+      <hs:en_word dir="ltr">etest5 in English language</hs:en_word>
+      <hs:image>py_five.png</hs:image>
+      <hs:audio>test2.mp3</hs:audio>
+      <hs:hint dir="ltr">hint5</hs:hint>
+      <hs:feedback dir="ltr">feedback5</hs:feedback>
+    </hs:item>
+    <hs:item>
+      <hs:tl_word dir="ltr">ttest6 in target language</hs:tl_word>
+      <hs:en_word dir="ltr">etest6 in English language</hs:en_word>
+      <hs:image>py_six.png</hs:image>      
+      <hs:audio>test3.mp3</hs:audio>
+      <hs:hint dir="ltr">hint6</hs:hint>
+      <hs:feedback dir="ltr">feedback6</hs:feedback>
+    </hs:item>
+  
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest7 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest7 in English language</hs:en_word>
+    <hs:image>py_seven.png</hs:image>
+    <hs:audio>test1.mp3</hs:audio>
+    <hs:hint dir="ltr">hint7</hs:hint>
+    <hs:feedback dir="ltr">feedback7</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest8 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest8 in English language</hs:en_word>
+    <hs:image>py_eight.png</hs:image>
+    <hs:audio>test2.mp3</hs:audio>
+    <hs:hint dir="ltr">hint8</hs:hint>
+    <hs:feedback dir="ltr">feedback8</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest9 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest9 in English language</hs:en_word>
+    <hs:image>py_nine.png</hs:image>
+    <hs:audio>test3.mp3</hs:audio>
+    <hs:hint dir="ltr">hint9</hs:hint>
+    <hs:feedback dir="ltr">feedback9</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest10 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest10 in English language</hs:en_word>
+    <hs:image>py_one.png</hs:image>
+    <hs:audio>test1.mp3</hs:audio>
+    <hs:hint dir="ltr">hint10</hs:hint>
+    <hs:feedback dir="ltr">feedback10</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest11 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest11 in English language</hs:en_word>
+    <hs:image>py_two.png</hs:image>
+    <hs:audio>test2.mp3</hs:audio>
+    <hs:hint dir="ltr">hint11</hs:hint>
+    <hs:feedback dir="ltr">feedback11</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest12 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest12 in English language</hs:en_word>
+    <hs:image>py_three.png</hs:image>      
+    <hs:audio>test3.mp3</hs:audio>
+    <hs:hint dir="ltr">hint12</hs:hint>
+    <hs:feedback dir="ltr">feedbac12</hs:feedback>
+  </hs:item>
+
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest13 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest13 in English language</hs:en_word>
+    <hs:image>py_four.png</hs:image>
+    <hs:audio>test1.mp3</hs:audio>
+    <hs:hint dir="ltr">hint13</hs:hint>
+    <hs:feedback dir="ltr">feedback13</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest14 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest14 in English language</hs:en_word>
+    <hs:image>py_five.png</hs:image>
+    <hs:audio>test2.mp3</hs:audio>
+    <hs:hint dir="ltr">hint14</hs:hint>
+    <hs:feedback dir="ltr">feedback14</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest15 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest15 in English language</hs:en_word>
+    <hs:image>py_six.png</hs:image>
+    <hs:audio>test3.mp3</hs:audio>
+    <hs:hint dir="ltr">hint15</hs:hint>
+    <hs:feedback dir="ltr">feedback15</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest16 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest16 in English language</hs:en_word>
+    <hs:image>py_seven.png</hs:image>
+    <hs:audio>test1.mp3</hs:audio>
+    <hs:hint dir="ltr">hint16</hs:hint>
+    <hs:feedback dir="ltr">feedback16</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest17 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest17 in English language</hs:en_word>
+    <hs:image>py_eight.png</hs:image>
+    <hs:audio>test2.mp3</hs:audio>
+    <hs:hint dir="ltr">hint17</hs:hint>
+    <hs:feedback dir="ltr">feedback17</hs:feedback>
+  </hs:item>
+  <hs:item>
+    <hs:tl_word dir="ltr">ttest18 in target language</hs:tl_word>
+    <hs:en_word dir="ltr">etest18 in English language</hs:en_word>
+    <hs:image>py_nine.png</hs:image>      
+    <hs:audio>test3.mp3</hs:audio>
+    <hs:hint dir="ltr">hint18</hs:hint>
+    <hs:feedback dir="ltr">feedback18</hs:feedback>
+  </hs:item> 
+</hs:content>
