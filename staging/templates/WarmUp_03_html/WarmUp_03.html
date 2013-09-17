@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		
+		<title>WarmUp 3 HTML</title>
+		
+		<script src="../common/js/AC_OETags.js"></script>
+
+		<script src="../common/js/xml2json.js"></script>
+		<script src="../common/js/dli_activity.js"></script>
+		
+		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+		
+		<script src="../common/js/dli_util.js"></script>
+		<script src="../common/js/dli_video.js"></script>
+		
+		<script src="WarmUp_03.js"></script>
+	</head>
+	<body>
+		<noscript>Activity cannot load. No Javascript support detected.</noscript>
+				<h3 class="activity_hd">Warm-up 03 | Word Recognition</h3>
+		<div class="activity_description">Click on any English word.
+			Listen to the audio and look at the picture. Select the 
+			matching Target Language...</div>
+		<div id="main">
+			<div id="buttonContainer">
+				<div id="leftCol">
+					<div id="div_leftCol1" class="divBtn roundCorners noHoverStyle"
+						onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="leftColDown(1)">
+						<div class="leftColBtn">One</div>
+					</div>
+					<div id="div_leftCol2" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="leftColDown(2)">
+						<div class="leftColBtn">Two</div>
+					</div>
+					<div id="div_leftCol3" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="leftColDown(3)">
+						<div class="leftColBtn">Three</div>
+					</div>
+					<div id="div_leftCol4" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="leftColDown(4)">
+						<div class="leftColBtn">Four</div>
+					</div>
+					<div id="div_leftCol5" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="leftColDown(5)">
+						<div class="leftColBtn">Five</div>
+					</div>
+					<div id="div_leftCol6" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="mouseOver(this)" onmouseout="mouseOut(this)" onclick="leftColDown(6)">
+						<div class="leftColBtn">Six</div>
+					</div>
+		
+				</div>
+				<div id="rightCol">
+					<div id="rightClickGuard"></div>
+					
+					<div id="div_rightCol1" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="rtMouseOver(this)" onmouseout="rtMouseOut(this)" onclick="rightColDown(this)">
+						<div id="rightColLabel1" class="rightColBtn" >aOne</div>
+					</div>
+					
+					<div id="div_rightCol2" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="rtMouseOver(this)" onmouseout="rtMouseOut(this)" onclick="rightColDown(this)">
+						<div id="rightColLabel2" class="rightColBtn" >aTwo</div>
+					</div>
+					
+					<div id="div_rightCol3" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="rtMouseOver(this)" onmouseout="rtMouseOut(this)" onclick="rightColDown(this)">
+						<div id="rightColLabel3" class="rightColBtn" >aThree</div>
+					</div>
+					
+					<div id="div_rightCol4" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="rtMouseOver(this)" onmouseout="rtMouseOut(this)" onclick="rightColDown(this)">
+						<div id="rightColLabel4" class="rightColBtn" >aFour</div>
+					</div>
+					
+					<div id="div_rightCol5" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="rtMouseOver(this)" onmouseout="rtMouseOut(this)" onclick="rightColDown(this)">
+						<div id="rightColLabel5" class="rightColBtn" >aFive</div>
+					</div>
+					
+					<div id="div_rightCol6" class="divBtn roundCorners noHoverStyle" 
+						onmouseover="rtMouseOver(this)" onmouseout="rtMouseOut(this)" onclick="rightColDown(this)">
+						<div id="rightColLabel6" class="rightColBtn" >aSix</div>
+					</div>
+				</div>
+				<div id="videoContainer" class="concave">
+				</div>
+				<div id="container_setDiv" class="roundCorners btn-group noSelect">
+					<div id="setDiv">
+						<div id="setTitle" class="bootstrapLabel btn_set noSelect">SET:</div>
+						<span id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</span>
+					</div> 
+				</div>
+				<div id="feedback" class="convex">
+					<h2 id="feedbackHeader">Set completed</h2>
+					<p id="feedbackText">Set completed text</p>
+					<button id="feedbackBtn" class="btn" onclick="{closeFeedback();}">Ok</button>
+				</div>
+			</div>	
+		</div>
+		<div id="clickGuard" ></div>
+				
+	</body>
+</html>

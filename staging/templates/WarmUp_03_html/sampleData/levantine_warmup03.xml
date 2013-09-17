@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hs:content target_language="Russian" xmlns:hs="http://fieldsupport.dliflc.edu/products/headstart" rtl="true">
+    <hs:section>
+        <hs:item>
+            <hs:lang_en>Lie Down</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلام علي</hs:lang_tl>
+            <hs:file_audio>rain.mp3</hs:file_audio>
+            <hs:file_input>rain.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way السلام عليكمto tell someone to take a seat.</hs:hint>
+            <hs:feedback>اِنبَطِح means "Lie down." The root of the verb is بطح</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>stand	</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلام علم</hs:lang_tl>
+            <hs:file_audio>red.mp3</hs:file_audio>
+            <hs:file_input>red.flv	</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way السلام عليكمto order someone to maintain an upright position on his feet.</hs:hint>
+            <hs:feedback>Встаньтe السلام عليكمmeans stand. It is the formal command form of the verb встать.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>wait</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلامليكمc</hs:lang_tl>
+            <hs:file_audio>rice.mp3</hs:file_audio>
+            <hs:file_input>rice.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a السلام عليكمway to tell someone to not go further.</hs:hint>
+            <hs:feedback>Ждите, السلام عليكمformal command form of ждать, means wait.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>come here</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلامعيكم</hs:lang_tl>
+            <hs:file_audio>river.mp3</hs:file_audio>
+            <hs:file_input>river.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way السلام عليكمto tell someone to move in your direction.</hs:hint>
+            <hs:feedback>Подойдите السلام عليكمmeans come here. It is formal command form of the verb подойти.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>go on foot</hs:lang_en>
+            <hs:lang_tl dir="ltr">السا عليكمe</hs:lang_tl>
+            <hs:file_audio>road.mp3</hs:file_audio>
+            <hs:file_input>road.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way السلام عليكمto tell someone to move away from you. </hs:hint>
+            <hs:feedback>Идите, formal السلام عليكمcommand form of the verb идти, means go on foot.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>stop</hs:lang_en>
+            <hs:lang_tl dir="ltr">السم عليكمf</hs:lang_tl>
+            <hs:file_audio>rain.mp3</hs:file_audio>
+            <hs:file_input>rain.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to السلام عليكمtell someone not to move.</hs:hint>
+            <hs:feedback>Oстановитесь السلام عليكمmeans stop. It is the formal command form of the verb oстановиться.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>take</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلام عكمg</hs:lang_tl>
+            <hs:file_audio>red.mp3</hs:file_audio>
+            <hs:file_input>red.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is what you السلام عليكمtell someone when you are offering something.</hs:hint>
+            <hs:feedback>Возьмите, formal السلام عليكمcommand form  of взять, means take.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>give</hs:lang_en>
+            <hs:lang_tl dir="ltr">السام علكمh</hs:lang_tl>
+            <hs:file_audio>rice.mp3</hs:file_audio>
+            <hs:file_input>rice.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to order السلام عليكمsomeone to yield possession of something.</hs:hint>
+            <hs:feedback>Дайте, formal السلام عليكمcommand form of дать, means give. </hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>put down</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلم عليكمi</hs:lang_tl>
+            <hs:file_audio>river.mp3</hs:file_audio>
+            <hs:file_input>river.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to السلام عليكمtell someone to place a thing somewhere. </hs:hint>
+            <hs:feedback>Положите, formal السلام عليكمcommand form of положить, means put down. </hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>pick up</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلا عليكمj</hs:lang_tl>
+            <hs:file_audio>road.mp3</hs:file_audio>
+            <hs:file_input>road.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to tell السلام عليكمsomeone to take something by hand.</hs:hint>
+            <hs:feedback>Поднимите, formal السلام عليكمcommand form  of поднимать, means pick up.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>speak</hs:lang_en>
+            <hs:lang_tl dir="ltr">السلاعليكمk</hs:lang_tl>
+            <hs:file_audio>rain.mp3</hs:file_audio>
+            <hs:file_input>rain.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to tell السلام عليكمsomeone to pronounce words.</hs:hint>
+            <hs:feedback>Говорите, formal السلام عليكمof говорить, means speak.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>listen</hs:lang_en>
+            <hs:lang_tl dir="ltr">السا عليكمl</hs:lang_tl>
+            <hs:file_audio>red.mp3</hs:file_audio>
+            <hs:file_input>red.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to ask السلام عليكمsomeone to pay attention to what you are saying.</hs:hint>
+            <hs:feedback>Слушайте, formal السلام عليكمcommand form of слушать, means listen. </hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>open</hs:lang_en>
+            <hs:lang_tl dir="ltr">откройте</hs:lang_tl>
+            <hs:file_audio>rice.mp3</hs:file_audio>
+            <hs:file_input>rice.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to tell السلام عليكمsomeone to create an opening.</hs:hint>
+            <hs:feedback>Откройте, formal السلام عليكمcommand form of the verb открыть, means open.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>close</hs:lang_en>
+            <hs:lang_tl dir="ltr">закройте</hs:lang_tl>
+            <hs:file_audio>river.mp3</hs:file_audio>
+            <hs:file_input>river.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is the opposite السلام عليكمof open.</hs:hint>
+            <hs:feedback>Закройте, formal السلام عليكمcommand form of закрыть, means close.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>turn on</hs:lang_en>
+            <hs:lang_tl dir="ltr">включите</hs:lang_tl>
+            <hs:file_audio>road.mp3</hs:file_audio>
+            <hs:file_input>road.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to tell السلام عليكمsomeone to light a place.</hs:hint>
+            <hs:feedback>Включите, formal command السلام عليكمform of включать, means turn on. </hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>turn off</hs:lang_en>
+            <hs:lang_tl dir="ltr">выключите</hs:lang_tl>
+            <hs:file_audio>rain.mp3</hs:file_audio>
+            <hs:file_input>rain.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to tell someone السلام عليكمto cut the power.</hs:hint>
+            <hs:feedback>Выключите, formal command السلام عليكمform of выключать, means turn off. </hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>load</hs:lang_en>
+            <hs:lang_tl dir="ltr">грузите</hs:lang_tl>
+            <hs:file_audio>red.mp3</hs:file_audio>
+            <hs:file_input>red.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way to tell someone السلام عليكمto place something in a vehicle. </hs:hint>
+            <hs:feedback>Грузите, السلام عليكمformal command form of грузить, means load.</hs:feedback>
+        </hs:item>
+        <hs:item>
+            <hs:lang_en>unload</hs:lang_en>
+            <hs:lang_tl dir="ltr">разгрузите</hs:lang_tl>
+            <hs:file_audio>rice.mp3</hs:file_audio>
+            <hs:file_input>rice.flv</hs:file_input>
+            <hs:media_type>video</hs:media_type>
+            <hs:hint>This is a way السلام عليكمto tell someone to remove something from a vehicle.</hs:hint>
+            <hs:feedback>Разгрузите, السلام عليكمformal command form of разгрузить, means unload. </hs:feedback>
+        </hs:item>
+        
+    </hs:section>
+</hs:content>
