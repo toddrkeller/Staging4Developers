@@ -95,6 +95,7 @@ html body {
 	margin: 3px;
 	padding: 0.4em;
 	font-size: 12px;
+	border-radius: 3px;
 }
 
 #transliSelectable .ui-selecting { background: #FECA40; }
@@ -102,6 +103,7 @@ html body {
 #transliSelectable .ui-selected {
 	background: #f6a816;
 	color: white;
+	
 }
 
 #transliSelectable {
@@ -115,7 +117,9 @@ html body {
 	margin: 3px;
 	padding: 0.4em;
 	font-size: 12px;
-	height: 18px;
+	height: 32px;
+	padding: 0.4em;
+	border-radius: 3px;
 }
 
 #transSelectable .ui-selecting { background: #FECA40; }
@@ -123,6 +127,9 @@ html body {
 #transSelectable .ui-selected {
 	background: #f6a816;
 	color: white;
+	height: 32px;
+	padding: 0.4em;
+	border-radius: 3px;
 }
 
 #transSelectable {
@@ -136,7 +143,9 @@ html body {
 	margin: 3px;
 	padding: 0.4em;
 	font-size: 14px;
-	height: 18px;
+	height: 32px;
+	padding: 0.4em;
+	border-radius: 3px;
 }
 
 .ui-tabs-panel {
