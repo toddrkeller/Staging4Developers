@@ -99,7 +99,7 @@ html body {
 	width: 320px;
 }
 
-.playBtn { }
+.playBtn {  z-index: 1; }
 
 #playBtnVid1, #playBtnVid2 {
 	cursor: pointer;
@@ -107,10 +107,10 @@ html body {
 	left: 10px;
 	position: absolute;
 	top: 170px;
-	z-index: 100;
+	/*z-index: 100;*/
 }
 
-.vidPlayBtnDiv { margin-top: 10px; }
+.vidPlayBtnDiv { margin-top: 10px;}
 
 #playBtn0, #playBtn1, #playBtn2 {
 	cursor: pointer;
