@@ -54,27 +54,52 @@ html body {
 
 #videoContainer1 {
 	background-color: #808080;
-	height: 227px;
+	height: 240px;
 	left: 5px;
 	padding: 0 !important;
 	position: absolute;
 	width: 320px;
+	
+	-moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    overflow:hidden;
+	
+	--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff)";/*IE 8*/
+	-moz-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/*FF 3.5+*/
+	-webkit-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff); /*IE 5.5-7*/
+	
 }
 
 #videoContainer2 {
 	background-color: #808080;
-	height: 227px;
+	height: 240px;
 	left: 567px;
 	padding: 0 !important;
 	position: absolute;
 	width: 320px;
+	
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    overflow:hidden;
+	
+	--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff)";/*IE 8*/
+	-moz-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/*FF 3.5+*/
+	-webkit-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff); /*IE 5.5-7*/
 }
 
 .videoScreen {
-	border-radius: 3px 3px 3px 3px;
-	height: 227px;
+	border-radius: 3px;
+	height: 240px;
 	margin: 0;
 	width: 320px;
+	
+	
 }
 
 .displayNone { display: none; }
@@ -97,16 +122,27 @@ html body {
 #videoTag {
 	height: 240px;
 	width: 320px;
+	
+	-moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    overflow:hidden;
+	
+	--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff)";/*IE 8*/
+	-moz-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 5px #333333;/*FF 3.5+*/
+	-webkit-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 5px #333333;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 5px #333333;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff); /*IE 5.5-7*/
 }
 
 .playBtn {  z-index: 1; }
 
 #playBtnVid1, #playBtnVid2 {
 	cursor: pointer;
-	display: block;
-	left: 10px;
-	position: absolute;
-	top: 170px;
+    display: block;
+    left: -3px;
+    position: absolute;
+    top: 190px;
 	/*z-index: 100;*/
 }
 
