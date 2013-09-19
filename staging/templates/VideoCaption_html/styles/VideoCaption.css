@@ -57,6 +57,7 @@ html body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
+	border-radius: 3px;
 }
 #selectable li {
 	cursor: pointer;
@@ -65,6 +66,7 @@ html body {
 	padding: 1em;
 	font-size: 1em;
 	height: 18px;
+	border-radius: 3px;
 }
 
 #langSelectToggle_container {
@@ -86,7 +88,7 @@ html body {
 }
 
 #langSelect {
-	background-color: #F7F7F7s;
+	background-color: #F7F7F7;
     font-size: 14px;
     left: 600px;
     padding: 4px;
@@ -125,7 +127,17 @@ body {
 
 #videoContainer {
     width: 720px;
-
+	height: 480px;
+	
+	-moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    overflow:hidden;
+	
+	--ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=180, Color=#ffffff)";/*IE 8*/
+	-moz-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/*FF 3.5+*/
+	-webkit-box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+	box-shadow: 0px 1px 1px #ffffff, inset 0px 1px 10px #919191;/* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
 }
 
 #videoTag {
