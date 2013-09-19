@@ -1,197 +1,133 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
-		
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		
-		<title>Enabling 68 HTML</title>
-		
-		<script src="../common/js/AC_OETags.js"></script>
+<head>
+<script type="text/javascript" src="../common/js/firebug-lite-1_2.js"></script>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 
-		<script src="../common/js/xml2json.js"></script>
-		<script src="../common/js/dli_activity.js"></script>
-		
-		<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
-		<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
-		<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
-		<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
-		
-		<script src="../common/js/dli_util.js"></script>
-		<script src="../common/js/dli_audio.js"></script>
-		
-		<script src="Enabling_68.js"></script>
-	</head>
-	<body>
-		<div id="flashAudioPlayerDiv"></div>
-		<div id="htmlAudioPlayerDiv"></div>
-		<div id="embeddedAudioPlayerDiv"></div>
-		
-		<h3 class="activity_hd">Enabling 68a | Sentence Completion</h3>
-		<div class="activity_description">
-			Click the Play button and listen to the TL sentence. 
-			Next, select the correct image that corresponds with 
-			the...Click the Play button and listen to the TL sentence. 
-			Next, select the correct image that corresponds with 
-			the...Click the Play button and listen to the TL sentence. 
-			Next, select the correct image that corresponds with 
-			the...
-		</div>
-		
-		<div id="main" class="roundCorners hidden">
-			<div id="img_container" class="convex">
-				<img id='img0' class="itemImg" onmousedown="imageClicked(0)"></img>
-				<img id='img1' class="itemImg" onmousedown="imageClicked(1)"></img>
-				<img id='img2' class="itemImg" onmousedown="imageClicked(2)"></img>
-				<img id='img3' class="itemImg" onmousedown="imageClicked(3)"></img>
-				<img id='img4' class="itemImg" onmousedown="imageClicked(4)"></img>
-			</div>
-			
-			<div id='playBtnDiv' class="convex">
-				<div id="playBtn"> 
-                <div id='itemText'></div><br />
-					<a href="javascript:;" class="playBtnLink" onMouseOut="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_off.png',1)" 
-						onMouseDown="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_on.png',1);playAudio();"
-						onMouseUp="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_off.png',1)" 
-				        onMouseOver="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_on.png',1)" > 
-				          <img  id="playBtn_s1" src="../common/img/btn_play_audio_off.png" border="0">
-			    	</a> 
-				</div>
-			</div>
-			
-			<div id="feedback" class="convex">
-				<h2 id="feedbackHeader">Set completed</h2>
-				<p id="feedbackText">Set completed text</p>
-				<button id="feedbackBtn" onclick="{closeFeedback();}" class="btn round_4">OK</button>
-				<div id="feedbackButtonImgContainer"></div>
-			</div>
-		</div>
-		
-		<div id="grammar" class="roundCorners">
-			<div id="grammarNote_container" class="convex">
-				<p id='grammarLabel' class='roundCorners'>Introduction</p>
-				<p id='explanationLabel'></p>
-				<p id='phraseTLLabel'></p>
-				<p id='phraseENLabel'></p>
-			</div>
-			
-			<div id="explanation_container_1">
-				<p id='exampleLabel' class='roundCorners'>Example 1</p>
-				<p id='ex1PhraseENLabel'></p>
-				<div id="playBtnEx1"> 
-                <p id='ex1PhraseTLLabel'></p>
-					<a href="javascript:;" class="playBtnLink" onMouseOut="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_off.png',1)" 
-						onMouseDown="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_on.png',1);playExAudio(0);"
-						onMouseUp="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_off.png.png',1)" 
-				        onMouseOver="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_on.png',1)" > 
-				          <img  id="playBtn_ex1s1" src="../common/img/btn_play_audio_off.png" border="0">
-				    	</a> 
-				    	
-			    	
-			   </div>
-			</div>
-			
-			<div id="explanation_container_2">
-				<p id='exampleLabel' class='roundCorners'>Example 2</p>
-				<p id='ex2PhraseENLabel'></p>
-				<div id="playBtnEx2"> 
-                <p id='ex2PhraseTLLabel'></p>
-					<a href="javascript:;" class="playBtnLink" onMouseOut="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_off.png',1)" 
-						onMouseDown="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_on.png',1);playExAudio(1);"
-						onMouseUp="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_off.png',1)" 
-				        onMouseOver="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_on.png',1)" > 
-				          <img  id="playBtn_ex2s1" src="../common/img/btn_play_audio_off.png" border="0">
-				    	</a> 
-				    	
-			    	
-				</div>
-			</div>
-		</div>
-		
-		<div id="statusBar" class="roundCorners noSelect">	
-			<div id="questionsButton" class="roundCorners"
+<title>Enabling 68 HTML</title>
+
+<script src="../common/js/AC_OETags.js"></script>
+<script src="../common/js/xml2json.js"></script>
+<script src="../common/js/dli_activity.js"></script>
+<link type="text/css" href="../common/css/smoothness/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+<script type="text/javascript" src="../common/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery-ui-1.8.20.custom.min.js"></script>
+<script type="text/javascript" src="../common/js/jquery.ui.touch-punch.js"></script>
+<script src="../common/js/dli_util.js"></script>
+<script src="../common/js/dli_audio.js"></script>
+<script src="Enabling_68.js"></script>
+</head>
+
+<body>
+<div id="flashAudioPlayerDiv"></div>
+<div id="htmlAudioPlayerDiv"></div>
+<div id="embeddedAudioPlayerDiv"></div>
+<h3 class="activity_hd">Enabling 68a | Sentence Completion</h3>
+<div class="activity_description"> Click the Play button and listen to the TL sentence. 
+  Next, select the correct image that corresponds with 
+  the...Click the Play button and listen to the TL sentence. 
+  Next, select the correct image that corresponds with 
+  the...Click the Play button and listen to the TL sentence. 
+  Next, select the correct image that corresponds with 
+  the... </div>
+<div id="main" class="roundCorners hidden">
+  <div id="img_container" class="convex"> <img id='img0' class="itemImg" onmousedown="imageClicked(0)"></img> <img id='img1' class="itemImg" onmousedown="imageClicked(1)"></img> <img id='img2' class="itemImg" onmousedown="imageClicked(2)"></img> <img id='img3' class="itemImg" onmousedown="imageClicked(3)"></img> <img id='img4' class="itemImg" onmousedown="imageClicked(4)"></img> </div>
+  <div id='playBtnDiv' class="convex">
+    <div id="playBtn">
+      <div id='itemText'></div>
+      <br /><a href="javascript:;" class="playBtnLink" onMouseOut="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_off.png',1)" 
+          onMouseDown="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_on.png',1);playAudio();"
+          onMouseUp="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_off.png',1)" 
+          onMouseOver="MM_swapImage('playBtn_s1','','../common/img/btn_play_audio_on.png',1)" > <img 
+          id="playBtn_s1" src="../common/img/btn_play_audio_off.png" border="0"> </div>
+      </a>
+  </div>
+  <div id="feedback" class="convex">
+    <h2 id="feedbackHeader">Set completed</h2>
+    <p id="feedbackText">Set completed text</p>
+    <button id="feedbackBtn" onclick="{closeFeedback();}" class="btn round_4">OK</button>
+    <div id="feedbackButtonImgContainer"></div>
+  </div>
+</div>
+<div id="grammar" class="roundCorners">
+  <div id="grammarNote_container" class="convex">
+    <p id='grammarLabel' class='roundCorners'>Introduction</p>
+    <p id='explanationLabel'></p>
+    <p id='phraseTLLabel'></p>
+    <p id='phraseENLabel'></p>
+  </div>
+  <div id="explanation_container_1">
+    <p id='exampleLabel' class='roundCorners'>Example 1</p>
+    <p id='ex1PhraseENLabel'></p>
+    <div id="playBtnEx1">
+      <p id='ex1PhraseTLLabel'></p>
+      <div id="imageContainer"><a href="javascript:;" class="playBtnLink" onMouseOut="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_off.png',1)" 
+          onMouseDown="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_on.png',1);playExAudio(0);"
+          onMouseUp="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_off.png.png',1)" 
+          onMouseOver="MM_swapImage('playBtn_ex1s1','','../common/img/btn_play_audio_on.png',1)" > <img  id="playBtn_ex1s1" src="../common/img/btn_play_audio_off.png" border="0"> </a> 
+          </div>
+      </div>
+  </div>
+  <div id="explanation_container_2">
+    <p id='exampleLabel' class='roundCorners'>Example 2</p>
+    <p id='ex2PhraseENLabel'></p>
+    <div id="playBtnEx2">
+      <p id='ex2PhraseTLLabel'></p>
+      <div id="imageContainer_2"><a href="javascript:;" class="playBtnLink" onMouseOut="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_off.png',1)" 
+          onMouseDown="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_on.png',1);playExAudio(1);"
+          onMouseUp="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_off.png',1)" 
+          onMouseOver="MM_swapImage('playBtn_ex2s1','','../common/img/btn_play_audio_on.png',1)" > <img  id="playBtn_ex2s1" src="../common/img/btn_play_audio_off.png" border="0"> </a> 
+        </div>
+      </div>
+  </div>
+</div>
+<div id="statusBar" class="roundCorners noSelect">
+  <div id="questionsButton" class="roundCorners"
 				onMouseDown="questionsClicked()"
 				onMouseUp="questionsUp()"
 				onMouseOut="questionsOut()"
 				onMouseOver="questionsOver()">Go To Questions</div>
-
-			<div id="grammarNoteButton" class="roundCorners"
+  <div id="grammarNoteButton" class="roundCorners"
 				onMouseDown="grammarNoteClicked()">Go To Introduction</div>
-
-			<div id="itemNumDiv" class="roundCorners">
-				<div id="itemTitle" class="bootstrapLabel btn_set noSelect">Item</div>
-				<div id="itemNumText" class="bootstrapLabel btn_set_value noSelect">1/3</div>				
-			</div>
-			
-			<div id="id_prev_nextItem_div" class="btn-group">
-				<button class="btn btn_prev" id="set_prev" title="prev" onclick="{prevItemClick();}">&lt; Prev</button>
-				<button class="btn btn_next" id="set_next" title="next" onclick="{nextItemClick();}">Next &gt;</button>
-			</div>						
-			<div id="nextItemDiv" > 
-				<a id="nextItemBtnLink" href="javascript:;" onMouseOut="MM_swapImage('nextItemBtn_s1','','../common/Library/images/nextBtn_s1.png',1)" 
+  <div id="itemNumDiv" class="roundCorners">
+    <div id="itemTitle" class="bootstrapLabel btn_set noSelect">Item</div>
+    <div id="itemNumText" class="bootstrapLabel btn_set_value noSelect">1/3</div>
+  </div>
+  <div id="id_prev_nextItem_div" class="btn-group">
+    <button class="btn btn_prev" id="set_prev" title="prev" onclick="{prevItemClick();}">&lt; Prev</button>
+    <button class="btn btn_next" id="set_next" title="next" onclick="{nextItemClick();}">Next &gt;</button>
+  </div>
+  <div id="nextItemDiv" > <a id="nextItemBtnLink" href="javascript:;" onMouseOut="MM_swapImage('nextItemBtn_s1','','../common/Library/images/nextBtn_s1.png',1)" 
 					onMouseDown="MM_swapImage('nextItemBtn_s1','','../common/Library/images/nextBtn_s3.png',1);nextItemClick();"
 					onMouseUp="MM_swapImage('nextItemBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" 
-			        onMouseOver="MM_swapImage('nextItemBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" > 
-		          	<img  id="nextItemBtn_s1" src="../common/Library/images/nextBtn_s1.png" border="0">
-		    	</a>
-		    	<img id="nextItemBtnClickGuard" src="../common/Library/images/nextBtn_s3.png" border="0">
-		    </div>
-		    
-		    <div id="prevItemDiv"> 
-		    	<a  id="prevItemBtnLink"  href="javascript:;" onMouseOut="MM_swapImage('prevItemBtn_s1','','../common/Library/images/prevBtn_s1.png',1)" 
+			        onMouseOver="MM_swapImage('nextItemBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" > <img  id="nextItemBtn_s1" src="../common/Library/images/nextBtn_s1.png" border="0"> </a> <img id="nextItemBtnClickGuard" src="../common/Library/images/nextBtn_s3.png" border="0"> </div>
+  <div id="prevItemDiv"> <a  id="prevItemBtnLink"  href="javascript:;" onMouseOut="MM_swapImage('prevItemBtn_s1','','../common/Library/images/prevBtn_s1.png',1)" 
 					onMouseDown="MM_swapImage('prevItemBtn_s1','','../common/Library/images/prevBtn_s3.png',1);prevItemClick();"
 					onMouseUp="MM_swapImage('prevItemBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" 
-			        onMouseOver="MM_swapImage('prevItemBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" > 
-		          <img  id="prevItemBtn_s1" src="../common/Library/images/prevBtn_s1.png" border="0">
-		    	</a>
-		    	<img id="prevItemBtnClickGuard" src="../common/Library/images/prevBtn_s3.png" border="0">
-			</div>		
-			
-			<div id="correctBubble" class="roundCorners hidden">
-				Correct
-			</div>
-			
-			<div id="incorrectBubble" class="roundCorners hidden">
-				<div id="incorrectBubbleX" class="roundCorners">X</div>
-				Incorrect
-			</div>
-			
-			<div id="nextDiv"> 
-				<a id="nextBtnLink" href="javascript:;" onMouseOut="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s1.png',1)" 
+			        onMouseOver="MM_swapImage('prevItemBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" > <img  id="prevItemBtn_s1" src="../common/Library/images/prevBtn_s1.png" border="0"> </a> <img id="prevItemBtnClickGuard" src="../common/Library/images/prevBtn_s3.png" border="0"> </div>
+  <div id="correctBubble" class="roundCorners hidden"> Correct </div>
+  <div id="incorrectBubble" class="roundCorners hidden">
+    <div id="incorrectBubbleX" class="roundCorners">X</div>
+    Incorrect </div>
+  <div id="nextDiv"> <a id="nextBtnLink" href="javascript:;" onMouseOut="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s1.png',1)" 
 					onMouseDown="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s3.png',1);nextClick();"
 					onMouseUp="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" 
-			        onMouseOver="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" > 
-		          	<img  id="nextBtn_s1" src="../common/Library/images/nextBtn_s1.png" border="0">
-		    	</a>
-		    	<img id="nextBtnClickGuard" src="../common/Library/images/nextBtn_s3.png" border="0">
-		    </div>
-		    
-		    <div id="prevDiv"> 
-		    	<a  id="prevBtnLink"  href="javascript:;" onMouseOut="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s1.png',1)" 
+			        onMouseOver="MM_swapImage('nextBtn_s1','','../common/Library/images/nextBtn_s2.png',1)" > <img  id="nextBtn_s1" src="../common/Library/images/nextBtn_s1.png" border="0"> </a> <img id="nextBtnClickGuard" src="../common/Library/images/nextBtn_s3.png" border="0"> </div>
+  <div id="prevDiv"> <a  id="prevBtnLink"  href="javascript:;" onMouseOut="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s1.png',1)" 
 					onMouseDown="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s3.png',1);prevClick();"
 					onMouseUp="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" 
-			        onMouseOver="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" > 
-		          <img  id="prevBtn_s1" src="../common/Library/images/prevBtn_s1.png" border="0">
-		    	</a>
-		    	<img id="prevBtnClickGuard" src="../common/Library/images/prevBtn_s3.png" border="0">
-			</div>
-			
-			<div id="output"></div>
-
-			<div id="setDiv" class="roundCorners">
-				<div id="setTitle" class="bootstrapLabel btn_set noSelect">Set</div>
-				<div id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</div>				
-			</div>
-
-			<div id="id_prev_next_div" class="btn-group">
-				<button class="btn btn_prev" id="set_prev" title="prev" onclick="{prevClick();}">&lt; Prev</button>
-				<button class="btn btn_next" id="set_next" title="next" onclick="{nextClick();}">Next &gt;</button>
-			</div>
-		</div>
-		
-		<div id="snippets" class="hidden">
-		</div>
-		
-		<div id="clickGuard"></div>
-	</body>
+			        onMouseOver="MM_swapImage('prevBtn_s1','','../common/Library/images/prevBtn_s2.png',1)" > <img  id="prevBtn_s1" src="../common/Library/images/prevBtn_s1.png" border="0"> </a> <img id="prevBtnClickGuard" src="../common/Library/images/prevBtn_s3.png" border="0"> </div>
+  <div id="output"></div>
+  <div id="setDiv" class="roundCorners">
+    <div id="setTitle" class="bootstrapLabel btn_set noSelect">Set</div>
+    <div id="setText" class="bootstrapLabel btn_set_value noSelect">1/3</div>
+  </div>
+  <div id="id_prev_next_div" class="btn-group">
+    <button class="btn btn_prev" id="set_prev" title="prev" onclick="{prevClick();}">&lt; Prev</button>
+    <button class="btn btn_next" id="set_next" title="next" onclick="{nextClick();}">Next &gt;</button>
+  </div>
+</div>
+<div id="snippets" class="hidden"> </div>
+<div id="clickGuard"></div>
+</body>
 </html>
